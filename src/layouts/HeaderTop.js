@@ -62,6 +62,7 @@ const Container = styled.div`
   display: flex;
   padding-bottom: 10px;
   min-height: 65px;
+  background-color: white;
   @media (min-width: ${(props) => props.theme.mediumDevice}) {
     flex-direction: column;
     min-height: 100px;

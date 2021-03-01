@@ -13,7 +13,7 @@ import mainLogo from "../../static/images/logo.png";
 const Header = ({ isIndex, generalData }) => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
   return (
-    <Fragment>
+    <HeaderContainer>
       <HeaderTop
         generalData={generalData}
         isIndex={isIndex}
@@ -29,7 +29,7 @@ const Header = ({ isIndex, generalData }) => {
 
         {/*  <RightSide>  <ImgSlider imgs={imgs} /> </RightSide>*/}
       </SubContainer>
-    </Fragment>
+    </HeaderContainer>
   );
 };
 
@@ -40,6 +40,11 @@ Header.propTypes = {
   isIndex: PropTypes.bool,
   generalData: PropTypes.object,
 };
+
+const HeaderContainer = styled.div`
+  position: sticky;
+  top: 0;
+`;
 
 const SubContainer = styled.div`
   display: flex;
