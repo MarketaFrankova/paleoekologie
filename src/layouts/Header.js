@@ -44,6 +44,7 @@ Header.propTypes = {
 const HeaderContainer = styled.div`
   position: sticky;
   top: 0;
+  z-index: 99;
 `;
 
 const SubContainer = styled.div`
