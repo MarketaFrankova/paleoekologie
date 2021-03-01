@@ -8,6 +8,8 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-breakpoints",
+    "gatsby-plugin-layout",
     {
       resolve: "gatsby-source-filesystem",
       options: {
