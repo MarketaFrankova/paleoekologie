@@ -31,9 +31,6 @@ const Research = ({ research, setResearch }) => (
       }
     `}
     render={(data) => {
-      /* const imgs = data.images.edges.map((i) => i.node.childImageSharp.fluid); */
-      console.log(data);
-
       const getClass = (urlIncludes) => {
         if (
           windowGlobal &&
