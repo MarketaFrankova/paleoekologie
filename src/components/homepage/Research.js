@@ -110,7 +110,7 @@ const ResearchWrapper = styled.div`
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   grid-gap: 10px;
   @media (min-width: ${(props) => props.theme.mediumDevice}) {
-    grid-template-columns: minmax(min(180px, 20vw), 300px);
+    grid-template-columns: minmax(min(215px, 21vw), 300px);
   }
 `;
 
