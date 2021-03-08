@@ -14,7 +14,7 @@ const FooterContent = ({ footer }) => {
         <div> ...patička (kontakty)</div>
         <br />
         <a href="https://twitter.com/VegetPaleo">
-          <Twitter src={twitter} />
+          <Twitter src={twitter} alt="twitter" />
         </a>
       </FooterSection>
     </Container>

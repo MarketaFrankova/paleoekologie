@@ -9,13 +9,14 @@ import { IntProvider, Consumer } from "./Context";
 import { cz, en } from "../content/general";
 import "../css/typography.css";
 import "../css/layout.css";
+import { Helmet } from "react-helmet";
 
 const mainTheme = {
   fontHeading: "Akrobat",
   fontClassic: "sans-serif",
   white: "white",
   main: "#7eb51b",
-  terciary: "#dfc524",
+  terciary: "#EB5723", //"#dfc524",
   secondary: "#597723",
   black: "rgb(53, 53, 53)",
   grey: "rgb(53, 53, 53, 0.7)",
@@ -61,6 +62,10 @@ const Layout = (props) => {
           <Consumer>
             {({ int }) => (
               <Container>
+                <Helmet>
+                  <meta charSet="utf-8" />
+                  <title>Paleolab</title>
+                </Helmet>
                 {/*   <SEO /> */}
                 <Header
                   isIndex={isIndex}

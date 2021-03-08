@@ -10,14 +10,16 @@ export const labEn = {
       výzkumů a současných povrchových sběrů.
       <p>
         <b>Naše laboratoř připravuje vzorky na analýzu:</b>
-        <li>fosilního i recentního pylu</li>
-        <li>pylu z medu</li>
-        <li>mikroskopických a makroskopických uhlíků</li>
-        <li> rostlinných makrozbytků</li>
-        <li>
-          organismů skupin <i>Cladocera</i>, <i>Chironomidae</i>,{" "}
-          <i>Diatomae</i> a <i>Testate amoebae</i>
-        </li>
+        <ul>
+          <li>fosilního i recentního pylu</li>
+          <li>pylu z medu</li>
+          <li>mikroskopických a makroskopických uhlíků</li>
+          <li> rostlinných makrozbytků</li>
+          <li>
+            organismů skupin <i>Cladocera</i>, <i>Chironomidae</i>,{" "}
+            <i>Diatomae</i> a <i>Testate amoebae</i>
+          </li>
+        </ul>
       </p>
       <p>
         Laboratoř má dvě pracoviště: v Brně a Průhonicích. Analýzy provádíme
@@ -52,14 +54,16 @@ export const labCz = {
       výzkumů a současných povrchových sběrů.
       <p>
         <b>Naše laboratoř připravuje vzorky na analýzu:</b>
-        <li>fosilního i recentního pylu</li>
-        <li>pylu z medu</li>
-        <li>mikroskopických a makroskopických uhlíků</li>
-        <li> rostlinných makrozbytků</li>
-        <li>
-          organismů skupin <i>Cladocera</i>, <i>Chironomidae</i>,{" "}
-          <i>Diatomae</i> a <i>Testate amoebae</i>
-        </li>
+        <ul>
+          <li>fosilního i recentního pylu</li>
+          <li>pylu z medu</li>
+          <li>mikroskopických a makroskopických uhlíků</li>
+          <li> rostlinných makrozbytků</li>
+          <li>
+            organismů skupin <i>Cladocera</i>, <i>Chironomidae</i>,{" "}
+            <i>Diatomae</i> a <i>Testate amoebae</i>
+          </li>
+        </ul>
       </p>
       <p>
         Laboratoř má dvě pracoviště: v Brně a Průhonicích. Analýzy provádíme
