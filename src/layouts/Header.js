@@ -42,14 +42,13 @@ Header.propTypes = {
 };
 
 const HeaderContainer = styled.div`
-  position: sticky;
+  /*   position: sticky;
   top: 0;
-  z-index: 99;
+  z-index: 99; */
 `;
 
 const SubContainer = styled.div`
   display: flex;
-  /*   filter: ${(props) => (!props.isNavCollapsed ? "blur(3px);" : "none")}; */
   flex-wrap: wrap;
 
   @media (max-width: 1400px) {
@@ -75,10 +74,11 @@ const LogoLink = styled.a`
 `;
 
 const Logo = styled.img`
-  max-width: min(30%, 200px);
+  width: 30%;
   margin: 2% 3%;
-  @media (min-width: ${(props) => props.theme.smallDevice}) {
+  @media (min-width: ${(props) => props.theme.mediumDevice}) {
     margin: 30px 50px;
+    width: 200px;
   }
 `;
 

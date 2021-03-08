@@ -70,14 +70,12 @@ Menu.propTypes = {
 export const Li = styled.li`
   display: flex;
   height: 40px;
-
   align-items: center;
   justify-content: center;
   color: ${(props) => props.theme.grey};
-  margin: 10px 10px;
+  margin: 10px 0.5rem 5px;
   white-space: nowrap;
   font-size: 1.25rem;
-
   text-align: center;
 
   &:last-child {

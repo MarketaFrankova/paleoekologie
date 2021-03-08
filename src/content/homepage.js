@@ -6,11 +6,11 @@ export const en = (
     <H2>About us</H2>
     <div align="justify">
       <p>
-        The Department of Paleoecology focuses on long-term dynamics of Central
-        European vegetation and its natural environment during last 10 000 years
-        (the Holocene), with extensions into older periods. Even though the
-        department originated in 2021 paleoecology has a long and continuous
-        tradition at the Institute of Botany since the 1960s{" "}
+        The Department of Paleoecology focuses on dynamics of Central European
+        vegetation and its natural environment during last 15 000 years (the
+        Late Glacial and Holocene). Even though the department originated in
+        2021, paleoecology has more than a half century tradition at the
+        Institute of Botany (
         <a
           href="http://ekolbrno.ibot.cas.cz/en/historie/"
           target="_blank"
@@ -18,38 +18,41 @@ export const en = (
         >
           History – Department of vegetation ecology (cas.cz)
         </a>
-        . Today’s Department operates in Brno and Průhonice.
+        ). Currently, the department is detached at two workplaces in Brno and
+        Průhonice.
       </p>
       <p>
-        The main scientific scope is:
-        <ol type="I">
-          <li>
-            the origin and development of the recent main vegetation types as
-            well as their future trajectories under ongoing climate change;
-          </li>
-          <li>long-term changes in the forest and non-forest vegetation;</li>
-          <li>
-            human impact on individual habitats (forests, productive grasslands,
-            wetlands).
-          </li>
+        Our research topics are:
+        <ol>
+          <li>Long-term development of vegetation and landscape </li>
+          <li>Historical aspects of vegetation diversity</li>
+          <li>Long-term development of wetland ecosystems</li>
+          <li>Fire history of central European environment</li>
+          <li>Pollen monitoring</li>
+          <li>Algal bioindicators</li>
         </ol>
       </p>
       <p>
-        For the study of vegetation history we use modern multi-proxy research
-        (e.g. mutually independent environmental indicators) allowing us to
-        trace changes in forest dominants (based on pollen and charcoal
-        analysis) as well as the local development of wetland and grassland
-        habitats (based on plant macrofossils and diatoms).
+        For the study of vegetation dynamics we use multi-proxy paleoecological
+        approach applied to the unique sediment of mires, raised bogs, fens and
+        lakes allowing us to trace changes in forest dominants (based charcoals
+        and pollen) as well as the development of wetland and grassland habitats
+        (based on plant macrofossils and pollen) and lakes (diatoms, green
+        algae, plant macrofossils and pollen).
       </p>
       <p>
-        Moreover, our extensive pollen monitoring network allows us to precisely
-        interpret the fossil pollen records and to apply quantitative methods
-        for the study of pollen-vegetation relationships.
+        Moreover, our extensive pollen monitoring network of annual traps allows
+        us to precisely interpret fossil pollen records and to apply
+        quantitative methods for the study of pollen-vegetation relationships.
       </p>
       <p>
-        We often link paleoecological findings with recent and historical
-        ecology and archaeology in cooperation with the Department of Vegetation
-        Ecology (interdisciplinary research).
+        Interdisciplinary research pays attention to inter-connection of
+        paleoecological records with recent vegetation data in order to explain
+        patterns in recent vegetation diversity. In this sense we co-operate
+        with the Department of Vegetation Ecology (Institute of Botany, Brno),
+        the Department of Botany and Zoology (Masaryk University, Brno) and the
+        Department of Botany (Charles University, Prague). We also collaborate
+        with archeologists.
       </p>
     </div>
   </Fragment>
@@ -61,10 +64,10 @@ export const cz = (
     <div align="justify">
       <p>
         Oddělení paleoekologie se zabývá výzkumem dlouhodobé dynamiky
-        středoevropské vegetace a přírodního prostředí během posledních 10 tisíc
-        let (holocén), s přesahy do starších období. Přestože oddělení vzniklo v
-        roce 2021, na BÚ má paleoekologie nepřetržitou tradici od 60. let
-        minulého století.{" "}
+        středoevropské vegetace a přírodního prostředí. Zvláště se zaměřujeme na
+        časové období pozdní doby ledové a holocénu, tedy posledních asi 15
+        tisíc let. Paeoekologie má na Botanickém ústavu už více než půl století
+        dlouhou tradici (
         <a
           href="http://ekolbrno.ibot.cas.cz/historie/"
           target="_blank"
@@ -72,37 +75,39 @@ export const cz = (
         >
           Historie – Oddělení vegetační ekologie (cas.cz)
         </a>
-        . Dnešní oddělení má pracoviště v Brně a Průhonicích.
+        ), samostatné oddělení získala v roce 2021. Oddělení má dvě pracoviště,
+        v Brně a Průhonicích.
       </p>
       <p>
-        Naším hlavním badatelským zájmem je:
-        <ol type="I">
-          <li>
-            vznik a vývoj současných hlavních vegetačních typů a jejich změn v
-            rámci probíhající změny klimatu;
-          </li>
-          <li>dlouhodobá dynamika lesní a nelesní vegetace;</li>
-          <li>
-            vliv člověka na jednotlivá stanoviště (lesy, produktivní trávníky,
-            mokřady).
-          </li>
+        Naše hlavní výzkumná témata jsou:
+        <ol>
+          <li>Dlouhodobý vývoj středoevropské vegetace a krajiny</li>
+          <li>Historické aspekty diverzity vegetace</li>
+          <li>Dlouhodobý vývoj mokřadních ekosystémů</li>
+          <li>Požárová historie</li>
+          <li>Pylový monitoring</li>
+          <li>Bioindikace s využitím mikroskopických řas</li>
         </ol>
       </p>
       <p>
-        Při studiu historie vegetace využíváme moderní multi-proxy přístup,
-        který nám umožňuje sledovat změny druhového složení lesa (na základě
-        pylové a uhlíkové analýzy), společenstev mokřadů a dalších nelesních
-        stanovišť (na základě makrozbytkové a rozsivkové analýzy).
+        Při studiu minulé dynamiky vegetace využíváme komplexní paleoekologický
+        přístup, zahrnující zejména analýzu fosilního pylu, makroskopických
+        zbytků rostlin, rozsivek a uhlíků. Hlavním zdrojem informací jsou pro
+        nás unikátní sedimentární archivy rašelinišť, slatin a jezer.
       </p>
       <p>
-        Zároveň disponujeme rozsáhlou sítí monitoringu současného pylového spadu
-        pro přesnější interpretaci fosilního pylového záznamu a aplikaci
-        kvantitativních metod pro studium vztahů mezi pylem a vegetací.
+        Zároveň disponujeme rozsáhlou sítí ploch pro monitoring pylového spadu,
+        které jsou cenným zdrojem informací o vztahu mezi druhovým složením
+        vegetace a pylu a pro přesnější interpretaci fosilního pylového záznamu
+        pomocí kvantitativních analytických metod.
       </p>
       <p>
-        Výsledky paleoekologických analýz často propojujeme s recentní a
-        historickou ekologií a archeologií ve spolupráci s Oddělením vegetační
-        ekologie (interdisciplinární výzkum).
+        Náš interdisciplinární výzkum je zaměřen i na propojení
+        paleoekologických záznamů s údaji o recentních ekosystémech, přičemž
+        spolupracujeme zejména s Oddělením vegetační ekologie (BÚ AV ČR),
+        Ústavem botaniky a zoologie Přf MU a Katedrou botaniky Přf UK.
+        Mezioborovou spolupráce rozvíjíme rovněž s archeology z univerzit i
+        Akademie věd.
       </p>
     </div>
   </Fragment>

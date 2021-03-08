@@ -4,10 +4,7 @@ import { Consumer } from "../layouts/Context";
 import Paragraph from "../components/atoms/Paragraph";
 import { H2 } from "../components/atoms/Headings";
 
-import {
-  cz as researchCz,
-  en as researchEn,
-} from "../content/research/longTerm";
+import { cz as researchCz, en as researchEn } from "../content/research/algal";
 import Research from "../components/homepage/Research";
 const IndexPage = () => {
   return (
@@ -15,6 +12,7 @@ const IndexPage = () => {
       {({ int }) => (
         <MainPageContainer>
           <Research />
+
           <MainParagraph>
             <Paragraph>{int === "en" ? researchEn : researchCz}</Paragraph>
           </MainParagraph>

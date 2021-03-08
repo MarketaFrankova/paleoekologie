@@ -14,13 +14,11 @@ const IndexPage = () => {
     <Consumer>
       {({ int }) => (
         <MainPageContainer>
+          <Research />
+
           <MainParagraph>
             <Paragraph>{int === "en" ? researchEn : researchCz}</Paragraph>
           </MainParagraph>
-          <Paragraph>
-            <H2>{int === "en" ? "Research Directions" : "Výzkumné směry"}</H2>
-            <Research />
-          </Paragraph>
         </MainPageContainer>
       )}
     </Consumer>

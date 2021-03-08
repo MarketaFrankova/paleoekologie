@@ -16,11 +16,9 @@ const IndexPage = () => {
         <MainPageContainer>
           <MainParagraph>
             <Paragraph>{int === "en" ? en : cz} </Paragraph>
-            <Paragraph>
-              <H2>{int === "en" ? "Research Directions" : "Výzkumné směry"}</H2>
-              <Research />
-            </Paragraph>
           </MainParagraph>
+
+          <Research isHomepage />
 
           <News>
             <H2>{int === "en" ? "News" : "Aktuality"}</H2>
@@ -90,13 +88,8 @@ const MainPageContainer = styled.div`
   min-height: 100%;
   margin: 0 1%;
 
-  @media (min-width: ${(props) => props.theme.smallDevice}) {
-    margin: 0 2%;
-  }
-
   @media (min-width: ${(props) => props.theme.mediumDevice}) {
     flex-direction: row;
-    margin: 0 50px;
   }
 `;
 
@@ -104,4 +97,7 @@ const MainParagraph = styled.div`
   display: flex;
   align-content: center;
   flex-direction: column;
+  /*   @media (min-width: ${(props) => props.theme.mediumDevice}) {
+    order: 1;
+  } */
 `;
