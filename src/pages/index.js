@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Consumer } from "../layouts/Context";
 import Paragraph from "../components/atoms/Paragraph";
 import { H2 } from "../components/atoms/Headings";
-import { cz, en } from "../content/homepage";
+import { cz, en, cz2, en2 } from "../content/homepage";
 import {
   cz as researchCz,
   en as researchEn,
@@ -15,10 +15,12 @@ const IndexPage = () => {
       {({ int }) => (
         <MainPageContainer>
           <MainParagraph>
-            <Paragraph>{int === "en" ? en : cz} </Paragraph>
+            <Div>{int === "en" ? en : cz} </Div>
+            <Research isHomepage />
+            <Div>{int === "en" ? en2 : cz2} </Div>
           </MainParagraph>
 
-          <Research isHomepage />
+
 
           <News>
             <H2>{int === "en" ? "News" : "Aktuality"}</H2>
@@ -72,6 +74,10 @@ const News = styled.div`
   }
 `;
 
+const Div = styled.div`
+  margin: 1rem 2rem;
+`;
+
 const Green = styled.div`
   color: ${(props) => props.theme.terciary};
   font-weight: bold;
@@ -94,8 +100,9 @@ const MainPageContainer = styled.div`
 `;
 
 const MainParagraph = styled.div`
+max-width: 1200px;
   display: flex;
-  align-content: center;
+/*   align-items: center; */
   flex-direction: column;
   /*   @media (min-width: ${(props) => props.theme.mediumDevice}) {
     order: 1;

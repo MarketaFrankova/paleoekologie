@@ -51,7 +51,40 @@ const Research = ({ isHomepage }) => (
       return (
         <ResearchContent isHomepage={isHomepage}>
           <H2>Výzkumné směry</H2>
-          <ResearchWrapper>
+          <ResearchWrapper isHomepage={isHomepage}>
+            <ResearchItem to="/research-longterm/">
+              <ImgWrapper active={getClass("research-longterm") === "active"}>
+                <Img
+                  fluid={data.image1.childImageSharp.fluid}
+                  alt="Longerm research"
+                />
+              </ImgWrapper>
+              <ResearchFooter>
+                Dlouhodobý vývoj mokřadních ekosystémů
+              </ResearchFooter>
+            </ResearchItem>
+            <ResearchItem to="/research-historic/">
+              <ImgWrapper active={getClass("research-historic") === "active"}>
+                <Img
+                  fluid={data.image2.childImageSharp.fluid}
+                  alt="Historic aspects"
+                />
+              </ImgWrapper>
+              <ResearchFooter>
+                Historické aspekty diverzity vegetace
+              </ResearchFooter>
+            </ResearchItem>
+            <ResearchItem to="/research-algal/">
+              <ImgWrapper active={getClass("research-algal") === "active"}>
+                <Img
+                  fluid={data.image3.childImageSharp.fluid}
+                  alt="Research algal"
+                />
+              </ImgWrapper>
+              <ResearchFooter>Řasové bioindikátory</ResearchFooter>
+            </ResearchItem>
+
+
             <ResearchItem to="/research-longterm/">
               <ImgWrapper active={getClass("research-longterm") === "active"}>
                 <Img
@@ -100,17 +133,17 @@ Research.propTypes = {
 const ResearchContent = styled.div`
   margin: 1rem 2rem;
   order: ${(props) => !props.isHomepage && 1};
-  @media (min-width: ${(props) => props.theme.mediumDevice}) {
-    order: -1;
-  }
 `;
 
 const ResearchWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   grid-gap: 10px;
-  @media (min-width: ${(props) => props.theme.mediumDevice}) {
-    grid-template-columns: minmax(min(215px, 21vw), 300px);
+  @media (min-width: 720px) {
+/*     grid-template-columns:repeat(3, minmax(180px, 1fr)); */
+    grid-template-columns: ${(props) => props.isHomepage ? "repeat(3, minmax(180px, 1fr))" : "repeat(1, minmax(min(215px, 21vw), 300px))"}; 
+ /*    grid-template-columns: ${(props) => !props.isHomepage && "minmax(min(215px, 21vw), 300px)"}; */
+    
   }
 `;
 

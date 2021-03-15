@@ -64,11 +64,16 @@ const Layout = (props) => {
               <Container>
                 <Helmet>
                   <meta charSet="utf-8" />
-                  <title>Paleolab</title>
+                  <title>
+                    {int === "en"
+                      ? "Department of Paleoecology"
+                      : "Oddělení paleoekologie"}
+                  </title>
                 </Helmet>
                 {/*   <SEO /> */}
                 <Header
                   isIndex={isIndex}
+                  int={int}
                   generalData={int === "en" ? en : cz}
                 />
                 <Main>{props.children}</Main>

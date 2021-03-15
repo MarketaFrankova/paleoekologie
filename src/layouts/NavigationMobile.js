@@ -52,7 +52,7 @@ export const Container = styled.ul`
 
 export const MenuWrapper = styled.div`
   position: absolute;
-  top: 75px;
+  top: 63px;
   right: 0;
   flex-direction: column;
   z-index: 2;

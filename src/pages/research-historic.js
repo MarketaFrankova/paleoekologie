@@ -38,7 +38,7 @@ const MainPageContainer = styled.div`
     margin: 0 2%;
   }
 
-  @media (min-width: ${(props) => props.theme.mediumDevice}) {
+  @media (min-width: 720px) {
     flex-direction: row;
     margin: 0 50px;
   }

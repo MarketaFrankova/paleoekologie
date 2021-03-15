@@ -10,7 +10,7 @@ import logo from "../../static/images/bu-logo.png";
 import mainLogo from "../../static/images/logo.png";
 
 //query must be inline!!! not as a variable!
-const Header = ({ isIndex, generalData }) => {
+const Header = ({ isIndex, generalData, int }) => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
   return (
     <HeaderContainer>
@@ -21,11 +21,14 @@ const Header = ({ isIndex, generalData }) => {
         setIsNavCollapsed={setIsNavCollapsed}
       />
       <SubContainer isNavCollapsed={isNavCollapsed}>
-        <LeftSide>
-          <LogoLink href="https://www.ibot.cas.cz/" target="_blank">
-            <Logo src={logo} alt="logo" />
-          </LogoLink>
-        </LeftSide>
+        <Title>
+          {int === "en"
+            ? "Department of Paleoecology"
+            : "Oddělení paleoekologie"}
+        </Title>
+        <LogoLink href="https://www.ibot.cas.cz/" target="_blank">
+          <Logo src={logo} alt="logo" />
+        </LogoLink>
 
         {/*  <RightSide>  <ImgSlider imgs={imgs} /> </RightSide>*/}
       </SubContainer>
@@ -50,21 +53,20 @@ const HeaderContainer = styled.div`
 const SubContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
-
-  @media (max-width: 1400px) {
-    flex-direction: column;
-  }
-  padding-bottom: 2em;
-  @media (min-width: ${(props) => props.theme.mediumDevice}) {
-    display: flex;
-  }
+  background-color: ${(props) => props.theme.main};
+  align-items: center;
 `;
 
 const LeftSide = styled.div`
-  flex: 2;
   display: flex;
-  align-items: center;
-  background-color: ${(props) => props.theme.main};
+`;
+
+const Title = styled.div`
+  font-family: ${(props) => props.theme.fontHeading};
+  flex: 5;
+  text-align: center;
+  color: ${(props) => props.theme.black};
+  font-size: calc(20px + 2vw);
 `;
 
 const LogoLink = styled.a`
@@ -74,8 +76,8 @@ const LogoLink = styled.a`
 `;
 
 const Logo = styled.img`
-  width: 30%;
   margin: 2% 3%;
+  width: 150px;
   @media (min-width: ${(props) => props.theme.mediumDevice}) {
     margin: 30px 50px;
     width: 200px;
