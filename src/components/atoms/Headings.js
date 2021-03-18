@@ -13,6 +13,7 @@ H2.propTypes = {
 const H2Styled = styled.h2`
   color: ${(props) => props.theme.grey};
   margin-top: ${(props) => props.noTop && 0};
+  margin-bottom: ${(props) => props.noTop && "5px"};
   border-bottom: 1px solid ${(props) => props.theme.grey};
   font-family: ${(props) => props.theme.fontHeading};
 `;

@@ -11,6 +11,7 @@ Paragraph.propTypes = {
 };
 
 const ParagraphStyled = styled.div`
+  width: 100%;
   max-width: ${(props) => props.theme.paragraphWidth};
   margin: 1rem 2rem;
   height: 100%;

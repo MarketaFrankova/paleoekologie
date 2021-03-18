@@ -24,11 +24,15 @@
   },
   people: {
     people: "People",
-    employees: "Employees",
+    head: "Head of the lab",
+    deputyHead: "Deputy head of the lab",
+    researchers: "Researchers",
+    technical: "Technical and administrative staff",
+    /*     employees: "Employees",
     phdStudents: "PhD students",
     formerPeople: "Former group members",
     visitingScientists: "Visiting Scientists (one-month and longer stays)",
-    visitingScientistsShort: "Visiting Scientists",
+    visitingScientistsShort: "Visiting Scientists", */
   },
   links: {
     media: "Media",
@@ -70,12 +74,17 @@ export const cz = {
   },
   people: {
     people: "Lidé",
-    employees: "Zaměstnanci",
+    head: "Vedoucí",
+    deputyHead: "Zástupce vedoucího",
+    researchers: "Vědečtí pracovníci",
+    technical: "Techničtí a administrativní pracovníci",
+
+    /*     employees: "Zaměstnanci",
     phdStudents: "PhD studenti",
     formerPeople: "Bývalí akademičtí a výzkumní pracovníci",
     visitingScientists:
       "Hostující výzkumní pracovníci (pobyt delší jednoho měsíce)",
-    visitingScientistsShort: "Hostující výzkumní pracovníci ",
+    visitingScientistsShort: "Hostující výzkumní pracovníci ", */
   },
   links: {
     media: "Média",

@@ -1,88 +1,36 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
-
 import { H2 } from "../atoms/Headings";
-import researchgate from "../../images/social-researchgate.png";
-import is from "../../images/social-is.png";
-import personal from "../../images/personal.png";
-import arrow from "../../icons/arrow.svg";
+import Img from "gatsby-image";
 
-const PersonBox = ({ personInfo, data }) => {
-  const [showDetail, setShowDetail] = useState(false);
-  const hasDetail = !!personInfo.description;
+const PersonBox = ({ personInfo, openDetail, img }) => {
   return (
     <>
-      <Box>
+      <Box onClick={() => openDetail(personInfo.id)}>
         <ImgWrapper>
-          {personInfo.img ? (
-            <img src={personInfo.img} alt={personInfo.name} height="300px" />
-          ) : (
-            <div
-              style={{ height: 300, width: 200, border: "1px solid black" }}
-            ></div>
-          )}
+          <CircleWrapper>
+            <Circle>
+              {img && (
+                <Img
+                  fluid={img.fluid}
+                  alt={personInfo.id}
+                  style={{ height: "100%", maxWidth: "100%" }}
+                  imgStyle={{
+                    objectFit: "cover",
+                  }}
+                />
+              )}
+            </Circle>
+          </CircleWrapper>
         </ImgWrapper>
 
-        <BoxPart showDetail={showDetail}>
+        <BoxPart>
           <H2 noTop>{personInfo.name}</H2>
-
-          {/*  <P>
-              <i
-                className="fa fa-envelope fa-lg"
-                style={{ color: "black", marginRight: 15 }}
-              />
-              <span>{personInfo.email}</span>
-            </P> */}
-          {/*   {personInfo.phoneNumber && (
-            <P>
-              <i className="fa fa-phone fa-lg" style={{ marginRight: 15 }} />
-              {personInfo.phoneNumber}
-            </P>
-          )} */}
-          {/*  <P>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={personInfo.researchgate || "#"}
-              >
-                <img src={researchgate} alt="researchgate" height="40px" />
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={personInfo.is || "#"}
-              >
-                <img src={is} alt="is" height="40px" />
-              </a>
-              {personInfo.personal && (
-                <a
-                  style={{ marginLeft: 15 }}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={personInfo.personal || "#"}
-                >
-                  <img src={personal} alt="personal-website" height="40px" />
-                </a>
-              )}
-            </P> */}
-
-          {personInfo.description}
-
-          {/*  {!showDetail && hasDetail && (
-          <ArrowIcon src={arrow} onClick={() => setShowDetail(!showDetail)}>
-            <i className="fa fa-arrow-down" />
-            <ArrowText style={{ color: "red", cursor: "pointer" }}>
-              
-            </ArrowText>
-          </ArrowIcon>
-        )} */}
+          <Div>{personInfo.phoneNumber}</Div>
+          <Div>{personInfo.email}</Div>
         </BoxPart>
       </Box>
-      <ArrowWrapper onClick={() => setShowDetail(!showDetail)}>
-        <ArrowIcon showDetail={showDetail} src={arrow} />
-        {showDetail ? data.showLess : data.showMore}
-      </ArrowWrapper>
     </>
   );
 };
@@ -95,69 +43,55 @@ PersonBox.propTypes = {
 };
 
 const Box = styled.div`
+  cursor: pointer;
   display: flex;
   flex-direction: column;
+  text-align: center;
   padding: 1em;
+  max-width: 320px;
 
-  @media (min-width: 600px) {
+  @media (min-width: 576px) {
+    text-align: left;
+    max-width: 500px;
     flex-direction: row;
   }
 `;
 
-const BoxPart = styled.div`
-  flex: 6;
-  min-width: 260px;
-  height: ${(props) => (props.showDetail ? "min-content" : "290px")};
-  transition: transform 0.8s ease-out;
-  overflow: ${(props) => !props.showDetail && "hidden"};
-  position: relative;
-
-  &:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    background: ${(props) =>
-      !props.showDetail &&
-      "linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1))"};
-    pointer-events: none;
-  }
-
-  @media (min-width: 600px) {
-    flex-direction: row;
-  }
-`;
+const BoxPart = styled.div``;
 
 const ImgWrapper = styled.div`
-  flex: 1;
-
+  display: flex;
+  align-items: center;
+  align-self: center;
+  height: 100%;
+  padding-right: 10px;
   @media (min-width: 600px) {
     padding-right: 2em;
   }
 `;
 
-/* const P = styled.p`
-  margin: 10px 0px;
-`; */
-
-const ArrowWrapper = styled.div`
-  cursor: pointer;
-  color: ${(props) => props.theme.grey};
+const CircleWrapper = styled.div`
+  border-radius: 50%;
+  border: 1px solid ${(props) => props.theme.black};
+  height: 86px;
+  width: 86px;
+  overflow: hidden;
   display: flex;
+  align-items: center;
   justify-content: center;
-  &:hover,
-  &:focus {
-    color: ${(props) => props.theme.black};
-  }
-  @media (min-width: 600px) {
-    padding-left: 285px;
-  }
 `;
 
-const ArrowIcon = styled.img`
-  width: 15px;
-  margin-right: 8px;
-  transform: ${(props) => props.showDetail && "rotate(180deg)"};
+const Circle = styled.div`
+  height: 80px;
+  width: 80px;
+
+  text-align: center;
+  border-radius: 50%;
+
+  overflow: hidden;
+`;
+
+const Div = styled.div`
+  color: ${(props) => props.theme.grey};
+  font-size: 16px;
 `;

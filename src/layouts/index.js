@@ -25,7 +25,7 @@ const mainTheme = {
   mediumDevice: "900px",
   largeDevice: "1024px",
   extraLargeDevice: "1600px",
-  paragraphWidth: "865px",
+  paragraphWidth: "1024px",
 };
 
 const GlobalStyle = createGlobalStyle`

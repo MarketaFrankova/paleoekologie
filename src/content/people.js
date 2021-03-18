@@ -3,11 +3,27 @@ import React from "react";
 
 export const staffEn = [
   {
+    id: `frankova`,
+    name: `Markéta Fránková`,
+    email: `marketka.kozakova@seznam.cz`,
+    phoneNumber: `541 126 223`,
+    position: "head",
+    description: <></>,
+  },
+  {
+    id: `bobek`,
+    name: `Přemysl Bobek`,
+    email: `premysl.bobek@ibot.cas.cz`,
+    phoneNumber: `+420 777 477 785`,
+    position: "deputy-head",
+    description: <></>,
+  },
+  {
     id: `dudova`,
     name: `Lydie Dudová`,
-    /*     email: `hajek@sci.muni.cz`,
-    phoneNumber: `549494010`, */
-    /*     position: `Group Head, Associate professor`, */
+    email: `hajek@sci.muni.cz`,
+    phoneNumber: `549 494 010`,
+    position: "researcher",
     description: (
       <>
         <p>
@@ -37,16 +53,81 @@ export const staffEn = [
         </p>
       </>
     ),
-    /*    researchgate: `https://www.researchgate.net/profile/Michal_Hajek`, */
-
-    /* img: hajek, */
+  },
+  {
+    id: `hajkova`,
+    name: `Petra Hájková`,
+    email: `buriana@sci.muni.cz`,
+    phoneNumber: `541 126 223`,
+    position: "researcher",
+    description: (
+      <>
+        <p>
+          Petra Hájková studied Plant Systematics and Ecology in Palacký
+          University, Olomouc, and was graduated in 1999. Her master thesis was
+          devoted to bryoflora and plant communities of fens and fen meadows in
+          the Hostýnské vrchy Mts. She continued as postgradual student in
+          Masaryk University, Brno. Her PhD thesis concerned ecology and
+          palaeoecology of wetlands in the Western Carpathians, and was defended
+          in 2005. Presently, she is a research assistant in Masaryk University,
+          Brno and in Institute of Botany, Czech Academy of Sciences. Her
+          research interests are ecology and palaeoecology of mires, springs and
+          wet meadows in the Western Carpathians. A special attention is paid to
+          bryophytes. In the past she also studied wetlands in Bulgaria (roky?)
+          and participated in research of relic ecosystems in Siberia (Russia).
+        </p>
+      </>
+    ),
+  },
+  {
+    id: `hoskova`,
+    name: `Kristýna Hošková`,
+    email: ` kristyna.hoskova@ibot.cas.cz`,
+    phoneNumber: ``,
+    position: "researcher",
+    description: (
+      <>
+        <p>
+          I am PhD. student at the Department of Botany of the Charles
+          University in Prague. In my thesis, I focus on modern approaches to be
+          used in phytolith analysis to solve problems in paleoecology.
+          Phytoliths are microscopic silica particles precipitated in plant
+          tissues. Their taxonomic relevance still remain unclear. Similarly, it
+          is not well understood how environmental conditions influence their
+          shape. I use geometric morphometric techniques to analyse shape of
+          phytoliths and disentangle these relationships. Currently, I apply
+          phytolith analysis to test the Holocene continuity of species-rich
+          forest-steppe ecosystems within{" "}
+          <a href="http://ekolbrno.ibot.cas.cz/en/biodiverzita-historie-disturbanci-a-pudni-pamet-testovani-holocenni-kontinuity-druhove-bohatych-lesostepnich-ekosystemu/">
+            project of my colleagues
+          </a>{" "}
+          (Jan Roleček et al.).
+        </p>
+      </>
+    ),
+  },
+  {
+    id: `jamrichova`,
+    name: `Eva Jamrichová`,
+    email: `eva.jamrichova@ibot.cas.cz`,
+    phoneNumber: `541 126 223`,
+    position: "researcher",
+    description: <></>,
+  },
+  {
+    id: `jankovska`,
+    name: `Vlasta Jankovská`,
+    email: ` vlasta.jankovska@ibot.cas.cz`,
+    phoneNumber: `541 126 216`,
+    position: "researcher",
+    description: <></>,
   },
   {
     id: `rolecek`,
     name: `Jan Roleček`,
-    /*     email: `hajek@sci.muni.cz`,
-    phoneNumber: `549494010`, */
-    /*     position: `Group Head, Associate professor`, */
+    email: ` jan.rolecek@ibot.cas.cz`,
+    phoneNumber: `541 126 218`,
+    position: "researcher",
     description: (
       <>
         <p>
@@ -64,16 +145,24 @@ export const staffEn = [
         </p>
       </>
     ),
-    /*    researchgate: `https://www.researchgate.net/profile/Michal_Hajek`, */
-
-    /* img: hajek, */
+  },
+  {
+    id: `solcova`,
+    name: `Anna Šolcová`,
+    email: `annapotuckova6@gmail.com`,
+    position: "researcher",
+    description: (
+      <>
+        <p></p>
+      </>
+    ),
   },
   {
     id: `soukupova`,
-    name: `Markéta G. Soukupová`,
-    /*     email: `hajek@sci.muni.cz`,
-    phoneNumber: `549494010`, */
-    /*     position: `Group Head, Associate professor`, */
+    name: `Markéta Gabriela Švarcová`,
+    email: `Marketa.Svarcova@ibot.cas.cz`,
+    phoneNumber: `271 015 420`,
+    position: "researcher",
     description: (
       <>
         <p>
@@ -95,45 +184,43 @@ export const staffEn = [
         </p>
       </>
     ),
-    /*    researchgate: `https://www.researchgate.net/profile/Michal_Hajek`, */
-
-    /* img: hajek, */
   },
   {
-    id: `hajkova`,
-    name: `Petra Hájková`,
-    /*     email: `hajek@sci.muni.cz`,
-    phoneNumber: `549494010`, */
-    /*     position: `Group Head, Associate professor`, */
+    id: `svitavska`,
+    name: `Helena Svitavská Svobodová`,
+    email: `helena.svitavska@ibot.cas.cz`,
+    position: "researcher",
     description: (
       <>
-        <p>
-          Petra Hájková studied Plant Systematics and Ecology in Palacký
-          University, Olomouc, and was graduated in 1999. Her master thesis was
-          devoted to bryoflora and plant communities of fens and fen meadows in
-          the Hostýnské vrchy Mts. She continued as postgradual student in
-          Masaryk University, Brno. Her PhD thesis concerned ecology and
-          palaeoecology of wetlands in the Western Carpathians, and was defended
-          in 2005. Presently, she is a research assistant in Masaryk University,
-          Brno and in Institute of Botany, Czech Academy of Sciences. Her
-          research interests are ecology and palaeoecology of mires, springs and
-          wet meadows in the Western Carpathians. A special attention is paid to
-          bryophytes. In the past she also studied wetlands in Bulgaria (roky?)
-          and participated in research of relic ecosystems in Siberia (Russia).
-        </p>
+        <p></p>
       </>
     ),
-    /*    researchgate: `https://www.researchgate.net/profile/Michal_Hajek`, */
-
-    /* img: hajek, */
   },
 ];
 
 export const staffCz = [
   {
+    id: `frankova`,
+    name: `Markéta Fránková`,
+    email: `marketka.kozakova@seznam.cz`,
+    phoneNumber: `541 126 223`,
+    position: "head",
+    description: <></>,
+  },
+  {
+    id: `bobek`,
+    name: `Přemysl Bobek`,
+    email: `premysl.bobek@ibot.cas.cz`,
+    phoneNumber: `+420 777 477 785`,
+    position: "deputy-head",
+    description: <></>,
+  },
+  {
     id: `dudova`,
     name: `Lydie Dudová`,
-
+    email: `hajek@sci.muni.cz`,
+    phoneNumber: `549494010`,
+    position: "researcher",
     description: (
       <>
         <p>
@@ -159,14 +246,81 @@ export const staffCz = [
           základního výzkumu podpořených Grantovou agenturou ČR.
         </p>
       </>
-    ) /*  researchgate: `https://www.researchgate.net/profile/Michal_Hajek`, */,
-
-    /*   img: hajek, */
+    ),
+  },
+  {
+    id: `hajkova`,
+    name: `Petra Hájková`,
+    email: `buriana@sci.muni.cz`,
+    phoneNumber: `541 126 223`,
+    position: "researcher",
+    description: (
+      <>
+        <p>
+          Petra Hájková studovala obor Systematická biologie a ekologie na
+          Přírodovědecké fakultě Univerzity Palackého v Olomouci. Její diplomová
+          práce se týkala rostlinných společenstev slatinišť a mokřadních luk a
+          jejich bryoflory. Ve studiu pokračovala jako postgraduální student na
+          Katedře botaniky PřF MU v Brně. Její disertační práce se týkala
+          ekologie a palaeoekologie mokřadní vegetace v Západních Karpatech a
+          byla obhájena v únoru 2005. V současné době je odborným pracovníkem na
+          PřF MU v Brně a na Botanickém ústavu Akademie Věd ČR. Ve svém výzkumu
+          se zaměřuje především na ekologii a paleoekologii rašelinišť,
+          pramenišť a mokrých luk v Západních Karpatech. Zvláštní pozornost
+          věnuje mechorostům. V minulosti také studovala mokřadní společenstva v
+          Bulharsku a podílela se na studiu reliktních ekosystémů na Sibiři
+          (Rusko).
+        </p>
+      </>
+    ),
+  },
+  {
+    id: `hoskova`,
+    name: `Kristýna Hošková`,
+    email: ` kristyna.hoskova@ibot.cas.cz`,
+    phoneNumber: ``,
+    position: "researcher",
+    description: (
+      <>
+        <p>
+          Ve své disertační práci, v rámci doktorského studia na katedře
+          botaniky PřF UK v Praze, se zabývám rozvojem možností fytolitové
+          analýzy směrem k řešení paleoekologických otázek. Fytolity jsou
+          mikroskopické křemičité částice vznikající v buňkách rostlin s dosud
+          ne zcela jasnými taxonomickými a ekologickými vazbami. Těch se snažím
+          dobrat analýzou tvaru fytolitů pomocí moderních technik (geometrické
+          morfometriky). Všechny doposud nabyté vědomosti o fytolitech se
+          aktuálně chystám uplatnit při testování kontinuity druhově bohatých
+          lesostepních ekosystémů{" "}
+          <a href="http://ekolbrno.ibot.cas.cz/biodiverzita-historie-disturbanci-a-pudni-pamet-testovani-holocenni-kontinuity-druhove-bohatych-lesostepnich-ekosystemu/">
+            v rámci projektu GAČR Jana Rolečka a kol.
+          </a>
+        </p>
+      </>
+    ),
+  },
+  {
+    id: `jamrichova`,
+    name: `Eva Jamrichová`,
+    email: `eva.jamrichova@ibot.cas.cz`,
+    phoneNumber: `541 126 223`,
+    position: "researcher",
+    description: <></>,
+  },
+  {
+    id: `jankovska`,
+    name: `Vlasta Jankovská`,
+    email: ` vlasta.jankovska@ibot.cas.cz`,
+    phoneNumber: `541 126 216`,
+    position: "researcher",
+    description: <></>,
   },
   {
     id: `rolecek`,
     name: `Jan Roleček`,
-
+    email: ` jan.rolecek@ibot.cas.cz`,
+    phoneNumber: `541 126 218`,
+    position: "researcher",
     description: (
       <>
         <p>
@@ -182,16 +336,25 @@ export const staffCz = [
           druhové bohatosti rostlin ve střední Evropě.
         </p>
       </>
-    ) /*  researchgate: `https://www.researchgate.net/profile/Michal_Hajek`, */,
-
-    /*   img: hajek, */
+    ),
+  },
+  {
+    id: `solcova`,
+    name: `Anna Šolcová`,
+    email: `annapotuckova6@gmail.com`,
+    position: "researcher",
+    description: (
+      <>
+        <p></p>
+      </>
+    ),
   },
   {
     id: `soukupova`,
     name: `Markéta G. Soukupová`,
-    /*     email: `hajek@sci.muni.cz`,
-    phoneNumber: `549494010`, */
-    /*     position: `Group Head, Associate professor`, */
+    email: `Marketa.Svarcova@ibot.cas.cz`,
+    phoneNumber: `271 015 420`,
+    position: "researcher",
     description: (
       <>
         <p>
@@ -213,37 +376,16 @@ export const staffCz = [
         </p>
       </>
     ),
-    /*    researchgate: `https://www.researchgate.net/profile/Michal_Hajek`, */
-
-    /* img: hajek, */
   },
   {
-    id: `hajkova`,
-    name: `Petra Hájková`,
-    /*     email: `hajek@sci.muni.cz`,
-    phoneNumber: `549494010`, */
-    /*     position: `Group Head, Associate professor`, */
+    id: `svitavska`,
+    name: `Helena Svitavská Svobodová`,
+    email: `helena.svitavska@ibot.cas.cz`,
+    position: "researcher",
     description: (
       <>
-        <p>
-          Petra Hájková studovala obor Systematická biologie a ekologie na
-          Přírodovědecké fakultě Univerzity Palackého v Olomouci. Její diplomová
-          práce se týkala rostlinných společenstev slatinišť a mokřadních luk a
-          jejich bryoflory. Ve studiu pokračovala jako postgraduální student na
-          Katedře botaniky PřF MU v Brně. Její disertační práce se týkala
-          ekologie a palaeoekologie mokřadní vegetace v Západních Karpatech a
-          byla obhájena v únoru 2005. V současné době je odborným pracovníkem na
-          PřF MU v Brně a na Botanickém ústavu Akademie Věd ČR. Ve svém výzkumu
-          se zaměřuje především na ekologii a paleoekologii rašelinišť,
-          pramenišť a mokrých luk v Západních Karpatech. Zvláštní pozornost
-          věnuje mechorostům. V minulosti také studovala mokřadní společenstva v
-          Bulharsku a podílela se na studiu reliktních ekosystémů na Sibiři
-          (Rusko).
-        </p>
+        <p></p>
       </>
     ),
-    /*    researchgate: `https://www.researchgate.net/profile/Michal_Hajek`, */
-
-    /* img: hajek, */
   },
 ];
