@@ -28,6 +28,6 @@ H3.propTypes = {
 
 const H3Styled = styled.h3`
   color: ${(props) => props.theme.grey};
-  border-bottom: 1px solid ${(props) => props.theme.grey};
+  /*   border-bottom: 1px solid ${(props) => props.theme.grey}; */
   font-family: ${(props) => props.theme.fontHeading};
 `;

@@ -1,10 +1,19 @@
-import React from 'react';
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
+import { Consumer } from "../../layouts/Context";
 
-const Backlink = ({handleOnclick, ...props}) => {
-    return (
-        <BackLink onClick={(e) => handleOnclick(e)} {...props}><span>←</span>Back</BackLink>
-    );
+const Backlink = ({ handleClick, ...props }) => {
+  return (
+    <Consumer>
+      {({ int }) => {
+        return (
+          <BackLink onClick={(e) => handleClick(e)} {...props}>
+            <span>←</span> {int === "en" ? "Back" : "Zpět"}
+          </BackLink>
+        );
+      }}
+    </Consumer>
+  );
 };
 
 export default Backlink;
@@ -22,4 +31,4 @@ const BackLink = styled.div`
   span {
     margin-right: 3px;
   }
-`
+`;

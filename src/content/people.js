@@ -8,7 +8,27 @@ export const staffEn = [
     email: `marketka.kozakova@seznam.cz`,
     phoneNumber: `541 126 223`,
     position: "head",
-    description: <></>,
+    description: (
+      <>
+        <p>
+          Markéta Fránková studied Botany and Upper Secondary School Teacher
+          Training in Biology at the Faculty of Science, Masaryk University in
+          Brno. She completed her Ph.D. studies in Botany by defence of the
+          thesis{" "}
+          <i>
+            Ecology and taxonomy of diatoms of Western Carpathian spring fens
+          </i>{" "}
+          in 2010. She works at the Institute of Botany since 2006. She focuses
+          on ecology and taxonomy of diatoms in freshwater ecosystems and water
+          quality evaluation based on algal indicators. She started with
+          phytobenthos of oligotrophic freshwater habitats. Nowadays she
+          collaborates with Mgr. Kateřina Šumberová, Ph.D. from the Departmet of
+          Vegetation ekology on the research of epiphytic diatom communities in
+          fishponds and wetlands on arable land. She also deals with diatoms
+          from paleoecological sediments and samples from archeologic contexts.
+        </p>
+      </>
+    ),
   },
   {
     id: `bobek`,
@@ -16,7 +36,25 @@ export const staffEn = [
     email: `premysl.bobek@ibot.cas.cz`,
     phoneNumber: `+420 777 477 785`,
     position: "deputy-head",
-    description: <></>,
+    description: (
+      <>
+        <p>
+          Přemysl Bobek studied Biology at the Charles University in Prague,
+          where he finishing his PhD study in Botany. His main research interest
+          is reconstruction of long-term fire disturbance dynamics in forest
+          ecosystems, detection of fire-induced vegetation changes and
+          identification of driving forces on the past fire regimes. He is
+          specifically interested in applying charcoal analysis on sedimentary
+          and soil paleoarchives in order to determine holocene fire regimes
+          i.e. past fire frequency, intensity and spatial patterns. The results
+          provide better understanding of fire-vegetation-climate interactions
+          and assessing the role of anthropogenic influences. This knowledge
+          also serves as a baseline for predicting future fire regimes under the
+          ongoing climate change. He also focuses on other areas such as
+          applying spatially explicit modeling approaches in palaeoecology.
+        </p>
+      </>
+    ),
   },
   {
     id: `dudova`,
@@ -120,7 +158,30 @@ export const staffEn = [
     email: ` vlasta.jankovska@ibot.cas.cz`,
     phoneNumber: `541 126 216`,
     position: "researcher",
-    description: <></>,
+    description: (
+      <>
+        <p>
+          Vlasta Jankovská graduated in Biology-Chemistry (Charles University,
+          Prague) in 1963 and obtained her CSc (former version of PhD) in 1968
+          at the Institute of Botany of the Academy of Sciences (Průhonice) and
+          RNDr. at the Masaryk University in Brno (previously the University of
+          Jan Evangelista Purkyně) in 1976. Since 1963 she has been working at
+          the Institute of Botany of the Academy of Sciences in Brno.
+        </p>
+        <p>
+          Her main field of interest lies in palaeoecology and its various
+          methods and applications, i. e. pollen and macrofossil analysis,
+          non-pollen palynomorphs analysis, palaeoalgology, palaeoreconstruction
+          of vegetation and landscape since the Middle Pleistocen up to the Last
+          Glacial and Holocene, including the environments of Pleistocene
+          megafauna and human society. Apart form Middle Europe, she carried out
+          research in the Artic and Sub-arctic regions of Scandinavia and Russia
+          and successfully cooperates with historians, archaeologists,
+          foresters, geologists, geomorphologists and climatologists. Nowadays,
+          she focuses on publishing the plentiful results of her work.
+        </p>
+      </>
+    ),
   },
   {
     id: `rolecek`,
@@ -151,11 +212,7 @@ export const staffEn = [
     name: `Anna Šolcová`,
     email: `annapotuckova6@gmail.com`,
     position: "researcher",
-    description: (
-      <>
-        <p></p>
-      </>
-    ),
+    description: <></>,
   },
   {
     id: `soukupova`,
@@ -205,7 +262,29 @@ export const staffCz = [
     email: `marketka.kozakova@seznam.cz`,
     phoneNumber: `541 126 223`,
     position: "head",
-    description: <></>,
+    description: (
+      <>
+        <p>
+          Markéta Fránková vystudovala Systematickou biologii a ekologii se
+          zaměřením na botaniku a Učitelství biologie pro střední školy na Přf
+          MU v Brně. Doktorské studium ukončila v roce 2010 obhájením práce
+          <i>
+            {" "}
+            Ecology and taxonomy of diatoms of Western Carpathian spring fens{" "}
+          </i>
+          (Ekologie a taxonomie rozsivek západokarpatských pramenišť).
+          Zaměstnankyní Botanického ústavu je od roku 2006. Věnuje se ekologii a
+          taxonomii rozsivek ve sladkovodních biotopech a hodnocení kvality vod
+          na základě řasových indikátorů. Zpočátku se zabývala fytobentosem
+          oligotrofních tekoucích vod. V současnosti se ve spolupráci s Mgr.
+          Kateřinou Šumberovou, Ph.D. z Oddělení vegetační ekologie věnuje
+          výzkumu epifytických společenstev rozsivek na vodních a mokřadních
+          rostlinách v rybnících a polních mokřadech. Zabývá se rovněž
+          diatomovou analýzou paleoekologických profilů a vzorky z
+          archeologických kontextů.
+        </p>
+      </>
+    ),
   },
   {
     id: `bobek`,
@@ -213,7 +292,26 @@ export const staffCz = [
     email: `premysl.bobek@ibot.cas.cz`,
     phoneNumber: `+420 777 477 785`,
     position: "deputy-head",
-    description: <></>,
+    description: (
+      <>
+        <p>
+          Přemysl Bobek Vystudoval odbornou biologii na Přírodovědecké fakultě
+          University Karlovy v Praze, kde v současnosti na Katedře botaniky
+          dokončuje postgraduální studium botaniky. Zabývá se vlivem požárových
+          disturbancí na dlouhodobý vývoj lesních ekosystémů, detekcí požárem
+          indukovaných vegetačních změn a hledání faktorů ovlivňujících
+          požárovou dynamiku v průběhu Holocénu. Využívá především metody
+          analýzy uhlíků uchovaných v sedimentárním záznamu či půdním prostředí
+          k odvození historického požárového režimu, tedy frekvence, intenzity a
+          prostorové struktury dřívějších požárů. Výsledky slouží k pochopení
+          vzájemných interakcí mezi požáry, klimatem, vegetací a člověkem v
+          postglaciálu, avšak jsou také důležitým předpokladem pro zhodnocení
+          možných trajektorií vývoje pod vlivem měnícího se klimatu. Dále se
+          zaměřuje na aplikaci metod prostorového modelování v paleoekologickém
+          výzkumu, především prediktivního modelování výskytu druhů.
+        </p>
+      </>
+    ),
   },
   {
     id: `dudova`,
@@ -305,7 +403,23 @@ export const staffCz = [
     email: `eva.jamrichova@ibot.cas.cz`,
     phoneNumber: `541 126 223`,
     position: "researcher",
-    description: <></>,
+    description: (
+      <>
+        <p>
+          Eva Jamrichová vystudovala obor biologie-chemie na Univerzitě
+          Konštantína Filozofa v Nitře (UKF, Nitra, Slovensko), který ukončila v
+          roce 2005. V následném postgraduálním studiu na UKF v Nitře se
+          věnovala vztahům mezi pravěkým osídlením a přírodním prostředím na
+          jihozápadním Slovensku. V roce 2016 obhájila PhD na Univerzitě Karlově
+          v Praze a téma její dizertační práce bylo Antropogenní vliv na změny
+          krajiny a vegetace odrážející se v pylových spektrech střední Evropy.
+          V současnosti pracuje v Oddělení paleoekologie BÚ AV ČR v Brně, kde se
+          věnuje sledování změn krajiny a vegetace za posledních 15 tisíc let v
+          severní části Panonské nížiny a Západních Karpatech, a na identifikaci
+          vlivu člověka na tyto změny.
+        </p>
+      </>
+    ),
   },
   {
     id: `jankovska`,
@@ -313,7 +427,35 @@ export const staffCz = [
     email: ` vlasta.jankovska@ibot.cas.cz`,
     phoneNumber: `541 126 216`,
     position: "researcher",
-    description: <></>,
+    description: (
+      <>
+        <p>
+          Vlasta Jankovská ukončila studium oboru Biologie-Chemie na
+          Přírodovědecké fakultě Karlovy Univerzity v Praze v roce 1963 jako
+          Prom.biolog. Postgraduální studium na Botanickém ústavu ČSAV,
+          Průhonice, zakončila jako CSc (PhD) v roce 1968. Titul RNDr získala na
+          Univerzitě J. E. Purkyně v Brně (dnes Masarykova univerzita) v roce
+          1976. Od roku 1963 pracuje stále na stejném pracovišti (nyní Botanický
+          ústav AV ČR), přestože se v průběhu jeho existence měnil jeho název.
+        </p>
+        <p>
+          Její specializací je paleoekologie, v níž se zaměřuje na četné
+          disciplíny (pylová a makroskopická analýza, analýza nepylových forem –
+          Non-Pollen-Palynomorphs-cf. Tardigrada, paleoalgologie,
+          paleorekonstrukce vegetace a krajiny od středního pleistocénu –
+          komplex Saalského zalednění – po poslední dobu ledovou a celý
+          holocén). V rámci svého široce zaměřeného výzkumu bádala například ve
+          vysoké Arktidě, v sub-arkických oblastech Skandinávie a Euroasie
+          Ruska. Dále se zabývá paleoekologií pro potřeby archeologů a
+          historiků, zejména obdobím od ranného středověku až po novověk.
+          Lesníkům předkládá paleobotanické podklady k historii jednotlivých
+          dřevin a jejich porostů, rekonstruuje životní prostředí velké
+          glaciální fauny i člověka, spolupracuje s geomorfology, geology a
+          klimatology. V současnosti se snaží své bohaté výsledky zpracovat do
+          publikací.
+        </p>
+      </>
+    ),
   },
   {
     id: `rolecek`,
@@ -345,7 +487,16 @@ export const staffCz = [
     position: "researcher",
     description: (
       <>
-        <p></p>
+        <p>
+          Anna Šolcová is a PhD student at the Department of Botany of the
+          Charles University in Prague and works at the Department of
+          Paleoecology of the Botanical Institute of the Czech Academy of
+          Sciences. In her PhD thesis, she focuses on investigation of lake
+          sediments using macrofossil analysis. She deals with the
+          reconstruction of the long-term vegetation succession during the Late
+          Glacial and Holocene in the southwest Slovakia and the southeast Czech
+          Republic. Since 2018 she is on maternity leave.
+        </p>
       </>
     ),
   },
@@ -384,7 +535,18 @@ export const staffCz = [
     position: "researcher",
     description: (
       <>
-        <p></p>
+        <p>
+          Helena Svitavská Svobodová se v Botanickém ústavu zabývá kvartérní
+          palynologií. Její vědecký výzkum je zaměřen vývoj vegetace podle
+          pylových záznamů z rašelinných vrtů a z jezer jižní Moravy, ze Šumavy
+          a z Krkonoš, datovaných do posledních 15 tisíc let, a na palynologii
+          pleistocenních hlubokých maarů z Massif Central ve Francii. V
+          posledních letech se věnuje pylovým analýzám z pískovcových oblastí v
+          severních Čechách. V roce 1998 volontérsky založila roční pylové
+          monitorování příhraničních hor v Čechách, které bylo podporováno
+          iniciativou <i>International Union for Quaternary Research</i> v 15
+          evropských státech.
+        </p>
       </>
     ),
   },

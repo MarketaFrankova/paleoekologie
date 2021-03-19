@@ -28,7 +28,7 @@ const IndexPage = ({ data }) => {
         if (detailOpened)
           return (
             <PersonDetail
-              openDetail={() => {}}
+              openDetail={setDetailOpened}
               personInfo={opened}
               img={
                 images.find((img) => img.node.fluid.src.includes(opened.id))
@@ -44,7 +44,7 @@ const IndexPage = ({ data }) => {
                 <div>
                   <H3>{generalData.people.head}</H3>
                   <PersonBox
-                    openDetail={() => {}}
+                    openDetail={setDetailOpened}
                     personInfo={head}
                     data={generalData}
                     img={
@@ -56,7 +56,7 @@ const IndexPage = ({ data }) => {
                 <div>
                   <H3>{generalData.people.deputyHead}</H3>
                   <PersonBox
-                    openDetail={() => {}}
+                    openDetail={setDetailOpened}
                     personInfo={deputyHead}
                     data={generalData}
                     img={
@@ -77,7 +77,7 @@ const IndexPage = ({ data }) => {
 
                   return (
                     <PersonBox
-                      openDetail={() => {}}
+                      openDetail={setDetailOpened}
                       personInfo={person}
                       key={person.id}
                       data={generalData}

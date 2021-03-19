@@ -5,6 +5,7 @@ import { H2 } from "../atoms/Headings";
 import Img from "gatsby-image";
 import Paragraph from "../atoms/Paragraph";
 import ContainerWrapper from "../atoms/ContainerWrapper";
+import Backlink from "../atoms/Backlink";
 
 const PersonDetail = ({ personInfo, openDetail, img }) => {
   return (
@@ -12,34 +13,26 @@ const PersonDetail = ({ personInfo, openDetail, img }) => {
       <ContainerWrapper>
         <Paragraph>
           <Back>
-            <span
-              style={{ cursor: "pointer" }}
-              onClick={() => openDetail(null)}
-            >
-              X
-            </span>
+            <Backlink handleClick={() => openDetail(null)} />
           </Back>
-          <PersonWrapper>
-            <ImgWrapper>
+          <PersonDetailWrapper>
+            <ImageWrapper>
               {img && (
                 <Img
                   fluid={img.fluid}
                   alt={personInfo.id}
-                  /*         style={{ height: "100%", maxWidth: "100%" }}
-                imgStyle={{
-                  objectFit: "cover",
-                }} */
+                  style={{ width: "320px" }}
+                  imgStyle={{ width: "320px", objectFit: "contain" }}
                 />
               )}
-            </ImgWrapper>
-            <div>
+            </ImageWrapper>
+            <TextWrapper>
               <H2 noTop>{personInfo.name}</H2>
-              <Div>{personInfo.phoneNumber}</Div>
-              <Div>{personInfo.email}</Div>
+              <Div grey>{personInfo.phoneNumber}</Div>
+              <Div grey>{personInfo.email}</Div>
               {personInfo.description && <Div>{personInfo.description}</Div>}
-              In progress
-            </div>
-          </PersonWrapper>
+            </TextWrapper>
+          </PersonDetailWrapper>
         </Paragraph>
       </ContainerWrapper>
     </>
@@ -53,30 +46,43 @@ PersonDetail.propTypes = {
   openDetail: PropTypes.func,
 };
 
-const PersonWrapper = styled.div`
+const PersonDetailWrapper = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 1em;
-  max-width: 320px;
 
-  @media (min-width: 576px) {
+  @media (min-width: 920px) {
     text-align: left;
-    max-width: 500px;
+    max-width: 100%;
     flex-direction: row;
   }
 `;
 
-const ImgWrapper = styled.div`
-  min-width: 300px;
-  padding-right: 10px;
-  @media (min-width: 600px) {
+const ImageWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: 920px) {
+    width: 320px;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding-right: 2em;
+    margin-top: 15px;
+  }
+`;
+
+const TextWrapper = styled.div`
+  margin-top: 15px;
+  @media (min-width: 920px) {
+    margin-top: 0;
   }
 `;
 
 const Div = styled.div`
-  color: ${(props) => props.theme.grey};
+  color: ${(props) => (props.grey ? props.theme.grey : props.theme.black)};
+
   font-size: 16px;
 `;
 
