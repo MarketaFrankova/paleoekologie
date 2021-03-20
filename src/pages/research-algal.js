@@ -2,16 +2,15 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { Consumer } from "../layouts/Context";
 import Paragraph from "../components/atoms/Paragraph";
-import { H2 } from "../components/atoms/Headings";
-
+/* import { H2 } from "../components/atoms/Headings"; */
 import { cz as researchCz, en as researchEn } from "../content/research/algal";
-import Research from "../components/homepage/Research";
+/* import Research from "../components/homepage/Research"; */
 const IndexPage = () => {
   return (
     <Consumer>
       {({ int }) => (
         <MainPageContainer>
-          <Research />
+          {/*       <Research /> */}
 
           <MainParagraph>
             <Paragraph>{int === "en" ? researchEn : researchCz}</Paragraph>
