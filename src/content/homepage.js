@@ -14,7 +14,7 @@ export const en = (
         <a
           href="http://ekolbrno.ibot.cas.cz/en/historie/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           History – Department of vegetation ecology (cas.cz)
         </a>
@@ -78,7 +78,7 @@ export const cz = (
         <a
           href="http://ekolbrno.ibot.cas.cz/historie/"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           Historie – Oddělení vegetační ekologie (cas.cz)
         </a>

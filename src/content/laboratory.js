@@ -30,7 +30,7 @@ export const labEn = {
         <a
           href="http://ekolbrno.ibot.cas.cz/wp-content/uploads/2019/06/cenik-sluzeb-palynologicke-laboratore.pdf"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           zde
         </a>
@@ -74,7 +74,7 @@ export const labCz = {
         <a
           href="http://ekolbrno.ibot.cas.cz/wp-content/uploads/2019/06/cenik-sluzeb-palynologicke-laboratore.pdf"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           zde
         </a>

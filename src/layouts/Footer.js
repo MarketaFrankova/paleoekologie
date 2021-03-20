@@ -1,23 +1,51 @@
 import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
-
 import twitter from "../icons/twitter.svg";
-/* import facebook from "../../static/images/facebook.png";
-import youtube from "../../static/images/youtube.png";
-import twitter from "../../static/images/twitter.png"; */
+import { Consumer } from "./Context";
 
 const FooterContent = ({ footer }) => {
   return (
-    <Container>
-      <FooterSection>
-        <div> ...patička (kontakty)</div>
-        <br />
-        <a href="https://twitter.com/VegetPaleo">
-          <Twitter src={twitter} alt="twitter" />
-        </a>
-      </FooterSection>
-    </Container>
+    <Consumer>
+      {({ int }) => {
+        return (
+          <Container>
+            <FooterSection>
+              <b> {footer.addressBrno}</b>
+              <div> {footer.institute}</div>
+              <div> {footer.name}</div>
+              <div> {footer.streetBrno}</div>
+              <div> {footer.zipBrno}</div>
+            </FooterSection>
+            <FooterSection>
+              <b> {footer.addressPruhonice}</b>
+              <div> {footer.institute}</div>
+              <div> {footer.name}</div>
+              <div> {footer.streetPruhonice}</div>
+              <div> {footer.zipPruhonice}</div>
+            </FooterSection>
+            <FooterSection>
+              <b> {footer.contact}</b>
+              <div> {footer.contactName}</div>
+              <div> {footer.contactMail}</div>
+              <div> {footer.contactPhone}</div>
+            </FooterSection>
+            <FooterSection>
+              <div>
+                <b> {footer.socialSites}</b>
+              </div>
+              <a
+                href="https://twitter.com/VegetPaleo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Twitter src={twitter} alt="twitter" />
+              </a>
+            </FooterSection>
+          </Container>
+        );
+      }}
+    </Consumer>
   );
 };
 
@@ -41,39 +69,13 @@ const FooterSection = styled.div`
   background-color: ${(props) => props.theme.grey};
   padding: 1em;
   text-align: center;
-  line-height: 1.2;
+  line-height: 1.5;
   min-width: 255px;
   font-size: 16px;
 `;
 
 const Twitter = styled.img`
+  margin-top: 5px;
   height: 40px;
   cursor: pointer;
 `;
-
-/* 
-const A = styled.a`
-  color: ${(props) => props.theme.white};
-  text-decoration: none;
-  font-weight: bold;
-  &:hover {
-    text-decoration: underline;
-  }
-`;
-const Webmaster = styled.div`
-  color: black;
-  font-weight: bold;
-  padding-top: 1em;
-`;
-
-const Img = styled.img`
-  width: 3.8em;
-  padding: 0.5em;
-`;
-
-const FooterHeader = styled.div`
-  color: black;
-  text-decoration: underline;
-  font-weight: bold;
-  padding-bottom: 0.5em;
-`; */

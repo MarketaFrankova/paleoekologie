@@ -136,7 +136,11 @@ export const staffEn = [
           phytoliths and disentangle these relationships. Currently, I apply
           phytolith analysis to test the Holocene continuity of species-rich
           forest-steppe ecosystems within{" "}
-          <a href="http://ekolbrno.ibot.cas.cz/en/biodiverzita-historie-disturbanci-a-pudni-pamet-testovani-holocenni-kontinuity-druhove-bohatych-lesostepnich-ekosystemu/">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="http://ekolbrno.ibot.cas.cz/en/biodiverzita-historie-disturbanci-a-pudni-pamet-testovani-holocenni-kontinuity-druhove-bohatych-lesostepnich-ekosystemu/"
+          >
             project of my colleagues
           </a>{" "}
           (Jan Roleček et al.).
@@ -390,7 +394,11 @@ export const staffCz = [
           morfometriky). Všechny doposud nabyté vědomosti o fytolitech se
           aktuálně chystám uplatnit při testování kontinuity druhově bohatých
           lesostepních ekosystémů{" "}
-          <a href="http://ekolbrno.ibot.cas.cz/biodiverzita-historie-disturbanci-a-pudni-pamet-testovani-holocenni-kontinuity-druhove-bohatych-lesostepnich-ekosystemu/">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="http://ekolbrno.ibot.cas.cz/biodiverzita-historie-disturbanci-a-pudni-pamet-testovani-holocenni-kontinuity-druhove-bohatych-lesostepnich-ekosystemu/"
+          >
             v rámci projektu GAČR Jana Rolečka a kol.
           </a>
         </p>

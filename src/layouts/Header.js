@@ -26,7 +26,11 @@ const Header = ({ isIndex, generalData, int }) => {
             ? "Department of Paleoecology"
             : "Oddělení paleoekologie"}
         </Title>
-        <LogoLink href="https://www.ibot.cas.cz/" target="_blank">
+        <LogoLink
+          href="https://www.ibot.cas.cz/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Logo src={logo} alt="logo" />
         </LogoLink>
 
