@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Paragraph from "../components/atoms/Paragraph";
 import ContainerWrapper from "../components/atoms/ContainerWrapper";
 import PersonBox from "../components/people/PersonBox";
@@ -9,9 +9,15 @@ import { cz, en } from "../content/general";
 import styled from "styled-components";
 import { H3 } from "../components/atoms/Headings";
 
-const IndexPage = ({ data }) => {
+const IndexPage = ({ data, location }) => {
   const images = data.allImageSharp.edges;
   const [detailOpened, setDetailOpened] = useState(null);
+
+  useEffect(() => {
+    if (location.state?.person) {
+      setDetailOpened(location.state.person);
+    }
+  }, []);
 
   return (
     <Consumer>

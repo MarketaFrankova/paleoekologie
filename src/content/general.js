@@ -1,4 +1,7 @@
-﻿export const en = {
+﻿import { Link } from "gatsby";
+import React from "react";
+
+export const en = {
   menu: {
     menuHomepage: "Homepage",
     menuPeople: "People",
@@ -20,12 +23,34 @@
     zipPruhonice: "252 43 Průhonice",
 
     contactBrno: "Contact Brno:",
-    contactNameBrno: "Markéta Fránková (vedoucí)",
+    contactNameBrno: (
+      <>
+        <Link
+          to="/people/"
+          state={{ person: "frankova" }}
+          style={{ color: "white" }}
+        >
+          Markéta Fránková
+        </Link>{" "}
+        (vedoucí)
+      </>
+    ),
     contactMailBrno: "marketka.kozakova@seznam.cz",
     contactPhoneBrno: "541 126 223",
 
     contactPruhonice: "Contact Průhonice:",
-    contactNamePruhonice: "Přemysl Bobek (zástupce vedoucí)",
+    contactNamePruhonice: (
+      <>
+        <Link
+          to="/people/"
+          state={{ person: "bobek" }}
+          style={{ color: "white" }}
+        >
+          Přemysl Bobek
+        </Link>{" "}
+        (zástupce vedoucí)
+      </>
+    ),
     contactMailPruhonice: "premysl.bobek@ibot.cas.cz",
     contactPhonePruhonice: "+420 777 477 785",
 
@@ -63,12 +88,35 @@ export const cz = {
     zipPruhonice: "252 43 Průhonice",
 
     contactBrno: "Kontakt Brno:",
-    contactNameBrno: "Markéta Fránková (vedoucí)",
+    contactNameBrno: (
+      <>
+        {" "}
+        <Link
+          to="/people/"
+          state={{ person: "frankova" }}
+          style={{ color: "white" }}
+        >
+          Markéta Fránková
+        </Link>{" "}
+        (vedoucí)
+      </>
+    ),
     contactMailBrno: "marketka.kozakova@seznam.cz",
     contactPhoneBrno: "541 126 223",
 
     contactPruhonice: "Kontakt Průhonice:",
-    contactNamePruhonice: "Přemysl Bobek (zástupce vedoucí)",
+    contactNamePruhonice: (
+      <>
+        <Link
+          to="/people/"
+          state={{ person: "bobek" }}
+          style={{ color: "white" }}
+        >
+          Přemysl Bobek
+        </Link>{" "}
+        (zástupce vedoucí)
+      </>
+    ),
     contactMailPruhonice: "premysl.bobek@ibot.cas.cz",
     contactPhonePruhonice: "+420 777 477 785",
 
