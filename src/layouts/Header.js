@@ -55,14 +55,11 @@ const HeaderContainer = styled.div`
 `;
 
 const SubContainer = styled.div`
+  margin-top: 63px;
   display: flex;
   flex-wrap: wrap;
   background-color: ${(props) => props.theme.main};
   align-items: center;
-`;
-
-const LeftSide = styled.div`
-  display: flex;
 `;
 
 const Title = styled.div`

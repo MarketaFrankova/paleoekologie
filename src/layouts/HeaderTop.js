@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import Navigation from "./Navigation";
@@ -60,9 +60,14 @@ const HeaderTop = ({
 
 const Container = styled.div`
   display: flex;
-  /*   flex-direction: row; */
-  /*   padding-bottom: 10px; */
-  /*   min-height: 65px; */
+
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+  border-bottom: 1px solid ${(props) => props.theme.main};
   background-color: white;
   @media (min-width: ${(props) => props.theme.mediumDevice}) {
     /*     min-height: 100px; */

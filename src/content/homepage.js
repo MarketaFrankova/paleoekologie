@@ -29,17 +29,6 @@ export const en2 = (
   <Fragment>
     <div align="justify">
       <p>
-        Our research topics are:
-        <ol>
-          <li>Long-term development of vegetation and landscape </li>
-          <li>Historical aspects of vegetation diversity</li>
-          <li>Long-term development of wetland ecosystems</li>
-          <li>Fire history of central European environment</li>
-          <li>Pollen monitoring</li>
-          <li>Algal bioindicators</li>
-        </ol>
-      </p>
-      <p>
         For the study of vegetation dynamics we use multi-proxy paleoecological
         approach applied to the unique sediment of mires, raised bogs, fens and
         lakes allowing us to trace changes in forest dominants (based charcoals
@@ -92,17 +81,6 @@ export const cz = (
 export const cz2 = (
   <Fragment>
     <div align="justify">
-      <p>
-        Naše hlavní výzkumná témata jsou:
-        <ol>
-          <li>Dlouhodobý vývoj středoevropské vegetace a krajiny</li>
-          <li>Historické aspekty diverzity vegetace</li>
-          <li>Dlouhodobý vývoj mokřadních ekosystémů</li>
-          <li>Požárová historie</li>
-          <li>Pylový monitoring</li>
-          <li>Bioindikace s využitím mikroskopických řas</li>
-        </ol>
-      </p>
       <p>
         Při studiu minulé dynamiky vegetace využíváme komplexní paleoekologický
         přístup, zahrnující zejména analýzu fosilního pylu, makroskopických

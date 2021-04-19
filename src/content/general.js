@@ -47,7 +47,7 @@ export const cz = {
     menuProjects: "Projekty",
     menuPublications: "Publikace",
     menuLaboratory: "Laboratoř",
-    menuForStudents: "Pro Studenty",
+    menuForStudents: "Pro studenty",
     menuCollections: "Sbírky",
     menuLinks: "Odkazy",
     menuContacts: "Kontakty",
