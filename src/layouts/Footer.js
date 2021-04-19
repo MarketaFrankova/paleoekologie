@@ -11,6 +11,12 @@ const FooterContent = ({ footer }) => {
         return (
           <Container>
             <FooterSection>
+              <b> {footer.contactBrno}</b>
+              <div> {footer.contactNameBrno}</div>
+              <div> {footer.contactMailBrno}</div>
+              <div> {footer.contactPhoneBrno}</div>
+            </FooterSection>
+            <FooterSection>
               <b> {footer.addressBrno}</b>
               <div> {footer.institute}</div>
               <div> {footer.name}</div>
@@ -18,18 +24,20 @@ const FooterContent = ({ footer }) => {
               <div> {footer.zipBrno}</div>
             </FooterSection>
             <FooterSection>
+              <b> {footer.contactPruhonice}</b>
+              <div> {footer.contactNamePruhonice}</div>
+              <div> {footer.contactMailPruhonice}</div>
+              <div> {footer.contactPhonePruhonice}</div>
+            </FooterSection>
+
+            <FooterSection>
               <b> {footer.addressPruhonice}</b>
               <div> {footer.institute}</div>
               <div> {footer.name}</div>
               <div> {footer.streetPruhonice}</div>
               <div> {footer.zipPruhonice}</div>
             </FooterSection>
-            <FooterSection>
-              <b> {footer.contact}</b>
-              <div> {footer.contactName}</div>
-              <div> {footer.contactMail}</div>
-              <div> {footer.contactPhone}</div>
-            </FooterSection>
+
             <FooterSection>
               <div>
                 <b> {footer.socialSites}</b>

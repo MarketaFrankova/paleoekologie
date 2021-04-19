@@ -18,10 +18,17 @@
     addressPruhonice: "Address Průhonice:",
     streetPruhonice: "Zámek 1",
     zipPruhonice: "252 43 Průhonice",
-    contact: "Contact:",
-    contactName: "Přemysl Bobek",
-    contactMail: "premysl.bobek@ibot.cas.cz",
-    contactPhone: "+420 777 477 785",
+
+    contactBrno: "Contact Brno:",
+    contactNameBrno: "Markéta Fránková (vedoucí)",
+    contactMailBrno: "marketka.kozakova@seznam.cz",
+    contactPhoneBrno: "541 126 223",
+
+    contactPruhonice: "Contact Průhonice:",
+    contactNamePruhonice: "Přemysl Bobek (zástupce vedoucí)",
+    contactMailPruhonice: "premysl.bobek@ibot.cas.cz",
+    contactPhonePruhonice: "+420 777 477 785",
+
     socialSites: "Social sites:",
   },
   people: {
@@ -54,10 +61,17 @@ export const cz = {
     addressPruhonice: "Adresa Průhonice:",
     streetPruhonice: "Zámek 1",
     zipPruhonice: "252 43 Průhonice",
-    contact: "Kontakt:",
-    contactName: "Přemysl Bobek",
-    contactMail: "premysl.bobek@ibot.cas.cz",
-    contactPhone: "+420 777 477 785",
+
+    contactBrno: "Kontakt Brno:",
+    contactNameBrno: "Markéta Fránková (vedoucí)",
+    contactMailBrno: "marketka.kozakova@seznam.cz",
+    contactPhoneBrno: "541 126 223",
+
+    contactPruhonice: "Kontakt Průhonice:",
+    contactNamePruhonice: "Přemysl Bobek (zástupce vedoucí)",
+    contactMailPruhonice: "premysl.bobek@ibot.cas.cz",
+    contactPhonePruhonice: "+420 777 477 785",
+
     socialSites: "Sociální sítě:",
   },
   people: {
