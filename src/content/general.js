@@ -101,8 +101,9 @@ export const cz = {
         (vedoucí)
       </>
     ),
-    contactMailBrno: "marketka.kozakova@seznam.cz",
-    contactPhoneBrno: "541 126 223",
+    contactMailBrno: "marketa.frankova@ibot.cas.cz",
+    contactPhoneBrno: "737527185",
+    contactPhoneBrno2: "541 126 223",
 
     contactPruhonice: "Zástupce vedoucí (Průhonice):",
     contactNamePruhonice: (

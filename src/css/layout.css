@@ -2,5 +2,5 @@ a {
   color: #7eb51b;
 }
 body {
-  font-family: sans-serif;
+  font-family: sans-serif !important;
 }
