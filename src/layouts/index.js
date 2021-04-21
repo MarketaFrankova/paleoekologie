@@ -13,7 +13,6 @@ import { Helmet } from "react-helmet";
 
 const mainTheme = {
   fontHeading: "Akrobat",
-  fontClassic: "sans-serif",
   white: "white",
   main: "#72972f",
   terciary: "#EB5723", //"#dfc524",
