@@ -66,8 +66,10 @@ const Title = styled.div`
   font-family: ${(props) => props.theme.fontHeading};
   flex: 5;
   text-align: center;
-  color: ${(props) => props.theme.black};
-  font-size: calc(20px + 2vw);
+  color: ${(props) => props.theme.white};
+  @media (min-width: ${(props) => props.theme.mediumDevice}) {
+    font-size: calc(20px + 2vw);
+  }
 `;
 
 const LogoLink = styled.a`

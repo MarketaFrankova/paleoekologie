@@ -22,7 +22,7 @@ export const en = {
     streetPruhonice: "Zámek 1",
     zipPruhonice: "252 43 Průhonice",
 
-    contactBrno: "Contact Brno:",
+    contactBrno: "Head of the lab (Brno):",
     contactNameBrno: (
       <>
         <Link
@@ -35,10 +35,11 @@ export const en = {
         (vedoucí)
       </>
     ),
-    contactMailBrno: "marketka.kozakova@seznam.cz",
-    contactPhoneBrno: "541 126 223",
+    contactMailBrno: "marketa.frankova@ibot.cas.cz",
+    contactPhoneBrno: "737527185",
+    contactPhoneBrno2: "541 126 223",
 
-    contactPruhonice: "Contact Průhonice:",
+    contactPruhonice: "Deputy head of the lab (Průhonice):",
     contactNamePruhonice: (
       <>
         <Link
@@ -74,7 +75,7 @@ export const cz = {
     menuLaboratory: "Laboratoř",
     menuForStudents: "Pro studenty",
     menuCollections: "Sbírky",
-    menuLinks: "Odkazy",
+    menuLinks: "Pro veřejnost",
     menuContacts: "Kontakty",
   },
   footer: {
@@ -87,10 +88,9 @@ export const cz = {
     streetPruhonice: "Zámek 1",
     zipPruhonice: "252 43 Průhonice",
 
-    contactBrno: "Kontakt Brno:",
+    contactBrno: "Vedoucí (Brno):",
     contactNameBrno: (
       <>
-        {" "}
         <Link
           to="/people/"
           state={{ person: "frankova" }}
@@ -104,7 +104,7 @@ export const cz = {
     contactMailBrno: "marketka.kozakova@seznam.cz",
     contactPhoneBrno: "541 126 223",
 
-    contactPruhonice: "Kontakt Průhonice:",
+    contactPruhonice: "Zástupce vedoucí (Průhonice):",
     contactNamePruhonice: (
       <>
         <Link

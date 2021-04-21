@@ -47,11 +47,11 @@ const Menu = ({ generalData, isIndex }) => {
       <ListLink to="/laboratory/" className={getClass("laboratory")}>
         {generalData.menu.menuLaboratory}
       </ListLink>
+      <ListLink to="/collections/" className={getClass("collections")}>
+        {generalData.menu.menuCollections}
+      </ListLink>
       <ListLink to="/for-students/" className={getClass("for-students")}>
         {generalData.menu.menuForStudents}
-      </ListLink>
-      <ListLink to="/collections/" className={getClass("colications")}>
-        {generalData.menu.menuCollections}
       </ListLink>
       <ListLink to="/links/" className={getClass("links")}>
         {generalData.menu.menuLinks}
@@ -91,5 +91,9 @@ export const Li = styled.li`
   @media (min-width: ${(props) => props.theme.largeDevice}) {
     font-size: 1.5rem;
     justify-content: flex-end;
+  }
+
+  @media (min-width: ${(props) => props.theme.extraLargeDevice}) {
+    font-size: 2rem;
   }
 `;

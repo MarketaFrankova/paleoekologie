@@ -15,7 +15,7 @@ const mainTheme = {
   fontHeading: "Akrobat",
   fontClassic: "sans-serif",
   white: "white",
-  main: "#7eb51b",
+  main: "#72972f",
   terciary: "#EB5723", //"#dfc524",
   secondary: "#597723",
   black: "rgb(53, 53, 53)",

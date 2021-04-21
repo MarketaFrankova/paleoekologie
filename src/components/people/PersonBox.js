@@ -73,8 +73,8 @@ const ImgWrapper = styled.div`
 const CircleWrapper = styled.div`
   border-radius: 50%;
   border: 1px solid ${(props) => props.theme.black};
-  height: 86px;
-  width: 86px;
+  height: 106px;
+  width: 106px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -82,8 +82,8 @@ const CircleWrapper = styled.div`
 `;
 
 const Circle = styled.div`
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
 
   text-align: center;
   border-radius: 50%;

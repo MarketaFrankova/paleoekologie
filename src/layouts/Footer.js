@@ -15,6 +15,7 @@ const FooterContent = ({ footer }) => {
               <div> {footer.contactNameBrno}</div>
               <div> {footer.contactMailBrno}</div>
               <div> {footer.contactPhoneBrno}</div>
+              <div> {footer.contactPhoneBrno2}</div>
             </FooterSection>
             <FooterSection>
               <b> {footer.addressBrno}</b>

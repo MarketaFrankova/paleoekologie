@@ -23,7 +23,7 @@ const Styledlink = styled(Link)`
   &:hover,
   &:focus,
   &.active {
-    color: black;
+    font-weight: 600;
   }
 `;
 
