@@ -31,8 +31,7 @@ export const en = {
           style={{ color: "white" }}
         >
           Markéta Fránková
-        </Link>{" "}
-        (vedoucí)
+        </Link>
       </>
     ),
     contactMailBrno: "marketa.frankova@ibot.cas.cz",
@@ -48,8 +47,7 @@ export const en = {
           style={{ color: "white" }}
         >
           Přemysl Bobek
-        </Link>{" "}
-        (zástupce vedoucí)
+        </Link>
       </>
     ),
     contactMailPruhonice: "premysl.bobek@ibot.cas.cz",
@@ -97,8 +95,7 @@ export const cz = {
           style={{ color: "white" }}
         >
           Markéta Fránková
-        </Link>{" "}
-        (vedoucí)
+        </Link>
       </>
     ),
     contactMailBrno: "marketa.frankova@ibot.cas.cz",
@@ -114,8 +111,7 @@ export const cz = {
           style={{ color: "white" }}
         >
           Přemysl Bobek
-        </Link>{" "}
-        (zástupce vedoucí)
+        </Link>
       </>
     ),
     contactMailPruhonice: "premysl.bobek@ibot.cas.cz",
