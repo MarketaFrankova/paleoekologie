@@ -86,6 +86,7 @@ export const Li = styled.li`
   }
   &.active > a {
     color: black;
+    font-weight: 600;
   }
 
   @media (min-width: ${(props) => props.theme.largeDevice}) {
@@ -94,6 +95,6 @@ export const Li = styled.li`
   }
 
   @media (min-width: ${(props) => props.theme.extraLargeDevice}) {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 `;

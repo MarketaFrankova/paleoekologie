@@ -50,6 +50,12 @@ const Box = styled.div`
   padding: 1em;
   max-width: 320px;
 
+  &:hover {
+    img {
+      transform: scale(1.1);
+    }
+  }
+
   @media (min-width: 576px) {
     text-align: left;
     max-width: 500px;

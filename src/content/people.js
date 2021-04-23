@@ -5,8 +5,8 @@ export const staffEn = [
   {
     id: `frankova`,
     name: `Markéta Fránková`,
-    email: `marketka.kozakova@seznam.cz`,
-    phoneNumber: `541 126 223`,
+    email: `marketa.frankova@ibot.cas.cz`,
+    phoneNumber: `541 126 223 | 737 527 185`,
     position: "head",
     description: (
       <>
@@ -263,8 +263,8 @@ export const staffCz = [
   {
     id: `frankova`,
     name: `Markéta Fránková`,
-    email: `marketka.kozakova@seznam.cz`,
-    phoneNumber: `541 126 223`,
+    email: `marketa.frankova@ibot.cas.cz`,
+    phoneNumber: `541 126 223 | 737 527 185`,
     position: "head",
     description: (
       <>

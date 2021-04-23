@@ -21,20 +21,22 @@ const Header = ({ isIndex, generalData, int }) => {
         setIsNavCollapsed={setIsNavCollapsed}
       />
       <SubContainer isNavCollapsed={isNavCollapsed}>
-        <Title>
-          {int === "en"
-            ? "Department of Paleoecology"
-            : "Oddělení paleoekologie"}
-        </Title>
-        <LogoLink
-          href="https://www.ibot.cas.cz/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Logo src={logo} alt="logo" />
-        </LogoLink>
+        <Inner>
+          <Title>
+            {int === "en"
+              ? "Department of Paleoecology"
+              : "Oddělení paleoekologie"}
+          </Title>
+          <LogoLink
+            href="https://www.ibot.cas.cz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Logo src={logo} alt="logo" />
+          </LogoLink>
 
-        {/*  <RightSide>  <ImgSlider imgs={imgs} /> </RightSide>*/}
+          {/*  <RightSide>  <ImgSlider imgs={imgs} /> </RightSide>*/}
+        </Inner>
       </SubContainer>
     </HeaderContainer>
   );
@@ -57,18 +59,34 @@ const HeaderContainer = styled.div`
 const SubContainer = styled.div`
   margin-top: 63px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
   background-color: ${(props) => props.theme.main};
-  align-items: center;
 `;
 
 const Title = styled.div`
   font-family: ${(props) => props.theme.fontHeading};
-  flex: 5;
   text-align: center;
   color: ${(props) => props.theme.white};
+  font-size: 28px;
   @media (min-width: ${(props) => props.theme.mediumDevice}) {
     font-size: calc(20px + 2vw);
+  }
+`;
+
+const Inner = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: calc(100% - 20px);
+  padding-left: 32px;
+  padding-right: 20px;
+  align-items: center;
+  @media (min-width: 480px) {
+    flex-direction: row;
+  }
+  @media (min-width: ${(props) => props.theme.extraLargeDevice}) {
+    max-width: 1600px;
   }
 `;
 
@@ -82,7 +100,7 @@ const Logo = styled.img`
   margin: 2% 3%;
   width: 150px;
   @media (min-width: ${(props) => props.theme.mediumDevice}) {
-    margin: 30px 50px;
+    margin: 30px 0;
     width: 200px;
   }
 `;
