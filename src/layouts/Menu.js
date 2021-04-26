@@ -35,6 +35,9 @@ const Menu = ({ generalData, isIndex }) => {
       <ListLink to="/" className={isIndex ? "active" : ""}>
         {generalData.menu.menuHomepage}
       </ListLink>
+      <ListLink to="/research/" className={getClass("research")}>
+        {generalData.menu.menuResearch}
+      </ListLink>
       <ListLink to="/people/" className={getClass("people")}>
         {generalData.menu.menuPeople}
       </ListLink>

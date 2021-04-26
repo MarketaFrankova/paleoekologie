@@ -3,24 +3,22 @@ import styled from "styled-components";
 import { Consumer } from "../layouts/Context";
 import Paragraph from "../components/atoms/Paragraph";
 import { H2 } from "../components/atoms/Headings";
-import { cz, en, cz2, en2 } from "../content/homepage";
-import {
-  cz as researchCz,
-  en as researchEn,
-} from "../content/research/longTerm";
-import Research from "../components/homepage/Research";
-const IndexPage = () => {
+import { cz, en } from "../content/homepage";
+import ImgSlider from "../layouts/ImgSlider";
+
+const IndexPage = ({ data }) => {
+  console.log(data);
+  const imgs = data.allImageSharp.edges.map((i) => i.node.fluid);
   return (
     <Consumer>
       {({ int }) => (
         <MainPageContainer>
           <MainParagraph>
+            <Div>
+              <ImgSlider imgs={imgs} />
+            </Div>
             <Div>{int === "en" ? en : cz} </Div>
-            <Research isHomepage />
-            <Div>{int === "en" ? en2 : cz2} </Div>
           </MainParagraph>
-
-
 
           <News>
             <H2>{int === "en" ? "News" : "Aktuality"}</H2>
@@ -75,7 +73,7 @@ const News = styled.div`
 `;
 
 const Div = styled.div`
-  margin: 1rem 2rem;
+  margin: 0rem 2rem;
 `;
 
 const Green = styled.div`
@@ -100,11 +98,26 @@ const MainPageContainer = styled.div`
 `;
 
 const MainParagraph = styled.div`
-max-width: 1200px;
+  max-width: 1200px;
   display: flex;
-/*   align-items: center; */
+  /*   align-items: center; */
   flex-direction: column;
   /*   @media (min-width: ${(props) => props.theme.mediumDevice}) {
     order: 1;
   } */
+`;
+
+export const query = graphql`
+  query {
+    allImageSharp(filter: { fluid: { src: { regex: "/uvodn/" } } }) {
+      edges {
+        node {
+          id
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  }
 `;

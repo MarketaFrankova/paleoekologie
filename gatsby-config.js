@@ -26,5 +26,12 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `backgrounds`,
+        path: `${__dirname}/src/images/homepage`, // wherever background images are stored
+      },
+    },
   ],
 };

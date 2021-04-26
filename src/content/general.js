@@ -4,6 +4,7 @@ import React from "react";
 export const en = {
   menu: {
     menuHomepage: "Homepage",
+    menuResearch: "Research",
     menuPeople: "People",
     menuProjects: "Projects",
     menuPublications: "Publications",
@@ -67,6 +68,7 @@ export const en = {
 export const cz = {
   menu: {
     menuHomepage: "O nás",
+    menuResearch: "Výzkum",
     menuPeople: "Lidé",
     menuProjects: "Projekty",
     menuPublications: "Publikace",

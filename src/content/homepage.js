@@ -21,13 +21,6 @@ export const en = (
         ). Currently, the department is detached at two workplaces in Brno and
         Průhonice.
       </p>
-    </div>
-  </Fragment>
-);
-
-export const en2 = (
-  <Fragment>
-    <div align="justify">
       <p>
         For the study of vegetation dynamics we use multi-proxy paleoecological
         approach applied to the unique sediment of mires, raised bogs, fens and
@@ -74,13 +67,6 @@ export const cz = (
         ), samostatné oddělení získala v roce 2021. Oddělení má dvě pracoviště,
         v Brně a Průhonicích.
       </p>
-    </div>
-  </Fragment>
-);
-
-export const cz2 = (
-  <Fragment>
-    <div align="justify">
       <p>
         Při studiu minulé dynamiky vegetace využíváme komplexní paleoekologický
         přístup, zahrnující zejména analýzu fosilního pylu, makroskopických
