@@ -18,8 +18,8 @@ const H2Styled = styled.h2`
   font-family: ${(props) => props.theme.fontHeading};
 `;
 
-export const H3 = ({ children }) => {
-  return <H3Styled> {children} </H3Styled>;
+export const H3 = ({ children, green }) => {
+  return <H3Styled green={green}> {children} </H3Styled>;
 };
 
 H3.propTypes = {
@@ -27,7 +27,7 @@ H3.propTypes = {
 };
 
 const H3Styled = styled.h3`
-  color: ${(props) => props.theme.grey};
+  color: ${(props) => (props.green ? props.theme.main : props.theme.grey)};
   /*   border-bottom: 1px solid ${(props) => props.theme.grey}; */
   font-family: ${(props) => props.theme.fontHeading};
 `;

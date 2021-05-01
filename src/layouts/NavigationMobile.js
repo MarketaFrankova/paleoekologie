@@ -62,7 +62,7 @@ export const MenuWrapper = styled.div`
   transition: width 0.5s;
   -webkit-transition: width 0.5s;
   overflow: hidden;
-  background-color: ${(props) => props.theme.terciary};
+  background-color: ${(props) => props.theme.darkred};
   padding-bottom: 10px;
 
   @media (min-width: ${(props) => props.theme.extraSmallDevice}) {

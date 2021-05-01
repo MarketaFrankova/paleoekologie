@@ -27,4 +27,14 @@ const Styledlink = styled(Link)`
   }
 `;
 
+export const ALink = ({ href, children }) => (
+  <StyledA href={href}>{children}</StyledA>
+);
+
+const StyledA = styled.a`
+  color: ${(props) => props.theme.main};
+  cursor: pointer;
+  text-decoration: none;
+`;
+
 export default StyledLink;

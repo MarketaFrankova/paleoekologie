@@ -14,9 +14,8 @@ import { Helmet } from "react-helmet";
 const mainTheme = {
   fontHeading: "Akrobat",
   white: "white",
-  main: "#72972f",
-  terciary: "#EB5723", //"#dfc524",
-  secondary: "#597723",
+  main: "#72972f", //green
+  darkred: "#EB5723", //red
   black: "rgb(53, 53, 53)",
   grey: "rgb(53, 53, 53, 0.7)",
   extraSmallDevice: "360px",

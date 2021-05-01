@@ -77,7 +77,7 @@ const Div = styled.div`
 `;
 
 const Green = styled.div`
-  color: ${(props) => props.theme.terciary};
+  color: ${(props) => props.theme.darkred};
   font-weight: bold;
 `;
 

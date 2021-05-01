@@ -85,9 +85,9 @@ const Lang = styled.div`
   padding: 3px;
   height: max-content;
   font-size: ${(props) => (props.active ? "1.75rem" : "1.25rem")};
-  color: ${(props) => props.active && props.theme.terciary};
+  color: ${(props) => props.active && props.theme.darkred};
   &:hover {
-    color: ${(props) => !props.active && props.theme.secondary};
+    color: ${(props) => !props.active && props.theme.main};
   }
 `;
 
