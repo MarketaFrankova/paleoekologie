@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import Navigation from "./Navigation";
@@ -60,7 +60,6 @@ const HeaderTop = ({
 
 const Container = styled.div`
   display: flex;
-
   position: fixed;
   z-index: 2;
   top: 0;
@@ -69,9 +68,6 @@ const Container = styled.div`
   opacity: 1;
   border-bottom: 1px solid ${(props) => props.theme.main};
   background-color: white;
-  @media (min-width: ${(props) => props.theme.mediumDevice}) {
-    /*     min-height: 100px; */
-  }
 `;
 
 const LanguageSwitcher = styled.div`

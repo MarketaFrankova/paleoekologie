@@ -6,11 +6,11 @@ import Img from "gatsby-image";
 import { H2 } from "../../components/atoms/Headings";
 const windowGlobal = typeof window !== "undefined" && window;
 
-const Research = ({ isHomepage }) => (
+const Research = () => (
   <StaticQuery
     query={graphql`
       query {
-        image1: file(
+        longterm: file(
           relativePath: { regex: "/research/research-longterm.jpg/" }
         ) {
           childImageSharp {
@@ -19,7 +19,7 @@ const Research = ({ isHomepage }) => (
             }
           }
         }
-        image2: file(
+        historic: file(
           relativePath: { regex: "/research/research-historic.jpg/" }
         ) {
           childImageSharp {
@@ -28,7 +28,34 @@ const Research = ({ isHomepage }) => (
             }
           }
         }
-        image3: file(relativePath: { regex: "/research/research-algal.jpg/" }) {
+        algal: file(relativePath: { regex: "/research/research-algal.jpg/" }) {
+          childImageSharp {
+            fluid(maxWidth: 400, maxHeight: 400) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+        fires: file(relativePath: { regex: "/research/research-fires.jpg/" }) {
+          childImageSharp {
+            fluid(maxWidth: 400, maxHeight: 400) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+        pollen: file(
+          relativePath: {
+            regex: "/research/research-pollen-sedimentation.jpg/"
+          }
+        ) {
+          childImageSharp {
+            fluid(maxWidth: 400, maxHeight: 400) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+        european: file(
+          relativePath: { regex: "/research/research-european-vegetation.jpg/" }
+        ) {
           childImageSharp {
             fluid(maxWidth: 400, maxHeight: 400) {
               ...GatsbyImageSharpFluid_withWebp
@@ -49,24 +76,27 @@ const Research = ({ isHomepage }) => (
       };
 
       return (
-        <ResearchContent isHomepage={isHomepage}>
+        <div>
           <H2>Výzkumné směry</H2>
-          <ResearchWrapper isHomepage={isHomepage}>
-            <ResearchItem to="/research-longterm/">
-              <ImgWrapper active={getClass("research-longterm") === "active"}>
+          <ResearchWrapper>
+            <ResearchItem to="/research-european-vegetation/">
+              <ImgWrapper
+                active={getClass("research-european-vegetation") === "active"}
+              >
                 <Img
-                  fluid={data.image1.childImageSharp.fluid}
-                  alt="Longerm research"
+                  fluid={data.european.childImageSharp.fluid}
+                  alt="European vegetation"
                 />
               </ImgWrapper>
               <ResearchFooter>
-                Dlouhodobý vývoj mokřadních ekosystémů
+                Dlouhodobý vývoj středoevropské vegetace a krajiny
               </ResearchFooter>
             </ResearchItem>
+
             <ResearchItem to="/research-historic/">
               <ImgWrapper active={getClass("research-historic") === "active"}>
                 <Img
-                  fluid={data.image2.childImageSharp.fluid}
+                  fluid={data.historic.childImageSharp.fluid}
                   alt="Historic aspects"
                 />
               </ImgWrapper>
@@ -74,21 +104,11 @@ const Research = ({ isHomepage }) => (
                 Historické aspekty diverzity vegetace
               </ResearchFooter>
             </ResearchItem>
-            <ResearchItem to="/research-algal/">
-              <ImgWrapper active={getClass("research-algal") === "active"}>
-                <Img
-                  fluid={data.image3.childImageSharp.fluid}
-                  alt="Research algal"
-                />
-              </ImgWrapper>
-              <ResearchFooter>Řasové bioindikátory</ResearchFooter>
-            </ResearchItem>
-
 
             <ResearchItem to="/research-longterm/">
               <ImgWrapper active={getClass("research-longterm") === "active"}>
                 <Img
-                  fluid={data.image1.childImageSharp.fluid}
+                  fluid={data.longterm.childImageSharp.fluid}
                   alt="Longerm research"
                 />
               </ImgWrapper>
@@ -96,28 +116,42 @@ const Research = ({ isHomepage }) => (
                 Dlouhodobý vývoj mokřadních ekosystémů
               </ResearchFooter>
             </ResearchItem>
-            <ResearchItem to="/research-historic/">
-              <ImgWrapper active={getClass("research-historic") === "active"}>
+
+            <ResearchItem to="/research-fires/">
+              <ImgWrapper active={getClass("research-fires") === "active"}>
                 <Img
-                  fluid={data.image2.childImageSharp.fluid}
-                  alt="Historic aspects"
+                  fluid={data.fires.childImageSharp.fluid}
+                  alt="Research Fires"
+                />
+              </ImgWrapper>
+              <ResearchFooter>Dlouhodobá požárová dynamika</ResearchFooter>
+            </ResearchItem>
+
+            <ResearchItem to="/research-pollen-sedimentation/">
+              <ImgWrapper
+                active={getClass("research-pollen-sedimentation") === "active"}
+              >
+                <Img
+                  fluid={data.pollen.childImageSharp.fluid}
+                  alt="Research pollen"
                 />
               </ImgWrapper>
               <ResearchFooter>
-                Historické aspekty diverzity vegetace
+                Dynamika recentních pylových spadů
               </ResearchFooter>
             </ResearchItem>
+
             <ResearchItem to="/research-algal/">
               <ImgWrapper active={getClass("research-algal") === "active"}>
                 <Img
-                  fluid={data.image3.childImageSharp.fluid}
+                  fluid={data.algal.childImageSharp.fluid}
                   alt="Research algal"
                 />
               </ImgWrapper>
               <ResearchFooter>Řasové bioindikátory</ResearchFooter>
             </ResearchItem>
           </ResearchWrapper>
-        </ResearchContent>
+        </div>
       );
     }}
   />
@@ -130,20 +164,16 @@ Research.propTypes = {
   setResearch: PropTypes.func,
 };
 
-const ResearchContent = styled.div`
-  margin: 1rem 2rem;
-  order: ${(props) => !props.isHomepage && 1};
-`;
-
 const ResearchWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: 1fr;
   grid-gap: 10px;
-  @media (min-width: 720px) {
-/*     grid-template-columns:repeat(3, minmax(180px, 1fr)); */
-    grid-template-columns: ${(props) => props.isHomepage ? "repeat(3, minmax(180px, 1fr))" : "repeat(1, minmax(min(215px, 21vw), 300px))"}; 
- /*    grid-template-columns: ${(props) => !props.isHomepage && "minmax(min(215px, 21vw), 300px)"}; */
-    
+  @media (min-width: 576px) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
 `;
 

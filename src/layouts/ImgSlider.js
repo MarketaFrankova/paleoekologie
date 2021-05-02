@@ -14,7 +14,6 @@ const settings = {
 };
 
 const Images = ({ imgs }) => {
-  console.log(imgs);
   const images = imgs.map((i, index) => <Img key={index} fluid={i} />);
   return (
     <SliderContainer>

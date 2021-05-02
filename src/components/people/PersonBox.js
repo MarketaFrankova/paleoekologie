@@ -25,11 +25,11 @@ const PersonBox = ({ personInfo, openDetail, img }) => {
           </CircleWrapper>
         </ImgWrapper>
 
-        <BoxPart>
+        <div>
           <H2 noTop>{personInfo.name}</H2>
           <Div>{personInfo.phoneNumber}</Div>
           <Div>{personInfo.email}</Div>
-        </BoxPart>
+        </div>
       </Box>
     </>
   );
@@ -58,12 +58,18 @@ const Box = styled.div`
 
   @media (min-width: 576px) {
     text-align: left;
-    max-width: 500px;
+    max-width: 100%;
     flex-direction: row;
   }
-`;
 
-const BoxPart = styled.div``;
+  @media (min-width: 1024px) {
+    max-width: 500px;
+  }
+
+  @media (min-width: 1280px) {
+    max-width: 600px;
+  }
+`;
 
 const ImgWrapper = styled.div`
   display: flex;
@@ -79,22 +85,36 @@ const ImgWrapper = styled.div`
 const CircleWrapper = styled.div`
   border-radius: 50%;
   border: 1px solid ${(props) => props.theme.black};
-  height: 106px;
-  width: 106px;
+  height: 206px;
+  width: 206px;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (min-width: 1024px) {
+    height: 176px;
+    width: 176px;
+  }
+  @media (min-width: 1280px) {
+    height: 206px;
+    width: 206px;
+  }
 `;
 
 const Circle = styled.div`
-  height: 100px;
-  width: 100px;
-
+  height: 200px;
+  width: 200px;
   text-align: center;
   border-radius: 50%;
-
   overflow: hidden;
+  @media (min-width: 1024px) {
+    height: 170px;
+    width: 170px;
+  }
+  @media (min-width: 1280px) {
+    height: 200px;
+    width: 200px;
+  }
 `;
 
 const Div = styled.div`

@@ -43,57 +43,56 @@ const IndexPage = ({ data, location }) => {
             />
           );
         return (
-          <ContainerWrapper>
+          <>
             {detailOpened}
-            <Paragraph>
-              <GridWrapper>
-                <div>
-                  <H3>{generalData.people.head}</H3>
+
+            <GridWrapper>
+              <div>
+                <H3>{generalData.people.head}</H3>
+                <PersonBox
+                  openDetail={setDetailOpened}
+                  personInfo={head}
+                  data={generalData}
+                  img={
+                    images.find((img) => img.node.fluid.src.includes(head.id))
+                      ?.node
+                  }
+                />
+              </div>
+              <div>
+                <H3>{generalData.people.deputyHead}</H3>
+                <PersonBox
+                  openDetail={setDetailOpened}
+                  personInfo={deputyHead}
+                  data={generalData}
+                  img={
+                    images.find((img) =>
+                      img.node.fluid.src.includes(deputyHead.id)
+                    )?.node
+                  }
+                />
+              </div>
+
+              <H3>{generalData.people.researchers}</H3>
+              <div />
+
+              {researchers.map((person) => {
+                const img = images.find((img) =>
+                  img.node.fluid.src.includes(person.id)
+                );
+
+                return (
                   <PersonBox
                     openDetail={setDetailOpened}
-                    personInfo={head}
+                    personInfo={person}
+                    key={person.id}
                     data={generalData}
-                    img={
-                      images.find((img) => img.node.fluid.src.includes(head.id))
-                        ?.node
-                    }
+                    img={img?.node}
                   />
-                </div>
-                <div>
-                  <H3>{generalData.people.deputyHead}</H3>
-                  <PersonBox
-                    openDetail={setDetailOpened}
-                    personInfo={deputyHead}
-                    data={generalData}
-                    img={
-                      images.find((img) =>
-                        img.node.fluid.src.includes(deputyHead.id)
-                      )?.node
-                    }
-                  />
-                </div>
-
-                <H3>{generalData.people.researchers}</H3>
-                <div />
-
-                {researchers.map((person) => {
-                  const img = images.find((img) =>
-                    img.node.fluid.src.includes(person.id)
-                  );
-
-                  return (
-                    <PersonBox
-                      openDetail={setDetailOpened}
-                      personInfo={person}
-                      key={person.id}
-                      data={generalData}
-                      img={img?.node}
-                    />
-                  );
-                })}
-              </GridWrapper>
-            </Paragraph>
-          </ContainerWrapper>
+                );
+              })}
+            </GridWrapper>
+          </>
         );
       }}
     </Consumer>
@@ -110,7 +109,7 @@ const GridWrapper = styled.div`
   grid-template-columns: 1fr;
 
   @media (min-width: 1024px) {
-    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    grid-template-columns: repeat(2, minmax(480px, 1fr));
   }
 `;
 

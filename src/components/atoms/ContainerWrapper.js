@@ -9,9 +9,13 @@ const ContainerWrapper = ({ children }) => {
 export default ContainerWrapper;
 
 const Containerwrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  min-height: 100%;
+  padding: 0 20px;
+  @media (min-width: 920px) {
+    padding: 0 50px;
+  }
+  @media (min-width: 1970px) {
+    padding: 0;
+  }
 `;
 
 ContainerWrapper.propTypes = {

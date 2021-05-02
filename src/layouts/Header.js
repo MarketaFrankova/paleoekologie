@@ -1,19 +1,13 @@
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
-import { StaticQuery, graphql } from "gatsby";
-/* 
-import ImgSlider from "./ImgSlider"; */
 import HeaderTop from "./HeaderTop";
-
 import logo from "../../static/images/bu-logo.png";
-import mainLogo from "../../static/images/logo.png";
 
-//query must be inline!!! not as a variable!
 const Header = ({ isIndex, generalData, int }) => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
   return (
-    <HeaderContainer>
+    <>
       <HeaderTop
         generalData={generalData}
         isIndex={isIndex}
@@ -34,11 +28,9 @@ const Header = ({ isIndex, generalData, int }) => {
           >
             <Logo src={logo} alt="logo" />
           </LogoLink>
-
-          {/*  <RightSide>  <ImgSlider imgs={imgs} /> </RightSide>*/}
         </Inner>
       </SubContainer>
-    </HeaderContainer>
+    </>
   );
 };
 
@@ -50,17 +42,12 @@ Header.propTypes = {
   generalData: PropTypes.object,
 };
 
-const HeaderContainer = styled.div`
-  /*   position: sticky;
-  top: 0;
-  z-index: 99; */
-`;
-
 const SubContainer = styled.div`
   margin-top: 63px;
   display: flex;
   justify-content: center;
   background-color: ${(props) => props.theme.main};
+  margin-bottom: 20px;
 `;
 
 const Title = styled.div`
@@ -79,14 +66,17 @@ const Inner = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
   width: calc(100% - 20px);
-  padding-left: 32px;
-  padding-right: 20px;
   align-items: center;
+
   @media (min-width: 480px) {
+    padding: 0 20px;
     flex-direction: row;
+    width: min(1920px, 100%);
+    max-width: 1920px;
   }
-  @media (min-width: ${(props) => props.theme.extraLargeDevice}) {
-    max-width: 1600px;
+
+  @media (min-width: 920px) {
+    padding: 0 50px;
   }
 `;
 
@@ -104,20 +94,3 @@ const Logo = styled.img`
     width: 200px;
   }
 `;
-
-/* const MainLogo = styled.img`
-  max-width: 15%;
-  margin-left: 2%;
-  margin-right: 8%;
-  @media (max-width: 1520px) {
-    max-width: 15%;
-  }
-`; */
-
-/* const RightSide = styled.div`
-  flex: 1;
-  background-color: ${(props) => props.theme.main};
-  @media (max-width: 1400px) {
-    width: 100%;
-  }
-`; */

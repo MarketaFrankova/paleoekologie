@@ -23,16 +23,16 @@ const IndexPage = ({ data }) => {
         ];
 
         return (
-          <ContainerWrapper>
+          <LaboratoryWrapper>
             <ImgWrapper>
               {imgs[0]}
               {imgs[1]}
               {imgs[2]}
             </ImgWrapper>
-            <Paragraph>
+            <Text>
               <H2> {content.title}</H2>
               {content.description}
-            </Paragraph>
+            </Text>
             <ImgWrapper>
               {imgs[3]}
               {imgs[4]}
@@ -46,7 +46,7 @@ const IndexPage = ({ data }) => {
               {imgs[4]}
               {imgs[5]}
             </ImgWrapperMobile> */}
-          </ContainerWrapper>
+          </LaboratoryWrapper>
         );
       }}
     </Consumer>
@@ -112,10 +112,23 @@ export const query = graphql`
 
 const ImgWrapper = styled.div`
   display: none;
-  @media (min-width: 1200px) {
+  @media (min-width: 1400px) {
     display: grid;
     grid-gap: 5px;
     min-width: 20vw;
-    margin: 0 10px;
+    max-width: 400px;
+  }
+  @media (min-width: 1600px) {
+    min-width: 320px;
+  }
+`;
+
+const LaboratoryWrapper = styled.div`
+  display: flex;
+`;
+
+const Text = styled.div`
+  @media (min-width: 1400px) {
+    margin: 0 2rem;
   }
 `;

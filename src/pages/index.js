@@ -1,13 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import { Consumer } from "../layouts/Context";
-import Paragraph from "../components/atoms/Paragraph";
 import { H2 } from "../components/atoms/Headings";
 import { cz, en } from "../content/homepage";
 import ImgSlider from "../layouts/ImgSlider";
 
 const IndexPage = ({ data }) => {
-  console.log(data);
   const imgs = data.allImageSharp.edges.map((i) => i.node.fluid);
   return (
     <Consumer>
@@ -61,20 +59,20 @@ const News = styled.div`
   max-width: 100%;
   box-shadow: 1px 2px 15px #eee;
   padding: 1rem;
-  margin: 1rem 2rem;
   border-radius: 4px;
+  margin-top: 2rem;
 
-  @media (min-width: ${(props) => props.theme.mediumDevice}) {
-    margin-right: 0;
+  @media (min-width: ${(props) => props.theme.largeDevice}) {
     min-width: 200px;
-    width: 20%;
-    max-width: 400px;
+    margin-left: 2rem;
+  }
+
+  @media (min-width: ${(props) => props.theme.extraLargeDevice}) {
+    max-width: 25%;
   }
 `;
 
-const Div = styled.div`
-  margin: 0rem 2rem;
-`;
+const Div = styled.div``;
 
 const Green = styled.div`
   color: ${(props) => props.theme.darkred};
@@ -90,22 +88,13 @@ const MainPageContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   min-height: 100%;
-  margin: 0 1%;
 
-  @media (min-width: ${(props) => props.theme.mediumDevice}) {
+  @media (min-width: ${(props) => props.theme.largeDevice}) {
     flex-direction: row;
   }
 `;
 
-const MainParagraph = styled.div`
-  max-width: 1200px;
-  display: flex;
-  /*   align-items: center; */
-  flex-direction: column;
-  /*   @media (min-width: ${(props) => props.theme.mediumDevice}) {
-    order: 1;
-  } */
-`;
+const MainParagraph = styled.div``;
 
 export const query = graphql`
   query {

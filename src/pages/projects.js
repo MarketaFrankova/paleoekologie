@@ -1,7 +1,6 @@
 import * as React from "react";
 import Paragraph from "../components/atoms/Paragraph";
 import Project from "../components/projects/Project";
-import ContainerWrapper from "../components/atoms/ContainerWrapper";
 import {
   actualCz,
   actualEn,
@@ -20,21 +19,19 @@ const IndexPage = () => {
         const completed = int === "en" ? completedEn : completedCz;
         const general = int === "en" ? generalCz : generalEn;
         return (
-          <ContainerWrapper>
-            <Paragraph>
-              <H2>{int === "en" ? "Current projects" : "Aktuální projekty"}</H2>
-              {actual.map((actualProject) => (
-                <Project data={actualProject} general={general} />
-              ))}
+          <Paragraph>
+            <H2>{int === "en" ? "Current projects" : "Aktuální projekty"}</H2>
+            {actual.map((actualProject) => (
+              <Project data={actualProject} general={general} />
+            ))}
 
-              <H2>
-                {int === "en" ? "Completed projects" : "Dokončené projekty"}
-              </H2>
-              {completed.map((completedProject) => (
-                <Project data={completedProject} general={general} />
-              ))}
-            </Paragraph>
-          </ContainerWrapper>
+            <H2>
+              {int === "en" ? "Completed projects" : "Dokončené projekty"}
+            </H2>
+            {completed.map((completedProject) => (
+              <Project data={completedProject} general={general} />
+            ))}
+          </Paragraph>
         );
       }}
     </Consumer>

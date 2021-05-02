@@ -10,6 +10,7 @@ import { cz, en } from "../content/general";
 import "../css/typography.css";
 import "../css/layout.css";
 import { Helmet } from "react-helmet";
+import ContainerWrapper from "../components/atoms/ContainerWrapper";
 
 const mainTheme = {
   fontHeading: "Akrobat",
@@ -74,7 +75,9 @@ const Layout = (props) => {
                   int={int}
                   generalData={int === "en" ? en : cz}
                 />
-                <Main>{props.children}</Main>
+                <Main>
+                  <ContainerWrapper>{props.children}</ContainerWrapper>
+                </Main>
                 <footer>
                   <FooterContent
                     footer={int === "en" ? en.footer : cz.footer}
@@ -104,4 +107,7 @@ const Container = styled.div`
 
 const Main = styled.main`
   flex: 1;
+  margin: 0 auto;
+  width: min(1920px, 100%);
+  max-width: 1920px;
 `;
