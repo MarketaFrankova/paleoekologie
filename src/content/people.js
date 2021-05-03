@@ -1,4 +1,3 @@
-/* import pleskova from "../images/people/pleskova.jpg"; */
 import React from "react";
 
 export const staffEn = [
@@ -27,6 +26,14 @@ export const staffEn = [
           fishponds and wetlands on arable land. She also deals with diatoms
           from paleoecological sediments and samples from archeologic contexts.
         </p>
+        <a
+          href="/frankovaCV.doc"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - download
+        </a>
       </>
     ),
   },
@@ -53,6 +60,14 @@ export const staffEn = [
           ongoing climate change. He also focuses on other areas such as
           applying spatially explicit modeling approaches in palaeoecology.
         </p>
+        <a
+          href="/bobekCV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - download
+        </a>
       </>
     ),
   },
@@ -89,6 +104,14 @@ export const staffEn = [
           Council project (Long-term Woodland Dynamics in Central Europe) and on
           five basic research projects funded by the Czech Science Foundation.
         </p>
+        <a
+          href="/dudovaCV.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - download
+        </a>
       </>
     ),
   },
@@ -114,6 +137,14 @@ export const staffEn = [
           bryophytes. In the past she also studied wetlands in Bulgaria (roky?)
           and participated in research of relic ecosystems in Siberia (Russia).
         </p>
+        <a
+          href="/hajkovaCV.doc"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - download
+        </a>
       </>
     ),
   },
@@ -154,7 +185,27 @@ export const staffEn = [
     email: `eva.jamrichova@ibot.cas.cz`,
     phoneNumber: `541 126 223`,
     position: "researcher",
-    description: <></>,
+    description: (
+      <>
+        <a
+          href="/jamrichovaCV.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - download
+        </a>
+        <br />{" "}
+        <a
+          href="/jamrichovaTopics.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          Areas of interest - download
+        </a>
+      </>
+    ),
   },
   {
     id: `jankovska`,
@@ -184,6 +235,14 @@ export const staffEn = [
           foresters, geologists, geomorphologists and climatologists. Nowadays,
           she focuses on publishing the plentiful results of her work.
         </p>
+        <a
+          href="/jankovskaCV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - download
+        </a>
       </>
     ),
   },
@@ -208,6 +267,14 @@ export const staffEn = [
           modern reconstruction of the Holocene dynamics of plant diversity in
           Central Europe.
         </p>
+        <a
+          href="/rolecekEnCV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - download
+        </a>
       </>
     ),
   },
@@ -216,7 +283,27 @@ export const staffEn = [
     name: `Anna Šolcová`,
     email: `annapotuckova6@gmail.com`,
     position: "researcher",
-    description: <></>,
+    description: (
+      <>
+        <a
+          href="/solcovaCV.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - download
+        </a>
+        <br />{" "}
+        <a
+          href="/solcovaTopics.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          Areas of interest - download
+        </a>
+      </>
+    ),
   },
   {
     id: `soukupova`,
@@ -243,6 +330,14 @@ export const staffEn = [
           and its long term data analyzes and she participates in a renewal of
           the Collection of permanent pollen slides of the Institute of Botany.
         </p>
+        <a
+          href="/soukupovaCV.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - download
+        </a>
       </>
     ),
   },
@@ -254,6 +349,23 @@ export const staffEn = [
     description: (
       <>
         <p></p>
+        <a
+          href="/svitavskaCV.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - download
+        </a>
+        <br />{" "}
+        <a
+          href="/svitavskaTopics.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          Areas of interest - download
+        </a>
       </>
     ),
   },
@@ -287,6 +399,14 @@ export const staffCz = [
           diatomovou analýzou paleoekologických profilů a vzorky z
           archeologických kontextů.
         </p>
+        <a
+          href="/frankovaCV.doc"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - k stažení
+        </a>
       </>
     ),
   },
@@ -314,6 +434,14 @@ export const staffCz = [
           zaměřuje na aplikaci metod prostorového modelování v paleoekologickém
           výzkumu, především prediktivního modelování výskytu druhů.
         </p>
+        <a
+          href="/bobekCV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - k stažení
+        </a>
       </>
     ),
   },
@@ -347,6 +475,14 @@ export const staffCz = [
           Woodland Dynamics in Central Europe) a na pěti dalších projektech
           základního výzkumu podpořených Grantovou agenturou ČR.
         </p>
+        <a
+          href="/dudovaCV.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - k stažení
+        </a>
       </>
     ),
   },
@@ -373,6 +509,14 @@ export const staffCz = [
           Bulharsku a podílela se na studiu reliktních ekosystémů na Sibiři
           (Rusko).
         </p>
+        <a
+          href="/hajkovaCV.doc"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - k stažení
+        </a>
       </>
     ),
   },
@@ -426,6 +570,23 @@ export const staffCz = [
           severní části Panonské nížiny a Západních Karpatech, a na identifikaci
           vlivu člověka na tyto změny.
         </p>
+        <a
+          href="/jamrichovaCV.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - k stažení
+        </a>
+        <br />{" "}
+        <a
+          href="/jamrichovaTopics.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          Okruhy zájmu - k stažení
+        </a>
       </>
     ),
   },
@@ -462,6 +623,14 @@ export const staffCz = [
           klimatology. V současnosti se snaží své bohaté výsledky zpracovat do
           publikací.
         </p>
+        <a
+          href="/jankovskaCV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - k stažení
+        </a>
       </>
     ),
   },
@@ -485,6 +654,14 @@ export const staffCz = [
           projekt, jehož výsledkem je moderní rekonstrukce holocenního vývoje
           druhové bohatosti rostlin ve střední Evropě.
         </p>
+        <a
+          href="/rolecekCV.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - k stažení
+        </a>
       </>
     ),
   },
@@ -505,6 +682,23 @@ export const staffCz = [
           Glacial and Holocene in the southwest Slovakia and the southeast Czech
           Republic. Since 2018 she is on maternity leave.
         </p>
+        <a
+          href="/solcovaCV.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - k stažení
+        </a>
+        <br />{" "}
+        <a
+          href="/solcovaTopics.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          Okruhy zájmu - k stažení
+        </a>
       </>
     ),
   },
@@ -533,6 +727,14 @@ export const staffCz = [
           pylovému monitoringu a analýze dlouhodobých dat a podílí se na obnově
           sbírky pylových preparátů Botanického ústavu AV ČR.
         </p>
+        <a
+          href="/soukupovaCV.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - k stažení
+        </a>
       </>
     ),
   },
@@ -555,6 +757,23 @@ export const staffCz = [
           iniciativou <i>International Union for Quaternary Research</i> v 15
           evropských státech.
         </p>
+        <a
+          href="/svitavskaCV.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - k stažení
+        </a>
+        <br />{" "}
+        <a
+          href="/svitavskaTopics.docx"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          Okruhy zájmu - k stažení
+        </a>
       </>
     ),
   },

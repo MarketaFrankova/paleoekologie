@@ -14,16 +14,16 @@ export const generalEn = {
   web: "Web projektu: ",
 };
 export const generalCz = {
-  id: "Identifikační kód projektu",
-  finance: "Financování",
-  period: "Období řešení",
-  mainResearcher: "Hlavní řešitel",
-  mainResearcherF: "Hlavní řešitelka",
-  coResearchers: "Spoluřešitelé",
+  id: "Identifikační kód projektu: ",
+  finance: "Financování: ",
+  period: "Období řešení: ",
+  mainResearcher: "Hlavní řešitel: ",
+  mainResearcherF: "Hlavní řešitelka: ",
+  coResearchers: "Spoluřešitelé: ",
   coResearcher: "Spoluřešitel: ",
-  teamMembers: "Členové týmu za BÚ",
-  description: "Popis projektu",
-  web: "Web projektu",
+  teamMembers: "Členové týmu za BÚ: ",
+  description: "Popis projektu: ",
+  web: "Web projektu: ",
 };
 export const actualCz = [
   {

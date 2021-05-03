@@ -8,7 +8,7 @@ const Backlink = ({ handleClick, ...props }) => {
       {({ int }) => {
         return (
           <BackLink onClick={(e) => handleClick(e)} {...props}>
-            <span>←</span> {int === "en" ? "Back" : "Zpět"}
+            <span>{"<"}</span> {int === "en" ? "Back" : "Zpět"}
           </BackLink>
         );
       }}
@@ -21,6 +21,7 @@ export default Backlink;
 const BackLink = styled.div`
   cursor: pointer;
   margin-left: 7px;
+
   &:hover {
     margin-left: 0;
     span {
@@ -30,5 +31,8 @@ const BackLink = styled.div`
   }
   span {
     margin-right: 3px;
+    padding-bottom: 3px;
+    height: 100%;
+    display: inline-block;
   }
 `;
