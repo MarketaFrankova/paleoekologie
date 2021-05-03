@@ -80,7 +80,6 @@ const FooterSection = styled.div`
   text-align: center;
   line-height: 1.5;
   min-width: 255px;
-  font-size: 16px;
 `;
 
 const Twitter = styled.img`

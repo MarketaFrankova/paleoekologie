@@ -33,9 +33,8 @@ const GlobalStyle = createGlobalStyle`
    padding: 0;
    font-family: "sans-serif";
    line-height: 1.7;
-   font-size: 112.5%;
 
-   @media (min-width: 600px) {
+   @media (min-width: 1920px) {
     font-size: 125%;
   }
   }

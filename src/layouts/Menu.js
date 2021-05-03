@@ -56,7 +56,7 @@ const Menu = ({ generalData, isIndex }) => {
       <ListLink to="/for-students/" className={getClass("for-students")}>
         {generalData.menu.menuForStudents}
       </ListLink>
-      <ListLink to="/links/" className={getClass("links")}>
+      <ListLink to="/for-public/" className={getClass("for-public")}>
         {generalData.menu.menuLinks}
       </ListLink>
     </>
@@ -76,10 +76,14 @@ export const Li = styled.li`
   align-items: center;
   justify-content: center;
   color: ${(props) => props.theme.grey};
-  margin: 10px 0.5rem 5px;
+  margin: 10px 0 5px;
   white-space: nowrap;
   font-size: 1.25rem;
   text-align: center;
+
+  @media (min-width: ${(props) => props.theme.largeDevice}) {
+    margin: 10px 0.5rem 5px;
+  }
 
   &:last-child {
     border-right: 0px;
@@ -87,14 +91,18 @@ export const Li = styled.li`
   @media (max-width: ${(props) => props.theme.mediumDevice}) {
     border: 0px;
   }
+
   &.active > a {
     color: black;
     font-weight: 600;
   }
 
   @media (min-width: ${(props) => props.theme.largeDevice}) {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     justify-content: flex-end;
+  }
+  @media (min-width: 1280px) {
+    font-size: 1.5rem;
   }
 
   @media (min-width: ${(props) => props.theme.extraLargeDevice}) {

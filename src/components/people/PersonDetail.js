@@ -82,8 +82,6 @@ const TextWrapper = styled.div`
 
 const Div = styled.div`
   color: ${(props) => (props.grey ? props.theme.grey : props.theme.black)};
-
-  font-size: 16px;
 `;
 
 const Back = styled.div`
