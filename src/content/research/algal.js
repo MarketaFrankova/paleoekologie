@@ -45,9 +45,9 @@ export const en = (
         mikroskop Phenom ProX.
       </p>
     </div>
-    <H3>Lidé zapojení do výzkumu</H3>
+    <H3 green>Lidé zapojení do výzkumu</H3>
     <p>Markéta Fránková, Vlasta Jankovská</p>
-    <H3>Výběr nejdůležitějších publikací:</H3>
+    <H3 green>Výběr nejdůležitějších publikací:</H3>
     <Publication>
       Goláňová P., Hajnalová M., Lisá L., Milo P., Petr L.,{" "}
       <b>
@@ -216,9 +216,9 @@ export const cz = (
         mikroskop Phenom ProX.
       </p>
     </div>
-    <H3>Lidé zapojení do výzkumu</H3>
+    <H3 green>Lidé zapojení do výzkumu</H3>
     <p>Markéta Fránková, Vlasta Jankovská</p>
-    <H3>Výběr nejdůležitějších publikací:</H3>
+    <H3 green>Výběr nejdůležitějších publikací:</H3>
     <Publication>
       Goláňová P., Hajnalová M., Lisá L., Milo P., Petr L.,{" "}
       <b>

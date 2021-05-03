@@ -1,8 +1,8 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { H2, H3 } from "../../components/atoms/Headings";
 import Publication from "../../components/atoms/Publication";
 export const en = (
-  <Fragment>
+  <>
     <H2>Dlouhodobý vývoj mokřadních ekosystémů</H2>
     <div align="justify">
       <p>
@@ -70,13 +70,13 @@ export const en = (
         disturbancemi.
       </p>
     </div>
-    <H3>Lidé zapojení do výzkumu</H3>
+    <H3 green>Lidé zapojení do výzkumu</H3>
     <p>
       Petra Hájková, Anna Šolcová (makrozbytková analýza), Eva Jamrichová, Lýdie
       Dudová, Helena Svobodová, M. Švarcová (pylová analýza a analýza nepylových
       objektů), Přemysl Bobek (uhlíky), Jan Roleček (interpretace)
     </p>
-    <H3>Výběr nejdůležitějších publikací:</H3>
+    <H3 green>Výběr nejdůležitějších publikací:</H3>
     <Publication>
       Hájková, P., Jamrichová, E., Šolcová, A., Frodlová, J., Petr, L., Dítě,
       D., Hájek M. & Horsák, M. (2020): Can relict-rich communities be of an
@@ -157,11 +157,11 @@ export const en = (
       multiproxy study from the Hrubý Jeseník Mountains. The Holocene, 23,
       230-242.
     </Publication>
-  </Fragment>
+  </>
 );
 
 export const cz = (
-  <Fragment>
+  <>
     <H2>Dlouhodobý vývoj mokřadních ekosystémů</H2>
     <div align="justify">
       <p>
@@ -229,13 +229,13 @@ export const cz = (
         disturbancemi.
       </p>
     </div>
-    <H3>Lidé zapojení do výzkumu</H3>
+    <H3 green>Lidé zapojení do výzkumu</H3>
     <p>
       Petra Hájková, Anna Šolcová (makrozbytková analýza), Eva Jamrichová, Lýdie
       Dudová, Helena Svobodová, M. Švarcová (pylová analýza a analýza nepylových
       objektů), Přemysl Bobek (uhlíky), Jan Roleček (interpretace)
     </p>
-    <H3>Výběr nejdůležitějších publikací:</H3>
+    <H3 green>Výběr nejdůležitějších publikací:</H3>
     <Publication>
       Hájková, P., Jamrichová, E., Šolcová, A., Frodlová, J., Petr, L., Dítě,
       D., Hájek M. & Horsák, M. (2020): Can relict-rich communities be of an
@@ -316,5 +316,5 @@ export const cz = (
       multiproxy study from the Hrubý Jeseník Mountains. The Holocene, 23,
       230-242.
     </Publication>
-  </Fragment>
+  </>
 );

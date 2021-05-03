@@ -5,7 +5,7 @@ import Paragraph from "../components/atoms/Paragraph";
 import {
   cz as researchCz,
   en as researchEn,
-} from "../content/research/longTerm";
+} from "../content/research/pollen-sedimentation";
 
 const IndexPage = () => {
   return (

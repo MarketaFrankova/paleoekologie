@@ -2,17 +2,12 @@ import React from "react";
 import { Consumer } from "../layouts/Context";
 import Paragraph from "../components/atoms/Paragraph";
 
-import {
-  cz as researchCz,
-  en as researchEn,
-} from "../content/research/longTerm";
+import { cz, en } from "../content/research/european-vegetation";
 
 const IndexPage = () => {
   return (
     <Consumer>
-      {({ int }) => (
-        <Paragraph>{int === "en" ? researchEn : researchCz}</Paragraph>
-      )}
+      {({ int }) => <Paragraph>{int === "en" ? en : cz}</Paragraph>}
     </Consumer>
   );
 };

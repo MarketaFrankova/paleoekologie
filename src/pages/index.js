@@ -12,10 +12,10 @@ const IndexPage = ({ data }) => {
       {({ int }) => (
         <MainPageContainer>
           <MainParagraph>
-            <Div>
+            <ImgSliderWrapper>
               <ImgSlider imgs={imgs} />
-            </Div>
-            <Div>{int === "en" ? en : cz} </Div>
+            </ImgSliderWrapper>
+            <div>{int === "en" ? en : cz} </div>
           </MainParagraph>
 
           <News>
@@ -72,7 +72,18 @@ const News = styled.div`
   }
 `;
 
-const Div = styled.div``;
+const ImgSliderWrapper = styled.div`
+  margin: 0 auto;
+
+  @media (min-width: ${(props) => props.theme.largeDevice}) {
+    max-width: 800px;
+  }
+
+  @media (min-width: 2200px) {
+    max-width: initial;
+    margin: initial;
+  }
+`;
 
 const Green = styled.div`
   color: ${(props) => props.theme.darkred};

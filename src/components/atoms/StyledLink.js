@@ -28,7 +28,9 @@ const Styledlink = styled(Link)`
 `;
 
 export const ALink = ({ href, children }) => (
-  <StyledA href={href}>{children}</StyledA>
+  <StyledA target="_blank" rel="noopener noreferrer" href={href}>
+    {children}
+  </StyledA>
 );
 
 const StyledA = styled.a`

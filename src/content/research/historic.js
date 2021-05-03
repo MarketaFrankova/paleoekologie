@@ -50,12 +50,12 @@ export const en = (
         Karlovy.
       </p>
     </div>
-    <H3>Lidé zapojení do výzkumu</H3>
+    <H3 green>Lidé zapojení do výzkumu</H3>
     <p>
       Jan Roleček, Petra Hájková, Eva Jamrichová, Helena Svobodová, Lydie
       Dudová, Kristýna Hošková
     </p>
-    <H3>Výběr nejdůležitějších publikací:</H3>
+    <H3 green>Výběr nejdůležitějších publikací:</H3>
 
     <Publication>
       Roleček J., Abraham V., Vild O., Svobodová H. S., Jamrichová E., Plesková
@@ -175,12 +175,12 @@ export const cz = (
         Karlovy.
       </p>
     </div>
-    <H3>Lidé zapojení do výzkumu</H3>
+    <H3 green>Lidé zapojení do výzkumu</H3>
     <p>
       Jan Roleček, Petra Hájková, Eva Jamrichová, Helena Svobodová, Lydie
       Dudová, Kristýna Hošková
     </p>
-    <H3>Výběr nejdůležitějších publikací:</H3>
+    <H3 green>Výběr nejdůležitějších publikací:</H3>
 
     <Publication>
       Roleček J., Abraham V., Vild O., Svobodová H. S., Jamrichová E., Plesková
