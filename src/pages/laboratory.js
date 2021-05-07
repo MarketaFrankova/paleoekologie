@@ -24,28 +24,18 @@ const IndexPage = ({ data }) => {
 
         return (
           <LaboratoryWrapper>
-            <ImgWrapper>
-              {imgs[0]}
-              {imgs[1]}
-              {imgs[2]}
-            </ImgWrapper>
-            <Text>
+            <TextWrapper>
               <H2> {content.title}</H2>
               {content.description}
-            </Text>
+            </TextWrapper>
             <ImgWrapper>
-              {imgs[3]}
-              {imgs[4]}
-              {imgs[5]}
-            </ImgWrapper>
-            {/*  <ImgWrapperMobile>
               {imgs[0]}
               {imgs[1]}
               {imgs[2]}
               {imgs[3]}
               {imgs[4]}
               {imgs[5]}
-            </ImgWrapperMobile> */}
+            </ImgWrapper>
           </LaboratoryWrapper>
         );
       }}
@@ -102,21 +92,15 @@ export const query = graphql`
   }
 `;
 
-/* const ImgWrapperMobile = styled.div`
-  display: flex;
-  flex-direction: column;
-  @media (min-width: 1400px) {
-    display: none;
-  }
-`; */
-
 const ImgWrapper = styled.div`
   display: none;
-  @media (min-width: 1400px) {
-    display: grid;
-    grid-gap: 5px;
-    min-width: 20vw;
-    max-width: 400px;
+  @media (min-width: 920px) {
+    display: block;
+    flex: 1;
+
+    img {
+      margin-top: 5px;
+    }
   }
   @media (min-width: 1600px) {
     min-width: 320px;
@@ -127,8 +111,8 @@ const LaboratoryWrapper = styled.div`
   display: flex;
 `;
 
-const Text = styled.div`
-  @media (min-width: 1400px) {
-    margin: 0 2rem;
-  }
+const TextWrapper = styled.div`
+  flex: 2;
+  margin-right: 50px;
+  text-align: justify;
 `;

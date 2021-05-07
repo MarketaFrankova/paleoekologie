@@ -76,7 +76,7 @@ export const Li = styled.li`
   align-items: center;
   justify-content: center;
   color: ${(props) => props.theme.grey};
-  margin: 10px 0 5px;
+  z-index: 999 !important;
   white-space: nowrap;
   font-size: 1.25rem;
   text-align: center;

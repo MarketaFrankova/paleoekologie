@@ -48,17 +48,17 @@ export const Container = styled.ul`
   width: 100%;
   list-style: none;
   margin: 0;
+  position: relative;
 `;
 
 export const MenuWrapper = styled.div`
   position: absolute;
-  top: 63px;
+  top: 52px;
   right: 0;
   flex-direction: column;
-  z-index: 2;
+  z-index: 5;
   background-color: ${(props) => props.theme.white};
   width: ${(props) => (props.isNavCollapsed ? 0 : "100%")};
-  opacity: 0.99;
   transition: width 0.5s;
   -webkit-transition: width 0.5s;
   overflow: hidden;

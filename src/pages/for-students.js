@@ -28,6 +28,8 @@ const IndexPage = ({ data }) => {
               <div>
                 <H2>{data.highSchoolTitle}</H2>
                 <div>{data.highSchoolDescription}</div>
+                <br />
+                <br />
                 <H2>{data.universityTitle}</H2>
                 <div>{data.universityDescription}</div>
                 <div>
@@ -144,7 +146,8 @@ const Name = styled.div`
 
 const TextWrapper = styled.div`
   flex: 2;
-  margin-right: 20px;
+  margin-right: 50px;
+  text-align: justify;
 `;
 
 const ForStudentsWrapper = styled.div`
@@ -153,7 +156,7 @@ const ForStudentsWrapper = styled.div`
 
 const ImgWrapper = styled.div`
   display: none;
-  @media (min-width: 1024px) {
+  @media (min-width: 920px) {
     display: block;
     flex: 1;
 

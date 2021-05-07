@@ -43,7 +43,7 @@ Header.propTypes = {
 };
 
 const SubContainer = styled.div`
-  margin-top: 63px;
+  margin-top: 52px;
   display: flex;
   justify-content: center;
   background-color: ${(props) => props.theme.main};

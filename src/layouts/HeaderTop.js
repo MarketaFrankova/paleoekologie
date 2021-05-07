@@ -73,7 +73,6 @@ const Container = styled.div`
 const LanguageSwitcher = styled.div`
   display: flex;
   margin-left: 2rem;
-  margin-top: 10px;
 `;
 
 const Lang = styled.div`
