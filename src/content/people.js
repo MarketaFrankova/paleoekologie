@@ -74,8 +74,8 @@ export const staffEn = [
   {
     id: `dudova`,
     name: `Lydie Dudová`,
-    email: `hajek@sci.muni.cz`,
-    phoneNumber: `549 494 010`,
+    email: `lydie.dudova@ibot.cas.cz`,
+    phoneNumber: `541126223`,
     position: "researcher",
     description: (
       <>
@@ -448,8 +448,8 @@ export const staffCz = [
   {
     id: `dudova`,
     name: `Lydie Dudová`,
-    email: `hajek@sci.muni.cz`,
-    phoneNumber: `549494010`,
+    email: `lydie.dudova@ibot.cas.cz`,
+    phoneNumber: `541126223`,
     position: "researcher",
     description: (
       <>
