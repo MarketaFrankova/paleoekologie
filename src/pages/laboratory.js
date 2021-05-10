@@ -18,8 +18,6 @@ const IndexPage = ({ data }) => {
           <Img fluid={data.image2.childImageSharp.fluid} alt="" />,
           <Img fluid={data.image3.childImageSharp.fluid} alt="" />,
           <Img fluid={data.image4.childImageSharp.fluid} alt="" />,
-          <Img fluid={data.image5.childImageSharp.fluid} alt="" />,
-          <Img fluid={data.image6.childImageSharp.fluid} alt="" />,
         ];
 
         return (
@@ -33,8 +31,6 @@ const IndexPage = ({ data }) => {
               {imgs[1]}
               {imgs[2]}
               {imgs[3]}
-              {imgs[4]}
-              {imgs[5]}
             </ImgWrapper>
           </LaboratoryWrapper>
         );
@@ -47,42 +43,28 @@ export default IndexPage;
 
 export const query = graphql`
   query {
-    image1: file(relativePath: { regex: "/lab/lab1.jpg/" }) {
+    image1: file(relativePath: { regex: "/lab/laboratory1.jpg/" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
-    image2: file(relativePath: { regex: "/lab/lab2.jpg/" }) {
+    image2: file(relativePath: { regex: "/lab/laboratory2.jpg/" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
-    image3: file(relativePath: { regex: "/lab/lab3.jpg/" }) {
+    image3: file(relativePath: { regex: "/lab/laboratory3.jpg/" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
-    image4: file(relativePath: { regex: "/lab/lab4.jpg/" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    image5: file(relativePath: { regex: "/lab/lab5.jpg/" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    image6: file(relativePath: { regex: "/lab/lab6.jpg/" }) {
+    image4: file(relativePath: { regex: "/lab/laboratory4.jpg/" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_withWebp

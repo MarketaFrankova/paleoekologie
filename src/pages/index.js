@@ -163,9 +163,9 @@ export default IndexPage;
 const News = styled.div`
   max-width: 100%;
   box-shadow: 1px 2px 15px #eee;
-  padding: 1rem;
+  padding: 0 1rem 0.5rem;
   border-radius: 4px;
-  margin-top: 2rem;
+  margin-top: 10px;
   background-color: #e2ead5;
 
   @media (min-width: ${(props) => props.theme.largeDevice}) {
@@ -215,7 +215,7 @@ const MainParagraph = styled.div``;
 
 export const query = graphql`
   query {
-    allImageSharp(filter: { fluid: { src: { regex: "/uvodn/" } } }) {
+    allImageSharp(filter: { fluid: { src: { regex: "/uvodni/" } } }) {
       edges {
         node {
           id

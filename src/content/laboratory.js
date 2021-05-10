@@ -22,7 +22,7 @@ export const labEn = {
           <li>Macroscopic charcoal</li>
           <li>Plant macroremains</li>
           <li>
-            OOrganisms of groups <i>Cladocera</i>, <i>Chironomidae</i>,{" "}
+            Organisms of groups <i>Cladocera</i>, <i>Chironomidae</i>,{" "}
             <i>Diatomae</i> and <i>Testate amoebae</i>)
           </li>
         </ul>

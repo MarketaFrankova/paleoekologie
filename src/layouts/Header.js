@@ -56,7 +56,10 @@ const Title = styled.div`
   color: ${(props) => props.theme.white};
   font-size: 28px;
   @media (min-width: ${(props) => props.theme.mediumDevice}) {
-    font-size: calc(20px + 2vw);
+    font-size: 32px;
+  }
+  @media (min-width: ${(props) => props.theme.largeDevice}) {
+    font-size: min(calc(20px + 1.5vw), 40px);
   }
 `;
 
@@ -67,6 +70,7 @@ const Inner = styled.div`
   flex-wrap: wrap;
   width: calc(100% - 20px);
   align-items: center;
+  min-height: 50px;
 
   @media (min-width: 480px) {
     padding: 0 20px;
@@ -78,19 +82,34 @@ const Inner = styled.div`
   @media (min-width: 920px) {
     padding: 0 50px;
   }
+
+  @media (min-width: 880px) {
+    min-height: 95px;
+  }
 `;
 
 const LogoLink = styled.a`
   flex: 1;
   display: flex;
   justify-content: flex-end;
+
+  @media (min-width: ${(props) => props.theme.mediumDevice}) {
+    position: absolute;
+    right: 50px;
+    padding: 3px;
+  }
 `;
 
 const Logo = styled.img`
   margin: 2% 3%;
   width: 150px;
   @media (min-width: ${(props) => props.theme.mediumDevice}) {
-    margin: 30px 0;
+    width: 170px;
+  }
+  @media (min-width: ${(props) => props.theme.largeDevice}) {
+    width: 185px;
+  }
+  @media (min-width: ${(props) => props.theme.extraLargeDevice}) {
     width: 200px;
   }
 `;

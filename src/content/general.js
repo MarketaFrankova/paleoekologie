@@ -3,7 +3,7 @@ import React from "react";
 
 export const en = {
   menu: {
-    menuHomepage: "Homepage",
+    menuHomepage: "Home",
     menuResearch: "Research",
     menuPeople: "People",
     menuProjects: "Projects",
@@ -11,7 +11,7 @@ export const en = {
     menuLaboratory: "Laboratory",
     menuForStudents: "For Students",
     menuCollections: "Collections",
-    menuLinks: "Links",
+    menuLinks: "For Public",
   },
   footer: {
     addressBrno: "Address Brno:",

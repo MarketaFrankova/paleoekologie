@@ -21,7 +21,6 @@ Navigation.propTypes = {
 export const Container = styled.div`
   display: flex;
   align-self: flex-end;
-
   list-style: none;
   margin-right: 0;
   margin-left: auto;

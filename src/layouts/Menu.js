@@ -78,7 +78,7 @@ export const Li = styled.li`
   color: ${(props) => props.theme.grey};
   z-index: 999 !important;
   white-space: nowrap;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   text-align: center;
 
   @media (min-width: ${(props) => props.theme.largeDevice}) {

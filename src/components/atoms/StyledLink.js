@@ -27,6 +27,12 @@ const Styledlink = styled(Link)`
   }
 `;
 
+export const Simplelink = styled(Link)`
+  color: ${(props) => props.theme.main};
+  text-decoration: none;
+  cursor: pointer;
+`;
+
 export const ALink = ({ href, children }) => (
   <StyledA target="_blank" rel="noopener noreferrer" href={href}>
     {children}

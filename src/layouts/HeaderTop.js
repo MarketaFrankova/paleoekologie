@@ -72,7 +72,10 @@ const Container = styled.div`
 
 const LanguageSwitcher = styled.div`
   display: flex;
-  margin-left: 2rem;
+  margin-left: 1rem;
+  @media (min-width: ${(props) => props.theme.largeDevice}) {
+    margin-left: 2rem;
+  }
 `;
 
 const Lang = styled.div`

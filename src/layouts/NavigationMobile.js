@@ -53,14 +53,12 @@ export const Container = styled.ul`
 
 export const MenuWrapper = styled.div`
   position: absolute;
-  top: 52px;
+  top: 48px;
   right: 0;
   flex-direction: column;
   z-index: 5;
   background-color: ${(props) => props.theme.white};
   width: ${(props) => (props.isNavCollapsed ? 0 : "100%")};
-  transition: width 0.5s;
-  -webkit-transition: width 0.5s;
   overflow: hidden;
   background-color: ${(props) => props.theme.darkred};
   padding-bottom: 10px;
@@ -72,19 +70,11 @@ export const MenuWrapper = styled.div`
 
 export const Icon = styled.img`
   height: 30px;
-  &:hover {
-    height: 35px;
-    transition: height 0.5s;
-  }
 `;
 
 export const CloseIcon = styled.img`
   height: 30px;
   margin-top: 10px;
-  &:hover {
-    height: 35px;
-    transition: height 0.5s;
-  }
 `;
 
 const NavbarToggle = styled.div`

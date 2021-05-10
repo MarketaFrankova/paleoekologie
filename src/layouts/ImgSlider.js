@@ -5,14 +5,6 @@ import { Carousel } from "react-responsive-carousel";
 import Img from "gatsby-image";
 import styled from "styled-components";
 
-const settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-};
-
 const Images = ({ imgs }) => {
   const images = imgs.map((i, index) => <Img key={index} fluid={i} />);
   return (
@@ -39,5 +31,9 @@ Images.propTypes = {
 const SliderContainer = styled.div`
   width: 100%;
   height: 100%;
-  margin-top: 50px;
+  margin-top: 10px;
+
+  .control-arrow.control-next {
+    z-index: 1;
+  }
 `;
