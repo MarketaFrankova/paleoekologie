@@ -5,7 +5,7 @@ export const staffEn = [
     id: `frankova`,
     name: `Markéta Fránková`,
     email: `marketa.frankova@ibot.cas.cz`,
-    phoneNumber: `541 126 223 | 737 527 185`,
+    phoneNumber: `+420 541 126 223 | +420 737 527 185`,
     position: "head",
     description: (
       <>
@@ -75,7 +75,7 @@ export const staffEn = [
     id: `dudova`,
     name: `Lydie Dudová`,
     email: `lydie.dudova@ibot.cas.cz`,
-    phoneNumber: `541126223`,
+    phoneNumber: `+420 541 126 223`,
     position: "researcher",
     description: (
       <>
@@ -119,7 +119,7 @@ export const staffEn = [
     id: `hajkova`,
     name: `Petra Hájková`,
     email: `buriana@sci.muni.cz`,
-    phoneNumber: `541 126 223`,
+    phoneNumber: `+420 541 126 223`,
     position: "researcher",
     description: (
       <>
@@ -151,7 +151,7 @@ export const staffEn = [
   {
     id: `hoskova`,
     name: `Kristýna Hošková`,
-    email: ` kristyna.hoskova@ibot.cas.cz`,
+    email: `kristyna.hoskova@ibot.cas.cz`,
     phoneNumber: ``,
     position: "researcher",
     description: (
@@ -183,10 +183,25 @@ export const staffEn = [
     id: `jamrichova`,
     name: `Eva Jamrichová`,
     email: `eva.jamrichova@ibot.cas.cz`,
-    phoneNumber: `541 126 223`,
+    phoneNumber: `+420 541 126 223`,
     position: "researcher",
     description: (
       <>
+        <p>
+          Eva Jamrichová studied biology-chemistry at the University of
+          Constantine the Philosopher in Nitra (UKF, Nitra, Slovakia), which she
+          completed in 2005. In her subsequent postgraduate studies at UKF in
+          Nitra, she focused on the relationship between prehistoric settlement
+          and the natural environment in southwestern Slovakia. In 2016, she
+          defended her PhD at Charles University in Prague and the topic of her
+          dissertation was Anthropogenic influence on changes in the landscape
+          and vegetation reflected in the pollen spectra of Central Europe. She
+          currently works in the Department of Paleoecology of the Academy of
+          Sciences of the Czech Republic in Brno, where she investigates changes
+          in the landscape and vegetation over the last 15,000 years in the
+          northern part of the Pannonian Plain and the Western Carpathians, and
+          identifies human influence on these changes.
+        </p>
         <a
           href="/jamrichovaCV.docx"
           target="_blank"
@@ -195,15 +210,6 @@ export const staffEn = [
         >
           CV - download
         </a>
-        <br />{" "}
-        <a
-          href="/jamrichovaTopics.docx"
-          target="_blank"
-          rel="noopener noreferrer"
-          download
-        >
-          Areas of interest - download
-        </a>
       </>
     ),
   },
@@ -211,7 +217,7 @@ export const staffEn = [
     id: `jankovska`,
     name: `Vlasta Jankovská`,
     email: ` vlasta.jankovska@ibot.cas.cz`,
-    phoneNumber: `541 126 216`,
+    phoneNumber: `+420 541 126 216`,
     position: "researcher",
     description: (
       <>
@@ -250,7 +256,7 @@ export const staffEn = [
     id: `rolecek`,
     name: `Jan Roleček`,
     email: ` jan.rolecek@ibot.cas.cz`,
-    phoneNumber: `541 126 218`,
+    phoneNumber: `+420 541 126 218`,
     position: "researcher",
     description: (
       <>
@@ -282,9 +288,20 @@ export const staffEn = [
     id: `solcova`,
     name: `Anna Šolcová`,
     email: `annapotuckova6@gmail.com`,
+    phoneNumber: `+420 739 092 275`,
     position: "researcher",
     description: (
       <>
+        <p>
+          Anna Šolcová is a PhD student at the Department of Botany of the
+          Charles University in Prague and works at the Department of
+          Paleoecology of the Botanical Institute of the Czech Academy of
+          Sciences. In her PhD thesis, she focuses on investigation of lake
+          sediments using macrofossil analysis. She deals with the
+          reconstruction of the long-term vegetation succession during the Late
+          Glacial and Holocene in the southwest Slovakia and the southeast Czech
+          Republic. Since 2018 she is on maternity leave.
+        </p>
         <a
           href="/solcovaCV.docx"
           target="_blank"
@@ -293,15 +310,6 @@ export const staffEn = [
         >
           CV - download
         </a>
-        <br />{" "}
-        <a
-          href="/solcovaTopics.docx"
-          target="_blank"
-          rel="noopener noreferrer"
-          download
-        >
-          Areas of interest - download
-        </a>
       </>
     ),
   },
@@ -309,7 +317,7 @@ export const staffEn = [
     id: `soukupova`,
     name: `Markéta Gabriela Švarcová`,
     email: `Marketa.Svarcova@ibot.cas.cz`,
-    phoneNumber: `271 015 420`,
+    phoneNumber: `+420 271 015 420`,
     position: "researcher",
     description: (
       <>
@@ -345,6 +353,7 @@ export const staffEn = [
     id: `svitavska`,
     name: `Helena Svitavská Svobodová`,
     email: `helena.svitavska@ibot.cas.cz`,
+    phoneNumber: `+420 271 015 427 |  +420 271 015 334`,
     position: "researcher",
     description: (
       <>
@@ -357,15 +366,6 @@ export const staffEn = [
         >
           CV - download
         </a>
-        <br />{" "}
-        <a
-          href="/svitavskaTopics.docx"
-          target="_blank"
-          rel="noopener noreferrer"
-          download
-        >
-          Areas of interest - download
-        </a>
       </>
     ),
   },
@@ -376,7 +376,7 @@ export const staffCz = [
     id: `frankova`,
     name: `Markéta Fránková`,
     email: `marketa.frankova@ibot.cas.cz`,
-    phoneNumber: `541 126 223 | 737 527 185`,
+    phoneNumber: `+420 541 126 223 | +420 737 527 185`,
     position: "head",
     description: (
       <>
@@ -405,7 +405,7 @@ export const staffCz = [
           rel="noopener noreferrer"
           download
         >
-          CV - k stažení
+          CV - ke stažení
         </a>
       </>
     ),
@@ -440,7 +440,7 @@ export const staffCz = [
           rel="noopener noreferrer"
           download
         >
-          CV - k stažení
+          CV - ke stažení
         </a>
       </>
     ),
@@ -449,7 +449,7 @@ export const staffCz = [
     id: `dudova`,
     name: `Lydie Dudová`,
     email: `lydie.dudova@ibot.cas.cz`,
-    phoneNumber: `541126223`,
+    phoneNumber: `+420 541 126 223`,
     position: "researcher",
     description: (
       <>
@@ -481,7 +481,7 @@ export const staffCz = [
           rel="noopener noreferrer"
           download
         >
-          CV - k stažení
+          CV - ke stažení
         </a>
       </>
     ),
@@ -490,7 +490,7 @@ export const staffCz = [
     id: `hajkova`,
     name: `Petra Hájková`,
     email: `buriana@sci.muni.cz`,
-    phoneNumber: `541 126 223`,
+    phoneNumber: `+420 541 126 223`,
     position: "researcher",
     description: (
       <>
@@ -515,7 +515,7 @@ export const staffCz = [
           rel="noopener noreferrer"
           download
         >
-          CV - k stažení
+          CV - ke stažení
         </a>
       </>
     ),
@@ -553,7 +553,7 @@ export const staffCz = [
     id: `jamrichova`,
     name: `Eva Jamrichová`,
     email: `eva.jamrichova@ibot.cas.cz`,
-    phoneNumber: `541 126 223`,
+    phoneNumber: `+420 541 126 223`,
     position: "researcher",
     description: (
       <>
@@ -576,16 +576,7 @@ export const staffCz = [
           rel="noopener noreferrer"
           download
         >
-          CV - k stažení
-        </a>
-        <br />{" "}
-        <a
-          href="/jamrichovaTopics.docx"
-          target="_blank"
-          rel="noopener noreferrer"
-          download
-        >
-          Okruhy zájmu - k stažení
+          CV - ke stažení
         </a>
       </>
     ),
@@ -594,7 +585,7 @@ export const staffCz = [
     id: `jankovska`,
     name: `Vlasta Jankovská`,
     email: ` vlasta.jankovska@ibot.cas.cz`,
-    phoneNumber: `541 126 216`,
+    phoneNumber: `+420 541 126 216`,
     position: "researcher",
     description: (
       <>
@@ -629,7 +620,7 @@ export const staffCz = [
           rel="noopener noreferrer"
           download
         >
-          CV - k stažení
+          CV - ke stažení
         </a>
       </>
     ),
@@ -638,7 +629,7 @@ export const staffCz = [
     id: `rolecek`,
     name: `Jan Roleček`,
     email: ` jan.rolecek@ibot.cas.cz`,
-    phoneNumber: `541 126 218`,
+    phoneNumber: `+420 541 126 218`,
     position: "researcher",
     description: (
       <>
@@ -660,7 +651,7 @@ export const staffCz = [
           rel="noopener noreferrer"
           download
         >
-          CV - k stažení
+          CV - ke stažení
         </a>
       </>
     ),
@@ -669,18 +660,18 @@ export const staffCz = [
     id: `solcova`,
     name: `Anna Šolcová`,
     email: `annapotuckova6@gmail.com`,
+    phoneNumber: `+420 739 092 275`,
     position: "researcher",
     description: (
       <>
         <p>
-          Anna Šolcová is a PhD student at the Department of Botany of the
-          Charles University in Prague and works at the Department of
-          Paleoecology of the Botanical Institute of the Czech Academy of
-          Sciences. In her PhD thesis, she focuses on investigation of lake
-          sediments using macrofossil analysis. She deals with the
-          reconstruction of the long-term vegetation succession during the Late
-          Glacial and Holocene in the southwest Slovakia and the southeast Czech
-          Republic. Since 2018 she is on maternity leave.
+          Anna Šolcová je doktorandkou na Katedře botaniky Univerzity Karlovy v
+          Praze a pracuje na katedře paleoekologie Botanického ústavu Akademie
+          věd ČR. Ve své disertační práci se zaměřuje na výzkum jezerních
+          sedimentů pomocí makrofosilní analýzy. Zabývá se rekonstrukcí
+          dlouhodobé vegetační sukcese během pozdního glaciálu a holocénu na
+          jihozápadním Slovensku a na jihovýchodě České republiky. Od roku 2018
+          je na mateřské dovolené.
         </p>
         <a
           href="/solcovaCV.docx"
@@ -688,16 +679,7 @@ export const staffCz = [
           rel="noopener noreferrer"
           download
         >
-          CV - k stažení
-        </a>
-        <br />{" "}
-        <a
-          href="/solcovaTopics.docx"
-          target="_blank"
-          rel="noopener noreferrer"
-          download
-        >
-          Okruhy zájmu - k stažení
+          CV - ke stažení
         </a>
       </>
     ),
@@ -706,7 +688,7 @@ export const staffCz = [
     id: `soukupova`,
     name: `Markéta G. Soukupová`,
     email: `Marketa.Svarcova@ibot.cas.cz`,
-    phoneNumber: `271 015 420`,
+    phoneNumber: `+420 271 015 420`,
     position: "researcher",
     description: (
       <>
@@ -733,7 +715,7 @@ export const staffCz = [
           rel="noopener noreferrer"
           download
         >
-          CV - k stažení
+          CV - ke stažení
         </a>
       </>
     ),
@@ -743,6 +725,7 @@ export const staffCz = [
     name: `Helena Svitavská Svobodová`,
     email: `helena.svitavska@ibot.cas.cz`,
     position: "researcher",
+    phoneNumber: `+420 271 015 427 |  +420 271 015 334`,
     description: (
       <>
         <p>
@@ -763,16 +746,7 @@ export const staffCz = [
           rel="noopener noreferrer"
           download
         >
-          CV - k stažení
-        </a>
-        <br />{" "}
-        <a
-          href="/svitavskaTopics.docx"
-          target="_blank"
-          rel="noopener noreferrer"
-          download
-        >
-          Okruhy zájmu - k stažení
+          CV - ke stažení
         </a>
       </>
     ),
