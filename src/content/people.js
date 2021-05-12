@@ -369,6 +369,41 @@ export const staffEn = [
       </>
     ),
   },
+  {
+    id: `formankova`,
+    name: `Zuzana Formánková`,
+    email: `zuzana.formankova@ibot.cas.cz`,
+    position: "techadm",
+    phoneNumber: `+420 541 126 217`,
+  },
+  {
+    id: `jirouskova`,
+    name: `Jana Jiroušková`,
+    email: `jana.bozkova@atlas.cz`,
+    position: "techadm",
+    phoneNumber: `+420 541 126 223`,
+  },
+  {
+    id: `krauseova`,
+    name: `Eva Krauseová`,
+    email: `eva.krauseova@ibot.cas.cz`,
+    position: "techadm",
+    phoneNumber: `+420 271 015 427 | +420 271 015 334`,
+  },
+  {
+    id: `krausova`,
+    name: `Irena Krausová`,
+    email: `irena.krausova@ibot.cas.cz`,
+    position: "techadm",
+    phoneNumber: `+420 271 015 334`,
+  },
+  {
+    id: `sadilkova`,
+    name: `Martina Sadílková`,
+    email: `martina.sadilkova@ibot.cas.cz`,
+    position: "techadm",
+    phoneNumber: `+420 530 506 742 | +420 541 126 231`,
+  },
 ];
 
 export const staffCz = [
@@ -750,5 +785,40 @@ export const staffCz = [
         </a>
       </>
     ),
+  },
+  {
+    id: `formankova`,
+    name: `Zuzana Formánková`,
+    email: `zuzana.formankova@ibot.cas.cz`,
+    position: "techadm",
+    phoneNumber: `+420 541 126 217`,
+  },
+  {
+    id: `jirouskova`,
+    name: `Jana Jiroušková`,
+    email: `jana.bozkova@atlas.cz`,
+    position: "techadm",
+    phoneNumber: `+420 541 126 223`,
+  },
+  {
+    id: `krauseova`,
+    name: `Eva Krauseová`,
+    email: `eva.krauseova@ibot.cas.cz`,
+    position: "techadm",
+    phoneNumber: `+420 271 015 427 | +420 271 015 334`,
+  },
+  {
+    id: `krausova`,
+    name: `Irena Krausová`,
+    email: `irena.krausova@ibot.cas.cz`,
+    position: "techadm",
+    phoneNumber: `+420 271 015 334`,
+  },
+  {
+    id: `sadilkova`,
+    name: `Martina Sadílková`,
+    email: `martina.sadilkova@ibot.cas.cz`,
+    position: "techadm",
+    phoneNumber: `+420 530 506 742 | +420 541 126 231`,
   },
 ];

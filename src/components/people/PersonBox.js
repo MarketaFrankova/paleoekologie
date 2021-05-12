@@ -7,7 +7,10 @@ import Img from "gatsby-image";
 const PersonBox = ({ personInfo, openDetail, img }) => {
   return (
     <>
-      <Box onClick={() => openDetail(personInfo.id)}>
+      <Box
+        openDetail={!!openDetail}
+        onClick={() => (openDetail ? openDetail(personInfo.id) : {})}
+      >
         <ImgWrapper>
           <CircleWrapper>
             <Circle>
@@ -43,7 +46,7 @@ PersonBox.propTypes = {
 };
 
 const Box = styled.div`
-  cursor: pointer;
+  cursor: ${(props) => (props.openDetail ? "pointer" : "initial")};
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -52,7 +55,7 @@ const Box = styled.div`
 
   &:hover {
     img {
-      transform: scale(1.1);
+      transform: ${(props) => props.openDetail && "scale(1.1)"};
     }
   }
 

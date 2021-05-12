@@ -1,8 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
-import Paragraph from "../components/atoms/Paragraph";
 import Img from "gatsby-image";
-import ContainerWrapper from "../components/atoms/ContainerWrapper";
 import { Consumer } from "../layouts/Context";
 import { cz, en } from "../content/for-public";
 import { H2 } from "../components/atoms/Headings";
@@ -24,6 +22,8 @@ const IndexPage = ({ data }) => {
             <TextWrapper>
               <H2>{data.eventTitle}</H2>
               <div>{data.events.map((i) => i)}</div>
+              <H2>{data.virtualMeadow}</H2>
+              <div>{data.virtualMeadowDescription}</div>
               <H2>{data.documentaryTitle}</H2>
               <div>
                 {data.documentaries.map((i) => (
@@ -39,8 +39,8 @@ const IndexPage = ({ data }) => {
                   <p>{i}</p>
                 ))}
               </div>
-              <H2>{data.popularVideoTitle}</H2>
-              <div>{data.popularVideos}</div>
+              <H2>{data.excursionsTitle}</H2>
+              <div>{data.excursionesDescriptions}</div>
             </TextWrapper>
             <ImgWrapper>{imgs.map((img) => img)}</ImgWrapper>
           </Wrapper>

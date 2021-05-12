@@ -1,5 +1,6 @@
 import React from "react";
 import { ALink } from "../components/atoms/StyledLink";
+import { Link } from "gatsby";
 
 export const generalEn = {
   id: "Identifikační kód projektu: ",
@@ -46,7 +47,11 @@ export const actualCz = [
     id: " GA20-09895S",
     finance: "Grantová agentura ČR",
     period: "01/2020–12/2022",
-    mainResearcher: "Jan Roleček",
+    mainResearcher: (
+      <Link to="/people/" state={{ person: "rolecek" }}>
+        Jan Roleček
+      </Link>
+    ),
     coResearchers:
       "Pavel Šamonil (Výzkumný ústav Silva Taroucy pro krajinu a okrasné zahradnictví, v.v.i.), Michal Hájek (Masarykova univerzita, Přírodovědecká fakulta)",
     teamMembers:
@@ -77,7 +82,11 @@ export const actualEn = [
     id: " GA20-09895S",
     finance: "Grantová agentura ČR",
     period: "01/2020–12/2022",
-    mainResearcher: "Jan Roleček",
+    mainResearcher: (
+      <Link to="/people/" state={{ person: "rolecek" }}>
+        Jan Roleček
+      </Link>
+    ),
     coResearchers:
       "Pavel Šamonil (Výzkumný ústav Silva Taroucy pro krajinu a okrasné zahradnictví, v.v.i.), Michal Hájek (Masarykova univerzita, Přírodovědecká fakulta)",
     teamMembers:
@@ -96,8 +105,15 @@ export const completedCz = [
     period: "01/2017–12/2019",
     mainResearcherF:
       "Dagmar Dreslerová (Archeologický ústav AV ČR, Praha, v.v.i.)",
-    coResearchers:
-      "Helena Svitavská Svobodová (Botanický ústav, AV ČR), Vojtěch Abraham (Univerzita Karlova, Přírodovědecká fakulta)",
+    coResearchers: (
+      <span>
+        <Link to="/people/" state={{ person: "svitavska" }}>
+          Helena Svitavská Svobodová
+        </Link>{" "}
+        (Botanický ústav, AV ČR), Vojtěch Abraham (Univerzita Karlova,
+        Přírodovědecká fakulta)
+      </span>
+    ),
     teamMembers: "Helena Svitavská Svobodová, Přemysl Bobek, Irena Krausová",
     description:
       "Pro projekt se stal klíčovým unikátní objev laténské lokality v montánní oblasti Šumavy. Rašeliniště v její blízkosti bude detailně vyhodnoceno paleoekologickými metodami pylové, makrozbytkové a mikrouhlíkové analýzy a poskytne informace o přírodním prostředí keltského osídlení. Modelovacími metodami kvantifikace krajiny REVEALS a LOVE bude z pylových záznamů odvozena zdrojová oblast šíření pylu s důrazem na původ antropogenních indikátorů. K historii vývoje vegetace se využije dalších již dříve analyzovaných 17 palynologických profilů, které budou radiokarbonově datovány a podrobeny detailní pylové analýze s vysokým stupněm rozlišení pro evidenci časového horizontu od 500 BC po přelom letopočtu. Cílem projektu je objasnění lidské činnosti a jejího vlivu na vývoj a diverzitu lesů na Šumavě.",
@@ -107,7 +123,11 @@ export const completedCz = [
     id: "GA16-10100S",
     finance: "Grantová agentura ČR",
     period: "01/2016–12/2018",
-    mainResearcher: "Jan Roleček",
+    mainResearcher: (
+      <Link to="/people/" state={{ person: "rolecek" }}>
+        Jan Roleček
+      </Link>
+    ),
     coResearchers:
       "Vojtěch Abraham (Univerzita Karlova, Přírodovědecká fakulta)",
     teamMembers:
@@ -121,7 +141,14 @@ export const completedCz = [
     id: "FP 72007-2013, INTERACT grant agreement 262693",
     finance: "Interact Transnational Access, European commission",
     period: "05/2014–12/2020",
-    mainResearcherF: "Helena Svitavská Svobodová (Botanický ústav AV ČR)",
+    mainResearcherF: (
+      <span>
+        <Link to="/people/" state={{ person: "svitavska" }}>
+          Helena Svitavská Svobodová
+        </Link>
+        (Botanický ústav AV ČR)
+      </span>
+    ),
     teamMembers: "Helena Svitavská Svobodová, Přemysl Bobek",
     description:
       "Cílem projektu bylo srovnání ročních pylových depozic tak, jak jsou zaznamenávány v pylových pastech, s mapovanou vegetací tundry na severo-jižním gradientu of Krkonoš k tundře s nejsevernějším výskytem stromů v Abisku až po bezlesou arktickou tundru na Svalbardu (Svalbard; garantovano z jiného zdroje). Pylový monitoring ročních pylových pastí v Krkonoších, který začal před 20 lety, je významný pro pochopení pylových depozic v tundře. Tundrové depozice jsou vsak v podmínkách Krkonoš ovlivněny sousedícími temperátními lesy. Dvě pylové pasti byly v Abisku instalovány již před pěti lety. Známé pylové depozice ze všech lokalit budou srovnány s mapovanou vegetací pro 1) zjištění pylových depozic v tundře v rozdílných regionech Evropy, 2) rozlišení regionálních depozic a pylu přinášeného z větších vzdáleností a 3) pro interpretaci fosilních pozdně glaciálních pylových spekter.",
@@ -192,7 +219,11 @@ export const completedCz = [
     finance: "Grantová agentura akademie věd České republiky",
     period: "2012–2015",
     mainResearcher: "Petr Kuneš (Přírodovědecká fakulta Univerzita Karlova)",
-    coResearcher: "Jan Roleček",
+    coResearcher: (
+      <Link to="/people/" state={{ person: "rolecek" }}>
+        Jan Roleček
+      </Link>
+    ),
     teamMembers:
       "Přemysl Bobek, Lydie Dudová, Barbora Obstová, Radim Hédl, Eva Jamrichová, Martin Kopecký, Dušan Lekeš, Zuzana Plesková, Jan Roleček, Péter Szabó",
     description:
@@ -232,8 +263,15 @@ export const completedEn = [
     period: "01/2017–12/2019",
     mainResearcherF:
       "Dagmar Dreslerová (Archeologický ústav AV ČR, Praha, v.v.i.)",
-    coResearchers:
-      "Helena Svitavská Svobodová (Botanický ústav, AV ČR), Vojtěch Abraham (Univerzita Karlova, Přírodovědecká fakulta)",
+    coResearchers: (
+      <span>
+        <Link to="/people/" state={{ person: "svitavska" }}>
+          Helena Svitavská Svobodová
+        </Link>{" "}
+        (Botanický ústav, AV ČR), Vojtěch Abraham (Univerzita Karlova,
+        Přírodovědecká fakulta)
+      </span>
+    ),
     teamMembers: "Helena Svitavská Svobodová, Přemysl Bobek, Irena Krausová",
     description:
       "Pro projekt se stal klíčovým unikátní objev laténské lokality v montánní oblasti Šumavy. Rašeliniště v její blízkosti bude detailně vyhodnoceno paleoekologickými metodami pylové, makrozbytkové a mikrouhlíkové analýzy a poskytne informace o přírodním prostředí keltského osídlení. Modelovacími metodami kvantifikace krajiny REVEALS a LOVE bude z pylových záznamů odvozena zdrojová oblast šíření pylu s důrazem na původ antropogenních indikátorů. K historii vývoje vegetace se využije dalších již dříve analyzovaných 17 palynologických profilů, které budou radiokarbonově datovány a podrobeny detailní pylové analýze s vysokým stupněm rozlišení pro evidenci časového horizontu od 500 BC po přelom letopočtu. Cílem projektu je objasnění lidské činnosti a jejího vlivu na vývoj a diverzitu lesů na Šumavě.",
@@ -243,7 +281,11 @@ export const completedEn = [
     id: "GA16-10100S",
     finance: "Grantová agentura ČR",
     period: "01/2016–12/2018",
-    mainResearcher: "Jan Roleček",
+    mainResearcher: (
+      <Link to="/people/" state={{ person: "rolecek" }}>
+        Jan Roleček
+      </Link>
+    ),
     coResearchers:
       "Vojtěch Abraham (Univerzita Karlova, Přírodovědecká fakulta)",
     teamMembers:
@@ -257,7 +299,14 @@ export const completedEn = [
     id: "FP 72007-2013, INTERACT grant agreement 262693",
     finance: "Interact Transnational Access, European commission",
     period: "05/2014–12/2020",
-    mainResearcherF: "Helena Svitavská Svobodová (Botanický ústav AV ČR)",
+    mainResearcherF: (
+      <span>
+        <Link to="/people/" state={{ person: "svitavska" }}>
+          Helena Svitavská Svobodová
+        </Link>{" "}
+        (Botanický ústav AV ČR)
+      </span>
+    ),
     teamMembers: "Helena Svitavská Svobodová, Přemysl Bobek",
     description:
       "Cílem projektu bylo srovnání ročních pylových depozic tak, jak jsou zaznamenávány v pylových pastech, s mapovanou vegetací tundry na severo-jižním gradientu of Krkonoš k tundře s nejsevernějším výskytem stromů v Abisku až po bezlesou arktickou tundru na Svalbardu (Svalbard; garantovano z jiného zdroje). Pylový monitoring ročních pylových pastí v Krkonoších, který začal před 20 lety, je významný pro pochopení pylových depozic v tundře. Tundrové depozice jsou vsak v podmínkách Krkonoš ovlivněny sousedícími temperátními lesy. Dvě pylové pasti byly v Abisku instalovány již před pěti lety. Známé pylové depozice ze všech lokalit budou srovnány s mapovanou vegetací pro 1) zjištění pylových depozic v tundře v rozdílných regionech Evropy, 2) rozlišení regionálních depozic a pylu přinášeného z větších vzdáleností a 3) pro interpretaci fosilních pozdně glaciálních pylových spekter.",
@@ -328,7 +377,11 @@ export const completedEn = [
     finance: "Grantová agentura akademie věd České republiky",
     period: "2012–2015",
     mainResearcher: "Petr Kuneš (Přírodovědecká fakulta Univerzita Karlova)",
-    coResearcher: "Jan Roleček",
+    coResearcher: (
+      <Link to="/people/" state={{ person: "rolecek" }}>
+        Jan Roleček
+      </Link>
+    ),
     teamMembers:
       "Přemysl Bobek, Lydie Dudová, Barbora Obstová, Radim Hédl, Eva Jamrichová, Martin Kopecký, Dušan Lekeš, Zuzana Plesková, Jan Roleček, Péter Szabó",
     description:

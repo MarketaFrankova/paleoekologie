@@ -25,7 +25,12 @@ const IndexPage = ({ data, location }) => {
         const staffData = int === "en" ? staffEn : staffCz;
         const generalData = int === "en" ? en : cz;
 
-        const researchers = staffData.slice(2, staffData.length);
+        const researchers = staffData.filter(
+          (person) => person.position === "researcher"
+        );
+        const techadm = staffData.filter(
+          (person) => person.position === "techadm"
+        );
         const head = staffData.find((person) => person.position === "head");
         const deputyHead = staffData.find(
           (person) => person.position === "deputy-head"
@@ -72,10 +77,8 @@ const IndexPage = ({ data, location }) => {
                   }
                 />
               </div>
-
               <H3>{generalData.people.researchers}</H3>
               <div />
-
               {researchers.map((person) => {
                 const img = images.find((img) =>
                   img.node.fluid.src.includes(person.id)
@@ -84,6 +87,22 @@ const IndexPage = ({ data, location }) => {
                 return (
                   <PersonBox
                     openDetail={setDetailOpened}
+                    personInfo={person}
+                    key={person.id}
+                    data={generalData}
+                    img={img?.node}
+                  />
+                );
+              })}
+              <div />
+              <H3>{generalData.people.technical}</H3> <div />
+              {techadm.map((person) => {
+                const img = images.find((img) =>
+                  img.node.fluid.src.includes(person.id)
+                );
+
+                return (
+                  <PersonBox
                     personInfo={person}
                     key={person.id}
                     data={generalData}

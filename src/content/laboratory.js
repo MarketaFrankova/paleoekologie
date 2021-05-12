@@ -33,9 +33,10 @@ export const labEn = {
         specifying the requirements for the preparation of the samples can be
         found{" "}
         <a
-          href="http://ekolbrno.ibot.cas.cz/wp-content/uploads/2019/06/cenik-sluzeb-palynologicke-laboratore.pdf"
+          href="/pricelist.pdf"
           target="_blank"
           rel="noopener noreferrer"
+          download
         >
           here
         </a>
@@ -91,9 +92,10 @@ export const labCz = {
         <b>Ceník prací</b> a protokol pro upřesnění požadavků na přípravu vzorků
         pro pylovou analýzu naleznete{" "}
         <a
-          href="http://ekolbrno.ibot.cas.cz/wp-content/uploads/2019/06/cenik-sluzeb-palynologicke-laboratore.pdf"
+          href="/pricelist.pdf"
           target="_blank"
           rel="noopener noreferrer"
+          download
         >
           zde
         </a>
