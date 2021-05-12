@@ -4,14 +4,16 @@ import PropTypes from "prop-types";
 import { StaticQuery, graphql, Link } from "gatsby";
 import Img from "gatsby-image";
 import { H2 } from "../../components/atoms/Headings";
+import { cz, en } from "../../content/research/general";
+
 const windowGlobal = typeof window !== "undefined" && window;
 
-const Research = () => (
+const Research = ({ int }) => (
   <StaticQuery
     query={graphql`
       query {
-        longterm: file(
-          relativePath: { regex: "/research/research-longterm.jpg/" }
+        wetlands: file(
+          relativePath: { regex: "/research/research-wetlands.jpg/" }
         ) {
           childImageSharp {
             fluid(maxWidth: 400, maxHeight: 400) {
@@ -53,8 +55,8 @@ const Research = () => (
             }
           }
         }
-        european: file(
-          relativePath: { regex: "/research/research-european-vegetation.jpg/" }
+        landscape: file(
+          relativePath: { regex: "/research/research-landscape.jpg/" }
         ) {
           childImageSharp {
             fluid(maxWidth: 400, maxHeight: 400) {
@@ -65,6 +67,7 @@ const Research = () => (
       }
     `}
     render={(data) => {
+      const content = int === "en" ? en : cz;
       const getClass = (urlIncludes) => {
         if (
           windowGlobal &&
@@ -77,20 +80,16 @@ const Research = () => (
 
       return (
         <div>
-          <H2>Výzkumné směry</H2>
+          <H2>{content.heading}</H2>
           <ResearchWrapper>
-            <ResearchItem to="/research-european-vegetation/">
-              <ImgWrapper
-                active={getClass("research-european-vegetation") === "active"}
-              >
+            <ResearchItem to="/research-landscape/">
+              <ImgWrapper active={getClass("research-landscape") === "active"}>
                 <Img
-                  fluid={data.european.childImageSharp.fluid}
+                  fluid={data.landscape.childImageSharp.fluid}
                   alt="European vegetation"
                 />
               </ImgWrapper>
-              <ResearchFooter>
-                Dlouhodobý vývoj středoevropské vegetace a krajiny
-              </ResearchFooter>
+              <ResearchFooter>{content.landscape}</ResearchFooter>
             </ResearchItem>
 
             <ResearchItem to="/research-historic/">
@@ -100,21 +99,17 @@ const Research = () => (
                   alt="Historic aspects"
                 />
               </ImgWrapper>
-              <ResearchFooter>
-                Historické aspekty diverzity vegetace
-              </ResearchFooter>
+              <ResearchFooter>{content.historic}</ResearchFooter>
             </ResearchItem>
 
-            <ResearchItem to="/research-longterm/">
-              <ImgWrapper active={getClass("research-longterm") === "active"}>
+            <ResearchItem to="/research-wetlands/">
+              <ImgWrapper active={getClass("research-wetlands") === "active"}>
                 <Img
-                  fluid={data.longterm.childImageSharp.fluid}
+                  fluid={data.wetlands.childImageSharp.fluid}
                   alt="Longerm research"
                 />
               </ImgWrapper>
-              <ResearchFooter>
-                Dlouhodobý vývoj mokřadních ekosystémů
-              </ResearchFooter>
+              <ResearchFooter>{content.wetlands}</ResearchFooter>
             </ResearchItem>
 
             <ResearchItem to="/research-fires/">
@@ -124,7 +119,7 @@ const Research = () => (
                   alt="Research Fires"
                 />
               </ImgWrapper>
-              <ResearchFooter>Dlouhodobá požárová dynamika</ResearchFooter>
+              <ResearchFooter>{content.fires}</ResearchFooter>
             </ResearchItem>
 
             <ResearchItem to="/research-pollen-sedimentation/">
@@ -136,9 +131,7 @@ const Research = () => (
                   alt="Research pollen"
                 />
               </ImgWrapper>
-              <ResearchFooter>
-                Dynamika recentních pylových spadů
-              </ResearchFooter>
+              <ResearchFooter>{content.pollenSedimentation}</ResearchFooter>
             </ResearchItem>
 
             <ResearchItem to="/research-algal/">
@@ -148,7 +141,7 @@ const Research = () => (
                   alt="Research algal"
                 />
               </ImgWrapper>
-              <ResearchFooter>Řasové bioindikátory</ResearchFooter>
+              <ResearchFooter>{content.algal}</ResearchFooter>
             </ResearchItem>
           </ResearchWrapper>
         </div>
@@ -181,7 +174,8 @@ const ResearchItem = styled(Link)`
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  box-shadow: 1px 2px 15px #eee;
+  box-shadow: 2px 5px 15px #eee;
+  border: 1px solid black;
   flex: 1 1 auto;
   cursor: pointer;
   text-decoration: none;
@@ -203,6 +197,7 @@ const ImgWrapper = styled.div`
 const ResearchFooter = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
   flex: 1;
   border-top: 1px solid light-grey;
   background-color: white;
@@ -210,5 +205,5 @@ const ResearchFooter = styled.div`
   text-align: center;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
-  color: ${(props) => props.theme.grey};
+  color: ${(props) => props.theme.black};
 `;

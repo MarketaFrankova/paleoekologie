@@ -1,6 +1,4 @@
 import React from "react";
-import Paragraph from "../components/atoms/Paragraph";
-import ContainerWrapper from "../components/atoms/ContainerWrapper";
 import { Consumer } from "../layouts/Context";
 import { labCz, labEn } from "../content/laboratory";
 import { H2 } from "../components/atoms/Headings";
@@ -26,12 +24,7 @@ const IndexPage = ({ data }) => {
               <H2> {content.title}</H2>
               {content.description}
             </TextWrapper>
-            <ImgWrapper>
-              {imgs[0]}
-              {imgs[1]}
-              {imgs[2]}
-              {imgs[3]}
-            </ImgWrapper>
+            <ImgWrapper>{imgs.map((img) => img)}</ImgWrapper>
           </LaboratoryWrapper>
         );
       }}

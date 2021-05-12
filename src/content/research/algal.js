@@ -3,22 +3,21 @@ import { H2, H3 } from "../../components/atoms/Headings";
 import Publication from "../../components/atoms/Publication";
 export const en = (
   <Fragment>
-    <H2>Řasové bioindikátory</H2>
+    <H2>Algal biondicators</H2>
     <div align="justify">
       <p>
-        Kromě pylů studuje paleoekologie a archeobotanika také takzvané nepylové
-        objekty – "Non-Pollen Palynomorphs", z nichž mezi nejvýznamnější patří
-        řasy, zejména rozsivky.
+        Besides pollen, paleoecology and archeobotany also study so-called non
+        pollen objects (non-pollen palynomorphs, NPPs). One of the most
+        important non-pollen objects are algae, especially diatoms.
       </p>
       <p>
-        Rozsivky jsou nejrozmanitější a nejrozšířenější skupinou řas s dvanácti
-        tisíci popsanými a až dvěma miliony odhadovanými druhy. Pro své
-        specifické nároky na prostředí se využívají jako bioindikátory.
-        Křemičité schránky těchto mikroskopických jednobuněčných řas, které se v
-        paleoekologických sedimentech uchovávají tisíce let, vypovídají o
-        charakteru dávného prostředí (pH, konduktivitě, salinitě, obsahu živin
-        či kolísání vodní hladiny) a jeho vývoji (eutrofizaci, acidifikaci či
-        oteplování).
+        Diatoms are the most diverse protists with 20,000 described and up to 2
+        millions estimated species. Paleoecological sediments contain diatom
+        frustules (silicified cell walls) of various shapes and ornamentation
+        serving as identification features. Besides, different diatom species
+        have distinct environmental requirements (pH, conductivity, salinity,
+        nutrient concentration, water elevation) which predestinates them for
+        bioindication and reconstruction of paleoenvironment.
       </p>
       <p>
         Další skupinou řas využívanou v bioindikaci jsou chlorokokální zelené
@@ -29,25 +28,34 @@ export const en = (
         (určovacích pomůcek a článků) týkajících se této problematiky.
       </p>
       <p>
-        Jak je již zmíněno výše, řasové proxy využíváme k postihnutí změn v
-        různých typech mokřadních společenstev (rašeliniště, jezera,
-        prameniště), ale také v archeologických kontextech.
+        Green coccal algae are another algal group serving for bioindication
+        purposes. These algae (such as <i>Pediastrum</i>), occurr in limnic
+        sediments of the "gyttja" type, but also in fishpond sediments and
+        recent phytoplankton. During many years of paleoecological and
+        phycological research, several identification compendia and important
+        articles dealing with this issue were elaborated at the Institute of
+        Botany used by international paleoecological and phycological community.
       </p>
       <p>
-        Protože klíčem k pochopení minulosti je stadium současných společenstev
-        a naopak, věnujeme se rovněž studiu recentních řas z různých typů
-        sladkovodních biotopů, jako jsou prameniště, řeky, jezera, rybníky a
-        rašeliniště. Věnujeme se taxonomii, přípravě determinačních pomůcek,
-        metodik a ekologických studií týkajících se vlivu prostorových,
-        environmentálních a časových faktorů na společenstva řas. Detailněji se
-        zaměřujeme na vztah mezi epifytickými rozsivkami a jejich hostitelskými
-        rostlinami. Pro tyto účely využíváme náš stolní rastrovací elektronový
-        mikroskop Phenom ProX.
+        Fossil algae are very good indicators of environmental changes in the
+        past in various types of wetland communities, e.g. peatbogs, lakes,
+        fihponds, springs, but also in archaeologcal contexts.
+      </p>
+      <p>
+        Because the key to understanding the past is knowledge of recent
+        communities and their demands on the environment, we also study recent
+        algae from various types of freshwater habitats such as springs, rivers,
+        fishponds and wetlands. We deal with taxonomy and ecology and prepare
+        identification tools, methodologies and ecological studies on influence
+        of spatial, environmental and temporal factors on microalgal
+        communities. We also study the relationship between epiphytic diatoms
+        and the macrophytes hosting them. For these purposes we use
+        environmental scanning electrone microscope Phenom ProX.
       </p>
     </div>
-    <H3 green>Lidé zapojení do výzkumu</H3>
+    <H3 green>Involved people:</H3>
     <p>Markéta Fránková, Vlasta Jankovská</p>
-    <H3 green>Výběr nejdůležitějších publikací:</H3>
+    <H3 green>VList of selected publications:</H3>
     <Publication>
       Goláňová P., Hajnalová M., Lisá L., Milo P., Petr L.,{" "}
       <b>

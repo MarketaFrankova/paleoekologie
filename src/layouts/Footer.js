@@ -70,6 +70,9 @@ const Container = styled.div`
   flex-wrap: wrap;
   margin: 1em auto 0;
   height: 100%;
+  @media (min-width: 1200px) {
+    margin: 4em auto 0;
+  }
 `;
 
 const FooterSection = styled.div`

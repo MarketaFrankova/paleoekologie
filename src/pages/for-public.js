@@ -42,13 +42,7 @@ const IndexPage = ({ data }) => {
               <H2>{data.popularVideoTitle}</H2>
               <div>{data.popularVideos}</div>
             </TextWrapper>
-            <ImgWrapper>
-              {imgs[0]}
-              {imgs[1]}
-              {imgs[2]}
-              {imgs[3]}
-              {imgs[4]}
-            </ImgWrapper>
+            <ImgWrapper>{imgs.map((img) => img)}</ImgWrapper>
           </Wrapper>
         );
       }}

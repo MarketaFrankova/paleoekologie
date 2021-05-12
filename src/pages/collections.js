@@ -30,13 +30,7 @@ const IndexPage = ({ data }) => {
                 {data.profile.description}
               </div>
             </TextWrapper>
-            <ImgWrapper>
-              {imgs[0]}
-              {imgs[1]}
-              {imgs[2]}
-              {imgs[3]}
-              {imgs[4]}
-            </ImgWrapper>
+            <ImgWrapper>{imgs.map((img) => img)}</ImgWrapper>
           </CollectionsWrapper>
         );
       }}

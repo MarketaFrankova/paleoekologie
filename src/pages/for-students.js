@@ -47,17 +47,7 @@ const IndexPage = ({ data }) => {
                 </div>
               </div>
             </TextWrapper>
-            <ImgWrapper>
-              {imgs[0]}
-              {imgs[1]}
-              {imgs[2]}
-              {imgs[3]}
-              {imgs[4]}
-              {imgs[5]}
-              {imgs[6]}
-              {imgs[7]}
-              {imgs[8]}
-            </ImgWrapper>
+            <ImgWrapper>{imgs.map((img) => img)}</ImgWrapper>
           </ForStudentsWrapper>
         );
       }}
