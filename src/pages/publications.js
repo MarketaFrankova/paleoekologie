@@ -1,18 +1,27 @@
-import * as React from "react";
+import React from "react";
 import Paragraph from "../components/atoms/Paragraph";
-import ContainerWrapper from "../components/atoms/ContainerWrapper";
+import { Consumer } from "../layouts/Context";
+import { cz, en } from "../content/publications";
+import { H2 } from "../components/atoms/Headings";
 
 const IndexPage = () => {
   return (
-    <ContainerWrapper>
-      <Paragraph>
-        {/*         Za oddělení – chronologicky, publikace afiliované za Paleolab by měly
-        jít přes evaluační databázi (zapsat co nejdříve po přijetí rukopisu),
-        pomocí skriptu se budou automaticky zobrazovat na našem webu (poradit se
-        s Ondrou Vildem) U lidí – přes proklik na Researchgate (nutná
-        aktualizace/instruktáž, abychom měli aktuální) */}
-      </Paragraph>
-    </ContainerWrapper>
+    <Consumer>
+      {({ int }) => {
+        const data = int === "en" ? en : cz;
+        return (
+          <Paragraph>
+            {data.general}
+            {data.years.map((year) => (
+              <H2>{year.year}</H2>
+            ))}
+            {data.years.map((year) => (
+              <div>{year.list}</div>
+            ))}
+          </Paragraph>
+        );
+      }}
+    </Consumer>
   );
 };
 
