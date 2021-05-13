@@ -7,7 +7,7 @@ export const en = {
   highSchoolDescription: (
     <span>
       Poznáváme minulost naší přírody. Chcete se k nám přidat? Koukněte na naši
-      nabídku stáží pro středoškoláky{" "}
+      nabídku stáží pro středoškoláky&nbsp;
       <ALink href="https://www.ibot.cas.cz/cs/otevrena-veda/">
         Otevřená věda
       </ALink>
@@ -38,8 +38,8 @@ export const en = {
         <span>
           <Link to="/people/" state={{ person: "jamrichova" }}>
             Eva Jamrichová
-          </Link>{" "}
-          a{" "}
+          </Link>
+          &nbsp; a&nbsp;
           <Link to="/people/" state={{ person: "dudova" }}>
             Lydie Dudová
           </Link>
@@ -126,7 +126,7 @@ export const cz = {
   highSchoolDescription: (
     <span>
       Poznáváme minulost naší přírody. Chcete se k nám přidat? Koukněte na naši
-      nabídku stáží pro středoškoláky{" "}
+      nabídku stáží pro středoškoláky&nbsp;
       <ALink href="https://www.ibot.cas.cz/cs/otevrena-veda/">
         Otevřená věda
       </ALink>
@@ -157,8 +157,8 @@ export const cz = {
         <span>
           <Link to="/people/" state={{ person: "jamrichova" }}>
             Eva Jamrichová
-          </Link>{" "}
-          a{" "}
+          </Link>
+          &nbsp; a&nbsp;
           <Link to="/people/" state={{ person: "dudova" }}>
             Lydie Dudová
           </Link>

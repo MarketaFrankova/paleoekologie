@@ -57,7 +57,7 @@ export const en = (
     <p>Markéta Fránková, Vlasta Jankovská</p>
     <H3 green>VList of selected publications:</H3>
     <Publication>
-      Goláňová P., Hajnalová M., Lisá L., Milo P., Petr L.,{" "}
+      Goláňová P., Hajnalová M., Lisá L., Milo P., Petr L.,&nbsp;
       <b>
         <b>Fránková M.</b>
       </b>
@@ -100,9 +100,9 @@ export const en = (
       representation of species complexes. – Fottea 15 (2): 259–271.
     </Publication>
     <Publication>
-      Lenarczyk J., Kołaczek P.,{" "}
+      Lenarczyk J., Kołaczek P.,&nbsp;
       <b>
-        {" "}
+        &nbsp;
         <b>Jankovská V.</b>
       </b>
       , Turner F., Karpińska-Kołaczek M., Pini R., Pędziszewska A., Zimny M.,
@@ -228,7 +228,7 @@ export const cz = (
     <p>Markéta Fránková, Vlasta Jankovská</p>
     <H3 green>Výběr nejdůležitějších publikací:</H3>
     <Publication>
-      Goláňová P., Hajnalová M., Lisá L., Milo P., Petr L.,{" "}
+      Goláňová P., Hajnalová M., Lisá L., Milo P., Petr L.,&nbsp;
       <b>
         <b>Fránková M.</b>
       </b>
@@ -271,9 +271,9 @@ export const cz = (
       representation of species complexes. – Fottea 15 (2): 259–271.
     </Publication>
     <Publication>
-      Lenarczyk J., Kołaczek P.,{" "}
+      Lenarczyk J., Kołaczek P.,&nbsp;
       <b>
-        {" "}
+        &nbsp;
         <b>Jankovská V.</b>
       </b>
       , Turner F., Karpińska-Kołaczek M., Pini R., Pędziszewska A., Zimny M.,

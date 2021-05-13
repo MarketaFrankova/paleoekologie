@@ -22,7 +22,7 @@ export const labEn = {
           <li>Macroscopic charcoal</li>
           <li>Plant macroremains</li>
           <li>
-            Organisms of groups <i>Cladocera</i>, <i>Chironomidae</i>,{" "}
+            Organisms of groups <i>Cladocera</i>, <i>Chironomidae</i>,&nbsp;
             <i>Diatomae</i> and <i>Testate amoebae</i>)
           </li>
         </ul>
@@ -31,7 +31,7 @@ export const labEn = {
         We perform analyses also for colleagues from other institutions
         (external contracts): the price list of the works and protocol
         specifying the requirements for the preparation of the samples can be
-        found{" "}
+        found&nbsp;
         <a
           href="/pricelist.pdf"
           target="_blank"
@@ -44,15 +44,15 @@ export const labEn = {
       </p>
       <p>
         The laboratory has two workplaces: in Brno and Průhonice. If you are
-        interested, <b>contact</b>{" "}
+        interested, <b>contact</b>&nbsp;
         <Link to="/people/" state={{ person: "frankova" }}>
           Markéta Fránková
-        </Link>{" "}
-        (in Brno) or{" "}
+        </Link>
+        &nbsp; (in Brno) or&nbsp;
         <Link to="/people/" state={{ person: "bobek" }}>
           Přemysl Bobek
-        </Link>{" "}
-        (in Průhonice)
+        </Link>
+        &nbsp; (in Průhonice)
       </p>
     </div>
   ),
@@ -81,7 +81,8 @@ export const labCz = {
           <li>makroskopických uhlíků</li>
           <li>rostlinných makrozbytků</li>
           <li>
-            rozsivek (organismů skupin <i>Cladocera</i>, <i>Chironomidae</i>,{" "}
+            rozsivek (organismů skupin <i>Cladocera</i>, <i>Chironomidae</i>
+            ,&nbsp;
             <i>Diatomae</i> a <i>Testate amoebae</i>)
           </li>
         </ul>
@@ -90,7 +91,7 @@ export const labCz = {
         Laboratorní přípravu vzorků a paleoekologické analýzy provádíme i pro
         zájemce z jiných institucí (externí zakázky). <br />
         <b>Ceník prací</b> a protokol pro upřesnění požadavků na přípravu vzorků
-        pro pylovou analýzu naleznete{" "}
+        pro pylovou analýzu naleznete&nbsp;
         <a
           href="/pricelist.pdf"
           target="_blank"
@@ -102,16 +103,16 @@ export const labCz = {
         .
       </p>
       <p>
-        Laboratoř má dvě pracoviště: v Brně a Průhonicích. V případě zájmu{" "}
-        <b>kontaktujte</b>{" "}
+        Laboratoř má dvě pracoviště: v Brně a Průhonicích. V případě zájmu&nbsp;
+        <b>kontaktujte</b>&nbsp;
         <Link to="/people/" state={{ person: "frankova" }}>
           Markétu Fránkovou
-        </Link>{" "}
-        (v Brně) nebo{" "}
+        </Link>
+        &nbsp; (v Brně) nebo&nbsp;
         <Link to="/people/" state={{ person: "bobek" }}>
           Přemysla Bobka
-        </Link>{" "}
-        (v Průhonicích)
+        </Link>
+        &nbsp; (v Průhonicích)
       </p>
     </div>
   ),

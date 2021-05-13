@@ -18,15 +18,15 @@ export const en = {
         pollen alergens or honey pollen, the utilisation of our collection is
         not convenient. The pollen mount collection is located in Brno and
         Průhonice and open for public use, but only at our workplace. If you are
-        interested, please contact{" "}
+        interested, please contact&nbsp;
         <Link to="/people/" state={{ person: "dudova" }}>
           Lydie Dudová
-        </Link>{" "}
-        (Brno) or{" "}
+        </Link>
+        &nbsp; (Brno) or&nbsp;
         <Link to="/people/" state={{ person: "svitavska" }}>
           Helena Svitavská
-        </Link>{" "}
-        (Průhonice).
+        </Link>
+        &nbsp; (Průhonice).
       </p>
     ),
   },
@@ -43,7 +43,7 @@ export const en = {
         material from soil samples (living seeds; soil seed bank) as well as
         from fossil sediments. Our aim is reconstruction of species composition
         from both resources. The collection is open for public use, please
-        contracts{" "}
+        contracts&nbsp;
         <Link to="/people/" state={{ person: "hajkova" }}>
           Petra Hájková
         </Link>
@@ -60,7 +60,7 @@ export const en = {
         were sampled and stored, consequently. Altogether, it consists several
         dozens of the sites untouched by paleoecological methods until now. The
         collection is under the digitalization process. If you are interested,
-        please contact{" "}
+        please contact&nbsp;
         <Link to="/people/" state={{ person: "svitavska" }}>
           Helena Svitavská
         </Link>
@@ -89,15 +89,16 @@ export const cz = {
         </p>
         <p>
           Sbírka se nachází v Brně a v Průhonicích a je možné s ní pracovat
-          pouze prezenčně. Pokud máte zájem o práci se sbírkou, kontaktujte{" "}
+          pouze prezenčně. Pokud máte zájem o práci se sbírkou,
+          kontaktujte&nbsp;
           <Link to="/people/" state={{ person: "dudova" }}>
             Lydii Dudovou
-          </Link>{" "}
-          (Brno) nebo{" "}
+          </Link>
+          &nbsp; (Brno) nebo&nbsp;
           <Link to="/people/" state={{ person: "svitavska" }}>
             Helenu Svobodovou Svitavskou
-          </Link>{" "}
-          (Průhonice).
+          </Link>
+          &nbsp; (Průhonice).
         </p>
       </>
     ),
@@ -115,7 +116,7 @@ export const cz = {
         recentních rostlinných zbytků ze vzorků půdy (živá semena, semenná
         banka) i subfosilních zbytků z organických sedimentů. Cílem je
         rekonstrukce druhového složení vegetace z obou zdrojů. Se sbírkou lze po
-        dohodě prezenčně pracovat, kontaktujte{" "}
+        dohodě prezenčně pracovat, kontaktujte&nbsp;
         <Link to="/people/" state={{ person: "hajkova" }}>
           Petru Hájkovou
         </Link>

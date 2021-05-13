@@ -109,8 +109,8 @@ export const completedCz = [
       <span>
         <Link to="/people/" state={{ person: "svitavska" }}>
           Helena Svitavská Svobodová
-        </Link>{" "}
-        (Botanický ústav, AV ČR), Vojtěch Abraham (Univerzita Karlova,
+        </Link>
+        &nbsp; (Botanický ústav, AV ČR), Vojtěch Abraham (Univerzita Karlova,
         Přírodovědecká fakulta)
       </span>
     ),
@@ -173,7 +173,7 @@ export const completedCz = [
       <>
         <i>Historical ecology</i>: Péter Szabó, Jan Kolář, Martin Kotačka, Lucie
         Křížová, Silvie Suchánková. <i>Palaeoecology</i>: Petr Kuneš, Lydie
-        Dudová, Eva Jamrichová, Helena Svitavská Svobodová.{" "}
+        Dudová, Eva Jamrichová, Helena Svitavská Svobodová.&nbsp;
         <i>Vegetation ecology</i>: Radim Hédl, Martin Kopecký, Martin Macek,
         Ondřej Vild. <i>GIS</i>: Jana Müllerová, Martin Kopecký, Martin Macek
         (also Vegetation ecology group)
@@ -267,8 +267,8 @@ export const completedEn = [
       <span>
         <Link to="/people/" state={{ person: "svitavska" }}>
           Helena Svitavská Svobodová
-        </Link>{" "}
-        (Botanický ústav, AV ČR), Vojtěch Abraham (Univerzita Karlova,
+        </Link>
+        &nbsp; (Botanický ústav, AV ČR), Vojtěch Abraham (Univerzita Karlova,
         Přírodovědecká fakulta)
       </span>
     ),
@@ -303,8 +303,8 @@ export const completedEn = [
       <span>
         <Link to="/people/" state={{ person: "svitavska" }}>
           Helena Svitavská Svobodová
-        </Link>{" "}
-        (Botanický ústav AV ČR)
+        </Link>
+        &nbsp; (Botanický ústav AV ČR)
       </span>
     ),
     teamMembers: "Helena Svitavská Svobodová, Přemysl Bobek",
@@ -331,7 +331,7 @@ export const completedEn = [
       <>
         <i>Historical ecology</i>: Péter Szabó, Jan Kolář, Martin Kotačka, Lucie
         Křížová, Silvie Suchánková. <i>Palaeoecology</i>: Petr Kuneš, Lydie
-        Dudová, Eva Jamrichová, Helena Svitavská Svobodová.{" "}
+        Dudová, Eva Jamrichová, Helena Svitavská Svobodová.&nbsp;
         <i>Vegetation ecology</i>: Radim Hédl, Martin Kopecký, Martin Macek,
         Ondřej Vild. <i>GIS</i>: Jana Müllerová, Martin Kopecký, Martin Macek
         (also Vegetation ecology group)

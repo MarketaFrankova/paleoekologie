@@ -10,12 +10,12 @@ export const cz = [
         Letos jsme se poprvé zapojili do <b>Dnů elektronové mikroskopie</b>,
         které každoročně probíhají v Mekce elektronové mikroskopie – Brně. Tento
         ročník proběhl z důvodu pandemie čínského koronaviru převážně online a
-        to na webu:{" "}
+        to na webu:&nbsp;
         <ALink href="https://dem.brno.cz/">
           Dny elektronové mikroskopie v Brně | 14. – 18. 4. 2021 (brno.cz).
-        </ALink>{" "}
-        Do programu jsme přispěli videi o pylech (web BÚ/Veřejnost/Vzdělávání )
-        a přednáškou nazvanou{" "}
+        </ALink>
+        &nbsp; Do programu jsme přispěli videi o pylech (web
+        BÚ/Veřejnost/Vzdělávání ) a přednáškou nazvanou&nbsp;
         <b>Výzkum rozsivek s využitím elektronového mikroskopu</b>, kterou
         naživo přednesla naše kolegyně Markéta Fránková a její středoškolští
         stážisté z Otevřené vědy.
@@ -61,12 +61,12 @@ export const cz = [
           minulosti. Při hledání takových situací opakovaně navštívila oblasti
           arktického Ruska. Předpověděla možnost existence moderních analogií
           pozdně glaciální střední Evropy, nacházejících se na jižní Sibiři. To
-          nastartovalo rozsáhlý{" "}
+          nastartovalo rozsáhlý&nbsp;
           <ALink href="https://www.ibot.cas.cz/cs/verejnost/vzdelavani/">
             výzkum moderních analogií
-          </ALink>{" "}
-          glaciální a postglaciální vegetace pod vedením prof. Milana Chytrého,
-          včetně mnoha expedic na Sibiř.
+          </ALink>
+          &nbsp; glaciální a postglaciální vegetace pod vedením prof. Milana
+          Chytrého, včetně mnoha expedic na Sibiř.
         </p>
         <p>
           Po roce 1989 se doktorka V. Jankovská intenzivně zapojila do výuky na
@@ -93,11 +93,11 @@ export const cz = [
         </p>
         <p>Kolegyně a kolegové z Botanického ústavu.</p>
         <p>
-          Přečtěte si zajímavý{" "}
+          Přečtěte si zajímavý&nbsp;
           <ALink href="http://ekolbrno.ibot.cas.cz/wp-content/uploads/2014/12/2014-Vlasta-Jankovska-Ziva.pdf">
             rozhovor
-          </ALink>{" "}
-          Petra Kuneše s Vlastou Jankovskou. Vlasta je také na{" "}
+          </ALink>
+          &nbsp; Petra Kuneše s Vlastou Jankovskou. Vlasta je také na&nbsp;
           <ALink href="https://cs.wikipedia.org/wiki/Vlasta_Jankovsk%C3%A1">
             wikipedii
           </ALink>
@@ -113,7 +113,8 @@ export const cz = [
       <>
         <p>
           Vědci Oddělení paleoekologie jako první kvantifikují regionální
-          rozdíly v diverzitě rostlin od konce doby ledové aneb náš nový článek{" "}
+          rozdíly v diverzitě rostlin od konce doby ledové aneb náš nový
+          článek&nbsp;
           <i>
             Holocene plant diversity dynamics show a distinct biogeographical
             pattern in temperate Europe.
@@ -124,10 +125,10 @@ export const cz = [
           UK přinesli odpověď na otázku, jak se vyvíjela středoevropská
           biodiverzita od konce doby ledové. Analýzou fosilního pylu dokázali
           rekonstruovat její změny v oblastech s různými přírodními podmínkami a
-          různou historií osídlení člověkem, a{" "}
+          různou historií osídlení člověkem, a&nbsp;
           <b>jako první je přesněji kvantifikovali</b>. Výsledky jejich studie
           byly publikovány v předním mezinárodním časopise Journal of
-          Biogeography.{" "}
+          Biogeography.&nbsp;
           <ALink href="https://www.ibot.cas.cz/cs/2021/03/16/vedci-botanickeho-ustavu-jako-prvni-kvantifikuji-regionalni-rozdily-v-diverzite-rostlin-od-konce-doby-ledove/">
             Více zde
           </ALink>

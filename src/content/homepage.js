@@ -7,7 +7,7 @@ export const en = (
     <H2>About us</H2>
     <div align="justify">
       <p>
-        The Department of Paleoecology deals with{" "}
+        The Department of Paleoecology deals with&nbsp;
         <Simplelink to="/research">research</Simplelink> of long-term dynamics
         of vegetation and its natural environment. We focus mainly on the period
         of the Last Glacial and the Holocene, i.e. past 15 000 years. We use
@@ -18,20 +18,20 @@ export const en = (
         objects are most often found in organic sediments – unique natural
         archives. Moreover, we have an extensive dataset from our pollen
         monitoring network allowing us to precisely interpret fossil pollen
-        records. Samples for analyses are prepared in our{" "}
+        records. Samples for analyses are prepared in our&nbsp;
         <Simplelink to="/laboratory">laboratories</Simplelink>. When
-        identifying, we use our{" "}
+        identifying, we use our&nbsp;
         <Simplelink to="/collections">collections</Simplelink> of pollen and
         seeds as a comparative material.
       </p>
       <p>
         Even though we have been operating as an independent department since
         2021 at our workplaces in Brno and Průhonice, paleoecology has a
-        continuous{" "}
+        continuous&nbsp;
         <ALink href="http://ekolbrno.ibot.cas.cz/historie/">tradition</ALink>of
         60 years at the Institute of Botany. Our interdisciplinary research is
         also focused on the connection of paleoecological records with data on
-        recent ecosystems, therefore we cooperate especially with the{" "}
+        recent ecosystems, therefore we cooperate especially with the&nbsp;
         <ALink href="http://ekolbrno.ibot.cas.cz/">
           Department of Vegetation Ecology
         </ALink>
@@ -50,7 +50,7 @@ export const cz = (
     <H2>O nás</H2>
     <div align="justify">
       <p>
-        Oddělení paleoekologie se zabývá{" "}
+        Oddělení paleoekologie se zabývá&nbsp;
         <Simplelink to="/research">výzkumem</Simplelink> dlouhodobé dynamiky
         vegetace a přírodního prostředí. Zaměřujeme se zejména na období pozdní
         doby ledové a holocénu, tedy posledních 15 tisíc let. Využíváme
@@ -62,19 +62,19 @@ export const cz = (
         přírodních archivech. Zároveň disponujeme rozsáhlým souborem dat z
         monitoringu současného pylového spadu, který využíváme pro přesnější
         interpretaci fosilního pylového záznamu. Vzorky určené k analýzám jsou
-        připravovány v našich{" "}
+        připravovány v našich&nbsp;
         <Simplelink to="/laboratory">laboratořích</Simplelink>. Při determinaci
         využíváme naše <Simplelink to="/collections">sbírky</Simplelink> pylů a
         semen jako srovnávací materiál.
       </p>
       <p>
         Paleoekologický výzkum má na Botanickém ústavu nepřetržitou
-        šedesátiletou{" "}
+        šedesátiletou&nbsp;
         <ALink href="http://ekolbrno.ibot.cas.cz/historie/">tradici</ALink>.
         Jako samostatné oddělení fungujeme až od roku 2021 na pracovištích v
         Brně a Průhonicích. Náš interdisciplinární výzkum je zaměřen i na
         propojení paleoekologických záznamů s údaji o recentních ekosystémech,
-        přičemž spolupracujeme zejména s{" "}
+        přičemž spolupracujeme zejména s&nbsp;
         <ALink href="http://ekolbrno.ibot.cas.cz/">
           Oddělením vegetační ekologie (BÚ AV ČR)
         </ALink>

@@ -13,14 +13,14 @@ export const staffEn = [
           Markéta Fránková studied Botany and Upper Secondary School Teacher
           Training in Biology at the Faculty of Science, Masaryk University in
           Brno. She completed her Ph.D. studies in Botany by defence of the
-          thesis{" "}
+          thesis&nbsp;
           <i>
             Ecology and taxonomy of diatoms of Western Carpathian spring fens
-          </i>{" "}
-          in 2010. She works at the Institute of Botany since 2006. She focuses
-          on ecology and taxonomy of diatoms in freshwater ecosystems and water
-          quality evaluation based on algal indicators. She started with
-          phytobenthos of oligotrophic freshwater habitats. Nowadays she
+          </i>
+          &nbsp; in 2010. She works at the Institute of Botany since 2006. She
+          focuses on ecology and taxonomy of diatoms in freshwater ecosystems
+          and water quality evaluation based on algal indicators. She started
+          with phytobenthos of oligotrophic freshwater habitats. Nowadays she
           collaborates with Mgr. Kateřina Šumberová, Ph.D. from the Departmet of
           Vegetation ekology on the research of epiphytic diatom communities in
           fishponds and wetlands on arable land. She also deals with diatoms
@@ -166,15 +166,15 @@ export const staffEn = [
           shape. I use geometric morphometric techniques to analyse shape of
           phytoliths and disentangle these relationships. Currently, I apply
           phytolith analysis to test the Holocene continuity of species-rich
-          forest-steppe ecosystems within{" "}
+          forest-steppe ecosystems within&nbsp;
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="http://ekolbrno.ibot.cas.cz/en/biodiverzita-historie-disturbanci-a-pudni-pamet-testovani-holocenni-kontinuity-druhove-bohatych-lesostepnich-ekosystemu/"
           >
             project of my colleagues
-          </a>{" "}
-          (Jan Roleček et al.).
+          </a>
+          &nbsp; (Jan Roleček et al.).
         </p>
       </>
     ),
@@ -420,8 +420,8 @@ export const staffCz = [
           zaměřením na botaniku a Učitelství biologie pro střední školy na Přf
           MU v Brně. Doktorské studium ukončila v roce 2010 obhájením práce
           <i>
-            {" "}
-            Ecology and taxonomy of diatoms of Western Carpathian spring fens{" "}
+            &nbsp; Ecology and taxonomy of diatoms of Western Carpathian spring
+            fens&nbsp;
           </i>
           (Ekologie a taxonomie rozsivek západokarpatských pramenišť).
           Zaměstnankyní Botanického ústavu je od roku 2006. Věnuje se ekologii a
@@ -572,7 +572,7 @@ export const staffCz = [
           dobrat analýzou tvaru fytolitů pomocí moderních technik (geometrické
           morfometriky). Všechny doposud nabyté vědomosti o fytolitech se
           aktuálně chystám uplatnit při testování kontinuity druhově bohatých
-          lesostepních ekosystémů{" "}
+          lesostepních ekosystémů&nbsp;
           <a
             target="_blank"
             rel="noopener noreferrer"

@@ -62,25 +62,26 @@ export const cz = (
         <b>
           Zabýváme se vývojem vegetace a krajiny v minulosti, zejména během
           posledních 15 tisíc let.
-        </b>{" "}
-        Zajímá nás, jak se měnilo přírodní prostředí během pozdního glaciálu a v
-        raném holocénu, kdy hlavním faktorem ovlivňujícím krajinu bylo klima.
-        Postupně se stále důležitějším činitelem stává člověk, jehož zásahy do
-        krajiny poprvé zaznamenáváme ve středním holocénu (během neolitu a
-        zejména později v době bronzové). V této době také dochází k proměnám
-        lesní vegetace, kterou zkoumáme především v podhůří a horských oblastech
-        Českého masívu a Západních Karpat. Věnujeme se však také vývoji vegetace
-        a krajiny v nížinných, tzv. starosídelných oblastech. Chceme porozumět
-        tomu, jak a proč se měnilo složení našich lesů, díky čemu zde přetrvává
-        přirozené bezlesí a jaká je historie polopřirozených a člověkem
-        ovlivněných typů vegetace. Naše výzkumy pomáhají vyřešit otázky i jiných
-        vědních oborů, jako jsou vegetační ekologie, historická ekologie,
-        archeologie a lesnictví, a mají vliv na koncepty ochrany přírody.
+        </b>
+        &nbsp; Zajímá nás, jak se měnilo přírodní prostředí během pozdního
+        glaciálu a v raném holocénu, kdy hlavním faktorem ovlivňujícím krajinu
+        bylo klima. Postupně se stále důležitějším činitelem stává člověk, jehož
+        zásahy do krajiny poprvé zaznamenáváme ve středním holocénu (během
+        neolitu a zejména později v době bronzové). V této době také dochází k
+        proměnám lesní vegetace, kterou zkoumáme především v podhůří a horských
+        oblastech Českého masívu a Západních Karpat. Věnujeme se však také
+        vývoji vegetace a krajiny v nížinných, tzv. starosídelných oblastech.
+        Chceme porozumět tomu, jak a proč se měnilo složení našich lesů, díky
+        čemu zde přetrvává přirozené bezlesí a jaká je historie polopřirozených
+        a člověkem ovlivněných typů vegetace. Naše výzkumy pomáhají vyřešit
+        otázky i jiných vědních oborů, jako jsou vegetační ekologie, historická
+        ekologie, archeologie a lesnictví, a mají vliv na koncepty ochrany
+        přírody.
       </p>
       <p>
         Usilujeme o komplexní porozumění vývoji zkoumaných lokalit, a proto se
         snažíme o zahrnutí co nejširší škály paleoekologických analýz
-        (multi-proxy přístup). Nejčastěji{" "}
+        (multi-proxy přístup). Nejčastěji&nbsp;
         <b>využíváme analýzu fosilního pylu</b>, včetně nepylových objektů
         (např. spory kapraďorostů, hub, mikroskopické řasy, schránky některých
         prvoků) a mikrouhlíků. Pyl a nepylové objekty nacházíme zakonzervované v

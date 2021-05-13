@@ -82,7 +82,7 @@ export const en = (
       Archaeobotany 19, Issue 4: 285–307. (IF 1.504)
     </Publication>
     <Publication>
-      Pardoe, H.S., Giesecke, T., van der Knaap, W.O.,{" "}
+      Pardoe, H.S., Giesecke, T., van der Knaap, W.O.,&nbsp;
       <b>Svitavska-Svobodova, H.</b>, Kvavadze, E.V., Panajiotidis, S.,
       Gerasimidis, A., Pidek, I.A., Zimny, M., Swieta-Musznicka, J., Latalowa,
       M., Noryskiewicz, A.M., Bozilova, E., Tonkov, S., Filipova-Marinova, M.V.,
@@ -171,7 +171,7 @@ export const cz = (
       Archaeobotany 19, Issue 4: 285–307. (IF 1.504)
     </Publication>
     <Publication>
-      Pardoe, H.S., Giesecke, T., van der Knaap, W.O.,{" "}
+      Pardoe, H.S., Giesecke, T., van der Knaap, W.O.,&nbsp;
       <b>Svitavska-Svobodova, H.</b>, Kvavadze, E.V., Panajiotidis, S.,
       Gerasimidis, A., Pidek, I.A., Zimny, M., Swieta-Musznicka, J., Latalowa,
       M., Noryskiewicz, A.M., Bozilova, E., Tonkov, S., Filipova-Marinova, M.V.,

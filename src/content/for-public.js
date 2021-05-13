@@ -10,7 +10,7 @@ export const en = {
       Botanického ústavu <b>Den otevřených dveří</b>. Akce je určena především
       pro středoškoláky (celá třída se objednává předem), ale i pro jednotlivce
       všech věkových kategorií (bez objednání). Účastníme se rovněž dalších akcí
-      jako <b>Veletrh vědy</b> (Praha), <b>Vědecký trek</b> (Průhonice) a{" "}
+      jako <b>Veletrh vědy</b> (Praha), <b>Vědecký trek</b> (Průhonice) a&nbsp;
       <b>Dny elektronové mikroskopie</b> (Brno).
     </div>,
   ],
@@ -18,16 +18,17 @@ export const en = {
   virtualMeadowDescription: (
     <div>
       Rozšiřte si své znalosti rostlin během virtuální procházky druhově
-      nejbohatší loukou na světě! Můžete si ji stáhnout jako soubor ve formátu{" "}
+      nejbohatší loukou na světě! Můžete si ji stáhnout jako soubor ve
+      formátu&nbsp;
       <ALink href="https://www.avcr.cz/.content/galerie-souboru/pro-verejnost/Virtualni_prochazka_druhove_nejbohatsi_loukou_na_svete.ppsx">
         PPSX
-      </ALink>{" "}
-      nebo{" "}
+      </ALink>
+      &nbsp; nebo&nbsp;
       <ALink href="https://www.avcr.cz/export/sites/avcr.cz/.content/galerie-souboru/pro-verejnost/Virtualni_prochazka_druhove_nejbohatsi_loukou_na_svete.pdf">
         PDF
-      </ALink>{" "}
-      (ten druhý nezobrazuje popisky s názvy druhů rostlin, jen internetové
-      adresy s informacemi o druzích), nebo se podívat{" "}
+      </ALink>
+      &nbsp; (ten druhý nezobrazuje popisky s názvy druhů rostlin, jen
+      internetové adresy s informacemi o druzích), nebo se podívat&nbsp;
       <ALink href="https://www.ibot.cas.cz/cs/verejnost/vzdelavani/edukacni-materialy/">
         sem
       </ALink>
@@ -41,7 +42,8 @@ export const en = {
         <span>
           Dokumentární film o tom, jak vypadá obnova lesa po kůrovcové kalamitě
           na Šumavě. Helena Svitavská Svobodová mluví o svých výzkumech a o
-          pozdně glaciálním a holocéním vývoji šumavské přírody. Ke shlédnutí{" "}
+          pozdně glaciálním a holocéním vývoji šumavské přírody. Ke
+          shlédnutí&nbsp;
           <ALink href="https://www.ceskatelevize.cz/porady/12935442888-zelene-plice/">
             zde
           </ALink>
@@ -55,13 +57,13 @@ export const en = {
       <b>Pylové depozice na Šumavě a v Krkonoších za posledních 21 let</b>. Díky
       Heleně Svitavské Svobodové víme mnohem více o současné pylové sedimentaci
       v našich hraničních pohořích. Anotace článku, vyšlého v časopise Botanika
-      2021/1 k přečtení{" "}
+      2021/1 k přečtení&nbsp;
       <ALink href="https://www.ibot.cas.cz/botanika/?p=670">zde</ALink>
     </span>,
     <span>
       <b>Divoká ale ne tak docela… Šumava v mladém pravěku</b>. Přírodní archívy
       vydávají svědectví o pašeráckých trasách přes šumavská pohoří, jak se
-      můžete dočíst v článku, jehož spoluautorem je Přemek Bobek,{" "}
+      můžete dočíst v článku, jehož spoluautorem je Přemek Bobek,&nbsp;
       <ALink href="https://www.researchgate.net/publication/348419780 ">
         zde
       </ALink>
@@ -71,7 +73,7 @@ export const en = {
       ekosystému karpatských travertinových slatinišť, označovanou jako
       reliktní, přečtěte si článek v časopise Vesmír 2020/12, kde se s vámi
       Michal Horsák a Petra Hájková podělí o výsledky svých nejnovějších
-      paleoekologických výzkumů v Západních Karpatech. Začátek článku{" "}
+      paleoekologických výzkumů v Západních Karpatech. Začátek článku&nbsp;
       <ALink href="https://vesmir.cz/cz/casopis/archiv-casopisu/2020/cislo-12/kulturni-presto-cenne.html">
         zde
       </ALink>
@@ -81,7 +83,7 @@ export const en = {
       vás zajímá, jak je to se smrkem, proč lesy s dominancí smrku plošně
       odumírají, jak by se mělo hospodařit v budoucnosti a co se o problematice
       rozšíření smrku ví, přečtěte si článek Petry Hájkové v časopise Živa
-      2021/2. PDF dostupné{" "}
+      2021/2. PDF dostupné&nbsp;
       <ALink href="https://ziva.avcr.cz/2021-2/budoucnost-nasich-lesu-bude-v-nich-mit-sve-misto-i-smrk.html">
         zde
       </ALink>
@@ -89,11 +91,11 @@ export const en = {
     <span>
       <b>
         Víme, kolik bylo smrku v našich lesích před intenzifikací hospodaření?
-      </b>{" "}
-      Tento článek je zaměřený na paleoekologické poznání minulého rozšíření
-      smrku. Kolik ho v našich lesích vlastně bylo, byl všude nebo jen někde a
-      jsme vůbec schopní to současnými metodami poznat? Přečtěte si článek Petry
-      Hájkové v časopisu Botanika 2020/1. Ke stažení{" "}
+      </b>
+      &nbsp; Tento článek je zaměřený na paleoekologické poznání minulého
+      rozšíření smrku. Kolik ho v našich lesích vlastně bylo, byl všude nebo jen
+      někde a jsme vůbec schopní to současnými metodami poznat? Přečtěte si
+      článek Petry Hájkové v časopisu Botanika 2020/1. Ke stažení&nbsp;
       <ALink href="https://www.ibot.cas.cz/botanika/wp-content/uploads/sites/19/2021/04/e-Botanika-012020.pdf">
         zde
       </ALink>
@@ -101,7 +103,7 @@ export const en = {
     <span>
       <b>Oheň v naší krajině</b>. O roli požárů ve vývoji přírodního prostředí
       během holocénu psal Přemek Bobek s Martinem Adámkem v článku pro časopis
-      Živa 2020/5. Fotky z článku dostupné{" "}
+      Živa 2020/5. Fotky z článku dostupné&nbsp;
       <ALink href="https://ziva.avcr.cz/2020-5/ohen-v-nasi-krajine.html">
         zde
       </ALink>
@@ -110,7 +112,7 @@ export const en = {
       <b>Rok českých pralesů IV. Narušením k dynamice</b>. Jakou roli hrály
       disturbance ve vývoji vegetace, kterou dnes označujeme jako pralesní?
       Článek z časopisu Živa 2018/4, na kterém se podílel Přemek Bobek je jako
-      PDF ke stažení{" "}
+      PDF ke stažení&nbsp;
       <ALink href="https://ziva.avcr.cz/2018-4/rok-ceskych-pralesu-iv-narusenim-k-dynamice.html">
         zde
       </ALink>
@@ -120,11 +122,11 @@ export const en = {
   popularVideos: (
     <div>
       <p>
-        V rámci aktivity{" "}
+        V rámci aktivity&nbsp;
         <ALink href="https://www.avcr.cz/cs/pro-verejnost/veda-na-doma/">
           Věda na doma
-        </ALink>{" "}
-        jsme během jarního lockdownu 2020 ve spolupráci s Odborem
+        </ALink>
+        &nbsp; jsme během jarního lockdownu 2020 ve spolupráci s Odborem
         audiovizuálních technologií AV ČR připravili videa a také prezentace:
       </p>
       <div>
@@ -135,7 +137,7 @@ export const en = {
         videoTitle="Co kvete na jaře"
       />
       <div>
-        <b>Pylová detektivka</b> (co tvoří dominantu pylového spadu) a{" "}
+        <b>Pylová detektivka</b> (co tvoří dominantu pylového spadu) a&nbsp;
       </div>
       <YouTubeVideo
         videoSrcURL="https://www.youtube.com/embed/wQhg93FzLgY"
@@ -151,7 +153,7 @@ export const en = {
       />
       <div>
         Tato a další videa a edukační materiály najdete na webu Botanického
-        ústavu pod záložkou{" "}
+        ústavu pod záložkou&nbsp;
         <ALink href="https://www.ibot.cas.cz/cs/verejnost/vzdelavani/">
           Veřejnost/Vzdělávání
         </ALink>
@@ -165,7 +167,7 @@ export const en = {
       Vědci z našeho týmu příležitostně pořádají exkurze pro veřejnost. Na
       zajímavá místa můžeme zavítat ale i sami. Zde je tip naší kolegyně Petry
       Hájkové, která pro web Českého svazu ochránců přírody vypracovala
-      přírodovědně{" "}
+      přírodovědně&nbsp;
       <ALink href="https://csophluk.cz/prirodovedne-zajimava-mista-u-hluku/">
         zajímavá místa okolí Hluku na Uherskohradišťsku
       </ALink>
@@ -182,7 +184,7 @@ export const cz = {
       Botanického ústavu <b>Den otevřených dveří</b>. Akce je určena především
       pro středoškoláky (celá třída se objednává předem), ale i pro jednotlivce
       všech věkových kategorií (bez objednání). Účastníme se rovněž dalších akcí
-      jako <b>Veletrh vědy</b> (Praha), <b>Vědecký trek</b> (Průhonice) a{" "}
+      jako <b>Veletrh vědy</b> (Praha), <b>Vědecký trek</b> (Průhonice) a&nbsp;
       <b>Dny elektronové mikroskopie</b> (Brno).
     </div>,
   ],
@@ -190,16 +192,17 @@ export const cz = {
   virtualMeadowDescription: (
     <div>
       Rozšiřte si své znalosti rostlin během virtuální procházky druhově
-      nejbohatší loukou na světě! Můžete si ji stáhnout jako soubor ve formátu{" "}
+      nejbohatší loukou na světě! Můžete si ji stáhnout jako soubor ve
+      formátu&nbsp;
       <ALink href="https://www.avcr.cz/.content/galerie-souboru/pro-verejnost/Virtualni_prochazka_druhove_nejbohatsi_loukou_na_svete.ppsx">
         PPSX
-      </ALink>{" "}
-      nebo{" "}
+      </ALink>
+      &nbsp; nebo&nbsp;
       <ALink href="https://www.avcr.cz/export/sites/avcr.cz/.content/galerie-souboru/pro-verejnost/Virtualni_prochazka_druhove_nejbohatsi_loukou_na_svete.pdf">
         PDF
-      </ALink>{" "}
-      (ten druhý nezobrazuje popisky s názvy druhů rostlin, jen internetové
-      adresy s informacemi o druzích), nebo se podívat{" "}
+      </ALink>
+      &nbsp; (ten druhý nezobrazuje popisky s názvy druhů rostlin, jen
+      internetové adresy s informacemi o druzích), nebo se podívat&nbsp;
       <ALink href="https://www.ibot.cas.cz/cs/verejnost/vzdelavani/edukacni-materialy/">
         sem
       </ALink>
@@ -214,7 +217,8 @@ export const cz = {
         <span>
           Dokumentární film o tom, jak vypadá obnova lesa po kůrovcové kalamitě
           na Šumavě. Helena Svitavská Svobodová mluví o svých výzkumech a o
-          pozdně glaciálním a holocéním vývoji šumavské přírody. Ke shlédnutí{" "}
+          pozdně glaciálním a holocéním vývoji šumavské přírody. Ke
+          shlédnutí&nbsp;
           <ALink href="https://www.ceskatelevize.cz/porady/12935442888-zelene-plice/">
             zde
           </ALink>
@@ -228,13 +232,13 @@ export const cz = {
       <b>Pylové depozice na Šumavě a v Krkonoších za posledních 21 let</b>. Díky
       Heleně Svitavské Svobodové víme mnohem více o současné pylové sedimentaci
       v našich hraničních pohořích. Anotace článku, vyšlého v časopise Botanika
-      2021/1 k přečtení{" "}
+      2021/1 k přečtení&nbsp;
       <ALink href="https://www.ibot.cas.cz/botanika/?p=670">zde</ALink>
     </span>,
     <span>
       <b>Divoká ale ne tak docela… Šumava v mladém pravěku</b>. Přírodní archívy
       vydávají svědectví o pašeráckých trasách přes šumavská pohoří, jak se
-      můžete dočíst v článku, jehož spoluautorem je Přemek Bobek,{" "}
+      můžete dočíst v článku, jehož spoluautorem je Přemek Bobek,&nbsp;
       <ALink href="https://www.researchgate.net/publication/348419780 ">
         zde
       </ALink>
@@ -244,7 +248,7 @@ export const cz = {
       ekosystému karpatských travertinových slatinišť, označovanou jako
       reliktní, přečtěte si článek v časopise Vesmír 2020/12, kde se s vámi
       Michal Horsák a Petra Hájková podělí o výsledky svých nejnovějších
-      paleoekologických výzkumů v Západních Karpatech. Začátek článku{" "}
+      paleoekologických výzkumů v Západních Karpatech. Začátek článku&nbsp;
       <ALink href="https://vesmir.cz/cz/casopis/archiv-casopisu/2020/cislo-12/kulturni-presto-cenne.html">
         zde
       </ALink>
@@ -254,7 +258,7 @@ export const cz = {
       vás zajímá, jak je to se smrkem, proč lesy s dominancí smrku plošně
       odumírají, jak by se mělo hospodařit v budoucnosti a co se o problematice
       rozšíření smrku ví, přečtěte si článek Petry Hájkové v časopise Živa
-      2021/2. PDF dostupné{" "}
+      2021/2. PDF dostupné&nbsp;
       <ALink href="https://ziva.avcr.cz/2021-2/budoucnost-nasich-lesu-bude-v-nich-mit-sve-misto-i-smrk.html">
         zde
       </ALink>
@@ -262,11 +266,11 @@ export const cz = {
     <span>
       <b>
         Víme, kolik bylo smrku v našich lesích před intenzifikací hospodaření?
-      </b>{" "}
-      Tento článek je zaměřený na paleoekologické poznání minulého rozšíření
-      smrku. Kolik ho v našich lesích vlastně bylo, byl všude nebo jen někde a
-      jsme vůbec schopní to současnými metodami poznat? Přečtěte si článek Petry
-      Hájkové v časopisu Botanika 2020/1. Ke stažení{" "}
+      </b>
+      &nbsp; Tento článek je zaměřený na paleoekologické poznání minulého
+      rozšíření smrku. Kolik ho v našich lesích vlastně bylo, byl všude nebo jen
+      někde a jsme vůbec schopní to současnými metodami poznat? Přečtěte si
+      článek Petry Hájkové v časopisu Botanika 2020/1. Ke stažení&nbsp;
       <ALink href="https://www.ibot.cas.cz/botanika/wp-content/uploads/sites/19/2021/04/e-Botanika-012020.pdf">
         zde
       </ALink>
@@ -274,7 +278,7 @@ export const cz = {
     <span>
       <b>Oheň v naší krajině</b>. O roli požárů ve vývoji přírodního prostředí
       během holocénu psal Přemek Bobek s Martinem Adámkem v článku pro časopis
-      Živa 2020/5. Fotky z článku dostupné{" "}
+      Živa 2020/5. Fotky z článku dostupné&nbsp;
       <ALink href="https://ziva.avcr.cz/2020-5/ohen-v-nasi-krajine.html">
         zde
       </ALink>
@@ -283,7 +287,7 @@ export const cz = {
       <b>Rok českých pralesů IV. Narušením k dynamice</b>. Jakou roli hrály
       disturbance ve vývoji vegetace, kterou dnes označujeme jako pralesní?
       Článek z časopisu Živa 2018/4, na kterém se podílel Přemek Bobek je jako
-      PDF ke stažení{" "}
+      PDF ke stažení&nbsp;
       <ALink href="https://ziva.avcr.cz/2018-4/rok-ceskych-pralesu-iv-narusenim-k-dynamice.html">
         zde
       </ALink>
@@ -293,11 +297,11 @@ export const cz = {
   popularVideos: (
     <div>
       <p>
-        V rámci aktivity{" "}
+        V rámci aktivity&nbsp;
         <ALink href="https://www.avcr.cz/cs/pro-verejnost/veda-na-doma/">
           Věda na doma
-        </ALink>{" "}
-        jsme během jarního lockdownu 2020 ve spolupráci s Odborem
+        </ALink>
+        &nbsp; jsme během jarního lockdownu 2020 ve spolupráci s Odborem
         audiovizuálních technologií AV ČR připravili videa a také prezentace:
       </p>
       <div>
@@ -308,7 +312,7 @@ export const cz = {
         videoTitle="Co kvete na jaře"
       />
       <div>
-        <b>Pylová detektivka</b> (co tvoří dominantu pylového spadu) a{" "}
+        <b>Pylová detektivka</b> (co tvoří dominantu pylového spadu) a&nbsp;
       </div>
       <YouTubeVideo
         videoSrcURL="https://www.youtube.com/embed/wQhg93FzLgY"
@@ -324,7 +328,7 @@ export const cz = {
       />
       <div>
         Tato a další videa a edukační materiály najdete na webu Botanického
-        ústavu pod záložkou{" "}
+        ústavu pod záložkou&nbsp;
         <ALink href="https://www.ibot.cas.cz/cs/verejnost/vzdelavani/">
           Veřejnost/Vzdělávání
         </ALink>
@@ -338,7 +342,7 @@ export const cz = {
       Vědci z našeho týmu příležitostně pořádají exkurze pro veřejnost. Na
       zajímavá místa můžeme zavítat ale i sami. Zde je tip naší kolegyně Petry
       Hájkové, která pro web Českého svazu ochránců přírody vypracovala
-      přírodovědně{" "}
+      přírodovědně&nbsp;
       <ALink href="https://csophluk.cz/prirodovedne-zajimava-mista-u-hluku/">
         zajímavá místa okolí Hluku na Uherskohradišťsku
       </ALink>
