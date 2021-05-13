@@ -12,6 +12,7 @@ const Containerwrapper = styled.div`
   padding: 0 20px;
   @media (min-width: 920px) {
     padding: 0 50px;
+    max-width: 1920px;
   }
   @media (min-width: 1970px) {
     padding: 0;

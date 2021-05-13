@@ -2,61 +2,53 @@ import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import twitter from "../icons/twitter.svg";
-import { Consumer } from "./Context";
 
-const FooterContent = ({ footer }) => {
-  return (
-    <Consumer>
-      {({ int }) => {
-        return (
-          <Container>
-            <FooterSection>
-              <b> {footer.contactBrno}</b>
-              <div> {footer.contactNameBrno}</div>
-              <div> {footer.contactMailBrno}</div>
-              <div> {footer.contactPhoneBrno}</div>
-              <div> {footer.contactPhoneBrno2}</div>
-            </FooterSection>
-            <FooterSection>
-              <b> {footer.addressBrno}</b>
-              <div> {footer.institute}</div>
-              <div> {footer.name}</div>
-              <div> {footer.streetBrno}</div>
-              <div> {footer.zipBrno}</div>
-            </FooterSection>
-            <FooterSection>
-              <b> {footer.contactPruhonice}</b>
-              <div> {footer.contactNamePruhonice}</div>
-              <div> {footer.contactMailPruhonice}</div>
-              <div> {footer.contactPhonePruhonice}</div>
-            </FooterSection>
+const FooterContent = ({ footer }) => (
+  <>
+    <Container>
+      <FooterSection>
+        <b> {footer.contactBrno}</b>
+        <div> {footer.contactNameBrno}</div>
+        <div> {footer.contactMailBrno}</div>
+        <div> {footer.contactPhoneBrno}</div>
+        <div> {footer.contactPhoneBrno2}</div>
+      </FooterSection>
+      <FooterSection>
+        <b> {footer.addressBrno}</b>
+        <div> {footer.institute}</div>
+        <div> {footer.name}</div>
+        <div> {footer.streetBrno}</div>
+        <div> {footer.zipBrno}</div>
+      </FooterSection>
+      <FooterSection>
+        <b> {footer.contactPruhonice}</b>
+        <div> {footer.contactNamePruhonice}</div>
+        <div> {footer.contactMailPruhonice}</div>
+        <div> {footer.contactPhonePruhonice}</div>
+      </FooterSection>
 
-            <FooterSection>
-              <b> {footer.addressPruhonice}</b>
-              <div> {footer.institute}</div>
-              <div> {footer.name}</div>
-              <div> {footer.streetPruhonice}</div>
-              <div> {footer.zipPruhonice}</div>
-            </FooterSection>
-
-            <FooterSection>
-              <div>
-                <b> {footer.socialSites}</b>
-              </div>
-              <a
-                href="https://twitter.com/VegetPaleo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Twitter src={twitter} alt="twitter" />
-              </a>
-            </FooterSection>
-          </Container>
-        );
-      }}
-    </Consumer>
-  );
-};
+      <FooterSection>
+        <b> {footer.addressPruhonice}</b>
+        <div> {footer.institute}</div>
+        <div> {footer.name}</div>
+        <div> {footer.streetPruhonice}</div>
+        <div> {footer.zipPruhonice}</div>
+      </FooterSection>
+    </Container>
+    <FooterSectionSoc>
+      <div>
+        <b> {footer.socialSites}</b>
+      </div>
+      <a
+        href="https://twitter.com/VegetPaleo"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Twitter src={twitter} alt="twitter" />
+      </a>
+    </FooterSectionSoc>
+  </>
+);
 
 export default FooterContent;
 
@@ -67,9 +59,12 @@ FooterContent.propTypes = {
 
 const Container = styled.div`
   display: flex;
-  flex-wrap: wrap;
   margin: 1em auto 0;
   height: 100%;
+  flex-wrap: wrap;
+  @media (min-width: 1024px) {
+    flex-wrap: nowrap;
+  }
   @media (min-width: 1200px) {
     margin: 4em auto 0;
   }
@@ -82,11 +77,28 @@ const FooterSection = styled.div`
   padding: 1em;
   text-align: center;
   line-height: 1.5;
-  min-width: 255px;
+  min-width: 100%;
+  @media (min-width: 600px) {
+    min-width: 40%;
+  }
+  @media (min-width: 1024px) {
+    min-width: initial;
+  }
+`;
+
+const FooterSectionSoc = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: ${(props) => props.theme.white};
+  background-color: ${(props) => props.theme.grey};
+  border-top: 1px solid black;
 `;
 
 const Twitter = styled.img`
   margin-top: 5px;
   height: 40px;
   cursor: pointer;
+  margin-left: 10px;
 `;

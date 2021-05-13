@@ -66,13 +66,13 @@ const Title = styled.div`
 const Inner = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   flex-wrap: wrap;
   width: calc(100% - 20px);
   align-items: center;
   min-height: 50px;
 
-  @media (min-width: 480px) {
+  @media (min-width: 500px) {
+    justify-content: space-between;
     padding: 0 20px;
     flex-direction: row;
     width: min(1920px, 100%);
@@ -103,13 +103,7 @@ const LogoLink = styled.a`
 const Logo = styled.img`
   margin: 2% 3%;
   width: 150px;
-  @media (min-width: ${(props) => props.theme.mediumDevice}) {
-    width: 170px;
-  }
-  @media (min-width: ${(props) => props.theme.largeDevice}) {
-    width: 185px;
-  }
-  @media (min-width: ${(props) => props.theme.extraLargeDevice}) {
-    width: 200px;
-  }
+  max-height: 80px;
+
+  width: 200px;
 `;

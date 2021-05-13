@@ -105,6 +105,7 @@ const Container = styled.div`
 `;
 
 const Main = styled.main`
+  width: 100%;
   flex: 1;
   margin: 0 auto;
   width: min(1920px, 100%);
