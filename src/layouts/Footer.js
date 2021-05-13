@@ -93,7 +93,8 @@ const FooterSectionSoc = styled.div`
   justify-content: center;
   color: ${(props) => props.theme.white};
   background-color: ${(props) => props.theme.grey};
-  border-top: 1px solid black;
+  border-top: 1px solid grey;
+  padding: 10px 0;
 `;
 
 const Twitter = styled.img`
