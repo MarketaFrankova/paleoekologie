@@ -70,7 +70,7 @@ Menu.propTypes = {
   generalData: PropTypes.object,
 };
 
-export const Li = styled.li`
+export const Li = styled.div`
   display: flex;
   height: 40px;
   align-items: center;

@@ -5,6 +5,7 @@ export const cz = [
   {
     photo: "news1.jpg",
     heading: "Dny elektronové mikroskopie",
+    imgTitle: "na Svoboďáku s Cecílií",
     content: (
       <p>
         Letos jsme se poprvé zapojili do <b>Dnů elektronové mikroskopie</b>,
@@ -25,6 +26,7 @@ export const cz = [
   {
     photo: "news2.jpg",
     heading: "Vlasta Jankovská osmdesátiletá",
+    imgTitle: "Vlasta medaile",
     content: (
       <>
         <p>
@@ -109,6 +111,7 @@ export const cz = [
   {
     photo: "news3.jpg",
     heading: "Vývoj diverzity rostlin od konce doby ledové",
+    imgTitle: "Dvě křivky diverzitní článek pro popularizaci",
     content: (
       <>
         <p>

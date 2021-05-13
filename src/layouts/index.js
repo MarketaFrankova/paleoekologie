@@ -18,7 +18,7 @@ const mainTheme = {
   main: "#72972f", //green
   darkred: "#EB5723", //red
   black: "rgb(53, 53, 53)",
-  grey: "rgb(53, 53, 53, 0.7)",
+  grey: "rgb(53, 53, 53, 0.8)",
   extraSmallDevice: "360px",
   smallDevice: "480px",
   mediumDevice: "900px",
@@ -60,8 +60,14 @@ const Layout = (props) => {
           <Consumer>
             {({ int }) => (
               <Container>
-                <Helmet>
+                <Helmet
+                  htmlAttributes={{
+                    lang: "en",
+                  }}
+                  defaultTitle="Oddělení paleoekologie"
+                >
                   <meta charSet="utf-8" />
+                  <meta name="description" content="Oddělení paleoekologie" />
                   <title>
                     {int === "en"
                       ? "Department of Paleoecology"

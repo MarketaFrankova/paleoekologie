@@ -49,18 +49,21 @@ const SelectYear = styled.div`
   background: white;
   position: -webkit-sticky;
   position: sticky;
-  top: 55px;
+  top: 50px;
   height: 50px;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  cursor: pointer;
 `;
 
-const Year = styled.div`
+const Year = styled.button`
   color: ${(props) => (props.active ? "black" : props.theme.grey)};
   font-weight: ${(props) => props.active && "bold"};
   padding: 0 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
   &:not(:last-child) {
     border-right: 1px solid ${(props) => props.theme.grey};
   }

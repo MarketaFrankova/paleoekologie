@@ -86,7 +86,7 @@ const Research = ({ int }) => (
               <ImgWrapper active={getClass("research-landscape") === "active"}>
                 <Img
                   fluid={data.landscape.childImageSharp.fluid}
-                  alt="European vegetation"
+                  alt={content.landscape}
                 />
               </ImgWrapper>
               <ResearchFooter>{content.landscape}</ResearchFooter>
@@ -96,7 +96,7 @@ const Research = ({ int }) => (
               <ImgWrapper active={getClass("research-historic") === "active"}>
                 <Img
                   fluid={data.historic.childImageSharp.fluid}
-                  alt="Historic aspects"
+                  alt={content.historic}
                 />
               </ImgWrapper>
               <ResearchFooter>{content.historic}</ResearchFooter>
@@ -106,7 +106,7 @@ const Research = ({ int }) => (
               <ImgWrapper active={getClass("research-wetlands") === "active"}>
                 <Img
                   fluid={data.wetlands.childImageSharp.fluid}
-                  alt="Longerm research"
+                  alt={content.wetlands}
                 />
               </ImgWrapper>
               <ResearchFooter>{content.wetlands}</ResearchFooter>
@@ -116,7 +116,7 @@ const Research = ({ int }) => (
               <ImgWrapper active={getClass("research-fires") === "active"}>
                 <Img
                   fluid={data.fires.childImageSharp.fluid}
-                  alt="Research Fires"
+                  alt={content.fires}
                 />
               </ImgWrapper>
               <ResearchFooter>{content.fires}</ResearchFooter>
@@ -128,7 +128,7 @@ const Research = ({ int }) => (
               >
                 <Img
                   fluid={data.pollen.childImageSharp.fluid}
-                  alt="Research pollen"
+                  alt={content.pollenSedimentation}
                 />
               </ImgWrapper>
               <ResearchFooter>{content.pollenSedimentation}</ResearchFooter>
@@ -138,7 +138,7 @@ const Research = ({ int }) => (
               <ImgWrapper active={getClass("research-algal") === "active"}>
                 <Img
                   fluid={data.algal.childImageSharp.fluid}
-                  alt="Research algal"
+                  alt={content.algal}
                 />
               </ImgWrapper>
               <ResearchFooter>{content.algal}</ResearchFooter>

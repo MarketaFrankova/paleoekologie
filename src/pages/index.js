@@ -36,7 +36,8 @@ const IndexPage = ({ data }) => {
                     {item.photo && (
                       <Img
                         fluid={img.fluid}
-                        alt={item.heading}
+                        alt={item.imgTitle || img.heading}
+                        title={item.imgTitle}
                         style={{ height: "100%", maxWidth: "100%" }}
                         imgStyle={{
                           objectFit: "cover",

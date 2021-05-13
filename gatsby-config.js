@@ -11,6 +11,10 @@ module.exports = {
     "gatsby-plugin-breakpoints",
     "gatsby-plugin-layout",
     {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {},
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",

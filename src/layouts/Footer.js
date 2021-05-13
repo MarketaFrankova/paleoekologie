@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import twitter from "../icons/twitter.svg";
+import { Link } from "gatsby";
 
 const FooterContent = ({ footer }) => (
   <>
@@ -46,6 +47,8 @@ const FooterContent = ({ footer }) => (
       >
         <Twitter src={twitter} alt="twitter" />
       </a>
+
+      <ALink to="/accessibility/">Prohlášení o přístupnosti</ALink>
     </FooterSectionSoc>
   </>
 );
@@ -56,6 +59,15 @@ FooterContent.propTypes = {
   language: PropTypes.object,
   footer: PropTypes.object,
 };
+
+export const ALink = styled(Link)`
+  color: white;
+  cursor: pointer;
+  margin-left: 20px;
+  @media (min-width: 1024px) {
+    margin-left: 80px;
+  }
+`;
 
 const Container = styled.div`
   display: flex;
@@ -74,10 +86,13 @@ const FooterSection = styled.div`
   flex: 1;
   color: ${(props) => props.theme.white};
   background-color: ${(props) => props.theme.grey};
-  padding: 1em;
+  padding: 1em 0;
   text-align: center;
   line-height: 1.5;
   min-width: 100%;
+  @media (min-width: 400px) {
+    padding: 1em;
+  }
   @media (min-width: 600px) {
     min-width: 40%;
   }
@@ -95,6 +110,7 @@ const FooterSectionSoc = styled.div`
   background-color: ${(props) => props.theme.grey};
   border-top: 1px solid grey;
   padding: 10px 0;
+  text-align: center;
 `;
 
 const Twitter = styled.img`

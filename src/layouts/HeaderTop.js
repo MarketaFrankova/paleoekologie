@@ -78,7 +78,9 @@ const LanguageSwitcher = styled.div`
   }
 `;
 
-const Lang = styled.div`
+const Lang = styled.button`
+  background-color: transparent;
+  border: none;
   cursor: ${(props) => (props.active ? "default" : "pointer")};
   padding: 3px;
   height: max-content;
