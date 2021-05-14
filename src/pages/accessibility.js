@@ -73,15 +73,9 @@ const IndexPage = () => {
       </p>
       <H3 green>Postupy pro prosazování práva</H3>
       <p>
-        Máte právo na zajištění přístupnosti té části internetových stránek,
-        která obsahuje informace o povinném subjektu dle zákona č. 106/1999 Sb.,
-        o svobodném přístupu k informacím ve znění vyhlášky č. 442/2006 Sb.,
-        kterou se stanoví struktura informací zveřejňovaných o povinném subjektu
-        způsobem umožňujícím dálkový přístup. V případě, že u této části
-        internetových stránek školy nebude přístupnost zajištěna a škola nebude
-        řádně reagovat na vaše podněty, máte právo obrátit se na orgán určený
-        pro prosazování vašich práv (MV ČR, odbor eGovernmentu, náměstí Hrdinů
-        1634/3, 140 21 Praha 4; e-mail:{" "}
+        V případě neuspokojivé odpovědi na oznámení nebo žádost, kontaktujte
+        příslušný orgán pro prosazování práva: (MV ČR, odbor eGovernmentu,
+        náměstí Hrdinů 1634/3, 140 21 Praha 4; e-mail:{" "}
         <a href="mailto:pristupnost@mvcr.cz">pristupnost@mvcr.cz</a>).
       </p>
 
