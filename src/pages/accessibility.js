@@ -86,7 +86,7 @@ const IndexPage = () => {
       </p>
 
       <H3 green>Kontakty na administrátory</H3>
-      <p>[-- Lidye ??? --]</p>
+      <p>[-- Lydie ??? --]</p>
     </Paragraph>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import { H2, H3 } from "../../components/atoms/Headings";
-import Publication from "../../components/atoms/Publication";
+
 export const en = (
   <>
     <H2>Long-term fire history</H2>
@@ -42,28 +42,28 @@ export const en = (
       Přemysl Bobek, Helena Svobodová-Svitavská, Markéta Švarcová, Eva Krauseová
     </p>
     <H3 green>Selection of the most important publications: </H3>
-    <Publication>
+    <p>
       Bobek P., Svobodová-Svitavská H., Pokorný P., Šamonil P., Kuneš P.,
       Kozáková R., et al. (2019): Divergent fire history trajectories in Central
       European temperate forests revealed a pronounced influence of broadleaved
       trees on fire dynamics. Quaternary Science Reviews 222: 105865.
-    </Publication>
-    <Publication>
+    </p>
+    <p>
       Bobek P., Svitavská H., Werchan B., Švarcová M. G., Kuneš P. (2018):
       Human-induced changes in fire regime and subsequent alteration of the
       sandstone landscape of Northern Bohemia (Czech Republic). The Holocene,
       28, 427-443.
-    </Publication>
-    <Publication>
+    </p>
+    <p>
       Bobek P., Šamonil P. and Jamrichová E. (2018): Biotic controls on Holocene
       fire frequency in a temperate mountain forest, Czech Republic. Journal of
       Quaternary Science 33(8): 892–904.
-    </Publication>
-    <Publication>
+    </p>
+    <p>
       Adámek, M., Bobek, P., Hadincová, V., et al. (2015) Forest fires within a
       temperate landscape: A decadal and millennial perspective from a sandstone
       region in Central Europe. For Ecol Manage 336:81–90.
-    </Publication>
+    </p>
   </>
 );
 
@@ -108,27 +108,27 @@ export const cz = (
       Přemysl Bobek, Helena Svobodová-Svitavská, Markéta Švarcová, Eva Krauseová
     </p>
     <H3 green>Výběr nejdůležitějších publikací:</H3>
-    <Publication>
+    <p>
       Bobek P., Svobodová-Svitavská H., Pokorný P., Šamonil P., Kuneš P.,
       Kozáková R., et al. (2019): Divergent fire history trajectories in Central
       European temperate forests revealed a pronounced influence of broadleaved
       trees on fire dynamics. Quaternary Science Reviews 222: 105865.
-    </Publication>
-    <Publication>
+    </p>
+    <p>
       Bobek P., Svitavská H., Werchan B., Švarcová M. G., Kuneš P. (2018):
       Human-induced changes in fire regime and subsequent alteration of the
       sandstone landscape of Northern Bohemia (Czech Republic). The Holocene,
       28, 427-443.
-    </Publication>
-    <Publication>
+    </p>
+    <p>
       Bobek P., Šamonil P. and Jamrichová E. (2018): Biotic controls on Holocene
       fire frequency in a temperate mountain forest, Czech Republic. Journal of
       Quaternary Science 33(8): 892–904.
-    </Publication>
-    <Publication>
+    </p>
+    <p>
       Adámek, M., Bobek, P., Hadincová, V., et al. (2015) Forest fires within a
       temperate landscape: A decadal and millennial perspective from a sandstone
       region in Central Europe. For Ecol Manage 336:81–90.
-    </Publication>
+    </p>
   </>
 );

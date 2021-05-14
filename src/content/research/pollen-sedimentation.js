@@ -1,6 +1,6 @@
 import React from "react";
 import { H2, H3 } from "../../components/atoms/Headings";
-import Publication from "../../components/atoms/Publication";
+
 export const en = (
   <>
     <H2>Dynamics of recent pollen depositions</H2>
@@ -44,7 +44,7 @@ export const en = (
     <H3 green>People involved in research:</H3>
     <p>Helena Svitavská Svobodová, Markéta G. Švarcová</p>
     <H3 green>References</H3>
-    <Publication>
+    <p>
       Abraham, V., Hicks, S., <b>Svobodová-Svitavská, H.</b>, Bozilova, E.,
       Panajiotidis, S., Filipova-Marinova, M., Jensen, C. E., Tonkov, S., Pidek,
       I. A., Święta-Musznicka, J., Zimny, M., Kvavadze, E., Filbrandt-Czaja, A.,
@@ -56,15 +56,15 @@ export const en = (
       across Europe; the Pollen Monitoring Programme Database as a tool for
       vegetation reconstruction, Biogeosciences Discuss. [preprint],
       https://doi.org/10.5194/bg-2020-217, in review, 2020.
-    </Publication>
-    <Publication>
+    </p>
+    <p>
       Pidek, I.A., <b>Svobodová-Svitavská, H.</b>, Van der Knaap, W.O., Magyari,
       E. 2013. Pollen percentage thresholds of Abies alba based on 13year annual
       records of pollen deposition in modified Tauber traps: perspectives of
       application to fossil situations. Review of Palaeobotany and Palynology
       195: 26–36.
-    </Publication>
-    <Publication>
+    </p>
+    <p>
       Pidek, I.A., <b>Svobodová-Svitavská, H.</b>, van der Knaap, W.O.,
       Noryśkiewicz, A.M., Filbrandt-Czaja, A., Noryśkiewicz, B., Latałowa, M.,
       Zimny, M., Święta-Musznicka, J., Bozilova, E., Tonkov, S.,
@@ -72,16 +72,16 @@ export const en = (
       in annual pollen accumulation rates of Fagus along a N-S transect in
       Europe based on pollen traps. Vegetation History and Archaeobotany 19,
       Issue 4: 259-270. (IF 1.504)
-    </Publication>
-    <Publication>
+    </p>
+    <p>
       Van der Knaap, W.O., van Leeuwen, J.F.N., <b>Svobodová-Svitavská, H.</b>,
       Pidek, I.A., Kvavadze, E., Chichinadze, M., Giesecke, T., Kaszewsky, B.M.,
       Oberli, F., Kalniņa, L., Pardoe, H.S., Tinner, W. & Ammann, B. 2010.
       Annual pollen traps reveal the complexity of climatic control on pollen
       productivity in Europe and the Caucasus. Vegetation History and
       Archaeobotany 19, Issue 4: 285–307. (IF 1.504)
-    </Publication>
-    <Publication>
+    </p>
+    <p>
       Pardoe, H.S., Giesecke, T., van der Knaap, W.O.,&nbsp;
       <b>Svitavska-Svobodova, H.</b>, Kvavadze, E.V., Panajiotidis, S.,
       Gerasimidis, A., Pidek, I.A., Zimny, M., Swieta-Musznicka, J., Latalowa,
@@ -90,7 +90,7 @@ export const en = (
       modified Tauber traps and moss samples: examples from a selection of
       woodlands across Europe. Vegetation History and Archaeobotany 19, 271-283.
       (IF 1.504)
-    </Publication>
+    </p>
   </>
 );
 
@@ -133,7 +133,7 @@ export const cz = (
     <H3 green>Lidé zapojení do výzkumu</H3>
     <p>Helena Svitavská Svobodová, Markéta G. Švarcová</p>
     <H3 green>References</H3>
-    <Publication>
+    <p>
       Abraham, V., Hicks, S., <b>Svobodová-Svitavská, H.</b>, Bozilova, E.,
       Panajiotidis, S., Filipova-Marinova, M., Jensen, C. E., Tonkov, S., Pidek,
       I. A., Święta-Musznicka, J., Zimny, M., Kvavadze, E., Filbrandt-Czaja, A.,
@@ -145,15 +145,15 @@ export const cz = (
       across Europe; the Pollen Monitoring Programme Database as a tool for
       vegetation reconstruction, Biogeosciences Discuss. [preprint],
       https://doi.org/10.5194/bg-2020-217, in review, 2020.
-    </Publication>
-    <Publication>
+    </p>
+    <p>
       Pidek, I.A., <b>Svobodová-Svitavská, H.</b>, Van der Knaap, W.O., Magyari,
       E. 2013. Pollen percentage thresholds of Abies alba based on 13year annual
       records of pollen deposition in modified Tauber traps: perspectives of
       application to fossil situations. Review of Palaeobotany and Palynology
       195: 26–36.
-    </Publication>
-    <Publication>
+    </p>
+    <p>
       Pidek, I.A., <b>Svobodová-Svitavská, H.</b>, van der Knaap, W.O.,
       Noryśkiewicz, A.M., Filbrandt-Czaja, A., Noryśkiewicz, B., Latałowa, M.,
       Zimny, M., Święta-Musznicka, J., Bozilova, E., Tonkov, S.,
@@ -161,16 +161,16 @@ export const cz = (
       in annual pollen accumulation rates of Fagus along a N-S transect in
       Europe based on pollen traps. Vegetation History and Archaeobotany 19,
       Issue 4: 259-270. (IF 1.504)
-    </Publication>
-    <Publication>
+    </p>
+    <p>
       Van der Knaap, W.O., van Leeuwen, J.F.N., <b>Svobodová-Svitavská, H.</b>,
       Pidek, I.A., Kvavadze, E., Chichinadze, M., Giesecke, T., Kaszewsky, B.M.,
       Oberli, F., Kalniņa, L., Pardoe, H.S., Tinner, W. & Ammann, B. 2010.
       Annual pollen traps reveal the complexity of climatic control on pollen
       productivity in Europe and the Caucasus. Vegetation History and
       Archaeobotany 19, Issue 4: 285–307. (IF 1.504)
-    </Publication>
-    <Publication>
+    </p>
+    <p>
       Pardoe, H.S., Giesecke, T., van der Knaap, W.O.,&nbsp;
       <b>Svitavska-Svobodova, H.</b>, Kvavadze, E.V., Panajiotidis, S.,
       Gerasimidis, A., Pidek, I.A., Zimny, M., Swieta-Musznicka, J., Latalowa,
@@ -179,6 +179,6 @@ export const cz = (
       modified Tauber traps and moss samples: examples from a selection of
       woodlands across Europe. Vegetation History and Archaeobotany 19, 271-283.
       (IF 1.504)
-    </Publication>
+    </p>
   </>
 );
