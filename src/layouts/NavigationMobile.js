@@ -25,7 +25,11 @@ const Navigation = ({
         )}
       </NavbarToggle>
       <MenuWrapper isNavCollapsed={isNavCollapsed}>
-        <Menu generalData={generalData} isIndex={isIndex} />
+        <Menu
+          generalData={generalData}
+          isIndex={isIndex}
+          closeNav={() => setIsNavCollapsed(true)}
+        />
       </MenuWrapper>
     </Container>
   );
@@ -58,17 +62,15 @@ export const MenuWrapper = styled.div`
   flex-direction: column;
   z-index: 5;
   background-color: ${(props) => props.theme.white};
-  width: ${(props) => (props.isNavCollapsed ? 0 : "100%")};
+  border-top: ${(props) => `1px solid ${props.theme.main}`};
+  border-bottom: ${(props) => `1px solid ${props.theme.main}`};
+  width: ${(props) => (props.isNavCollapsed ? 0 : "100vw")};
   overflow: hidden;
-  background-color: ${(props) => props.theme.darkred};
   padding-bottom: 10px;
-
-  @media (min-width: ${(props) => props.theme.extraSmallDevice}) {
-    width: ${(props) => (props.isNavCollapsed ? 0 : "300px")};
-  }
 `;
 
 export const Icon = styled.img`
+  margin-top: 3px;
   height: 30px;
 `;
 

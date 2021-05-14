@@ -43,11 +43,14 @@ Header.propTypes = {
 };
 
 const SubContainer = styled.div`
-  margin-top: 52px;
+  margin-top: 41px;
   display: flex;
   justify-content: center;
   background-color: ${(props) => props.theme.main};
   margin-bottom: 20px;
+  @media (min-width: ${(props) => props.theme.largeDevice}) {
+    margin-top: 52px;
+  }
 `;
 
 const Title = styled.div`

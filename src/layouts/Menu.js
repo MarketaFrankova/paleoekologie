@@ -3,9 +3,12 @@ import styled from "styled-components";
 import PropTypes from "prop-types";
 import StyledLink from "../components/atoms/StyledLink";
 
-const ListLink = ({ to, children, className }) => (
-  <Li className={className}>
-    <StyledLink to={to}>{children}</StyledLink>
+const ListLink = ({ to, children, className, onClick }) => (
+  <Li className={className} onClick={onClick}>
+    <StyledLink to={to}>
+      {children}
+      {JSON.stringify(onClick)}
+    </StyledLink>
   </Li>
 );
 
@@ -19,7 +22,7 @@ ListLink.propTypes = {
 
 const windowGlobal = typeof window !== "undefined" && window;
 
-const Menu = ({ generalData, isIndex }) => {
+const Menu = ({ generalData, isIndex, closeNav }) => {
   const getClass = (urlIncludes) => {
     if (
       windowGlobal &&
@@ -32,31 +35,59 @@ const Menu = ({ generalData, isIndex }) => {
 
   return (
     <>
-      <ListLink to="/" className={isIndex ? "active" : ""}>
+      <ListLink to="/" className={isIndex ? "active" : ""} onClick={closeNav}>
         {generalData.menu.menuHomepage}
       </ListLink>
-      <ListLink to="/research/" className={getClass("research")}>
+      <ListLink
+        to="/research/"
+        className={getClass("research")}
+        onClick={closeNav}
+      >
         {generalData.menu.menuResearch}
       </ListLink>
-      <ListLink to="/people/" className={getClass("people")}>
+      <ListLink to="/people/" className={getClass("people")} onClick={closeNav}>
         {generalData.menu.menuPeople}
       </ListLink>
-      <ListLink to="/projects/" className={getClass("projects")}>
+      <ListLink
+        to="/projects/"
+        className={getClass("projects")}
+        onClick={closeNav}
+      >
         {generalData.menu.menuProjects}
       </ListLink>
-      <ListLink to="/publications/" className={getClass("publications")}>
+      <ListLink
+        to="/publications/"
+        className={getClass("publications")}
+        onClick={closeNav}
+      >
         {generalData.menu.menuPublications}
       </ListLink>
-      <ListLink to="/laboratory/" className={getClass("laboratory")}>
+      <ListLink
+        to="/laboratory/"
+        className={getClass("laboratory")}
+        onClick={closeNav}
+      >
         {generalData.menu.menuLaboratory}
       </ListLink>
-      <ListLink to="/collections/" className={getClass("collections")}>
+      <ListLink
+        to="/collections/"
+        className={getClass("collections")}
+        onClick={closeNav}
+      >
         {generalData.menu.menuCollections}
       </ListLink>
-      <ListLink to="/for-students/" className={getClass("for-students")}>
+      <ListLink
+        to="/for-students/"
+        className={getClass("for-students")}
+        onClick={closeNav}
+      >
         {generalData.menu.menuForStudents}
       </ListLink>
-      <ListLink to="/for-public/" className={getClass("for-public")}>
+      <ListLink
+        to="/for-public/"
+        className={getClass("for-public")}
+        onClick={closeNav}
+      >
         {generalData.menu.menuLinks}
       </ListLink>
     </>
