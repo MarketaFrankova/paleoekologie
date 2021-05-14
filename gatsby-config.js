@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "Muni-paleolab",
+    siteUrl: `https://paleolab.netlify.app/`,
+    description: `Oddělení paleoekologie (Botanický ústav AV ČR) se zabývá výzkumem dlouhodobé dynamiky vegetace a přírodního prostředí.`,
   },
   plugins: [
     "gatsby-plugin-styled-components",
