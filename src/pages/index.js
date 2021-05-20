@@ -6,6 +6,7 @@ import { cz, en } from "../content/homepage";
 import { cz as czNews, en as enNews } from "../content/news";
 import ImgSlider from "../layouts/ImgSlider";
 import Img from "gatsby-image";
+import twitter from "../icons/twitter-blue.svg";
 
 const IndexPage = ({ data }) => {
   const imgs = data.uvodni.edges.map((i) => i.node.fluid);
@@ -25,6 +26,18 @@ const IndexPage = ({ data }) => {
 
             <News>
               <H2>{int === "en" ? "News" : "Aktuality"}</H2>
+              <NewItem>
+                <NewsHeading>
+                  <b>{int === "en" ? "Social sites" : "Sociální sítě"}</b>
+                </NewsHeading>
+                <a
+                  href="https://twitter.com/VegetPaleo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Twitter src={twitter} alt="twitter" />
+                </a>
+              </NewItem>
               {news.map((item) => {
                 const img = imgsNews.find((img) =>
                   img.node.fluid.src.includes(item.photo)
@@ -132,4 +145,11 @@ export const query = graphql`
       }
     }
   }
+`;
+
+const Twitter = styled.img`
+  margin-top: 5px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 10px;
 `;

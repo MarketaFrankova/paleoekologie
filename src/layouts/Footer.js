@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
-import twitter from "../icons/twitter.svg";
+
 import { Link } from "gatsby";
 
 const FooterContent = ({ footer }) => (
@@ -37,17 +37,6 @@ const FooterContent = ({ footer }) => (
       </FooterSection>
     </Container>
     <FooterSectionSoc>
-      <div>
-        <b> {footer.socialSites}</b>
-      </div>
-      <a
-        href="https://twitter.com/VegetPaleo"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Twitter src={twitter} alt="twitter" />
-      </a>
-
       <ALink to="/accessibility/">Prohlášení o přístupnosti</ALink>
     </FooterSectionSoc>
   </>
@@ -111,11 +100,4 @@ const FooterSectionSoc = styled.div`
   border-top: 1px solid grey;
   padding: 10px 0;
   text-align: center;
-`;
-
-const Twitter = styled.img`
-  margin-top: 5px;
-  height: 40px;
-  cursor: pointer;
-  margin-left: 10px;
 `;
