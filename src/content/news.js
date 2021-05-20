@@ -142,4 +142,4 @@ export const cz = [
   },
 ];
 
-const en = [];
+export const en = [];
