@@ -39,6 +39,9 @@ const IndexPage = ({ data }) => {
                   <p>{i}</p>
                 ))}
               </div>
+              <H2>{data.popularVideoTitle}</H2>
+              <div>{data.popularVideos}</div>
+
               <H2>{data.excursionsTitle}</H2>
               <div>{data.excursionesDescriptions}</div>
             </TextWrapper>

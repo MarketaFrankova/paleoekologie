@@ -118,7 +118,7 @@ export const en = {
       </ALink>
     </span>,
   ],
-  popularVideoTitle: "POPULARIZAČNÍ VIDEA",
+  popularVideosTitle: "POPULARIZAČNÍ VIDEA",
   popularVideos: (
     <div>
       <p>
@@ -293,7 +293,7 @@ export const cz = {
       </ALink>
     </span>,
   ],
-  popularVideoTitle: "POPULARIZAČNÍ VIDEA",
+  popularVideosTitle: "POPULARIZAČNÍ VIDEA",
   popularVideos: (
     <div>
       <p>
