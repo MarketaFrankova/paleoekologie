@@ -16,6 +16,7 @@ const H2Styled = styled.h2`
   margin-bottom: ${(props) => props.noTop && "5px"};
   border-bottom: 1px solid ${(props) => props.theme.grey};
   font-family: ${(props) => props.theme.fontHeading};
+  font-variant: small-caps;
 `;
 
 export const H3 = ({ children, green }) => {
@@ -30,4 +31,5 @@ const H3Styled = styled.h3`
   color: ${(props) => (props.green ? props.theme.main : props.theme.grey)};
   /*   border-bottom: 1px solid ${(props) => props.theme.grey}; */
   font-family: ${(props) => props.theme.fontHeading};
+  font-variant: small-caps;
 `;

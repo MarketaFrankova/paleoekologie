@@ -25,6 +25,10 @@ const Styledlink = styled(Link)`
   &.active {
     color: black;
   }
+  &:hover {
+    color: ${(props) => props.theme.main};
+    text-decoration: underline;
+  }
 `;
 
 export const Simplelink = styled(Link)`
