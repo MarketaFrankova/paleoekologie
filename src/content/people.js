@@ -2,10 +2,11 @@ import React from "react";
 
 export const staffEn = [
   {
-    id: `frankova`,
-    name: `Markéta Fránková`,
-    email: `marketa.frankova@ibot.cas.cz`,
-    phoneNumber: `+420 541 126 223 | +420 737 527 185`,
+    id: "frankova",
+    name: "Markéta Fránková",
+    nameWithTitle: "Mgr. Markéta Fránková, Ph.D.",
+    email: "marketa.frankova@ibot.cas.cz",
+    phoneNumber: "+420 541 126 223 | +420 737 527 185",
     position: "head",
     description: (
       <>
@@ -38,10 +39,11 @@ export const staffEn = [
     ),
   },
   {
-    id: `bobek`,
-    name: `Přemysl Bobek`,
-    email: `premysl.bobek@ibot.cas.cz`,
-    phoneNumber: `+420 777 477 785`,
+    id: "bobek",
+    name: "Přemysl Bobek",
+    nameWithTitle: "Mgr. Přemysl Bobek, Ph.D.",
+    email: "premysl.bobek@ibot.cas.cz",
+    phoneNumber: "+420 777 477 785",
     position: "deputy-head",
     description: (
       <>
@@ -72,10 +74,11 @@ export const staffEn = [
     ),
   },
   {
-    id: `dudova`,
-    name: `Lydie Dudová`,
-    email: `lydie.dudova@ibot.cas.cz`,
-    phoneNumber: `+420 541 126 223`,
+    id: "dudova",
+    name: "Lydie Dudová",
+    nameWithTitle: "Mgr. Lydie Dudová, Ph.D.",
+    email: "lydie.dudova@ibot.cas.cz",
+    phoneNumber: "+420 541 126 223",
     position: "researcher",
     description: (
       <>
@@ -116,10 +119,11 @@ export const staffEn = [
     ),
   },
   {
-    id: `hajkova`,
-    name: `Petra Hájková`,
-    email: `buriana@sci.muni.cz`,
-    phoneNumber: `+420 541 126 223`,
+    id: "hajkova",
+    name: "Petra Hájková",
+    nameWithTitle: "Mgr. Petra Hájková, Ph.D.",
+    email: "buriana@sci.muni.cz",
+    phoneNumber: "+420 541 126 223",
     position: "researcher",
     description: (
       <>
@@ -149,11 +153,12 @@ export const staffEn = [
     ),
   },
   {
-    id: `hoskova`,
-    name: `Kristýna Hošková`,
-    email: `kristyna.hoskova@ibot.cas.cz`,
-    phoneNumber: ``,
-    position: "researcher",
+    id: "hoskova",
+    name: "Kristýna Hošková",
+    nameWithTitle: "RNDr. Eva Jamrichová, Ph.D.",
+    email: "kristyna.hoskova@ibot.cas.cz",
+    phoneNumber: "",
+    position: "phd",
     description: (
       <>
         <p>
@@ -180,10 +185,11 @@ export const staffEn = [
     ),
   },
   {
-    id: `jamrichova`,
-    name: `Eva Jamrichová`,
-    email: `eva.jamrichova@ibot.cas.cz`,
-    phoneNumber: `+420 541 126 223`,
+    id: "jamrichova",
+    name: "Eva Jamrichová",
+    nameWithTitle: "RNDr. Eva Jamrichová, Ph.D.",
+    email: "eva.jamrichova@ibot.cas.cz",
+    phoneNumber: "+420 541 126 223",
     position: "researcher",
     description: (
       <>
@@ -214,10 +220,11 @@ export const staffEn = [
     ),
   },
   {
-    id: `jankovska`,
-    name: `Vlasta Jankovská`,
-    email: ` vlasta.jankovska@ibot.cas.cz`,
-    phoneNumber: `+420 541 126 216`,
+    id: "jankovska",
+    name: "Vlasta Jankovská",
+    nameWithTitle: "RNDr. Vlasta Jankovská, CSc.",
+    email: " vlasta.jankovska@ibot.cas.cz",
+    phoneNumber: "+420 541 126 216",
     position: "researcher",
     description: (
       <>
@@ -253,10 +260,11 @@ export const staffEn = [
     ),
   },
   {
-    id: `rolecek`,
-    name: `Jan Roleček`,
-    email: ` jan.rolecek@ibot.cas.cz`,
-    phoneNumber: `+420 541 126 218`,
+    id: "rolecek",
+    name: "Jan Roleček",
+    nameWithTitle: "Mgr. Jan Roleček, Ph.D.",
+    email: " jan.rolecek@ibot.cas.cz",
+    phoneNumber: "+420 541 126 218",
     position: "researcher",
     description: (
       <>
@@ -285,11 +293,12 @@ export const staffEn = [
     ),
   },
   {
-    id: `solcova`,
-    name: `Anna Šolcová`,
-    email: `annapotuckova6@gmail.com`,
-    phoneNumber: `+420 739 092 275`,
-    position: "researcher",
+    id: "solcova",
+    name: "Anna Šolcová",
+    nameWithTitle: "Mgr. Anna Šolcová",
+    email: "annapotuckova6@gmail.com",
+    phoneNumber: "+420 739 092 275",
+    position: "phd",
     description: (
       <>
         <p>
@@ -314,11 +323,12 @@ export const staffEn = [
     ),
   },
   {
-    id: `soukupova`,
-    name: `Markéta Gabriela Švarcová`,
-    email: `Marketa.Svarcova@ibot.cas.cz`,
-    phoneNumber: `+420 271 015 420`,
-    position: "researcher",
+    id: "soukupova",
+    name: "Markéta Gabriela Švarcová",
+    nameWithTitle: "Mgr. Markéta Gabriela Švarcová",
+    email: "Marketa.Svarcova@ibot.cas.cz",
+    phoneNumber: "+420 271 015 420",
+    position: "phd",
     description: (
       <>
         <p>
@@ -350,16 +360,35 @@ export const staffEn = [
     ),
   },
   {
-    id: `svitavska`,
-    name: `Helena Svitavská Svobodová`,
-    email: `helena.svitavska@ibot.cas.cz`,
-    phoneNumber: `+420 271 015 427 |  +420 271 015 334`,
+    id: "svitavska",
+    name: "Helena Svitavská Svobodová",
+    nameWithTitle: "PhDr. Helena Svitavská Svobodová, CSc.",
+    email: "helena.svitavska@ibot.cas.cz",
+    phoneNumber: "+420 271 015 427 |  +420 271 015 334",
     position: "researcher",
+    wosResearchId: "D-4161-2013",
+    links: [
+      "https://www.researchgate.net/profile/Helena_Svitavska_Svobodova",
+      "https://publons.com/researcher/2657470/helena-svobodova-svitavska/",
+      "https://orcid.org/0000-0001-6092-4588",
+    ],
     description: (
       <>
-        <p></p>
+        <p>
+          Helena Svitavská Svobodová deals with Quaternary palynology at the
+          Institute of Botany. Her scientific research focuses on the
+          development of vegetation according to pollen records from peat cores
+          and from the lakes of South Moravia, Šumava and the Giant Mountains,
+          dated to the last 15,000 years, and on the palynology of Pleistocene
+          long cores from Massif Central in France. In recent years, she has
+          been engaged in pollen analyzes from sandstone areas in Northern
+          Bohemia. In 1998, she launched the annual pollen monitoring on border
+          mountains in the Czech Republic, which was supported palynological
+          community by the Initiative of International Union for Quaternary
+          Research.
+        </p>
         <a
-          href="/svitavskaCV.docx"
+          href="/svitavskaCV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -370,48 +399,49 @@ export const staffEn = [
     ),
   },
   {
-    id: `formankova`,
-    name: `Zuzana Formánková`,
-    email: `zuzana.formankova@ibot.cas.cz`,
+    id: "formankova",
+    name: "Zuzana Formánková",
+    email: "zuzana.formankova@ibot.cas.cz",
     position: "techadm",
-    phoneNumber: `+420 541 126 217`,
+    phoneNumber: "+420 541 126 217",
   },
   {
-    id: `jirouskova`,
-    name: `Jana Jiroušková`,
-    email: `jana.bozkova@atlas.cz`,
+    id: "jirouskova",
+    name: "Jana Jiroušková",
+    email: "jana.bozkova@atlas.cz",
     position: "techadm",
-    phoneNumber: `+420 541 126 223`,
+    phoneNumber: "+420 541 126 223",
   },
   {
-    id: `krauseova`,
-    name: `Eva Krauseová`,
-    email: `eva.krauseova@ibot.cas.cz`,
+    id: "krauseova",
+    name: "Eva Krauseová",
+    email: "eva.krauseova@ibot.cas.cz",
     position: "techadm",
-    phoneNumber: `+420 271 015 427 | +420 271 015 334`,
+    phoneNumber: "+420 271 015 427 | +420 271 015 334",
   },
   {
-    id: `krausova`,
-    name: `Irena Krausová`,
-    email: `irena.krausova@ibot.cas.cz`,
+    id: "krausova",
+    name: "Irena Krausová",
+    email: "irena.krausova@ibot.cas.cz",
     position: "techadm",
-    phoneNumber: `+420 271 015 334`,
+    phoneNumber: "+420 271 015 334",
   },
   {
-    id: `sadilkova`,
-    name: `Martina Sadílková`,
-    email: `martina.sadilkova@ibot.cas.cz`,
+    id: "sadilkova",
+    name: "Martina Sadílková (secretary)",
+    email: "martina.sadilkova@ibot.cas.cz",
     position: "techadm",
-    phoneNumber: `+420 530 506 742 | +420 541 126 231`,
+    phoneNumber: "+420 530 506 742 | +420 541 126 231",
   },
 ];
 
 export const staffCz = [
   {
-    id: `frankova`,
-    name: `Markéta Fránková`,
-    email: `marketa.frankova@ibot.cas.cz`,
-    phoneNumber: `+420 541 126 223 | +420 737 527 185`,
+    id: "frankova",
+    name: "Markéta Fránková",
+    nameWithTitle: "Mgr. Markéta Fránková, Ph.D.",
+    email: "marketa.frankova@ibot.cas.cz",
+    phoneNumber: "+420 541 126 223 | +420 737 527 185",
     position: "head",
     description: (
       <>
@@ -446,10 +476,11 @@ export const staffCz = [
     ),
   },
   {
-    id: `bobek`,
-    name: `Přemysl Bobek`,
-    email: `premysl.bobek@ibot.cas.cz`,
-    phoneNumber: `+420 777 477 785`,
+    id: "bobek",
+    name: "Přemysl Bobek",
+    nameWithTitle: "Mgr. Přemysl Bobek, Ph.D.",
+    email: "premysl.bobek@ibot.cas.cz",
+    phoneNumber: "+420 777 477 785",
     position: "deputy-head",
     description: (
       <>
@@ -481,10 +512,11 @@ export const staffCz = [
     ),
   },
   {
-    id: `dudova`,
-    name: `Lydie Dudová`,
-    email: `lydie.dudova@ibot.cas.cz`,
-    phoneNumber: `+420 541 126 223`,
+    id: "dudova",
+    name: "Lydie Dudová",
+    nameWithTitle: "Mgr. Lydie Dudová, Ph.D.",
+    email: "lydie.dudova@ibot.cas.cz",
+    phoneNumber: "+420 541 126 223",
     position: "researcher",
     description: (
       <>
@@ -522,10 +554,11 @@ export const staffCz = [
     ),
   },
   {
-    id: `hajkova`,
-    name: `Petra Hájková`,
-    email: `buriana@sci.muni.cz`,
-    phoneNumber: `+420 541 126 223`,
+    id: "hajkova",
+    name: "Petra Hájková",
+    nameWithTitle: "Mgr. Petra Hájková, Ph.D.",
+    email: "buriana@sci.muni.cz",
+    phoneNumber: "+420 541 126 223",
     position: "researcher",
     description: (
       <>
@@ -556,11 +589,12 @@ export const staffCz = [
     ),
   },
   {
-    id: `hoskova`,
-    name: `Kristýna Hošková`,
-    email: ` kristyna.hoskova@ibot.cas.cz`,
-    phoneNumber: ``,
-    position: "researcher",
+    id: "hoskova",
+    name: "Kristýna Hošková",
+    nameWithTitle: "Mgr. Kristýna Hošková",
+    email: " kristyna.hoskova@ibot.cas.cz",
+    phoneNumber: "",
+    position: "phd",
     description: (
       <>
         <p>
@@ -585,10 +619,11 @@ export const staffCz = [
     ),
   },
   {
-    id: `jamrichova`,
-    name: `Eva Jamrichová`,
-    email: `eva.jamrichova@ibot.cas.cz`,
-    phoneNumber: `+420 541 126 223`,
+    id: "jamrichova",
+    name: "Eva Jamrichová",
+    nameWithTitle: "RNDr. Eva Jamrichová, Ph.D.",
+    email: "eva.jamrichova@ibot.cas.cz",
+    phoneNumber: "+420 541 126 223",
     position: "researcher",
     description: (
       <>
@@ -617,10 +652,11 @@ export const staffCz = [
     ),
   },
   {
-    id: `jankovska`,
-    name: `Vlasta Jankovská`,
-    email: ` vlasta.jankovska@ibot.cas.cz`,
-    phoneNumber: `+420 541 126 216`,
+    id: "jankovska",
+    name: "Vlasta Jankovská",
+    nameWithTitle: "RNDr. Vlasta Jankovská, CSc.",
+    email: " vlasta.jankovska@ibot.cas.cz",
+    phoneNumber: "+420 541 126 216",
     position: "researcher",
     description: (
       <>
@@ -661,10 +697,11 @@ export const staffCz = [
     ),
   },
   {
-    id: `rolecek`,
-    name: `Jan Roleček`,
-    email: ` jan.rolecek@ibot.cas.cz`,
-    phoneNumber: `+420 541 126 218`,
+    id: "rolecek",
+    name: "Jan Roleček",
+    nameWithTitle: "Mgr. Jan Roleček, Ph.D.",
+    email: " jan.rolecek@ibot.cas.cz",
+    phoneNumber: "+420 541 126 218",
     position: "researcher",
     description: (
       <>
@@ -692,11 +729,12 @@ export const staffCz = [
     ),
   },
   {
-    id: `solcova`,
-    name: `Anna Šolcová`,
-    email: `annapotuckova6@gmail.com`,
-    phoneNumber: `+420 739 092 275`,
-    position: "researcher",
+    id: "solcova",
+    name: "Anna Šolcová",
+    nameWithTitle: "Mgr. Anna Šolcová",
+    email: "annapotuckova6@gmail.com",
+    phoneNumber: "+420 739 092 275",
+    position: "phd",
     description: (
       <>
         <p>
@@ -720,11 +758,12 @@ export const staffCz = [
     ),
   },
   {
-    id: `soukupova`,
-    name: `Markéta G. Soukupová`,
-    email: `Marketa.Svarcova@ibot.cas.cz`,
-    phoneNumber: `+420 271 015 420`,
-    position: "researcher",
+    id: "soukupova",
+    name: "Markéta G. Soukupová",
+    nameWithTitle: "Mgr. Markéta Gabriela Soukupová",
+    email: "Marketa.Svarcova@ibot.cas.cz",
+    phoneNumber: "+420 271 015 420",
+    position: "phd",
     description: (
       <>
         <p>
@@ -756,27 +795,33 @@ export const staffCz = [
     ),
   },
   {
-    id: `svitavska`,
-    name: `Helena Svitavská Svobodová`,
-    email: `helena.svitavska@ibot.cas.cz`,
+    id: "svitavska",
+    name: "Helena Svitavská Svobodová",
+    nameWithTitle: "PhDr. Helena Svitavská Svobodová, CSc.",
+    email: "helena.svitavska@ibot.cas.cz",
     position: "researcher",
-    phoneNumber: `+420 271 015 427 |  +420 271 015 334`,
+    phoneNumber: "+420 271 015 427 |  +420 271 015 334",
+    wosResearchId: "D-4161-2013",
+    links: [
+      "https://www.researchgate.net/profile/Helena_Svitavska_Svobodova",
+      "https://publons.com/researcher/2657470/helena-svobodova-svitavska/",
+      "https://orcid.org/0000-0001-6092-4588",
+    ],
     description: (
       <>
         <p>
           Helena Svitavská Svobodová se v Botanickém ústavu zabývá kvartérní
-          palynologií. Její vědecký výzkum je zaměřen vývoj vegetace podle
+          palynologií. Její vědecký výzkum je zaměřen na vývoj vegetace podle
           pylových záznamů z rašelinných vrtů a z jezer jižní Moravy, ze Šumavy
           a z Krkonoš, datovaných do posledních 15 tisíc let, a na palynologii
-          pleistocenních hlubokých maarů z Massif Central ve Francii. V
+          pleistocenních hlubokých vrtů z maarů Massif Central ve Francii. V
           posledních letech se věnuje pylovým analýzám z pískovcových oblastí v
-          severních Čechách. V roce 1998 volontérsky založila roční pylové
-          monitorování příhraničních hor v Čechách, které bylo podporováno
-          iniciativou <i>International Union for Quaternary Research</i> v 15
-          evropských státech.
+          severních Čechách. V roce 1998 založila roční pylové monitorování
+          příhraničních hor v Čechách, které bylo podporováno palynologickou
+          iniciativou v <i>International Union for Quaternary Research</i> .
         </p>
         <a
-          href="/svitavskaCV.docx"
+          href="/svitavskaCV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -787,38 +832,38 @@ export const staffCz = [
     ),
   },
   {
-    id: `formankova`,
-    name: `Zuzana Formánková`,
-    email: `zuzana.formankova@ibot.cas.cz`,
+    id: "formankova",
+    name: "Zuzana Formánková",
+    email: "zuzana.formankova@ibot.cas.cz",
     position: "techadm",
-    phoneNumber: `+420 541 126 217`,
+    phoneNumber: "+420 541 126 217",
   },
   {
-    id: `jirouskova`,
-    name: `Jana Jiroušková`,
-    email: `jana.bozkova@atlas.cz`,
+    id: "jirouskova",
+    name: "Jana Jiroušková",
+    email: "jana.bozkova@atlas.cz",
     position: "techadm",
-    phoneNumber: `+420 541 126 223`,
+    phoneNumber: "+420 541 126 223",
   },
   {
-    id: `krauseova`,
-    name: `Eva Krauseová`,
-    email: `eva.krauseova@ibot.cas.cz`,
+    id: "krauseova",
+    name: "Eva Krauseová",
+    email: "eva.krauseova@ibot.cas.cz",
     position: "techadm",
-    phoneNumber: `+420 271 015 427 | +420 271 015 334`,
+    phoneNumber: "+420 271 015 427 | +420 271 015 334",
   },
   {
-    id: `krausova`,
-    name: `Irena Krausová`,
-    email: `irena.krausova@ibot.cas.cz`,
+    id: "krausova",
+    name: "Irena Krausová",
+    email: "irena.krausova@ibot.cas.cz",
     position: "techadm",
-    phoneNumber: `+420 271 015 334`,
+    phoneNumber: "+420 271 015 334",
   },
   {
-    id: `sadilkova`,
-    name: `Martina Sadílková`,
-    email: `martina.sadilkova@ibot.cas.cz`,
+    id: "sadilkova",
+    name: "Martina Sadílková (sekretářka)",
+    email: "martina.sadilkova@ibot.cas.cz",
     position: "techadm",
-    phoneNumber: `+420 530 506 742 | +420 541 126 231`,
+    phoneNumber: "+420 530 506 742 | +420 541 126 231",
   },
 ];

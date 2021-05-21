@@ -27,7 +27,7 @@ const PersonDetail = ({ personInfo, openDetail, img }) => {
               )}
             </ImageWrapper>
             <TextWrapper>
-              <H2 noTop>{personInfo.name}</H2>
+              <H2 noTop>{personInfo.nameWithTitle}</H2>
               <Div grey>{personInfo.phoneNumber}</Div>
               <Div grey>{personInfo.email}</Div>
               {personInfo.description && <Div>{personInfo.description}</Div>}

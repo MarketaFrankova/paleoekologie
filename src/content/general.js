@@ -62,6 +62,7 @@ export const en = {
     deputyHead: "Deputy head of the lab",
     researchers: "Researchers",
     technical: "Technical and administrative staff",
+    phd: "PhD students",
   },
 };
 
@@ -127,5 +128,6 @@ export const cz = {
     deputyHead: "Zástupce vedoucího",
     researchers: "Vědečtí pracovníci",
     technical: "Techničtí a administrativní pracovníci",
+    phd: "Doktorandi",
   },
 };

@@ -4,3 +4,7 @@ a {
 body {
   font-family: sans-serif !important;
 }
+
+p {
+  text-align: justify;
+}
