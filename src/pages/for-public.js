@@ -16,34 +16,46 @@ const IndexPage = ({ data }) => {
   return (
     <Consumer>
       {({ int }) => {
-        const data = int === "en" ? en : cz;
+        const content = int === "en" ? en : cz;
+        console.log(data);
         return (
           <Wrapper>
             <TextWrapper>
-              <H2>{data.eventTitle}</H2>
-              <div>{data.events.map((i) => i)}</div>
-              <H2>{data.virtualMeadow}</H2>
-              <div>{data.virtualMeadowDescription}</div>
-              <H2>{data.documentaryTitle}</H2>
+              <H2>{content.eventTitle}</H2>
+              <div>{content.events.map((i) => i)}</div>
+              <H2>{content.virtualMeadow}</H2>
+              <div>{content.virtualMeadowDescription}</div>
+              <H2>{content.documentaryTitle}</H2>
               <div>
-                {data.documentaries.map((i) => (
+                {content.documentaries.map((i) => (
                   <>
                     <b>{i.name}</b>
                     <div>{i.description}</div>
                   </>
                 ))}
+                <a
+                  href="https://www.ceskatelevize.cz/porady/12935442888-zelene-plice/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Img
+                    fluid={data.zeleneplice.childImageSharp.fluid}
+                    alt="Zelené plíce - dokument"
+                    style={{ maxWidth: 500 }}
+                  />
+                </a>
               </div>
-              <H2>{data.popularPapersTitle}</H2>
+              <H2>{content.popularPapersTitle}</H2>
               <div>
-                {data.popularPapers.map((i) => (
+                {content.popularPapers.map((i) => (
                   <p>{i}</p>
                 ))}
               </div>
-              <H2>{data.popularVideoTitle}</H2>
-              <div>{data.popularVideos}</div>
+              <H2>{content.popularVideoTitle}</H2>
+              <div>{content.popularVideos}</div>
 
-              <H2>{data.excursionsTitle}</H2>
-              <div>{data.excursionesDescriptions}</div>
+              <H2>{content.excursionsTitle}</H2>
+              <div>{content.excursionesDescriptions}</div>
             </TextWrapper>
             <ImgWrapper>{imgs.map((img) => img)}</ImgWrapper>
           </Wrapper>
@@ -109,6 +121,13 @@ export const query = graphql`
       }
     }
     image5: file(relativePath: { regex: "/forpublic/forpublic05.jpg/" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    zeleneplice: file(relativePath: { regex: "/forpublic/zeleneplice.jpg/" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_withWebp

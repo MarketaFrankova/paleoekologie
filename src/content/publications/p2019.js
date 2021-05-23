@@ -77,7 +77,7 @@ export const impact = (
       <Link to="/people/" state={{ person: "bobek" }}>
         Bobek P.
       </Link>
-      ,{" "}
+      ,&nbsp;
       <Link to="/people/" state={{ person: "solcova" }}>
         Šolcová A.
       </Link>

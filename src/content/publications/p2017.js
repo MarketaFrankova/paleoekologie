@@ -108,7 +108,7 @@ export const impact = (
       <Link to="/people/" state={{ person: "jamrichova" }}>
         Jamrichová E.
       </Link>
-      ,&nbsp;Hédl R.,&nbsp;Kolář J., Tóth P.,{" "}
+      ,&nbsp;Hédl R.,&nbsp;Kolář J., Tóth P.,&nbsp;
       <Link to="/people/" state={{ person: "bobek" }}>
         Bobek P.
       </Link>

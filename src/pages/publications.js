@@ -52,11 +52,14 @@ const SelectYear = styled.div`
   background: white;
   position: -webkit-sticky;
   position: sticky;
-  top: 50px;
+  top: 41px;
   height: 50px;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  @media (min-width: 1024px) {
+    top: 50px;
+  }
 `;
 
 const Year = styled.button`

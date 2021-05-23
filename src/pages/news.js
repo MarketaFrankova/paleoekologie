@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => {
 
               return (
                 <>
-                  <NewsHeading>{item.heading}</NewsHeading>
+                  <NewsHeading id={item.id}>{item.heading}</NewsHeading>
                   <NewItem>
                     {item.photo && (
                       <ImgWrapper width={item.imgWidth}>

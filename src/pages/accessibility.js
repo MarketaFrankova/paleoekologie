@@ -75,7 +75,7 @@ const IndexPage = () => {
       <p>
         V případě neuspokojivé odpovědi na oznámení nebo žádost, kontaktujte
         příslušný orgán pro prosazování práva: (MV ČR, odbor eGovernmentu,
-        náměstí Hrdinů 1634/3, 140 21 Praha 4; e-mail:{" "}
+        náměstí Hrdinů 1634/3, 140 21 Praha 4; e-mail:&nbsp;
         <a href="mailto:pristupnost@mvcr.cz">pristupnost@mvcr.cz</a>).
       </p>
 

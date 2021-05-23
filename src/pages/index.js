@@ -78,7 +78,7 @@ const News = styled.div`
   text-align: justify;
   position: relative;
   @media (min-width: ${(props) => props.theme.largeDevice}) {
-    min-width: 200px;
+    min-width: 330px;
     margin-left: 2rem;
     max-width: 33%;
   }
@@ -101,6 +101,7 @@ const NewsHeading = styled.div`
   color: ${(props) => props.theme.darkred};
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: center;
 `;
 
 const NewItem = styled.div`

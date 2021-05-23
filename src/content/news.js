@@ -1,17 +1,23 @@
 import { ALink } from "../components/atoms/StyledLink";
 import React from "react";
-import { Link } from "gatsby";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 export const cz = [
   {
+    id: "news1",
     photo: "news1.jpg",
     heading: "Dny elektronové mikroskopie",
     imgTitle: "na Svoboďáku s Cecílií",
     contentShort: (
       <p>
         Letos jsme se poprvé zapojili do <b>Dnů elektronové mikroskopie</b>,
-        které každoročně probíhají v Mekce elektronové mikroskopie – Brně.{" "}
-        <Link to="/news/">Více zde</Link>
+        které každoročně probíhají v Mekce elektronové mikroskopie – Brně.&nbsp;
+        <AnchorLink
+          to="/news#news1"
+          title="Dny elektronové mikroskopie - kompletní aktualita"
+        >
+          Více zde
+        </AnchorLink>
       </p>
     ),
     content: (
@@ -32,6 +38,7 @@ export const cz = [
     ),
   },
   {
+    id: "news2",
     photo: "news2.jpg",
     heading: "Vlasta Jankovská osmdesátiletá",
     imgTitle: "Vlasta medaile",
@@ -40,7 +47,13 @@ export const cz = [
         <p>
           Dne 11. dubna letošního roku oslavila významné životní jubileum naše
           skvělá a inspirativní kolegyně, paleoekoložka RNDr. Vlasta Jankovská,
-          CSc. <Link to="/news/">Více zde</Link>
+          CSc.&nbsp;
+          <AnchorLink
+            to="/news#news2"
+            title="Vlasta Jankovská osmdesátiletá - kompletní aktualita"
+          >
+            Více zde
+          </AnchorLink>
         </p>
         <p>
           Milá Vlasto, srdečně Ti blahopřejeme k Tvým kulatinám a přejeme Ti
@@ -131,6 +144,7 @@ export const cz = [
     ),
   },
   {
+    id: "news3",
     photo: "news3.jpg",
     heading: "Vývoj diverzity rostlin od konce doby ledové",
     imgTitle: "Dvě křivky diverzitní článek pro popularizaci",
@@ -142,8 +156,14 @@ export const cz = [
         <i>
           Holocene plant diversity dynamics show a distinct biogeographical
           pattern in temperate Europe.
-        </i>{" "}
-        <Link to="/news/">Více zde</Link>
+        </i>
+        &nbsp;
+        <AnchorLink
+          to="/news#news3"
+          title="Vývoj diverzity rostlin od konce doby ledové - kompletní aktualita"
+        >
+          Více zde
+        </AnchorLink>
       </p>
     ),
     content: (
