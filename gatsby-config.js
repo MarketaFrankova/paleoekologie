@@ -11,7 +11,12 @@ module.exports = {
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
     "gatsby-plugin-breakpoints",
-    "gatsby-plugin-anchor-links",
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -60,
+      },
+    },
     "gatsby-plugin-layout",
     {
       resolve: "gatsby-plugin-robots-txt",
