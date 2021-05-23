@@ -180,8 +180,8 @@ const ResearchItem = styled(Link)`
   cursor: pointer;
   text-decoration: none;
   &:hover {
-    div {
-      opacity: 1;
+    div:last-of-type {
+      background: #e2ead5;
     }
   }
 `;
@@ -191,7 +191,6 @@ const ImgWrapper = styled.div`
   border-top-left-radius: 4px;
   position: relative;
   overflow: hidden;
-  opacity: ${(props) => (props.active ? 1 : 0.8)};
 `;
 
 const ResearchFooter = styled.div`

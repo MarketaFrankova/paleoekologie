@@ -1,11 +1,19 @@
 import { ALink } from "../components/atoms/StyledLink";
 import React from "react";
+import { Link } from "gatsby";
 
 export const cz = [
   {
     photo: "news1.jpg",
     heading: "Dny elektronové mikroskopie",
     imgTitle: "na Svoboďáku s Cecílií",
+    contentShort: (
+      <p>
+        Letos jsme se poprvé zapojili do <b>Dnů elektronové mikroskopie</b>,
+        které každoročně probíhají v Mekce elektronové mikroskopie – Brně.{" "}
+        <Link to="/news/">Více zde</Link>
+      </p>
+    ),
     content: (
       <p>
         Letos jsme se poprvé zapojili do <b>Dnů elektronové mikroskopie</b>,
@@ -27,6 +35,20 @@ export const cz = [
     photo: "news2.jpg",
     heading: "Vlasta Jankovská osmdesátiletá",
     imgTitle: "Vlasta medaile",
+    contentShort: (
+      <>
+        <p>
+          Dne 11. dubna letošního roku oslavila významné životní jubileum naše
+          skvělá a inspirativní kolegyně, paleoekoložka RNDr. Vlasta Jankovská,
+          CSc. <Link to="/news/">Více zde</Link>
+        </p>
+        <p>
+          Milá Vlasto, srdečně Ti blahopřejeme k Tvým kulatinám a přejeme Ti
+          stejně neutuchající elán, sílu a optimismus jako doposud, spoustu
+          osobních i pracovních radostí, a hlavně pevné zdraví!
+        </p>
+      </>
+    ),
     content: (
       <>
         <p>
@@ -112,6 +134,18 @@ export const cz = [
     photo: "news3.jpg",
     heading: "Vývoj diverzity rostlin od konce doby ledové",
     imgTitle: "Dvě křivky diverzitní článek pro popularizaci",
+    imgWidth: "500px",
+    contentShort: (
+      <p>
+        Vědci Oddělení paleoekologie jako první kvantifikují regionální rozdíly
+        v diverzitě rostlin od konce doby ledové aneb náš nový článek&nbsp;
+        <i>
+          Holocene plant diversity dynamics show a distinct biogeographical
+          pattern in temperate Europe.
+        </i>{" "}
+        <Link to="/news/">Více zde</Link>
+      </p>
+    ),
     content: (
       <>
         <p>

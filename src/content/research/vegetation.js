@@ -3,59 +3,64 @@ import { H2, H3 } from "../../components/atoms/Headings";
 
 export const en = (
   <Fragment>
-    <H2>Historické aspekty diverzity vegetace</H2>
+    <H2>Historical aspects of vegetation diversity</H2>
     <div align="justify">
       <p>
-        Věnujeme se studiu diverzity vegetace ve střední Evropě a odhalování
-        historie jejího utváření. Zaměřujeme se hlavně na druhově mimořádně
-        bohaté ekosystémy stepních luk a dubových lesů v lesostepních oblastech.
-        Zabýváme se také výzkumem a monitoringem vybraných ohrožených druhů,
-        především takových, které nám můžu něco říct o historickém vývoji jejich
-        lokalit.
+        We study the diversity of vegetation in Central Europe and its genesis.
+        We focus mainly on extremely species-rich ecosystems of steppe meadows
+        and oak forests in forest-steppe regions. We also survey and monitor
+        some endangered species populations; especially those that can tell us
+        something about the history of their sites.
       </p>
       <p>
-        Naším hlavním cílem je popsat a vysvětlit druhové složení reliktních
-        ekosystémů, u kterých pozorujeme zřetelné ovlivnění jejich druhového
-        složení specifickým historickým vývojem. Zvláštní pozornost věnuje
-        lesostepním loukám bělokarpatského typu, rozšířeným v celé perikarpatské
-        oblasti od Bílých Karpat po západní Ukrajinu a východní Rumunsko, kam
-        směřují naše každoroční expedice. Naše výzkumy přinesly několik
-        světových rekordů druhové bohatosti cévnatých rostlin na ploše 10 a 16
-        m2. Díky paleoekologickým analýzám jsme podpořili hypotézu, že alespoň
-        na některých lokalitách druhově extrémně bohatých luk se nikdy od konce
-        poslední doby ledové nevyvinul stinný les. V současnosti tuto hypotézu
-        testujeme pomocí řady dalších, i méně obvyklých metod (např. analýza
-        půdní paměti). Věnujeme se i zkoumání vegetace teplomilných doubrav a
-        lesních lemů, které jsou nedílnou součásti lesostepní mozaiky.
+        Our main goal is to describe and explain the species composition of
+        relict ecosystems, in which we see effects of specific history on
+        species composition. We pay special attention to forest-steppe meadows,
+        widespread throughout the peri-Carpathian region between the White
+        Carpathians in the west and western Ukraine and eastern Romania in the
+        east. We organize expeditions to more distant sites on annual basis. Our
+        research has yielded several world records of species richness of
+        vascular plants on plot sizes ​​10 and 16 m2. Thanks to paleoecological
+        analyses, we found evidence for the hypothesis that at least in some
+        sites of extremely species-rich steppe meadows have not developed a
+        closed forest cover since the end of the last Ice Age. Currently we are
+        further testing this hypothesis using some less common proxies (e.g.
+        soil memory analysis). We also study the vegetation of thermophilous oak
+        forests and tall herb-rich steppes, which are an integral part of the
+        forest-steppe mosaics.
       </p>
       <p>
-        Protože tyto ekosystémy považujeme za cennou a ohroženou součást
-        středoevropské přírody, věnujeme se také otázkám jejich ochrany a
-        managementu, a to jak na úrovni biotopů, tak vybraných ohrožených druhů
-        (např. Himantoglossum adriaticum, Pedicularis exaltata, Tephroseris
-        integrifolia agg.).
+        As we consider forest-steppe ecosystems a valuable and endangered
+        component of Central European nature, we also address issues of their
+        protection and management, both at the level of habitats and selected
+        endangered species (e.g. Himantoglossum adriaticum, Pedicularis
+        exaltata, Tephroseris integrifolia agg.).
       </p>
       <p>
-        Zaměřujeme se také na teoretické a metodické otázky vegetační vědy a
-        paleoekologie. V posledních letech jsme například díky originálním
-        poznatkům o vztahu diverzity rostlin a pylu mohli vytvořit moderní
-        rekonstrukci vývoje druhové bohatosti rostlin ve středoevropské krajině
-        od konce poslední doby ledové, založenou na fosilních pylových datech.
+        We also focus on theoretical and methodological issues of vegetation
+        science and paleoecology. Thanks to the original data about the
+        relationship between plant and pollen diversity, we recently
+        reconstructed the development of plant species richness in the Central
+        European landscapes since the end of the last ice age, based on fossil
+        pollen data.
       </p>
       <p>
-        Úzce spolupracujeme s Oddělením vegetační ekologie Botanického ústavu, s
-        Ústavem botaniky a zoologie Přírodovědecké fakulty Masarykovy
-        univerzity, kde také vedeme přednášky, terénní cvičení a školíme
-        studenty, a s Katedrou botaniky Přírodovědecké fakulty Univerzity
-        Karlovy.
+        We cooperate closely with the Department of Vegetation Ecology of the
+        Institute of Botany, the Department of Botany and Zoology, Faculty of
+        Science, Masaryk University, Brno, where we also give lectures and field
+        exercises and supervise students, and the Department of Botany, Faculty
+        of Science, Charles University, Prague.
       </p>
     </div>
-    <H3 green>Lidé zapojení do výzkumu</H3>
+    <H3 green>
+      Lab members involved: Jan Roleček, Petra Hájková, Eva Jamrichová, Helena
+      Svobodová, Lydie Dudová, Kristýna Hošková
+    </H3>
     <p>
       Jan Roleček, Petra Hájková, Eva Jamrichová, Helena Svobodová, Lydie
       Dudová, Kristýna Hošková
     </p>
-    <H3 green>Výběr nejdůležitějších publikací:</H3>
+    <H3 green>Selected papers:</H3>
 
     <p>
       Roleček J., Abraham V., Vild O., Svobodová H. S., Jamrichová E., Plesková

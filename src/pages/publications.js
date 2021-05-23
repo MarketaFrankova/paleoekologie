@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Paragraph from "../components/atoms/Paragraph";
 import { Consumer } from "../layouts/Context";
-import { cz, en } from "../content/publications";
+import { cz, en } from "../content/publications/publications";
 import styled from "styled-components";
 
 const windowGlobal = typeof window !== "undefined" && window;
@@ -22,16 +22,19 @@ const IndexPage = () => {
           <>
             <Paragraph>
               <SelectYear>
-                {data.years.map((year) => (
-                  <Year
-                    active={activeYear === year.year}
-                    onClick={() => {
-                      setActiveYear(year.year);
-                    }}
-                  >
-                    {year.year}
-                  </Year>
-                ))}
+                {data.years.map((year) => {
+                  if (!year.list) return;
+                  return (
+                    <Year
+                      active={activeYear === year.year}
+                      onClick={() => {
+                        setActiveYear(year.year);
+                      }}
+                    >
+                      {year.year}
+                    </Year>
+                  );
+                })}
               </SelectYear>
               {data.general}
 

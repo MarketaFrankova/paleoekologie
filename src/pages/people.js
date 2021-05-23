@@ -7,15 +7,18 @@ import { cz, en } from "../content/general";
 import styled from "styled-components";
 import { H2 } from "../components/atoms/Headings";
 
-const IndexPage = ({ data, location }) => {
+const windowGlobal = typeof window !== "undefined" && window;
+
+const IndexPage = ({ data, location, history }) => {
   const images = data.allImageSharp.edges;
   const [detailOpened, setDetailOpened] = useState(null);
 
   useEffect(() => {
-    if (location.state?.person) {
-      setDetailOpened(location.state.person);
-    }
-  }, []);
+    if (location.state?.person || history?.state.person) {
+      setDetailOpened(location.state.person || history.state.person);
+      windowGlobal.scrollTo(0, 0);
+    } else setDetailOpened(null);
+  }, [location.state]);
 
   return (
     <Consumer>

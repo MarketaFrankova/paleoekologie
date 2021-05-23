@@ -6,6 +6,7 @@ import Img from "gatsby-image";
 import Paragraph from "../atoms/Paragraph";
 import ContainerWrapper from "../atoms/ContainerWrapper";
 import Backlink from "../atoms/Backlink";
+import { navigate } from "gatsby";
 
 const PersonDetail = ({ personInfo, openDetail, img }) => {
   return (
@@ -13,7 +14,11 @@ const PersonDetail = ({ personInfo, openDetail, img }) => {
       <ContainerWrapper>
         <Paragraph>
           <Back>
-            <Backlink handleClick={() => openDetail(null)} />
+            <Backlink
+              handleClick={() =>
+                navigate("/people", { state: { person: null } })
+              }
+            />
           </Back>
           <PersonDetailWrapper>
             <ImageWrapper>

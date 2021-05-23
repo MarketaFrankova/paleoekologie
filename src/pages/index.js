@@ -17,19 +17,16 @@ const IndexPage = ({ data }) => {
         const news = int === "en" ? enNews : czNews;
         return (
           <MainPageContainer>
-            <MainParagraph>
+            <div>
               <ImgSliderWrapper>
                 <ImgSlider imgs={imgs} />
               </ImgSliderWrapper>
               <div>{int === "en" ? en : cz} </div>
-            </MainParagraph>
+            </div>
 
             <News>
-              <H2>{int === "en" ? "News" : "Aktuality"}</H2>
-              <NewItem>
-                <NewsHeading>
-                  <b>{int === "en" ? "Social sites" : "Sociální sítě"}</b>
-                </NewsHeading>
+              <Heading>
+                <H2>{int === "en" ? "News" : "Aktuality"}</H2>
                 <a
                   href="https://twitter.com/VegetPaleo"
                   target="_blank"
@@ -37,7 +34,7 @@ const IndexPage = ({ data }) => {
                 >
                   <Twitter src={twitter} alt="twitter" />
                 </a>
-              </NewItem>
+              </Heading>
               {news.map((item) => {
                 const img = imgsNews.find((img) =>
                   img.node.fluid.src.includes(item.photo)
@@ -57,7 +54,7 @@ const IndexPage = ({ data }) => {
                         }}
                       />
                     )}
-                    {item.content}
+                    {item.contentShort}
                   </NewItem>
                 );
               })}
@@ -79,6 +76,7 @@ const News = styled.div`
   margin-top: 10px;
   background-color: #e2ead5;
   text-align: justify;
+  position: relative;
   @media (min-width: ${(props) => props.theme.largeDevice}) {
     min-width: 200px;
     margin-left: 2rem;
@@ -120,7 +118,12 @@ const MainPageContainer = styled.div`
   }
 `;
 
-const MainParagraph = styled.div``;
+const Heading = styled.div`
+  display: flex;
+  h2 {
+    flex: 1;
+  }
+`;
 
 export const query = graphql`
   query {
@@ -148,8 +151,9 @@ export const query = graphql`
 `;
 
 const Twitter = styled.img`
-  margin-top: 5px;
+  margin-top: 15px;
+  right: 25px;
   height: 40px;
   cursor: pointer;
-  margin-left: 10px;
+  position: absolute;
 `;

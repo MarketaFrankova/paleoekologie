@@ -3,13 +3,17 @@ import styled from "styled-components";
 import PropTypes from "prop-types";
 import { H2 } from "../atoms/Headings";
 import Img from "gatsby-image";
+import { navigate } from "gatsby";
 
 const PersonBox = ({ personInfo, openDetail, img }) => {
   return (
     <>
       <Box
         openDetail={!!openDetail}
-        onClick={() => (openDetail ? openDetail(personInfo.id) : {})}
+        onClick={() =>
+          navigate("/people", { state: { person: personInfo.id } })
+        }
+        //  onClick={() => (openDetail ? openDetail(personInfo.id) : {})}
       >
         <ImgWrapper>
           <CircleWrapper>
