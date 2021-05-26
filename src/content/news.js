@@ -4,6 +4,33 @@ import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 export const cz = [
   {
+    id: "news4",
+    photo: "news4.jpg",
+    heading: "Instruktáž k editaci nového webu",
+    imgTitle: "Petře se kouří z hlavy",
+    contentShort: (
+      <p>
+        Právě sedíme nad textovým editorem <strong>VS Code</strong>, ve kterém
+        budeme provádět úpravy nového webu. Lenka nám vše pečlivě vysvětluje.{" "}
+        <AnchorLink
+          to="/news#news4"
+          title="Instruktáž k editaci nového webu - kompletní aktualita"
+        >
+          Více zde
+        </AnchorLink>
+      </p>
+    ),
+    content: (
+      <p>
+        Právě sedíme nad textovým editorem <strong>VS Code</strong>, ve kterém
+        budeme provádět úpravy nového webu. Lenka nám vše pečlivě
+        vysvětluje. VS code si můžete stáhnout
+        <ALink href="https://dem.brno.cz/"> zde</ALink>
+        . Už to všechno umíme!!!
+      </p>
+    ),
+  },
+  {
     id: "news3",
     photo: "news3.jpg",
     heading: "Dny elektronové mikroskopie",
