@@ -8,28 +8,28 @@ const FooterContent = ({ footer }) => (
   <>
     <Container>
       <FooterSection>
-        <b> {footer.contactBrno}</b>
+        <strong> {footer.contactBrno}</strong>
         <div> {footer.contactNameBrno}</div>
         <div> {footer.contactMailBrno}</div>
         <div> {footer.contactPhoneBrno}</div>
         <div> {footer.contactPhoneBrno2}</div>
       </FooterSection>
       <FooterSection>
-        <b> {footer.addressBrno}</b>
+        <strong> {footer.addressBrno}</strong>
         <div> {footer.institute}</div>
         <div> {footer.name}</div>
         <div> {footer.streetBrno}</div>
         <div> {footer.zipBrno}</div>
       </FooterSection>
       <FooterSection>
-        <b> {footer.contactPruhonice}</b>
+        <strong> {footer.contactPruhonice}</strong>
         <div> {footer.contactNamePruhonice}</div>
         <div> {footer.contactMailPruhonice}</div>
         <div> {footer.contactPhonePruhonice}</div>
       </FooterSection>
 
       <FooterSection>
-        <b> {footer.addressPruhonice}</b>
+        <strong> {footer.addressPruhonice}</strong>
         <div> {footer.institute}</div>
         <div> {footer.name}</div>
         <div> {footer.streetPruhonice}</div>

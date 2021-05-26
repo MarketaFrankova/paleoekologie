@@ -8,59 +8,59 @@ const Project = ({ data, general }) => {
     <ProjectWrapper>
       <H3 green> {data.name}</H3>
       <div>
-        <b>{general.id}</b>
+        <strong>{general.id}</strong>
         {data.id}
       </div>
       <div>
-        <b>{general.finance}</b>
+        <strong>{general.finance}</strong>
         {data.finance}
       </div>
       <div>
-        <b>{general.duration}</b>
+        <strong>{general.duration}</strong>
         {data.duration}
       </div>
       {data.web && (
         <div>
-          <b>{general.web}</b>
+          <strong>{general.web}</strong>
           {data.web}
         </div>
       )}
       <div>
-        <b>{general.period}</b>
+        <strong>{general.period}</strong>
         {data.period}
       </div>
       {data.mainResearcher && (
         <div>
-          <b>{general.mainResearcher}</b>
+          <strong>{general.mainResearcher}</strong>
           {data.mainResearcher}
         </div>
       )}
       {data.mainResearcherF && (
         <div>
-          <b>{general.mainResearcherF}</b>
+          <strong>{general.mainResearcherF}</strong>
           {data.mainResearcherF}
         </div>
       )}
       {data.coResearchers && (
         <div>
-          <b>{general.coResearchers}</b>
+          <strong>{general.coResearchers}</strong>
           {data.coResearchers}
         </div>
       )}
       {data.coResearcher && (
         <div>
-          <b>{general.coResearcher}</b>
+          <strong>{general.coResearcher}</strong>
           {data.coResearcher}
         </div>
       )}
       {general.teamMembers && (
         <div>
-          <b>{general.teamMembers}</b>
+          <strong>{general.teamMembers}</strong>
           {data.teamMembers}
         </div>
       )}
       <p>
-        <b>{general.description}</b>
+        <strong>{general.description}</strong>
         {data.description}
       </p>
     </ProjectWrapper>

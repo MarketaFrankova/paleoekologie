@@ -158,7 +158,7 @@ export const completedCz = [
       "Dlouhodobá dynamika lesů ve střední Evropě: od odhadů k realistickému modelu (LONGWOOD).",
     id: (
       <>
-        FP7/2007-2013 / <b>ERC Grant</b> agreement no 278065
+        FP7/2007-2013 / <strong>ERC Grant</strong> agreement no 278065
       </>
     ),
     finance: "European Research Council",
@@ -316,7 +316,7 @@ export const completedEn = [
       "Dlouhodobá dynamika lesů ve střední Evropě: od odhadů k realistickému modelu (LONGWOOD).",
     id: (
       <>
-        FP7/2007-2013 / <b>ERC Grant</b> agreement no 278065
+        FP7/2007-2013 / <strong>ERC Grant</strong> agreement no 278065
       </>
     ),
     finance: "European Research Council",

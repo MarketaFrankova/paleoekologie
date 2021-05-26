@@ -29,7 +29,7 @@ const IndexPage = ({ data }) => {
               <div>
                 {content.documentaries.map((i) => (
                   <>
-                    <b>{i.name}</b>
+                    <strong>{i.name}</strong>
                     <div>{i.description}</div>
                   </>
                 ))}

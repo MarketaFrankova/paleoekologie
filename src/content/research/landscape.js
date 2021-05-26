@@ -59,10 +59,10 @@ export const cz = (
     <H2>Dlouhodobý vývoj středoevropské vegetace a krajiny</H2>
     <div align="justify">
       <p>
-        <b>
+        <strong>
           Zabýváme se vývojem vegetace a krajiny v minulosti, zejména během
           posledních 15 tisíc let.
-        </b>
+        </strong>
         &nbsp; Zajímá nás, jak se měnilo přírodní prostředí během pozdního
         glaciálu a v raném holocénu, kdy hlavním faktorem ovlivňujícím krajinu
         bylo klima. Postupně se stále důležitějším činitelem stává člověk, jehož
@@ -82,20 +82,20 @@ export const cz = (
         Usilujeme o komplexní porozumění vývoji zkoumaných lokalit, a proto se
         snažíme o zahrnutí co nejširší škály paleoekologických analýz
         (multi-proxy přístup). Nejčastěji&nbsp;
-        <b>využíváme analýzu fosilního pylu</b>, včetně nepylových objektů
-        (např. spory kapraďorostů, hub, mikroskopické řasy, schránky některých
-        prvoků) a mikrouhlíků. Pyl a nepylové objekty nacházíme zakonzervované v
-        organických sedimentech (rašelině, slatině nebo jezerních sedimentech),
-        ale i v archeologických výplních. Výsledkem pylové analýzy jsou
-        diagramy, znázorňující procentuální zastoupení pylových druhů na ose
-        hloubky a času. Na jejich základě získáváme představu o složení
-        vegetace, o poměru lesa a bezlesí v krajině a o změnách těchto parametrů
-        v čase. Pro sestavení spolehlivé chronologie se neobejdeme bez
-        radiokarbonového datování. Výsledkem našeho výzkumu je rekonstrukce
-        přírodního vývoje konkrétního místa či celého regionu. Pracujeme
-        převážně na území střední Evropy, v nejrůznějších typech prostředí,
-        občas ale bádáme také v jiných částech Evropy, v severských polárních
-        oblastech nebo na území euroasijských lesostepí.
+        <strong>využíváme analýzu fosilního pylu</strong>, včetně nepylových
+        objektů (např. spory kapraďorostů, hub, mikroskopické řasy, schránky
+        některých prvoků) a mikrouhlíků. Pyl a nepylové objekty nacházíme
+        zakonzervované v organických sedimentech (rašelině, slatině nebo
+        jezerních sedimentech), ale i v archeologických výplních. Výsledkem
+        pylové analýzy jsou diagramy, znázorňující procentuální zastoupení
+        pylových druhů na ose hloubky a času. Na jejich základě získáváme
+        představu o složení vegetace, o poměru lesa a bezlesí v krajině a o
+        změnách těchto parametrů v čase. Pro sestavení spolehlivé chronologie se
+        neobejdeme bez radiokarbonového datování. Výsledkem našeho výzkumu je
+        rekonstrukce přírodního vývoje konkrétního místa či celého regionu.
+        Pracujeme převážně na území střední Evropy, v nejrůznějších typech
+        prostředí, občas ale bádáme také v jiných částech Evropy, v severských
+        polárních oblastech nebo na území euroasijských lesostepí.
       </p>
       <p>
         Pylové analýzy zpracovávají Lydie Dudová, Eva Jamrichová, Vlasta

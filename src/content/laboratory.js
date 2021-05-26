@@ -10,7 +10,7 @@ export const labEn = {
       sediments, moss polsters, archaeological cultural layers and surface soil
       samples.
       <p>
-        <b>We prepare samples for analyses of:</b>
+        <strong>We prepare samples for analyses of:</strong>
         <ul>
           <li>
             Fossil pollen and non-pollen sporomorphs for quantitative pollen
@@ -44,7 +44,7 @@ export const labEn = {
       </p>
       <p>
         The laboratory has two workplaces: in Brno and Průhonice. If you are
-        interested, <b>contact</b>&nbsp;
+        interested, <strong>contact</strong>&nbsp;
         <Link to="/people/" state={{ person: "frankova" }}>
           Markéta Fránková
         </Link>
@@ -67,7 +67,7 @@ export const labCz = {
       mechových polštářů, vzorků z archeologických kulturních vrstev a také
       povrchové půdní vzorky.
       <p>
-        <b>Naše laboratoř připravuje vzorky na analýzu:</b>
+        <strong>Naše laboratoř připravuje vzorky na analýzu:</strong>
         <ul>
           <li>
             fosilního pylu a dalších nepylových objektů pro standardní
@@ -90,8 +90,8 @@ export const labCz = {
       <p>
         Laboratorní přípravu vzorků a paleoekologické analýzy provádíme i pro
         zájemce z jiných institucí (externí zakázky). <br />
-        <b>Ceník prací</b> a protokol pro upřesnění požadavků na přípravu vzorků
-        pro pylovou analýzu naleznete&nbsp;
+        <strong>Ceník prací</strong> a protokol pro upřesnění požadavků na
+        přípravu vzorků pro pylovou analýzu naleznete&nbsp;
         <a
           href="/pricelist.pdf"
           target="_blank"
@@ -104,7 +104,7 @@ export const labCz = {
       </p>
       <p>
         Laboratoř má dvě pracoviště: v Brně a Průhonicích. V případě zájmu&nbsp;
-        <b>kontaktujte</b>&nbsp;
+        <strong>kontaktujte</strong>&nbsp;
         <Link to="/people/" state={{ person: "frankova" }}>
           Markétu Fránkovou
         </Link>
