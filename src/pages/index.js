@@ -128,7 +128,10 @@ const Heading = styled.div`
 
 export const query = graphql`
   query {
-    uvodni: allImageSharp(filter: { fluid: { src: { regex: "/uvodni/" } } }) {
+    uvodni: allImageSharp(
+      sort: { fields: [fluid___originalName], order: ASC }
+      filter: { fluid: { src: { regex: "/uvodni/" } } }
+    ) {
       edges {
         node {
           id
