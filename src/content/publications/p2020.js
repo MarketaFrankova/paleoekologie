@@ -39,19 +39,6 @@ export const impact = (
       </ALink>
     </p>
     <p>
-      Fajmonová Z.,&nbsp;
-      <Link to="/people/" state={{ person: "hajkova" }}>
-        Hájková P.
-      </Link>
-      &nbsp;and Hájek M. 2020: Soil moisture and a legacy of prehistoric human
-      activities have contributed to the extraordinary plant species diversity
-      of grasslands in the White Carpathians.&nbsp;
-      <em>Preslia</em>, 35 – 56.&nbsp;
-      <ALink href="http://www.preslia.cz/P201Fajmonova.pdf">
-        Download from journal
-      </ALink>
-    </p>
-    <p>
       Fajmonová Z. ,&nbsp;
       <Link to="/people/" state={{ person: "hajkova" }}>
         Hájková P.
@@ -61,30 +48,6 @@ export const impact = (
       of grasslands in the White Carpathians.&nbsp;
       <em>Preslia</em>, 35 – 56.&nbsp;
       <ALink href="http://www.preslia.cz/P201Fajmonova.pdf">
-        Download from journal
-      </ALink>
-    </p>
-    <p>
-      Feurdean A., Vannière B., Finsinger W., Warren D., Connor S. C., Forrest
-      M., Liakka J., Panait A., Werner C., Andrič M.,&nbsp;
-      <Link to="/people/" state={{ person: "bobek" }}>
-        Bobek P.
-      </Link>
-      , Carter V. A., Davis B., Diaconu A-C., Dietze E., Feeser I., Florescu G.,
-      Gałka M., Giesecke T., Jahns S.,&nbsp;
-      <Link to="/people/" state={{ person: "jamrichova" }}>
-        Jamrichová E.
-      </Link>
-      , Kajukało K., Kaplan J., Karpińska-Kołaczek M., Kołaczek P., Kuneš P.,
-      Kupriyanov D., Lamentowicz M., Lemmen C., Magyari E. K., Marcisz K.,
-      Marinova E., Niamir A., Novenko E., Obremska M., Pędziszewska A., Pfeiffer
-      M., Poska A., Rösch M., Słowiński M., Stančikaitė M., Szal M.,
-      Święta-Musznicka J., Tanţău I., Theuerkauf M., Tonkov S., Valkó O.,
-      Vassiljev J., Veski S., Vincze I., Wacnik A., Wiethold J. &amp; Hickler T.
-      2020: Fire hazard modulation by long-term dynamics in land cover and
-      dominant forest type in eastern and central Europe. Biogeosciences 17,
-      1213 – 1230.&nbsp;
-      <ALink href="https://bg.copernicus.org/articles/17/1213/2020/">
         Download from journal
       </ALink>
     </p>
@@ -414,11 +377,6 @@ export const others = (
       across European regions.&nbsp;
       <em>Nova Hedwigia</em>
       &nbsp;150, 133 – 158.&nbsp;
-    </p>
-    <p>
-      Petřík P., Adámek M., Benda J., Elznicová J., Hederová L., Jiras P.,
-      Müllerová J., Novák P., Prošek J., Šulc V. &amp; Zacharová J. 2020: Má
-      krajina paměť? Živa 68, 258 – 260
     </p>
     <p>
       Peterka T.,&nbsp;

@@ -7,11 +7,12 @@ export const cz = [
     id: "news4",
     photo: "news4.jpg",
     heading: "Instruktáž k editaci nového webu",
-    imgTitle: "Petře se kouří z hlavy",
+    imgTitle: "Kafe, koláček a Visual Studio Code",
     contentShort: (
       <p>
-        Právě sedíme nad textovým editorem <strong>VS Code</strong>, ve kterém
-        budeme provádět úpravy nového webu. Lenka nám vše pečlivě vysvětluje.{" "}
+        Minulý týden proběhlo setkání nad textovým editorem{" "}
+        <strong>VS Code</strong>, ve kterém budeme provádět úpravy nového webu.
+        Lenka nám vše pečlivě vysvětluje.{" "}
         <AnchorLink
           to="/news#news4"
           title="Instruktáž k editaci nového webu - kompletní aktualita"
@@ -22,11 +23,8 @@ export const cz = [
     ),
     content: (
       <p>
-        Právě sedíme nad textovým editorem <strong>VS Code</strong>, ve kterém
-        budeme provádět úpravy nového webu. Lenka nám vše pečlivě
-        vysvětluje. VS code si můžete stáhnout
-        <ALink href="https://dem.brno.cz/"> zde</ALink>
-        . Už to všechno umíme!!!
+        Tuhle novou aktualitu jsme sem přidaly na důkaz, že už to umíme! Lydie a
+        Petra
       </p>
     ),
   },
@@ -101,10 +99,10 @@ export const cz = [
           Vlasta Jankovská působí v Botanickém ústavu od roku 1963. Zabývá se
           vývojem vegetace a rekonstrukcí přírodního prostředí v závěru poslední
           doby ledové a v době poledové. Ve své práci uplatňuje řadu
-          průkopnických přístupů, které se postupně staly součástí převzalo do
-          běžného paleoekologického výzkumu. Jako jedna z mála paleoekologů si
-          ve fosilním záznamu kromě pylů a rostlinných makrozbytků začala všímat
-          i chlorokokálních řas. Ve spolupráci s předním českým algologem
+          průkopnických přístupů, které se postupně staly součástí běžného
+          paleoekologického výzkumu. Jako jedna z mála paleoekologů si ve
+          fosilním záznamu kromě pylů a rostlinných makrozbytků začala všímat i
+          chlorokokálních řas. Ve spolupráci s předním českým algologem
           profesorem Jiřím Komárkem, který je rovněž z BÚ, vytvořila určovací
           klíč využívaný mezinárodní paleoekologickou komunitou. Řasy tak v
           paleoekologii využila jako skvělé bioindikátory, přinášející při
@@ -114,19 +112,19 @@ export const cz = [
           pylu usazeného s prachem do starých knih v klášterních knihovnách.
         </p>
         <p>
-          Doktorka V. Jankovská se ve svém výzkumu zaměřila na ložiska
-          rostlinných zbytků z nejstarších vrcholného glaciálu, pozdního
-          glaciálu a raného holocénu, tedy období, pro něž ještě donedávna
-          nebylo mnoho známo. Přispěla tím významně k poznání zásadních rozdílů
-          ve vývoji vegetace hercynského masivu a západních Karpat během
-          poslední doby ledové. Byla jedním z prvních paleoekologů, kteří zde
-          předpověděli existenci glaciálních refugií. Byla si vědoma již před
-          desítkami let, že pro správnou interpretaci svých výsledků musí
-          studovat současnou vegetaci v podobných klimatických podmínkách jako v
-          minulosti. Při hledání takových situací opakovaně navštívila oblasti
-          arktického Ruska. Předpověděla možnost existence moderních analogií
-          pozdně glaciální střední Evropy, nacházejících se na jižní Sibiři. To
-          nastartovalo rozsáhlý&nbsp;
+          Doktorka V. Jankovská se ve svém výzkumu zaměřila na analýzu
+          rostlinných zbytků z vrcholného glaciálu, pozdního glaciálu a raného
+          holocénu, tedy období, pro něž ještě donedávna nebylo mnoho známo.
+          Přispěla významně k poznání zásadních rozdílů ve vývoji vegetace
+          Hercynského masivu a západních Karpat během poslední doby ledové. Byla
+          jedním z prvních paleoekologů, kteří ve střední Evropě předpověděli
+          existenci glaciálních refugií. Byla si vědoma již před desítkami let,
+          že pro správnou interpretaci svých výsledků musí studovat současnou
+          vegetaci v podobných klimatických podmínkách jako v minulosti. Při
+          hledání takových situací opakovaně navštívila oblasti arktického Ruska
+          a severní Evropy. Předpověděla možnost existence moderních analogií
+          pozdně glaciální vegetace střední Evropy, nacházejících se na jižní
+          Sibiři. To nastartovalo rozsáhlý&nbsp;
           <ALink href="https://www.ibot.cas.cz/cs/verejnost/vzdelavani/">
             výzkum moderních analogií
           </ALink>
@@ -138,14 +136,14 @@ export const cz = [
           většině významných přírodovědeckých fakult v České republice a
           podstatně přispěla k výrazné oblibě paleoekologie u mladší generace a
           k jejímu současnému rozkvětu. Díky neutuchající vášni k oboru a silné
-          potřebě výměny poznatků a názorů na se zahraničními odborníky
-          napomohla po roce 1989 ke znovuzapojení české kvartérní paleoekologie
-          na poli mezinárodní vědy. Mnohokrát vyrazila na výzkumné cesty do
-          polárních oblastí Evropy a Ruska, nebála se ostnatých drátů,
-          nebezpečného cestování či výsadků v bohapusté krajině ruské tundry,
-          kdy často šlo o zdraví ne-li o život. Během cest na východ a sever od
-          našich hranic navázala také mnohá vědecká i čistě lidská přátelství,
-          která vydržela dodnes.
+          potřebě výměny poznatků se zahraničními odborníky napomohla po roce
+          1989 ke znovuzapojení české kvartérní paleoekologie na poli
+          mezinárodní vědy. Mnohokrát vyrazila na výzkumné cesty do polárních
+          oblastí Evropy a Ruska, nebála se ostnatých drátů, nebezpečného
+          cestování či výsadků v bohapusté krajině ruské tundry, kdy často šlo o
+          zdraví ne-li o život. Během cest na východ a sever od našich hranic
+          navázala také mnohá vědecká i čistě lidská přátelství, která vydržela
+          dodnes.
         </p>
         <p>
           Za svůj přínos byla v roce 2014 oceněna čestnou oborovou medailí
@@ -225,6 +223,31 @@ export const cz = [
 ];
 
 export const en = [
+  {
+    id: "news4",
+    photo: "news4.jpg",
+    heading: "Training how to edit our new web",
+    imgTitle: "Coffee, cake and Visual Studio Code",
+    contentShort: (
+      <p>
+        Last week we had a meeting on how to work with a text editor{" "}
+        <strong>VS Code</strong> to edit our new web pages. Lenka explained
+        everything with a great patience.{" "}
+        <AnchorLink
+          to="/news#news4"
+          title="Instruktáž k editaci nového webu - kompletní aktualita"
+        >
+          Více zde
+        </AnchorLink>
+      </p>
+    ),
+    content: (
+      <p>
+        We added this News as an evidence that we are able to do it! Lydie a
+        Petra
+      </p>
+    ),
+  },
   {
     id: "news3",
     photo: "news3.jpg",

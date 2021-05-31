@@ -81,9 +81,9 @@ export const labCz = {
           <li>makroskopických uhlíků</li>
           <li>rostlinných makrozbytků</li>
           <li>
-            rozsivek (organismů skupin <i>Cladocera</i>, <i>Chironomidae</i>
+            organismů skupin <i>Cladocera</i>, <i>Chironomidae</i>
             ,&nbsp;
-            <i>Diatomae</i> a <i>Testate amoebae</i>)
+            <i>Diatomae</i> a <i>Testate amoebae</i>
           </li>
         </ul>
       </p>
@@ -112,7 +112,7 @@ export const labCz = {
         <Link to="/people/" state={{ person: "bobek" }}>
           Přemysla Bobka
         </Link>
-        &nbsp; (v Průhonicích)
+        &nbsp; (v Průhonicích).
       </p>
     </div>
   ),
