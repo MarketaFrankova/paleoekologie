@@ -75,7 +75,7 @@ export const en = (
     <H3 green>People involved in the research:</H3>
     <p>
       Petra Hájková, Anna Šolcová (macrofossil analysis), Eva Jamrichová, Lýdie
-      Dudová, Helena Svobodová, M. Švarcová (pollen analysis, analysis of
+      Dudová, Helena Svobodová, M. Soukupová (pollen analysis, analysis of
       non-pollen objects), Přemysl Bobek (charcoal), Jan Roleček
       (interpretation)
     </p>
@@ -235,8 +235,8 @@ export const cz = (
     <H3 green>Lidé zapojení do výzkumu</H3>
     <p>
       Petra Hájková, Anna Šolcová (makrozbytková analýza), Eva Jamrichová, Lýdie
-      Dudová, Helena Svobodová, M. Švarcová (pylová analýza a analýza nepylových
-      objektů), Přemysl Bobek (uhlíky), Jan Roleček (interpretace)
+      Dudová, Helena Svobodová, M. Soukupová (pylová analýza a analýza
+      nepylových objektů), Přemysl Bobek (uhlíky), Jan Roleček (interpretace)
     </p>
     <H3 green>Výběr nejdůležitějších publikací:</H3>
     <p>

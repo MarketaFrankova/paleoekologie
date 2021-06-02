@@ -204,7 +204,7 @@ export const impact = (
       <Link to="/people/" state={{ person: "svitavska" }}>
         Svitavská Svobodová H.
       </Link>
-      ,&nbsp;Švarcová M., Křížová L.,&nbsp;Suchánková S., Müllerová J.
+      ,&nbsp;Soukupová M., Křížová L.,&nbsp;Suchánková S., Müllerová J.
       &amp;&nbsp;Hédl R.&nbsp;2017: Using historical ecology to reassess the
       conservation status of coniferous forests in Central Europe.&nbsp;
       <em>Conservation Biology</em>

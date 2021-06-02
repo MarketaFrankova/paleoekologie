@@ -23,7 +23,7 @@ export const impact = (
       <Link to="/people/" state={{ person: "svitavska" }}>
         Svitavská Svobodová H.
       </Link>
-      , Werchan B.,Švarcová G. M. &nbsp;&amp; Kuneš P. 2018: Human-induced
+      , Werchan B.,Soukupová G. M. &nbsp;&amp; Kuneš P. 2018: Human-induced
       changes in fire regime and subsequent alteration of the sandstone
       landscape of Northern Bohemia (Czech Republic). The Holocene 28, 427 –
       443.&nbsp;

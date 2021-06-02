@@ -324,8 +324,8 @@ export const staffEn = [
   },
   {
     id: "soukupova",
-    name: "Markéta Gabriela Švarcová",
-    nameWithTitle: "Mgr. Markéta Gabriela Švarcová",
+    name: "Markéta Gabriela Soukupová",
+    nameWithTitle: "Mgr. Markéta Gabriela Soukupová",
     email: "Marketa.Svarcova@ibot.cas.cz",
     phoneNumber: "+420 271 015 420",
     position: "phd",

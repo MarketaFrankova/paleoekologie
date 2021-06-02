@@ -42,7 +42,7 @@ export const en = (
       </p>
     </div>
     <H3 green>People involved in research:</H3>
-    <p>Helena Svitavská Svobodová, Markéta G. Švarcová</p>
+    <p>Helena Svitavská Svobodová, Markéta G. Soukupová</p>
     <H3 green>References</H3>
     <p>
       Abraham, V., Hicks, S., <strong>Svobodová-Svitavská, H.</strong>,
@@ -132,7 +132,7 @@ export const cz = (
       </p>
     </div>
     <H3 green>Lidé zapojení do výzkumu</H3>
-    <p>Helena Svitavská Svobodová, Markéta G. Švarcová</p>
+    <p>Helena Svitavská Svobodová, Markéta G. Soukupová</p>
     <H3 green>References</H3>
     <p>
       Abraham, V., Hicks, S., <strong>Svobodová-Svitavská, H.</strong>,

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Consumer } from "../layouts/Context";
 import { H2 } from "../components/atoms/Headings";
-import { cz, en } from "../content/homepage";
+import { cz, en, imgsTitleEn, imgsTitleCz } from "../content/homepage";
 import { cz as czNews, en as enNews } from "../content/news";
 import ImgSlider from "../layouts/ImgSlider";
 import Img from "gatsby-image";
@@ -19,7 +19,10 @@ const IndexPage = ({ data }) => {
           <MainPageContainer>
             <div>
               <ImgSliderWrapper>
-                <ImgSlider imgs={imgs} />
+                <ImgSlider
+                  imgs={imgs}
+                  titles={int === "en" ? imgsTitleEn : imgsTitleCz}
+                />
               </ImgSliderWrapper>
               <div>{int === "en" ? en : cz} </div>
             </div>

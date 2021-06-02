@@ -39,7 +39,8 @@ export const en = (
     </div>
     <H3 green>Researchers involved:</H3>
     <p>
-      Přemysl Bobek, Helena Svobodová-Svitavská, Markéta Švarcová, Eva Krauseová
+      Přemysl Bobek, Helena Svobodová-Svitavská, Markéta Soukupová, Eva
+      Krauseová
     </p>
     <H3 green>Selection of the most important publications: </H3>
     <p>
@@ -49,7 +50,7 @@ export const en = (
       trees on fire dynamics. Quaternary Science Reviews 222: 105865.
     </p>
     <p>
-      Bobek P., Svitavská H., Werchan B., Švarcová M. G., Kuneš P. (2018):
+      Bobek P., Svitavská H., Werchan B., Soukupová M. G., Kuneš P. (2018):
       Human-induced changes in fire regime and subsequent alteration of the
       sandstone landscape of Northern Bohemia (Czech Republic). The Holocene,
       28, 427-443.
@@ -105,7 +106,8 @@ export const cz = (
     </div>
     <H3 green>Lidé zapojení do výzkumu</H3>
     <p>
-      Přemysl Bobek, Helena Svobodová-Svitavská, Markéta Švarcová, Eva Krauseová
+      Přemysl Bobek, Helena Svobodová-Svitavská, Markéta Soukupová, Eva
+      Krauseová
     </p>
     <H3 green>Výběr nejdůležitějších publikací:</H3>
     <p>
@@ -115,7 +117,7 @@ export const cz = (
       trees on fire dynamics. Quaternary Science Reviews 222: 105865.
     </p>
     <p>
-      Bobek P., Svitavská H., Werchan B., Švarcová M. G., Kuneš P. (2018):
+      Bobek P., Svitavská H., Werchan B., Soukupová M. G., Kuneš P. (2018):
       Human-induced changes in fire regime and subsequent alteration of the
       sandstone landscape of Northern Bohemia (Czech Republic). The Holocene,
       28, 427-443.

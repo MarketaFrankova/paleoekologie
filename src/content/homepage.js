@@ -2,6 +2,26 @@ import React, { Fragment } from "react";
 import { H2 } from "../components/atoms/Headings";
 import { ALink, Simplelink } from "../components/atoms/StyledLink";
 
+export const imgsTitleEn = [
+  "The sediment description of the former glacial lake, Stará jímka site (2013).",
+  "Pollen grains of Oxalis acetosella L. from the Reference pollen collection of the Czech flora (mounted in glycerine medium) in the Institute of Botany. ",
+  "Obtaining a profile at the Koutské and Zábřežské meadows (2013).",
+  "Trichophorum pumilum at the Gánovce site, Slovakia (2005).",
+  "Transition of organic and mineral sediment at the Pukiv site in Ukraine (2019).",
+  "Birch mire forest at the Slavkov site near Lipník nad Bečvou (2013).",
+  "Vlasta Jankovská digging the sediment Sivárňa at the Lubovnianská basin in Slovakia (1983).",
+];
+
+export const imgsTitleCz = [
+  "Popis sedimentu z bývalého ledovcového jezera, Stará jímka nad Prášily (2013)",
+  "Pylová zrna šťavelu kyselého (Oxalis acetosella L.) v trvalém preparátu z Referenční pylové sbírky české květeny, BÚ.",
+  "Odběr sedimentu na lokalitě Koutské a Zábřežské louky (2013).",
+  "Suchopýrek maličký (Trichophorum pumilum) na lokalitě Gánovce na Spiši, Slovensko (2005).",
+  "Přechod organického a minerálního sedimentu na lokalitě Pukiv na Ukrajině (2019).",
+  "Rašelinná březina na lokalitě Slavkov u Lipníka nad Bečvou (2013).",
+  "Vlasta Jankovská při kopání sedimentu Sivárňa v Lubovnianské kotlině na Slovensku (1983).",
+];
+
 export const en = (
   <Fragment>
     <H2>About us</H2>

@@ -13,7 +13,7 @@ export const impact = (
       <Link to="/people/" state={{ person: "jamrichova" }}>
         Jamrichová E.
       </Link>
-      Švarcová M. G.,&amp; Pokorný P. 2016: A pollen-based quantitative
+      Soukupová M. G.,&amp; Pokorný P. 2016: A pollen-based quantitative
       reconstruction of the Holocene vegetation updates a perspective on the
       natural vegetation in the Czech Republic and Slovakia. Preslia 88, 409 –
       434&nbsp;
