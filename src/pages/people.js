@@ -81,12 +81,27 @@ const IndexPage = ({ data, location, history }) => {
                   }
                 />
               </div>
-              <H2>{generalData.people.researchers}</H2>
-              <div />
+
+              <FullWidth>
+                <H2>{generalData.people.researchers}</H2>
+              </FullWidth>
               {researchers.map((person) => {
                 const img = images.find((img) =>
                   img.node.fluid.src.includes(person.id)
                 );
+                if (person.id === "rybnickovi")
+                  return (
+                    <FullWidth>
+                      <Hr />
+                      <PersonBox
+                        openDetail={setDetailOpened}
+                        personInfo={person}
+                        key={person.id}
+                        data={generalData}
+                        img={img?.node}
+                      />
+                    </FullWidth>
+                  );
 
                 return (
                   <PersonBox
@@ -98,12 +113,14 @@ const IndexPage = ({ data, location, history }) => {
                   />
                 );
               })}
-              <H2>{generalData.people.phd}</H2> <div />
+
+              <FullWidth>
+                <H2>{generalData.people.phd}</H2>
+              </FullWidth>
               {phd.map((person) => {
                 const img = images.find((img) =>
                   img.node.fluid.src.includes(person.id)
                 );
-
                 return (
                   <PersonBox
                     openDetail={setDetailOpened}
@@ -114,13 +131,15 @@ const IndexPage = ({ data, location, history }) => {
                   />
                 );
               })}
-              <div />
-              <H2>{generalData.people.technical}</H2> <div />
+
+              <FullWidth>
+                <H2>{generalData.people.technical}</H2>
+              </FullWidth>
+
               {techadm.map((person) => {
                 const img = images.find((img) =>
                   img.node.fluid.src.includes(person.id)
                 );
-
                 return (
                   <PersonBox
                     personInfo={person}
@@ -149,6 +168,14 @@ const GridWrapper = styled.div`
 
   @media (min-width: 1024px) {
     grid-template-columns: repeat(2, minmax(480px, 1fr));
+  }
+`;
+const Hr = styled.hr`
+  border-top: 1px dotted grey;
+`;
+const FullWidth = styled.div`
+  @media (min-width: 1024px) {
+    grid-column: span 2;
   }
 `;
 

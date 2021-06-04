@@ -399,6 +399,20 @@ export const staffEn = [
     ),
   },
   {
+    id: "rybnickovi",
+    name: "Eliška Rybníčková and Kamil Rybníček",
+    nameWithTitle:
+      "RNDr. Eliška Rybníčková, DrSc. and RNDr. Kamil Rybníček, CSc.",
+    email: "",
+    phoneNumber: "",
+    position: "researcher",
+    description: (
+      <>
+        <p></p>
+      </>
+    ),
+  },
+  {
     id: "formankova",
     name: "Zuzana Formánková",
     email: "zuzana.formankova@ibot.cas.cz",
@@ -828,6 +842,59 @@ export const staffCz = [
         >
           CV - ke stažení
         </a>
+      </>
+    ),
+  },
+  {
+    id: "rybnickovi",
+    name: "Eliška Rybníčková a Kamil Rybníček",
+    nameWithTitle:
+      "RNDr. Eliška Rybníčková, DrSc. a RNDr. Kamil Rybníček, CSc.",
+    email: "",
+    phoneNumber: "",
+    position: "researcher",
+    description: (
+      <>
+        <p>
+          V roce 1962 RNDr. Eliška Rybníčková, DrSc. a RNDr. Kamil Rybníček,
+          CSc. vytvořili paleobotanickou pracovní skupinu při Ekologickém
+          oddělení Botanického ústavu tehdejší Československé akademie věd s
+          pracovištěm v Brně. Zde se soustředil výzkum vegetačního vývoje
+          ekosystémů od pozdního glaciálu a v holocénu metodami pylové analýzy a
+          analýzy rostlinných makrozbytků (pletiv listů, mechorostů a semen
+          vyšších rostlin). V paleoekologickém pracovišti se tehdy díky
+          vegetační mapě Československa nashromáždilo 400 rašelinných profilů,
+          které byly postupně zkoumány paleobotanickými metodami. Zajímavé
+          publikace a monografie o vývoji horských i nížinných rašelinišť
+          zaujaly širokou evropskou paleoekologickou veřejnost a prohloubily
+          vědeckou prestiž tohoto malého paleoekologického pracoviště.
+          Paleoekologické projekty byly zahrnuty do mezinárodních
+          vědecko-výzkumných programů a byla navázána úzká spolupráce s
+          odborníky z hlavně Polska, Německa a ze Skandinávie. V 90 letech byly
+          paleoekologické výzkumy z Československa digitalizovány a začleněny do
+          Evropské pylové databáze, která je nyní přístupná na webových
+          stránkách NEOTOMA.
+        </p>
+        <p>
+          Manželé Rybníčkovi se aktivně podíleli na řadě paleoekologických
+          projektů získaných od Grantové agentury ČR. Věnovali se i pedagogické
+          činnosti na Masarykově univerzitě v Brně, kde získali řadu studentů a
+          kde vedli jejich diplomové práce. Od roku 2005 až 2015, již v
+          emeritním věku, zajišťovali pro Oddělení vegetační ekologie a pro
+          Ústav botaniky a zoologie MU v Brně pedagogickou výuku a
+          paleoekologické konzultace. Jejich čtyřicetiletá zkušenost a praxe
+          přivedla do Botanického ústavu řadu vědeckých aspirantů; Vlasta
+          Jankovská, Marie Peichlová, Helena Svitavská Svobodová; kteří byli
+          nebo jsou v nynějším Oddělení paleoekologie vědeckými pracovníky. Z
+          mladší generace jsou jejich následovníky Lydie Dudová, Petra Hájková a
+          Michal Hájek.
+        </p>
+        <p>
+          RNDr. Elišku Rybníčkovou, DrSc. a RNDr. Kamila Rybníčka pokládáme za
+          zakladatele kvartérní palynologie a paleoekologie u nás. Vznik
+          současného Oddělení paleoekologie je logickým vyústěním jejich vědecké
+          činnosti a výchovy mladší generace českých paleoekologů.
+        </p>
       </>
     ),
   },
