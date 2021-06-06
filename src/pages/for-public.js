@@ -2,60 +2,58 @@ import * as React from "react";
 import styled from "styled-components";
 import Img from "gatsby-image";
 import { Consumer } from "../layouts/Context";
-import { cz, en } from "../content/for-public";
+import { cz, en, czImgTitles, enImgTitles } from "../content/for-public";
 import { H2 } from "../components/atoms/Headings";
 
 const IndexPage = ({ data }) => {
-  const imgs = [
-    <Img fluid={data.image1.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image2.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image3.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image4.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image5.childImageSharp.fluid} alt="" />,
-  ];
   return (
     <Consumer>
       {({ int }) => {
         const content = int === "en" ? en : cz;
-        console.log(data);
+        const imgData = int === "en" ? enImgTitles : czImgTitles;
+        const imgs = [
+          <Img
+            fluid={data.image1.childImageSharp.fluid}
+            alt={imgData.image1}
+            title={imgData.image1}
+          />,
+          <Img
+            fluid={data.image2.childImageSharp.fluid}
+            alt={imgData.image2}
+            title={imgData.image2}
+          />,
+          <Img
+            fluid={data.image3.childImageSharp.fluid}
+            alt={imgData.image3}
+            title={imgData.image3}
+          />,
+          <Img
+            fluid={data.image4.childImageSharp.fluid}
+            alt={imgData.image4}
+            title={imgData.image4}
+          />,
+          <Img
+            fluid={data.image5.childImageSharp.fluid}
+            alt={imgData.image5}
+            title={imgData.image5}
+          />,
+        ];
         return (
           <Wrapper>
             <TextWrapper>
-              <H2>{content.eventTitle}</H2>
-              <div>{content.events.map((i) => i)}</div>
-              <H2>{content.virtualMeadow}</H2>
-              <div>{content.virtualMeadowDescription}</div>
-              <H2>{content.documentaryTitle}</H2>
-              <div>
-                {content.documentaries.map((i) => (
-                  <>
-                    <strong>{i.name}</strong>
-                    <div>{i.description}</div>
-                  </>
-                ))}
-                <a
-                  href="https://www.ceskatelevize.cz/porady/12935442888-zelene-plice/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Img
-                    fluid={data.zeleneplice.childImageSharp.fluid}
-                    alt="Zelené plíce - dokument"
-                    style={{ maxWidth: 500 }}
-                  />
-                </a>
-              </div>
-              <H2>{content.popularPapersTitle}</H2>
-              <div>
-                {content.popularPapers.map((i) => (
-                  <p>{i}</p>
-                ))}
-              </div>
-              <H2>{content.popularVideoTitle}</H2>
-              <div>{content.popularVideos}</div>
-
-              <H2>{content.excursionsTitle}</H2>
-              <div>{content.excursionesDescriptions}</div>
+              {content.map((item) => (
+                <>
+                  <H2>{item.title}</H2>
+                  <div>{item.description}</div>
+                  {item.descriptionArr && (
+                    <div>
+                      {item.descriptionArr?.map((i) => (
+                        <div>{i}</div>
+                      ))}
+                    </div>
+                  )}
+                </>
+              ))}
             </TextWrapper>
             <ImgWrapper>{imgs.map((img) => img)}</ImgWrapper>
           </Wrapper>

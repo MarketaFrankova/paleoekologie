@@ -2,6 +2,30 @@ import React from "react";
 import { Link } from "gatsby";
 import { ALink } from "../components/atoms/StyledLink";
 
+export const czImgTitles = {
+  image1: "Výjezd do terénu během doktorského studia.",
+  image2: "Popisování právě odebraného sedimentu.",
+  image3: "Vzorkování sedimentu pro pylovou analýzu.",
+  image4: "Vzorkování sedimentu pro pylovou analýzu.",
+  image5: "Příprava preparátů v laboratoři.",
+  image6: "Určování rozsivek během stáže pro středoškoláky Otevřená věda.",
+  image7: "Mapování vegetace.",
+  image8: "Pedologický výzkum.",
+  image9: "Mapování vegetace.",
+};
+export const enImgTitles = {
+  image1: "In the field during PhD studies.",
+  image2: "Description of just sampled sediment.",
+  image3: "Subsampling of sediment for pollen analysis.",
+  image4: "Subsampling of sediment for pollen analysis.",
+  image5: "Preparation of pollen slides in the laboratory.",
+  image6:
+    "Identifying diatoms as a part of an internship for high school students called Otevřená věda (Open science).",
+  image7: "Vegetation survey.",
+  image8: "Pedologic investigation.",
+  image9: "Vegetation survey.",
+};
+
 export const en = {
   highSchoolTitle: "Pro středoškolské studenty",
   highSchoolDescription: (

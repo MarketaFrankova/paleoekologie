@@ -1,33 +1,54 @@
 import React from "react";
 import styled from "styled-components";
-import Paragraph from "../components/atoms/Paragraph";
 import Img from "gatsby-image";
 import { Consumer } from "../layouts/Context";
-import { cz, en } from "../content/collections";
+import { cz, en, czImgTitles, enImgTitles } from "../content/collections";
 import { H2 } from "../components/atoms/Headings";
 const IndexPage = ({ data }) => {
-  const imgs = [
-    <Img fluid={data.image1.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image2.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image3.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image4.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image5.childImageSharp.fluid} alt="" />,
-  ];
   return (
     <Consumer>
       {({ int }) => {
-        const data = int === "en" ? en : cz;
+        const content = int === "en" ? en : cz;
+        const imgData = int === "en" ? enImgTitles : czImgTitles;
+        const imgs = [
+          <Img
+            fluid={data.image1.childImageSharp.fluid}
+            alt={imgData.image1}
+            title={imgData.image1}
+          />,
+          <Img
+            fluid={data.image2.childImageSharp.fluid}
+            alt={imgData.image2}
+            title={imgData.image2}
+          />,
+          <Img
+            fluid={data.image3.childImageSharp.fluid}
+            alt={imgData.image3}
+            title={imgData.image3}
+          />,
+          <Img
+            fluid={data.image4.childImageSharp.fluid}
+            alt={imgData.image4}
+            title={imgData.image4}
+          />,
+          <Img
+            fluid={data.image5.childImageSharp.fluid}
+            alt={imgData.image5}
+            title={imgData.image5}
+          />,
+        ];
+
         return (
           <CollectionsWrapper>
             <TextWrapper>
               <div>
-                {data.description}
-                <H2> {data.pollen.heading}</H2>
-                {data.pollen.description}
-                <H2> {data.seeds.heading}</H2>
-                {data.seeds.description}
-                <H2> {data.profile.heading}</H2>
-                {data.profile.description}
+                {content.description}
+                <H2> {content.pollen.heading}</H2>
+                {content.pollen.description}
+                <H2> {content.seeds.heading}</H2>
+                {content.seeds.description}
+                <H2> {content.profile.heading}</H2>
+                {content.profile.description}
               </div>
             </TextWrapper>
             <ImgWrapper>{imgs.map((img) => img)}</ImgWrapper>

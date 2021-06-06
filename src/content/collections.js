@@ -1,6 +1,24 @@
 import React from "react";
 import { Link } from "gatsby";
 
+export const czImgTitles = {
+  image1: "Sbírka trvalých pylových preparátů české květeny. ",
+  image2: "Trvalé preparáty Referenční pylové sbírky české květeny.",
+  image3:
+    "Příprava trvalých preparátů, Institute of Plant Sciences, University of Bern, Švýcarsko (2010).",
+  image4: "Sbírka semen a plodů.",
+  image5: "Určovací atlas semen.",
+};
+export const enImgTitles = {
+  image1: "Reference pollen collection of the Czech flora.",
+  image2:
+    "Permanent slides of the Reference pollen collection of the Czech flora.",
+  image3:
+    "Preparing the slides of pollen grains at the Institute of Plant Sciences, University of Bern, Switzerland (2010).",
+  image4: "Seed and fruit collection.",
+  image5: "Atlas of seeds.",
+};
+
 export const en = {
   description:
     "There are extensive collections of pollen mounts and seeds and fruits of central european flora deposited at the Department of Paleoecology. We also posses the collection of organic sediments sampled during decades of palaeoecological investigation carried out at the Institute of Botany CAS.",

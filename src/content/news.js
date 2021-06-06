@@ -32,7 +32,8 @@ export const cz = [
     id: "news3",
     photo: "news3.jpg",
     heading: "Dny elektronové mikroskopie",
-    imgTitle: "na Svoboďáku s Cecílií",
+    imgTitle:
+      "Zahájení Dnů elektronové mikroskopie na Náměstí Svobody v Brně (14. dubna 2021). Momentka před nafukovacím modelem nanostruktury.",
     contentShort: (
       <p>
         Letos jsme se poprvé zapojili do{" "}
@@ -67,7 +68,8 @@ export const cz = [
     id: "news2",
     photo: "news2.jpg",
     heading: "Vlasta Jankovská osmdesátiletá",
-    imgTitle: "Vlasta medaile",
+    imgTitle:
+      "Vlasta Jankovská po udělení čestné oborové medaile Johanna Gregora Mendela za zásluhy v biologických vědách (2. července 2014).",
     contentShort: (
       <>
         <p>
@@ -173,7 +175,8 @@ export const cz = [
     id: "news1",
     photo: "news1.jpg",
     heading: "Vývoj diverzity rostlin od konce doby ledové",
-    imgTitle: "Dvě křivky diverzitní článek pro popularizaci",
+    imgTitle:
+      "Holocénní druhová bohatost v čase: červená křivka: nížiny a Karpaty, modrá křivka: pohoří kromě Karpat.",
     imgWidth: "500px",
     contentShort: (
       <p>
@@ -252,7 +255,8 @@ export const en = [
     id: "news3",
     photo: "news3.jpg",
     heading: "Dny elektronové mikroskopie",
-    imgTitle: "na Svoboďáku s Cecílií",
+    imgTitle:
+      "Opening ceremony of Days of electron microscopy in Brno (April 14, 2021). A snapshot in front of an inflatable model of nanostructure",
     contentShort: (
       <p>
         Letos jsme se poprvé zapojili do{" "}
@@ -287,7 +291,8 @@ export const en = [
     id: "news2",
     photo: "news2.jpg",
     heading: "Vlasta Jankovská osmdesátiletá",
-    imgTitle: "Vlasta medaile",
+    imgTitle:
+      "Vlasta Jankovská awarded the honorary medal of Johann Gregor Mendel for merits in biological sciences (July 2, 2014).",
     contentShort: (
       <>
         <p>
@@ -393,7 +398,8 @@ export const en = [
     id: "news1",
     photo: "news1.jpg",
     heading: "Vývoj diverzity rostlin od konce doby ledové",
-    imgTitle: "Dvě křivky diverzitní článek pro popularizaci",
+    imgTitle:
+      "Holocene species diversity in time, red curve: lowlands and the Carpathians, blue curve: mountain ranges except the Carpathians.",
     imgWidth: "500px",
     contentShort: (
       <p>

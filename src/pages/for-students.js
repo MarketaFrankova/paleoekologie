@@ -1,39 +1,76 @@
 import * as React from "react";
 import { Consumer } from "../layouts/Context";
-import { cz, en } from "../content/for-students";
+import { cz, en, czImgTitles, enImgTitles } from "../content/for-students";
 import { H2 } from "../components/atoms/Headings";
 import styled from "styled-components";
-import Paragraph from "../components/atoms/Paragraph";
 import Img from "gatsby-image";
 
 const IndexPage = ({ data }) => {
-  const imgs = [
-    <Img fluid={data.image1.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image2.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image3.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image4.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image5.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image6.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image7.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image8.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image9.childImageSharp.fluid} alt="" />,
-  ];
   return (
     <Consumer>
       {({ int }) => {
-        const data = int === "en" ? en : cz;
+        const content = int === "en" ? en : cz;
+        const imgData = int === "en" ? enImgTitles : czImgTitles;
+        const imgs = [
+          <Img
+            fluid={data.image1.childImageSharp.fluid}
+            alt={imgData.image1}
+            title={imgData.image1}
+          />,
+          <Img
+            fluid={data.image2.childImageSharp.fluid}
+            alt={imgData.image2}
+            title={imgData.image2}
+          />,
+          <Img
+            fluid={data.image3.childImageSharp.fluid}
+            alt={imgData.image3}
+            title={imgData.image3}
+          />,
+          <Img
+            fluid={data.image4.childImageSharp.fluid}
+            alt={imgData.image4}
+            title={imgData.image4}
+          />,
+          <Img
+            fluid={data.image5.childImageSharp.fluid}
+            alt={imgData.image5}
+            title={imgData.image5}
+          />,
+          <Img
+            fluid={data.image6.childImageSharp.fluid}
+            alt={imgData.image6}
+            title={imgData.image6}
+          />,
+          <Img
+            fluid={data.image7.childImageSharp.fluid}
+            alt={imgData.image7}
+            title={imgData.image7}
+          />,
+          <Img
+            fluid={data.image8.childImageSharp.fluid}
+            alt={imgData.image8}
+            title={imgData.image8}
+          />,
+          <Img
+            fluid={data.image9.childImageSharp.fluid}
+            alt={imgData.image9}
+            title={imgData.image9}
+          />,
+        ];
+
         return (
           <ForStudentsWrapper>
             <TextWrapper>
               <div>
-                <H2>{data.highSchoolTitle}</H2>
-                <div>{data.highSchoolDescription}</div>
+                <H2>{content.highSchoolTitle}</H2>
+                <div>{content.highSchoolDescription}</div>
                 <br />
                 <br />
-                <H2>{data.universityTitle}</H2>
-                <div>{data.universityDescription}</div>
+                <H2>{content.universityTitle}</H2>
+                <div>{content.universityDescription}</div>
                 <div>
-                  {data.supervisors.map((supervisor) => (
+                  {content.supervisors.map((supervisor) => (
                     <SupervisorWrapper>
                       <div>{supervisor.supervisor}</div>
                       {supervisor.theses.map((item) => (

@@ -1,6 +1,20 @@
 import React from "react";
 import { Link } from "gatsby";
 
+export const czImgTitles = {
+  image1: "Práce s odstředivkou.",
+  image2: "Laboratorní příprava vzorků pro pylovou analýzu.",
+  image3: "Vzorkování odebraného sedimentu pro pylovou analýzu.",
+  image4: "Chemikálie pro laboratorní přípravu paleoekologických vzorků. ",
+};
+
+export const enImgTitles = {
+  image1: "Work with a centrifuge.",
+  image2: "Chemical processing of samples for standard pollen analysis.",
+  image3: "Subsampling of sediment for standard pollen analysis.",
+  image4: "Chemicals for laboratory treatment of paleoecological samples.",
+};
+
 export const labEn = {
   title: "Palaeoecological laboratories",
   description: (
