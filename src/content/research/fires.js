@@ -1,6 +1,32 @@
 import React from "react";
 import { H2, H3 } from "../../components/atoms/Headings";
+export const czImgTitles = {
+  image1: "Borový les po požáru.",
+  image2:
+    "Vyvrtaný sediment lokality Stará jímka na Šumavě, s vrstvami mikrouhlíků (2013).",
+  image3:
+    "Popisování sedimentu z bývalého ledovcového jezera, Stará jímka, Šumava (2013)",
+  image4:
+    "Uhlík dubu (Quercus sp.), rastrovací elektronový mikroskop, zvětšení 520x.",
+  image5: "Odběr sedimentu v Jizerských horách (2014).",
+  image6: "Odebraný zabalený a popsaný sediment.",
+  image7: "Odběr půdních vzorků pro analýzu uhlíků, Transylvánie (2020).",
+  image8: "Půdní vzorky pro analýzu uhlíků, Transylvánie (2020).",
+};
 
+export const enImgTitles = {
+  image1: "Pine forest after a fire.",
+  image2:
+    "Drilled sediment of the Stará jímka site, Šumava Mts, with layers full of microcharcoal (2013).",
+  image3:
+    "Description of a former glacial lake sediment, Stará jímka site, Šumava Mts (2013).",
+  image4:
+    "A charcoal of Quercus, scanning electron microscope, magnification 520x.  ",
+  image5: "Coring of sediment in Jizerské Mts (2014).",
+  image6: "Sediment is sampled, wrapped and labelled. ",
+  image7: "Sampling of soil for charcoal analysis, Transylvania (2020).",
+  image8: "Soil sampled for charcoal analysis, Transylvania (2020).",
+};
 export const en = (
   <>
     <H2>Long-term fire history</H2>

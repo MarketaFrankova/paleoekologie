@@ -3,32 +3,83 @@ import { Consumer } from "../layouts/Context";
 import Img from "gatsby-image";
 import styled from "styled-components";
 
-import { cz, en } from "../content/research/wetlands";
+import { cz, en, czImgTitles, enImgTitles } from "../content/research/wetlands";
 
 const IndexPage = ({ data }) => {
-  const imgs = [
-    <Img fluid={data.image1.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image2.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image3.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image4.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image5.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image6.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image7.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image8.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image9.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image10.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image11.childImageSharp.fluid} alt="" />,
-    <Img fluid={data.image12.childImageSharp.fluid} alt="" />,
-  ];
-
   return (
     <Consumer>
-      {({ int }) => (
-        <ResearchWrapper>
-          <TextWrapper>{int === "en" ? en : cz}</TextWrapper>
-          <ImgWrapper>{imgs.map((img) => img)}</ImgWrapper>
-        </ResearchWrapper>
-      )}
+      {({ int }) => {
+        const content = int === "en" ? en : cz;
+        const imgData = int === "en" ? enImgTitles : czImgTitles;
+        const imgs = [
+          <Img
+            fluid={data.image1.childImageSharp.fluid}
+            alt={imgData.image1}
+            title={imgData.image1}
+          />,
+          <Img
+            fluid={data.image2.childImageSharp.fluid}
+            alt={imgData.image2}
+            title={imgData.image2}
+          />,
+          <Img
+            fluid={data.image3.childImageSharp.fluid}
+            alt={imgData.image3}
+            title={imgData.image3}
+          />,
+          <Img
+            fluid={data.image4.childImageSharp.fluid}
+            alt={imgData.image4}
+            title={imgData.image4}
+          />,
+          <Img
+            fluid={data.image5.childImageSharp.fluid}
+            alt={imgData.image5}
+            title={imgData.image5}
+          />,
+          <Img
+            fluid={data.image6.childImageSharp.fluid}
+            alt={imgData.image6}
+            title={imgData.image6}
+          />,
+          <Img
+            fluid={data.image7.childImageSharp.fluid}
+            alt={imgData.image7}
+            title={imgData.image7}
+          />,
+          <Img
+            fluid={data.image8.childImageSharp.fluid}
+            alt={imgData.image8}
+            title={imgData.image8}
+          />,
+          <Img
+            fluid={data.image9.childImageSharp.fluid}
+            alt={imgData.image9}
+            title={imgData.image9}
+          />,
+          <Img
+            fluid={data.image10.childImageSharp.fluid}
+            alt={imgData.image10}
+            title={imgData.image10}
+          />,
+          <Img
+            fluid={data.image11.childImageSharp.fluid}
+            alt={imgData.image11}
+            title={imgData.image11}
+          />,
+          <Img
+            fluid={data.image12.childImageSharp.fluid}
+            alt={imgData.image12}
+            title={imgData.image12}
+          />,
+        ];
+        return (
+          <ResearchWrapper>
+            <TextWrapper>{content}</TextWrapper>
+            <ImgWrapper>{imgs.map((img) => img)}</ImgWrapper>
+          </ResearchWrapper>
+        );
+      }}
     </Consumer>
   );
 };

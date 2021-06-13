@@ -1,6 +1,33 @@
 import React, { Fragment } from "react";
 import { H2, H3 } from "../../components/atoms/Headings";
 
+export const czImgTitles = {
+  image1: "Krajina v Národním parku Aggtelek, Maďarsko (2020).",
+  image2: "Pedologický výzkum Miliovy.",
+  image3:
+    "Mapování vegetace (vítězná fotografie v soutěži Věda fotogenická 2020).",
+  image4: "Našli jsme vzácnou Viola jooi Janka!",
+  image5: "Vegetační mapování v dešti na lokalitě Nagymezo, Maďarsko (2020).",
+  image6: "Pedologický výzkum Miliovy.",
+  image7:
+    "Zvonovec liliolistý (Adenophora liliifolia (L.) Ledeb. ex DC.). vzácný reliktní druh.",
+  image8:
+    "Vegetační mapování v místě odběru mechových polštářů pro analýzu recentního pylu (2015).",
+};
+
+export const enImgTitles = {
+  image1: "Landscape in the Aggtelek National Park, Hungary (2020).",
+  image2: "Pedological research Miliovy. ",
+  image3:
+    "Vegetation survey (photo winning the Věda fotogenická competition 2020).",
+  image4: "We have found a rare Transylvanian violet (Viola jooi Janka)!",
+  image5: "Vegetation survey in rain at the Nagymezo site, Hungary (2020). ",
+  image6: "Pedological research Miliovy.",
+  image7: "A rare relict species Adenophora liliifolia (L.) Ledeb. ex DC. ",
+  image8:
+    "Vegetation survey around moss polsters, sampled for recent pollen (2015).",
+};
+
 export const en = (
   <Fragment>
     <H2>Historical aspects of vegetation diversity</H2>

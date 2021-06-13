@@ -1,6 +1,42 @@
 import React from "react";
 import { H2 } from "../../components/atoms/Headings";
 
+export const czImgTitles = {
+  image1:
+    "Slatina Mirol'a v Laborecké vrchovině na Slovensku vznikla po odlesnění kolem roku 930 po K.",
+  image2: "Vrtání dna sedimentu na lokalitě Skřítek v Jeseníkách (2010).",
+  image3:
+    "Vyvrtaný sediment lokality Skřítek, hranice organického sedimentu a minerálního podloží v hloubce 413 cm (Jeseníky, 2010).",
+  image4:
+    "Pylová zrna jitrocele většího (Plantago major L.), indikátoru narušování vegetace, v trvalém preparátu naší Referenční pylové sbírky české květeny.",
+  image5:
+    "Výsledek pylové analýzy - pylový diagram. Na svislé ose se uvádí hloubka sedimentu nebo časová osa, na vodorovné ose zastoupení pylových taxonů.",
+  image6: "Vrchoviště s jezírkem na lokalitě Luzenská slať na Šumavě (2020).",
+  image7:
+    "Starček potoční (Tephroseris crispa (Jacq.) Rchb.) ve Vojenském újezdu Libavá (2013).",
+  image8: "Rašeliník modřínový (Sphagnum contortum Schultz).",
+  image9:
+    "Pylová zrna olše lepkavé (Alnus glutinosa (L.) Gaertn.), Referenční pylová sbírka české květeny.  ",
+  image10: "Cestou na opevněné pravěké hradiště Vladař (2010).",
+};
+
+export const enImgTitles = {
+  image1: "Work with a centrifuge.",
+  image2: "Chemical processing of samples for standard pollen analysis.",
+  image3: "Subsampling of sediment for standard pollen analysis.",
+  image4: "Chemicals for laboratory treatment of paleoecological samples.",
+  image5:
+    "A result of pollen analysis - pollen diagram. Depth or time scale at the vertical axis against pollen at the horizontal axis.",
+  image6:
+    "Raised bog with a pool at the Luzenská slať mire, Šumava Mts (2020).",
+  image7:
+    "Fleawort Senecio paludosus (Jacq.) Rchb. in Libavá Military Area (2013).",
+  image8: "Sphagnum moss Sphagnum contortum Schultz.",
+  image9:
+    "Pollen grains of alder (Alnus glutinosa (L.) Gaertn.), Reference pollen collection of the Czech flora. ",
+  image10: "On the way to the prehistoric site of Vladař hillfort (2010).",
+};
+
 export const en = (
   <>
     <H2>Long-term development of Central European vegetation and landscape</H2>

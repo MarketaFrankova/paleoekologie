@@ -1,6 +1,32 @@
 import React from "react";
 import { H2, H3 } from "../../components/atoms/Headings";
+export const czImgTitles = {
+  image1: "Pylová past na Hraniční slati, Šumava (2020).",
+  image2:
+    "Pyl prášící z borovice kleče (Pinus mugo Turra), Vysoké Tatry, Slovensko (2008). ",
+  image3:
+    "Pylová zrna borovice černé (Pinus nigra J. F. Arnold), Referenční pylová sbírka české květeny.",
+  image4: "Práce v terénu.",
+  image5: "Pyl jehličnanů na vodní hladině.",
+  image6: "Výměna pylových pastí.",
+  image7:
+    "Snímek recentních pylových zrn jehličnanů z elektronového mikroskopu, zvětšení 510x.",
+  image8: "Výměna pylových pastí.",
+};
 
+export const enImgTitles = {
+  image1: "Pollen trap at the Hraniční slať site,Šumava Mts (2020).",
+  image2:
+    "Pollen of scrub mountain pine (Pinus mugo Turra), High Tatra Mts., Slovakia (2008). ",
+  image3:
+    "Pollen grains of European black pine (Pinus nigra J. F. Arnold), Reference pollen collection of the Czech flora.",
+  image4: "In the field.",
+  image5: "Conifer pollen on the water surface.",
+  image6: "Exchange of pollen traps.",
+  image7:
+    "Electron microscope image of recent pollen grains of conifers, magnification 510x.",
+  image8: "Exchange of pollen traps.",
+};
 export const en = (
   <>
     <H2>Dynamics of recent pollen depositions</H2>

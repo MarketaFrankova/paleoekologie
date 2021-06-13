@@ -61,7 +61,7 @@ const ImgWrapper = styled.div`
 `;
 const NewItem = styled.div`
   margin-bottom: 40px;
-  min-height: 220px;
+  overflow: auto;
 `;
 
 export const query = graphql`

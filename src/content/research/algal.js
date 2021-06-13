@@ -1,6 +1,33 @@
 import React, { Fragment } from "react";
 import { H2, H3 } from "../../components/atoms/Headings";
+export const czImgTitles = {
+  image1: "Příbřežní zóna rybníka Dehtář, jižní Čechy (2015).",
+  image2: "Pobřežní vegetace rybníka Dehtář, jižní Čechy (2015).",
+  image3:
+    "Laboratorní zpracování vzorků z archeologické lokality Bibracte ve Francii (2019).",
+  image4: "Společenstvo epifytických řas na povrchu zelené vláknité řasy.",
+  image5: "Polní mokřad (2020). ",
+  image6: "Určování a počítání rozsivek v trvalém preparátu.  ",
+  image7: "Rozsivkové schránky v trvalém preparátu, zvětšení 1000x.",
+  image8:
+    "Rozsivkové schránky na povrchu bublinatky (Utricularia), rastrovací elektronový mikroskop, zvětšení 2100x. ",
+  image9: "Coenobia zelené chlorokokální řasy Pediastrum simplex.",
+};
 
+export const enImgTitles = {
+  image1: "Littoral zone of the Dehtář fishpond, south Bohemia (2015).",
+  image2: "Littoral vegetation of the Dehtář fishpond, south Bohemia (2015).",
+  image3:
+    "Laboratory processing of samples from the archeological site Bibracte in France (2019).",
+  image4:
+    "An assemblage of epiphytic algae on the surface of a green filamentous alga. ",
+  image5: "A wetland on arable land (2020) ",
+  image6: "Identification and counting of diatoms in a permanent slide.",
+  image7: "Diatom frustules in a permanent mount, magnification 1000x.",
+  image8:
+    "Diatom frustules on the surface of Utricularia, scanning electron microscope, magnification 2100x. ",
+  image9: "Coenobia of chlorococcal green alga Pediastrum simplex. ",
+};
 export const en = (
   <Fragment>
     <H2>Algal biondicators</H2>

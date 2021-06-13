@@ -1,6 +1,38 @@
 import React from "react";
 import { H2, H3 } from "../../components/atoms/Headings";
+export const czImgTitles = {
+  image1: "Rokytecká slať, Šumava (2020).",
+  image2: "Ostřice Davallova (Carex davalliana Sm.).",
+  image3: "Semínka a lodyžky mechů při makrozbytkové analýze.",
+  image4: "Analýza makrozbytků.",
+  image5: "Sphagnum fuscum se běžně nachází v sedimentech vrchovišť.",
+  image6: "Reliktní druh prvosenka pomoučená (Primula farinosa L.).",
+  image7: "Vyvrtaný, zabalený a označený sediment.",
+  image8:
+    "Lístky mechu Calliergon giganteum z vrstev glaciálního stáří, lokalita Pihoviny.",
+  image9: "Mokřad s populací řezanu pilolistého (Stratiotes aloides L.).",
+  image10: "Rostlinné pletivo, světelný mikroskop, zvětšení 400x.",
+  image11: "Vývěr minerálního pramene, Národní přírodní rezervace Soos (2010).",
+  image12:
+    "Semínko silenky (Silene sp.), rastrovací elektronový mikroskop, zvětšení 280x.",
+};
 
+export const enImgTitles = {
+  image1: "Rokytecká slať mire, Šumava Mts (2020).",
+  image2: "Carex davalliana Sm. sedge.",
+  image3: "Seeds and moss stems during plant macro-remain analysis.",
+  image4: "Analysis of plant macro-remains.",
+  image5: "Sphagnum fuscum is commonly found in sediment of raised bogs.",
+  image6: "Relic species bird's-eye primrose (Primula farinosa L.).",
+  image7: "Sediment is drilled, wrapped and labelled.",
+  image8:
+    "Leaves of Calliergon giganteum moss found in the sediment of Pihoviny site, dated to the Last Glacial Period.",
+  image9: "Wetland with population of water soldiers (Stratiotes aloides L.).",
+  image10: "Plant tissue, light microscope, magnification 400x.",
+  image11: "Mineral spring, National Nature Reserve Soos (2010).",
+  image12:
+    "A seed of Silene species, scanning electron microscope, magnification 280x.",
+};
 export const en = (
   <>
     <H2>Long-term development of wetland ecosystems</H2>
