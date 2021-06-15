@@ -33,7 +33,9 @@ const PersonBox = ({ personInfo, openDetail, img }) => {
         </ImgWrapper>
 
         <TextWrapper>
-          <H2 noTop>{personInfo.name}</H2>
+          <H2 noTop capitalize>
+            {personInfo.name}
+          </H2>
           <Div>{personInfo.phoneNumber}</Div>
           <Div>{personInfo.email}</Div>
         </TextWrapper>

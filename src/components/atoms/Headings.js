@@ -2,8 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 
-export const H2 = ({ children, noTop }) => {
-  return <H2Styled noTop={noTop}> {children} </H2Styled>;
+export const H2 = ({ children, noTop, capitalize = false }) => {
+  return (
+    <H2Styled noTop={noTop} capitalize={capitalize}>
+      {children}
+    </H2Styled>
+  );
 };
 
 H2.propTypes = {
@@ -16,7 +20,8 @@ const H2Styled = styled.h2`
   margin-bottom: ${(props) => props.noTop && "5px"};
   border-bottom: 1px solid ${(props) => props.theme.grey};
   font-family: ${(props) => props.theme.fontHeading};
-  font-variant: small-caps;
+  text-transform: ${(props) => !props.capitalize && "uppercase"};
+  font-variant: ${(props) => props.capitalize && "small-caps"};
 `;
 
 export const H3 = ({ children, green }) => {
