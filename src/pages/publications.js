@@ -23,7 +23,7 @@ const IndexPage = () => {
             <Paragraph>
               <SelectYear>
                 {data.years.map((year) => {
-                  if (!year.list) return;
+                  if (!year.list) return null;
                   return (
                     <Year
                       active={activeYear === year.year}

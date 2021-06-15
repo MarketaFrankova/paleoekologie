@@ -11,28 +11,13 @@ const IndexPage = ({ data }) => {
       {({ int }) => {
         const content = int === "en" ? labEn : labCz;
         const imgData = int === "en" ? enImgTitles : czImgTitles;
-        const imgs = [
+        const imgs = data.allImageSharp.edges.map((img, index) => (
           <Img
-            fluid={data.image1.childImageSharp.fluid}
-            alt={imgData.image1}
-            title={imgData.image1}
-          />,
-          <Img
-            fluid={data.image2.childImageSharp.fluid}
-            alt={imgData.image2}
-            title={imgData.image2}
-          />,
-          <Img
-            fluid={data.image3.childImageSharp.fluid}
-            alt={imgData.image3}
-            title={imgData.image3}
-          />,
-          <Img
-            fluid={data.image4.childImageSharp.fluid}
-            alt={imgData.image4}
-            title={imgData.image4}
-          />,
-        ];
+            fluid={img.node.fluid}
+            alt={imgData[`image${index + 1}`]}
+            title={imgData[`image${index + 1}`]}
+          />
+        ));
 
         return (
           <LaboratoryWrapper>
@@ -49,39 +34,6 @@ const IndexPage = ({ data }) => {
 };
 
 export default IndexPage;
-
-export const query = graphql`
-  query {
-    image1: file(relativePath: { regex: "/lab/laboratory1.jpg/" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    image2: file(relativePath: { regex: "/lab/laboratory2.jpg/" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    image3: file(relativePath: { regex: "/lab/laboratory3.jpg/" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    image4: file(relativePath: { regex: "/lab/laboratory4.jpg/" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-  }
-`;
 
 const ImgWrapper = styled.div`
   display: none;
@@ -106,4 +58,22 @@ const TextWrapper = styled.div`
   flex: 2;
   margin-right: 50px;
   text-align: justify;
+`;
+
+export const query = graphql`
+  query {
+    allImageSharp(
+      sort: { fields: [fluid___originalName], order: ASC }
+      filter: { fluid: { src: { regex: "//laboratory/" } } }
+    ) {
+      edges {
+        node {
+          id
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  }
 `;

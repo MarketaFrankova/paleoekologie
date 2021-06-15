@@ -10,33 +10,13 @@ const IndexPage = ({ data }) => {
       {({ int }) => {
         const content = int === "en" ? en : cz;
         const imgData = int === "en" ? enImgTitles : czImgTitles;
-        const imgs = [
+        const imgs = data.allImageSharp.edges.map((img, index) => (
           <Img
-            fluid={data.image1.childImageSharp.fluid}
-            alt={imgData.image1}
-            title={imgData.image1}
-          />,
-          <Img
-            fluid={data.image2.childImageSharp.fluid}
-            alt={imgData.image2}
-            title={imgData.image2}
-          />,
-          <Img
-            fluid={data.image3.childImageSharp.fluid}
-            alt={imgData.image3}
-            title={imgData.image3}
-          />,
-          <Img
-            fluid={data.image4.childImageSharp.fluid}
-            alt={imgData.image4}
-            title={imgData.image4}
-          />,
-          <Img
-            fluid={data.image5.childImageSharp.fluid}
-            alt={imgData.image5}
-            title={imgData.image5}
-          />,
-        ];
+            fluid={img.node.fluid}
+            alt={imgData[`image${index + 1}`]}
+            title={imgData[`image${index + 1}`]}
+          />
+        ));
 
         return (
           <CollectionsWrapper>
@@ -83,44 +63,22 @@ const TextWrapper = styled.div`
   text-align: justify;
 `;
 
+export default IndexPage;
+
 export const query = graphql`
   query {
-    image1: file(relativePath: { regex: "/collections/collections01.jpg/" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    image2: file(relativePath: { regex: "/collections/collections02.jpg/" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    image3: file(relativePath: { regex: "/collections/collections03.jpg/" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    image4: file(relativePath: { regex: "/collections/collections04.jpg/" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    image5: file(relativePath: { regex: "/collections/collections05.jpg/" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_withWebp
+    allImageSharp(
+      sort: { fields: [fluid___originalName], order: ASC }
+      filter: { fluid: { src: { regex: "//collections/" } } }
+    ) {
+      edges {
+        node {
+          id
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
         }
       }
     }
   }
 `;
-
-export default IndexPage;

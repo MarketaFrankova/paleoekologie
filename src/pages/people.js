@@ -18,7 +18,7 @@ const IndexPage = ({ data, location, history }) => {
       setDetailOpened(location.state.person || history.state.person);
       windowGlobal.scrollTo(0, 0);
     } else setDetailOpened(null);
-  }, [location.state]);
+  }, [location.state, history?.state?.person]);
 
   return (
     <Consumer>
