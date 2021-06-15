@@ -7,25 +7,24 @@ const IndexPage = () => {
     <Paragraph>
       <H2>Prohlášení o přístupnosti</H2>
       <p>
-        Oddělení paleoekologie se zavazuje k zpřístupnění své internetové
-        stránky v souladu se zákonem č. 99/2019 Sb., o přístupnosti
-        internetových stránek a mobilních aplikací a o změně zákona č. 365/2000
-        Sb., o informačních systémech veřejné správy a o změně některých dalších
-        zákonů, ve znění pozdějších předpisů, které provádějí směrnici
-        Evropského parlamentu a Rady (EU) 2016/2102.
+        Oddělení paleoekologie Botanického ústavu AV ČR, v.v.i. se zavazuje k
+        zpřístupnění své internetové stránky v souladu se zákonem č. 99/2019
+        Sb., o přístupnosti internetových stránek a mobilních aplikací a o změně
+        zákona č. 365/2000 Sb., o informačních systémech veřejné správy a o
+        změně některých dalších zákonů, ve znění pozdějších předpisů, které
+        provádějí směrnici Evropského parlamentu a Rady (EU) 2016/2102.
       </p>
       <p>
-        Toto prohlášení o přístupnosti se vztahuje na internetové stránky na
-        doméně [--DOPLNIT--].
+        Toto prohlášení o přístupnosti se vztahuje na internetovou stránku
+        www.ibot.cas.cz/paleolab.
       </p>
 
       <H3 green>STAV SOULADU</H3>
       <p>
-        Tato stránka je plně v souladu/částečně v souladu (vyberte) se zákonem
-        č. 99/2019 Sb., o přístupnosti internetových stránek a mobilních
-        aplikací a o změně zákona č. 365/2000 Sb., o informačních systémech
-        veřejné správy a o změně některých dalších zákonů, ve znění pozdějších
-        předpisů, s výjimkami uvedenými níže.
+        Tato stránka je v souladu se zákonem č. 99/2019 Sb., o přístupnosti
+        internetových stránek a mobilních aplikací a o změně zákona č. 365/2000
+        Sb., o informačních systémech veřejné správy a o změně některých dalších
+        zákonů, ve znění pozdějších předpisů, s výjimkami uvedenými níže.
       </p>
 
       <ul>
@@ -44,14 +43,11 @@ const IndexPage = () => {
         </li>
         <li>
           Komponenty třetích stran použité na webu nemusí splňovat podmínky o
-          přístupnosti (např. twitter, youtube apod.)
+          přístupnosti (např. Twitter, Youtube apod.)
         </li>
       </ul>
       <H3 green>Vypracování tohoto prohlášení o přístupnosti</H3>
-      <p>
-        Toto prohlášení o přístupnosti bylo vypracováno dne [--------------
-        2021]
-      </p>
+      <p>Toto prohlášení o přístupnosti bylo vypracováno dne 16.6.2021</p>
       <p>
         Toto prohlášení bylo vypracováno posouzením provedeným třetí stranou –
         Lenka Hubáčková (IČO 07951825). Pro vypracování prohlášení byl použit
@@ -66,10 +62,11 @@ const IndexPage = () => {
       <H3 green>Alternativní postupy pro získání informací</H3>
       <p>
         Pokud se na internetových stránkách nachází informace, jež není či
-        nemůže být přístupná, poskytuje Oddělení paleoekologiev souladu s § 4,
+        nemůže být přístupná, poskytuje Oddělení paleoekologie v souladu s § 4,
         odst. 7, zákona, náhradní způsob získání informací. Je možné kontaktovat
-        správce obsahu [-- LYDIE ??]. Správce obsahu se bude snažit příslušnou
-        informaci uživateli předat v pro něj vhodné formě, bude-li to možné.
+        správce obsahu (viz kontakty níže). Správce obsahu se bude snažit
+        příslušnou informaci uživateli předat v pro něj vhodné formě, bude-li to
+        možné.
       </p>
       <H3 green>Postupy pro prosazování práva</H3>
       <p>
@@ -79,8 +76,17 @@ const IndexPage = () => {
         <a href="mailto:pristupnost@mvcr.cz">pristupnost@mvcr.cz</a>).
       </p>
 
-      <H3 green>Kontakty na administrátory</H3>
-      <p>[-- Lydie ??? --]</p>
+      <H3 green>Kontakty na správce obsahu</H3>
+      <p>
+        <b>Lydie Dudová</b>:{" "}
+        <a href="mailto:lydie.dudova@ibot.cas.cz">lydie.dudova@ibot.cas.cz</a> |
+        +420 541 126 223
+      </p>
+      <p>
+        <b>Petra Hájková</b>:{" "}
+        <a href="mailto:buriana@sci.muni.cz">buriana@sci.muni.cz</a> | +420 541
+        126 223
+      </p>
     </Paragraph>
   );
 };
