@@ -15,9 +15,9 @@ const IndexPage = () => {
   return (
     <Consumer>
       {({ int }) => {
-        const actual = int === "en" ? actualCz : actualEn;
+        const actual = int === "en" ? actualEn : actualCz;
         const completed = int === "en" ? completedEn : completedCz;
-        const general = int === "en" ? generalCz : generalEn;
+        const general = int === "en" ? generalEn : generalCz;
         return (
           <Paragraph>
             <H2>{int === "en" ? "Current projects" : "Aktuální projekty"}</H2>

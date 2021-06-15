@@ -4,7 +4,7 @@ export const en = {
   landscape:
     "Long-term development of Central European vegetation and landscape",
   fires: "Long-term fire history",
-  historic: "",
+  historic: "Historical aspects of vegetation diversity",
   wetlands: "Long-term development of wetland ecosystems",
   pollenSedimentation: "Dynamics of recent pollen depositions",
 };

@@ -21,10 +21,14 @@ export const czImgTitles = {
 };
 
 export const enImgTitles = {
-  image1: "Work with a centrifuge.",
-  image2: "Chemical processing of samples for standard pollen analysis.",
-  image3: "Subsampling of sediment for standard pollen analysis.",
-  image4: "Chemicals for laboratory treatment of paleoecological samples.",
+  image1:
+    "Mirol'a fen in the Laborecká highlands, Slovakia, originated after deforestation 930 AD.",
+  image2:
+    "Drilling of the bottom part of sediment at the Skřítek site, Jeseníky Mts (2010).",
+  image3:
+    "Drilled bottom layer of the Skřítek sediment, the transition of organic sediment and mineral bedrock at the depth of 413 cm (Jeseníky Mts, 2010).",
+  image4:
+    "Pollen grains of broadleaf plantain (Plantago major), an indicator of vegetation disturbance, from our Reference pollen collection of the Czech flora.",
   image5:
     "A result of pollen analysis - pollen diagram. Depth or time scale at the vertical axis against pollen at the horizontal axis.",
   image6:
