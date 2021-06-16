@@ -145,7 +145,7 @@ export const completedCz = [
       <span>
         <Link to="/people/" state={{ person: "svitavska" }}>
           Helena Svitavská Svobodová
-        </Link>
+        </Link>{" "}
         (Botanický ústav AV ČR)
       </span>
     ),
