@@ -378,17 +378,5 @@ export const others = (
       <em>Nova Hedwigia</em>
       &nbsp;150, 133 – 158.&nbsp;
     </p>
-    <p>
-      Peterka T.,&nbsp;
-      <Link to="/people/" state={{ person: "hajkova" }}>
-        Hájková P.
-      </Link>
-      , Mikulášková E., Aunina L., Dítě D., Pawlikowski P., Štechová T. and
-      Hájek M. 2020: Vegetation affinity of the moss species Meesia triquetra,
-      Paludella squarrosa, Pseudocalliergon trifarium and Scorpidium scorpioides
-      across European regions.&nbsp;
-      <em>Nova Hedwigia</em>
-      &nbsp;150, 133 – 158.&nbsp;
-    </p>
-  </>
+   </>
 );

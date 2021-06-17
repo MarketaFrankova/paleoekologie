@@ -132,8 +132,8 @@ export const cz = [
         </strong>
         . Pokud vás zajímá, jak je to se smrkem, proč lesy s dominancí smrku
         plošně odumírají, jak by se mělo hospodařit v budoucnosti a co se o
-        problematice rozšíření smrku ví, přečtěte si článek Petry Hájkové v
-        časopise Živa 2021/2. PDF dostupné&nbsp;
+        problematice rozšíření smrku ví, přečtěte si článek v
+        časopise Živa 2021/2, na kterém se podílela Petra Hájková. PDF dostupné&nbsp;
         <ALink href="https://ziva.avcr.cz/2021-2/budoucnost-nasich-lesu-bude-v-nich-mit-sve-misto-i-smrk.html">
           zde
         </ALink>

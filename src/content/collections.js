@@ -61,7 +61,7 @@ export const en = {
         material from soil samples (living seeds; soil seed bank) as well as
         from fossil sediments. Our aim is reconstruction of species composition
         from both resources. The collection is open for public use, please
-        contracts&nbsp;
+        contact&nbsp;
         <Link to="/people/" state={{ person: "hajkova" }}>
           Petra Hájková
         </Link>
