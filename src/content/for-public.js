@@ -235,27 +235,21 @@ export const cz = [
 
 export const en = [
   {
-    title: "AKCE PRO VEŘEJNOST",
+    title: "EVENTS FOR THE PUBLIC",
     description: (
       <div>
-        Každým rokem (vždy první středu v listopadu) pořádá brněnské pracoviště
-        Botanického ústavu <strong>Den otevřených dveří</strong>. Akce je určena
-        především pro středoškoláky (celá třída se objednává předem), ale i pro
-        jednotlivce všech věkových kategorií (bez objednání). Účastníme se
-        rovněž dalších akcí jako <strong>Veletrh vědy</strong> (Praha),{" "}
-        <strong>Vědecký trek</strong> (Průhonice) a&nbsp;
-        <strong>Dny elektronové mikroskopie</strong> (Brno).
+        Every year (always the first Wednesday in November) the Brno Research Division of the Institute of Botany organizes an <strong>Open Day.</strong>. The event is intended primarily for high school students (the whole class must order in advance), but individuals of all ages are welcome as well (without ordering). We also participate in other events such as the <strong>Scientific Fair</strong> (Prague),{" "}
+        the <strong>Scientific Trek</strong> (Průhonice) and the&nbsp;
+        <strong>Days of Electron Microscopy</strong> (Brno).
       </div>
     ),
   },
 
   {
-    title: "NA LOUKU VIRTUÁLNĚ",
+    title: "VIRTUAL VISIT OF A MEADOW",
     description: (
       <div>
-        Rozšiřte si své znalosti rostlin během virtuální procházky druhově
-        nejbohatší loukou na světě! Můžete si ji stáhnout jako soubor ve
-        formátu&nbsp;
+        Expand your knowledge of plants during a virtual walk through the most species-rich meadow in the world! You can download it as a &nbsp;
         <ALink href="https://www.avcr.cz/.content/galerie-souboru/pro-verejnost/Virtualni_prochazka_druhove_nejbohatsi_loukou_na_svete.ppsx">
           PPSX
         </ALink>
@@ -263,8 +257,7 @@ export const en = [
         <ALink href="https://www.avcr.cz/export/sites/avcr.cz/.content/galerie-souboru/pro-verejnost/Virtualni_prochazka_druhove_nejbohatsi_loukou_na_svete.pdf">
           PDF
         </ALink>
-        &nbsp; (ten druhý nezobrazuje popisky s názvy druhů rostlin, jen
-        internetové adresy s informacemi o druzích), nebo se podívat&nbsp;
+        &nbsp; (the latter does not display labels with plant species names, only internet addresses with species information) or look here:&nbsp;
         <ALink href="https://www.ibot.cas.cz/cs/verejnost/vzdelavani/edukacni-materialy/">
           sem
         </ALink>
@@ -273,18 +266,15 @@ export const en = [
   },
 
   {
-    title: "DOKUMENTÁRNÍ FILM",
+    title: "DOCUMENTARY FILM",
     descriptionArr: [
       <>
         <div>
-          <strong>Zelené plíce.</strong>
+          <strong>Green lungs.</strong>
         </div>
 
         <div>
-          Dokumentární film o tom, jak vypadá obnova lesa po kůrovcové kalamitě
-          na Šumavě. Helena Svitavská Svobodová mluví o svých výzkumech a o
-          pozdně glaciálním a holocéním vývoji šumavské přírody. Ke
-          shlédnutí&nbsp;
+        A documentary about what the restoration of the forest looks like after the bark beetle calamity in the Šumava Mts. Helena Svitavská Svobodová talks about her research and the late glacial and Holocene development of Šumava nature. You can watch the movie here:&nbsp;
           <ALink href="https://www.ceskatelevize.cz/porady/12935442888-zelene-plice/">
             zde
           </ALink>
@@ -306,74 +296,52 @@ export const en = [
     ],
   },
   {
-    title: "POPULARIZAČNÍ ČLÁNKY",
+    title: "POPULARIZATION PAPERS",
     descriptionArr: [
       <span>
-        <strong>
-          Pylové depozice na Šumavě a v Krkonoších za posledních 21 let
-        </strong>
-        . Díky Heleně Svitavské Svobodové víme mnohem více o současné pylové
-        sedimentaci v našich hraničních pohořích. Anotace článku, vyšlého v
-        časopise Botanika 2021/1 k přečtení&nbsp;
+        <strong>Pollen deposition in Šumava and Krkonoše for the last 21 years</strong>.
+        Thanks to Helena Svitavská Svobodová, we know much more about the current pollen sedimentation in our border mountains. Here you can read annotation of this article published in the journal Botanika 2021/1:&nbsp;
         <ALink href="https://www.ibot.cas.cz/botanika/?p=670">zde</ALink>
       </span>,
       <span>
-        <strong>Divoká ale ne tak docela… Šumava v mladém pravěku</strong>.
-        Přírodní archívy vydávají svědectví o pašeráckých trasách přes šumavská
-        pohoří, jak se můžete dočíst v článku, jehož spoluautorem je Přemek
-        Bobek,&nbsp;
+        <strong>Wild but not quite… Šumava in young prehistory</strong>.
+        The natural archives bear witness to smuggling routes though the Šumava Mts. As we can read in this article co-authored by Přemysl Bobek, here:&nbsp;
         <ALink href="https://www.researchgate.net/publication/348419780 ">
           zde
         </ALink>
       </span>,
       <span>
-        <strong>Kulturní, a přesto cenné</strong>. Pokud chcete poznat
-        překvapivou historii ekosystému karpatských travertinových slatinišť,
-        označovanou jako reliktní, přečtěte si článek v časopise Vesmír 2020/12,
-        kde se s vámi Michal Horsák a Petra Hájková podělí o výsledky svých
-        nejnovějších paleoekologických výzkumů v Západních Karpatech. Začátek
-        článku&nbsp;
+        <strong>Cultural, yet valuable</strong>. If you want to get to know the surprising history of Carpathian travertine peat bogs, considered relict, read the article in the journal Vesmír 2020/12, where Michal Horsák a Petra Hájková share the results of their latest paleoecological research in the Western Carpathians. Here is the beginning of the article:&nbsp;
         <ALink href="https://vesmir.cz/cz/casopis/archiv-casopisu/2020/cislo-12/kulturni-presto-cenne.html">
           zde
         </ALink>
       </span>,
       <span>
         <strong>
-          Budoucnost našich lesů: bude v nich mít své místo i smrk?
+        The future of our forests: will spruce have a place in them?
         </strong>
-        . Pokud vás zajímá, jak je to se smrkem, proč lesy s dominancí smrku
-        plošně odumírají, jak by se mělo hospodařit v budoucnosti a co se o
-        problematice rozšíření smrku ví, přečtěte si článek Petry Hájkové v
-        časopise Živa 2021/2. PDF dostupné&nbsp;
+        . If you are interested in what it is like with spruce, why forests with spruce dominance die extensively, how they should be managed in the future and what is known about the issue of spruce spread, read the article co-authored by Petra Hajková in the journal Živa 2021/2. PDF available&nbsp;
         <ALink href="https://ziva.avcr.cz/2021-2/budoucnost-nasich-lesu-bude-v-nich-mit-sve-misto-i-smrk.html">
           zde
         </ALink>
       </span>,
       <span>
         <strong>
-          Víme, kolik bylo smrku v našich lesích před intenzifikací hospodaření?
+        Do we know how much spruce was in our forests before the intensification of farming?
         </strong>
-        &nbsp; Tento článek je zaměřený na paleoekologické poznání minulého
-        rozšíření smrku. Kolik ho v našich lesích vlastně bylo, byl všude nebo
-        jen někde a jsme vůbec schopní to současnými metodami poznat? Přečtěte
-        si článek Petry Hájkové v časopisu Botanika 2020/1. Ke stažení&nbsp;
+        &nbsp; his article focuses on the paleoecological knowledge of the past spread of spruce. How much was it in our forests, was it everywhere or only somewhere, and are we even able to recognize it by current methods? Read the article by Petra Hájková in the journal Botanika 2020/1. You can download it here:&nbsp;
         <ALink href="https://www.ibot.cas.cz/botanika/wp-content/uploads/sites/19/2021/04/e-Botanika-012020.pdf">
           zde
         </ALink>
       </span>,
       <span>
-        <strong>Oheň v naší krajině</strong>. O roli požárů ve vývoji přírodního
-        prostředí během holocénu psal Přemek Bobek s Martinem Adámkem v článku
-        pro časopis Živa 2020/5. Fotky z článku dostupné&nbsp;
+        <strong>Fire in our landscape</strong>. Přemysl Bobek and Martin Adámek wrote about the role of fires in the development of the natural environment during the Holocene in an article for the magazine Živa 2020/5. The photos from this article are available here:&nbsp;
         <ALink href="https://ziva.avcr.cz/2020-5/ohen-v-nasi-krajine.html">
           zde
         </ALink>
       </span>,
       <span>
-        <strong>Rok českých pralesů IV. Narušením k dynamice</strong>. Jakou
-        roli hrály disturbance ve vývoji vegetace, kterou dnes označujeme jako
-        pralesní? Článek z časopisu Živa 2018/4, na kterém se podílel Přemek
-        Bobek je jako PDF ke stažení&nbsp;
+        <strong>he year of Czech Forests IV. Disruption to dynamics</strong>. What role did disturbances play in the development of Vegetation, which we now call forest? You can download the article co-authored by Přemysl Bobek and published in Živa 2018/4 as a PDF here:&nbsp;
         <ALink href="https://ziva.avcr.cz/2018-4/rok-ceskych-pralesu-iv-narusenim-k-dynamice.html">
           zde
         </ALink>
@@ -381,43 +349,43 @@ export const en = [
     ],
   },
   {
-    title: "POPULARIZAČNÍ VIDEA",
+    title: "POPULARIZATION VIDEOS",
     description: (
       <div>
         <p>
-          V rámci aktivity&nbsp;
+        As a part of the Science at Home activity&nbsp;
           <ALink href="https://www.avcr.cz/cs/pro-verejnost/veda-na-doma/">
             Věda na doma
           </ALink>
-          &nbsp; jsme během jarního lockdownu 2020 ve spolupráci s Odborem
-          audiovizuálních technologií AV ČR připravili videa a také prezentace:
+          &nbsp; we prepared videos and presentations during the spring lockdown 2020 in cooperation with the Department of Audiovisual Technologies of the CAS:
+
         </p>
         <div>
-          <strong>Co kvete na jaře</strong> (deset běžných druhů jarní květeny),
+          <strong>What blooms in spring</strong> (ten common species of spring flora),
+
         </div>
         <YouTubeVideo
           videoSrcURL="https://www.youtube.com/embed/yF0A3vqijuY"
           videoTitle="Co kvete na jaře"
         />
         <div>
-          <strong>Pylová detektivka</strong> (co tvoří dominantu pylového spadu)
-          a&nbsp;
+          <strong>Pollen detective</strong> (what is the dominant of pollen fall)
+          and&nbsp;
         </div>
         <YouTubeVideo
           videoSrcURL="https://www.youtube.com/embed/wQhg93FzLgY"
           videoTitle="Pylová detektivka"
         />
         <div>
-          <strong>Rostliny a jejich pyl</strong> (jak vypadají pylová zrna
-          běžných jarních rostlin).
+          <strong>Plants and their pollen</strong> (What do the pollen grains of common spring plants look like).
+.
         </div>
         <YouTubeVideo
           videoSrcURL="https://www.youtube.com/embed/8thQaFAkguE"
           videoTitle="Rostliny a jejich pyl"
         />
         <div>
-          Tato a další videa a edukační materiály najdete na webu Botanického
-          ústavu pod záložkou&nbsp;
+        You can find these are other videos and educational materials on the website of the Institute of Botany under the Public/Education tab&nbsp;
           <ALink href="https://www.ibot.cas.cz/cs/verejnost/vzdelavani/">
             Veřejnost/Vzdělávání
           </ALink>
@@ -428,15 +396,12 @@ export const en = [
   },
 
   {
-    title: "EXKURZE",
+    title: "EXCURSIONS",
     description: (
       <div>
-        Vědci z našeho týmu příležitostně pořádají exkurze pro veřejnost. Na
-        zajímavá místa můžeme zavítat ale i sami. Zde je tip naší kolegyně Petry
-        Hájkové, která pro web Českého svazu ochránců přírody vypracovala
-        přírodovědně&nbsp;
+        Scientists from our team occasionally organize excursions for the public, but we can also visit interesting places ourselves. Her is a tip from our colleague Petra Hájková, who described interesting places in nature&nbsp;
         <ALink href="https://csophluk.cz/prirodovedne-zajimava-mista-u-hluku/">
-          zajímavá místa okolí Hluku na Uherskohradišťsku
+        in the vicinity of the town Hluk near Uherské Hradiště
         </ALink>
         .
       </div>
