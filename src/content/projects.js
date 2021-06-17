@@ -211,48 +211,49 @@ export const completedCz = [
         natural sciences and the humanities, the project will contribute to a
         more reliable methodology for woodland management and conservation in
         Central Europe.`,
-    },
-    {
-      name:
+  },
+  {
+    name:
       "Rekonstrukce vegetace na základě pylových dat – testování modelu a jeho význam pro studium holocénních změn prostředí.",
-      id: "KJB6111305",
-      finance: "Grantová agentura akademie věd České republiky",
-      period: "2012–2015",
-      mainResearcher: "Petr Kuneš (Přírodovědecká fakulta Univerzita Karlova)",
-      coResearcher: (
-        <Link to="/people/" state={{ person: "rolecek" }}>
-          Jan Roleček
-        </Link>
-      ),
-      teamMembers:
-        "Přemysl Bobek, Lydie Dudová, Barbora Obstová, Radim Hédl, Eva Jamrichová, Martin Kopecký, Dušan Lekeš, Zuzana Plesková, Jan Roleček, Péter Szabó",
-      description:
-        "This project aims to reconstruct land cover during the past 200 years in model areas of Central Europe in order to test the landscape reconstruction algorithm (LRA) with high-resolution historical data. After successfully tested and parameterized, the LRA can reconstruct the key stages of postglacial landscape and vegetation development with higher significance, and thus cirt/open land ratio, human induced disturbance and ecosystem diversity changes. Results can improve our understanding of climate/vegetation interactions and human responsecumvent biases created by the direct interpretation of palynological records. We will collect high-resolution palynological data for model areas for the past 200 years, estimate vegetation cover with the LRA and compare this with historical records. To enhance estimations, we will study pollen productivity for important regional plant taxa. We will then apply the LRA on key stages of the Holocene to address questions concerning fluctuations of foress in the past as well as our ability to predict the functioning of future ecosystems.",
-    },
-    {
-      name: "Lowland woodland in the perspective of theNížinné lesy v perspektivě historického vývoje historical development.",
-      id: " IAA600050812",
-      finance: "Grant Agency of the Czech Academy of Sciences",
-      period: "01/2008–12/2012",
-      mainResearcher: "Radim Hédl",
-      teamMembers:
-        "Péter Szabó, Eva Jamrichová, Tereza Klinerová, Martin Kopecký, Jana Müllerová, Barbora Pelánková, Ondřej Vild",
-      description:
-        "Střední Evropa je přirozeně lesní oblast. Vegetační pokryv byl v průběhu Holocénu, mimo přírodních procesů, hluboce ovlivněn lidskou činností. V České republice jsou vztahy mezi přírodními faktory, strukturou a složením lesa prostudovány poměrně podrobně. Naproti tomu zatím prakticky neexistuje výzkum zaměřený na to, jak člověkem daná historie formovala lesy. Navržený projekt spojí interdisciplinárním způsobem metody přírodních a humanitních věd (paleoekologie, archeologie, historie, ekologie). Studováno bude 5 nížinných lokalit. Budou popsány a za použití GIS porovnány prostorovo-časové souvislosti v lesích s historickou kontinuitou a bez ní. Projekt se zaměří na význam časové kontinuity a minulých forem hospodaření ve vztahu k současným vlastnostem a kvalitám lesa. Budou navržena pravidla hospodaření pro udržení daných kvalit do budoucna.",
-    },
-    { 
-      name: "Současné a historické změny na horských rašeliništích Sudet.",
-      id: "GA206/08/0389",
-      finance: "Grantová agentura ČR",
-      period: "01/2008–12/2012",
-      mainResearcher:
-        "Michal Hájek (Přírodovědecká fakulta Masarykova univerzita)",
-      coResearcher: "Radim Hédl",
-      teamMembers: "Radim Hédl, Lydie Dudová, Ivan Tůma, Petr Holub",
-      description:
-        "Správné vyhodnocení změn na vrchovištích, vyvolaných lidskou činností, vyžaduje nejen většinou prováděné krátkodobé fertilizační experimenty, ale rovněž výzkum dlouhodobých a střednědobých změn. Souběžný výzkum několika taxonomických skupin je rovněž užitečným přístupem. Tento projekt, realizovaný ve dvou sudetských pohořích lišících se stupněm depoziční zátěže (Jizerské hory, Jeseníky), zahrnuje pokračování a vyhodnocení 20-letého monitoringu chemismu vody a vegetace v síti 59 trvalých ploch, analýzu živin v rašelinících, měření půdní vlhkosti a rychlosti dekompozice, analýzu diverzity různých organismů (vyšší rostliny, řasy, houby, krytenky) vzhledem k aktuálnímu a dlouhodobému chemismu vody, testování konceptu paleo- a neorefugií se zahrnutím všech ostrovních biotopů v jednom území a paleoekologický výzkum v méně prozkoumaných Jeseníkách, který bude zahrnovat jak studovaná vrchoviště, tak i ostatní rašeliniště, aby bylo možné rekonstruovat vývoj vegetace, rozšíření vrchovišť a",
-    },
-  ];
+    id: "KJB6111305",
+    finance: "Grantová agentura akademie věd České republiky",
+    period: "2012–2015",
+    mainResearcher: "Petr Kuneš (Přírodovědecká fakulta Univerzita Karlova)",
+    coResearcher: (
+      <Link to="/people/" state={{ person: "rolecek" }}>
+        Jan Roleček
+      </Link>
+    ),
+    teamMembers:
+      "Přemysl Bobek, Lydie Dudová, Barbora Obstová, Radim Hédl, Eva Jamrichová, Martin Kopecký, Dušan Lekeš, Zuzana Plesková, Jan Roleček, Péter Szabó",
+    description:
+      "This project aims to reconstruct land cover during the past 200 years in model areas of Central Europe in order to test the landscape reconstruction algorithm (LRA) with high-resolution historical data. After successfully tested and parameterized, the LRA can reconstruct the key stages of postglacial landscape and vegetation development with higher significance, and thus cirt/open land ratio, human induced disturbance and ecosystem diversity changes. Results can improve our understanding of climate/vegetation interactions and human responsecumvent biases created by the direct interpretation of palynological records. We will collect high-resolution palynological data for model areas for the past 200 years, estimate vegetation cover with the LRA and compare this with historical records. To enhance estimations, we will study pollen productivity for important regional plant taxa. We will then apply the LRA on key stages of the Holocene to address questions concerning fluctuations of foress in the past as well as our ability to predict the functioning of future ecosystems.",
+  },
+  {
+    name:
+      "Lowland woodland in the perspective of theNížinné lesy v perspektivě historického vývoje historical development.",
+    id: " IAA600050812",
+    finance: "Grant Agency of the Czech Academy of Sciences",
+    period: "01/2008–12/2012",
+    mainResearcher: "Radim Hédl",
+    teamMembers:
+      "Péter Szabó, Eva Jamrichová, Tereza Klinerová, Martin Kopecký, Jana Müllerová, Barbora Pelánková, Ondřej Vild",
+    description:
+      "Střední Evropa je přirozeně lesní oblast. Vegetační pokryv byl v průběhu Holocénu, mimo přírodních procesů, hluboce ovlivněn lidskou činností. V České republice jsou vztahy mezi přírodními faktory, strukturou a složením lesa prostudovány poměrně podrobně. Naproti tomu zatím prakticky neexistuje výzkum zaměřený na to, jak člověkem daná historie formovala lesy. Navržený projekt spojí interdisciplinárním způsobem metody přírodních a humanitních věd (paleoekologie, archeologie, historie, ekologie). Studováno bude 5 nížinných lokalit. Budou popsány a za použití GIS porovnány prostorovo-časové souvislosti v lesích s historickou kontinuitou a bez ní. Projekt se zaměří na význam časové kontinuity a minulých forem hospodaření ve vztahu k současným vlastnostem a kvalitám lesa. Budou navržena pravidla hospodaření pro udržení daných kvalit do budoucna.",
+  },
+  {
+    name: "Současné a historické změny na horských rašeliništích Sudet.",
+    id: "GA206/08/0389",
+    finance: "Grantová agentura ČR",
+    period: "01/2008–12/2012",
+    mainResearcher:
+      "Michal Hájek (Přírodovědecká fakulta Masarykova univerzita)",
+    coResearcher: "Radim Hédl",
+    teamMembers: "Radim Hédl, Lydie Dudová, Ivan Tůma, Petr Holub",
+    description:
+      "Správné vyhodnocení změn na vrchovištích, vyvolaných lidskou činností, vyžaduje nejen většinou prováděné krátkodobé fertilizační experimenty, ale rovněž výzkum dlouhodobých a střednědobých změn. Souběžný výzkum několika taxonomických skupin je rovněž užitečným přístupem. Tento projekt, realizovaný ve dvou sudetských pohořích lišících se stupněm depoziční zátěže (Jizerské hory, Jeseníky), zahrnuje pokračování a vyhodnocení 20-letého monitoringu chemismu vody a vegetace v síti 59 trvalých ploch, analýzu živin v rašelinících, měření půdní vlhkosti a rychlosti dekompozice, analýzu diverzity různých organismů (vyšší rostliny, řasy, houby, krytenky) vzhledem k aktuálnímu a dlouhodobému chemismu vody, testování konceptu paleo- a neorefugií se zahrnutím všech ostrovních biotopů v jednom území a paleoekologický výzkum v méně prozkoumaných Jeseníkách, který bude zahrnovat jak studovaná vrchoviště, tak i ostatní rašeliniště, aby bylo možné rekonstruovat vývoj vegetace, rozšíření vrchovišť a",
+  },
+];
 
 export const completedEn = [
   {
@@ -261,21 +262,23 @@ export const completedEn = [
     id: "GA17-17909S",
     finance: "Czech Science Foundation",
     period: "01/2017–12/2019",
-    mainResearcherF:
-      "Dagmar Dreslerová (Institute of Archeology, CAS, Prague)",
+    mainResearcherF: "Dagmar Dreslerová (Institute of Archeology, CAS, Prague)",
     coResearchers: (
       <span>
         <Link to="/people/" state={{ person: "svitavska" }}>
           Helena Svitavská Svobodová
         </Link>
-        &nbsp; (Institute of Botany, CAS, Průhonice), Vojtěch Abraham (Charles University, Faculty of Science, Prague)
+        &nbsp; (Institute of Botany, CAS, Průhonice), Vojtěch Abraham (Charles
+        University, Faculty of Science, Prague)
       </span>
     ),
     teamMembers: "Helena Svitavská Svobodová, Přemysl Bobek, Irena Krausová",
     description:
       "The prehistory and early history of the Šumava Mountains as seen through anthropogenic pollen indicators and charcoal data: The first large-scale study evaluates the human impact on mountain areas north from the Alps during the Late Holocene. It contributes to the debate on human subsistence strategies outside permanent settlement areas. We assessed past human impacts on forest vegetation in the largest wilderness area in Central Europe. Palaeoecological insight on modes of anthropogenic activities took place in lower mountains which are frequently considered to be virtually undisturbed by humans up to High Medieval colonization. Pollen records from small peat bog enabled us to establish the link with archaeological data from nearby La Tène site. Were-assessed a signal of anthropogenic pollen indicators which occur in other records available in Šumava. Multiple-site charcoal accumulation records revealed regional-scale trends in fire activity and we linked it with extensive non-agricultural uses such as hunting. Further we used modelling prehistoric settlement activities based on surface and sub-surface surveys.",
   },
-    name: "Origin of diversity of Central European landscapes: using recent pollen and vegetation models to reconstruct historical biodiversity changes.",
+  {
+    name:
+      "Origin of diversity of Central European landscapes: using recent pollen and vegetation models to reconstruct historical biodiversity changes.",
     id: "GA16-10100S",
     finance: "Czech science foundation",
     period: "01/2016–12/2018",
@@ -343,7 +346,8 @@ export const completedEn = [
     id: "KJB6111305",
     finance: "Grant Agency of the Czech Academy of Sciences",
     period: "2012–2015",
-    mainResearcher: "Petr Kuneš (Charles University, Faculty of Science, Prague)",
+    mainResearcher:
+      "Petr Kuneš (Charles University, Faculty of Science, Prague)",
     coResearcher: (
       <Link to="/people/" state={{ person: "rolecek" }}>
         Jan Roleček
@@ -355,15 +359,14 @@ export const completedEn = [
       "This project aims to reconstruct land cover during the past 200 years in model areas of Central Europe in order to test the landscape reconstruction algorithm (LRA) with high-resolution historical data. After successfully tested and parameterized, the LRA can reconstruct the key stages of postglacial landscape and vegetation development with higher significance, and thus circumvent biases created by the direct interpretation of palynological records. We will collect high-resolution palynological data for model areas for the past 200 years, estimate vegetation cover with the LRA and compare this with historical records. To enhance estimations, we will study pollen productivity for important regional plant taxa. We will then apply the LRA on key stages of the Holocene to address questions concerning fluctuations of forest/open land ratio, human induced disturbance and ecosystem diversity changes. Results can improve our understanding of climate/vegetation interactions and human responses in the past as well as our ability to predict the functioning of future ecosystems.",
   },
   {
-  name: "Past and present changes in Sudeten mountain bogs.",
-  id: "GA206/08/0389",
-  finance: "Czech Science Foundation",
-  period: "01/2008–12/2012",
-  mainResearcher:
-    "Michal Hájek (Masaryk University, Faculty of Science)",
-  coResearcher: "Radim Hédl",
-  teamMembers: "Radim Hédl, Lydie Dudová, Ivan Tůma, Petr Holub",
-  description:
-    "Correct evaluation of ongoing man-induced changes in bogs merits not only short-time fertilization experiments provided by the majority of studies, but also the research on long- and medium-term changes. Parallel investigation of several taxonomic groups is also a useful approach. This project realised in ombrotrophic bogs in two Sudeten mountain ranges differing in deposition load will involve continuation and analysis of 20-years monitoring of water chemistry and vegetation in a net of 59 permanent plots, analysis of nutrients in Sphagnum, measurements of soil moisture and the decomposition rate, analysis of diversity of different organisms (higher plants, algae, fungi, Testacea) with respect to actual and long-term water chemistry, testing the paleorefugia/neorefugia concept (involving all island habitats in one region) and palaeoecological research in less explored region, involving study bogs as well as other mires in order to reconstruct the vegetation development, relative coverage of forests, rate of human alteration, changes in water regime and distribution of fens and bogs.",
+    name: "Past and present changes in Sudeten mountain bogs.",
+    id: "GA206/08/0389",
+    finance: "Czech Science Foundation",
+    period: "01/2008–12/2012",
+    mainResearcher: "Michal Hájek (Masaryk University, Faculty of Science)",
+    coResearcher: "Radim Hédl",
+    teamMembers: "Radim Hédl, Lydie Dudová, Ivan Tůma, Petr Holub",
+    description:
+      "Correct evaluation of ongoing man-induced changes in bogs merits not only short-time fertilization experiments provided by the majority of studies, but also the research on long- and medium-term changes. Parallel investigation of several taxonomic groups is also a useful approach. This project realised in ombrotrophic bogs in two Sudeten mountain ranges differing in deposition load will involve continuation and analysis of 20-years monitoring of water chemistry and vegetation in a net of 59 permanent plots, analysis of nutrients in Sphagnum, measurements of soil moisture and the decomposition rate, analysis of diversity of different organisms (higher plants, algae, fungi, Testacea) with respect to actual and long-term water chemistry, testing the paleorefugia/neorefugia concept (involving all island habitats in one region) and palaeoecological research in less explored region, involving study bogs as well as other mires in order to reconstruct the vegetation development, relative coverage of forests, rate of human alteration, changes in water regime and distribution of fens and bogs.",
   },
 ];
