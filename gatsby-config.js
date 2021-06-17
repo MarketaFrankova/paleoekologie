@@ -1,8 +1,11 @@
+const config = require("./data/config");
+
 module.exports = {
+  pathPrefix: config.pathPrefix,
   siteMetadata: {
-    title: "Muni-paleolab",
-    siteUrl: `https://paleolab.netlify.app/`,
-    description: `Oddělení paleoekologie (Botanický ústav AV ČR) se zabývá výzkumem dlouhodobé dynamiky vegetace a přírodního prostředí.`,
+    siteUrl: `${config.siteUrl}${process.env.GATSBY_PREFIX}`,
+    title: config.siteTitle,
+    description: config.siteDescription,
   },
   plugins: [
     "gatsby-plugin-styled-components",
@@ -18,25 +21,20 @@ module.exports = {
       },
     },
     "gatsby-plugin-layout",
-    {
-      resolve: "gatsby-plugin-robots-txt",
-      options: {},
-    },
+    "gatsby-plugin-robots-txt",
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: `${__dirname}/src/images/`,
       },
-      __key: "images",
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "pages",
-        path: "./src/pages/",
+        path: `${__dirname}/src/pages/`,
       },
-      __key: "pages",
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -46,5 +44,4 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: `/paleolab`,
 };

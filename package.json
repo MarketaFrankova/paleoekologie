@@ -1,8 +1,8 @@
 {
-  "name": "muni-paleolab",
+  "name": "paleolab",
   "version": "1.0.0",
   "private": true,
-  "description": "Muni-paleolab",
+  "description": "Paleolab",
   "author": "LenkaH",
   "keywords": [
     "gatsby"
@@ -10,15 +10,17 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "build-prefix": "gatsby build --prefix-paths",
+    "build-noprefix": "gatsby build",
+    "serve-noprefix": "gatsby serve",
+    "serve": "gatsby serve --prefix-paths",
+    "build": "npm run clean && gatsby build --prefix-paths",
     "clean": "gatsby clean"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "babel-plugin-styled-components": "^1.12.0",
+    "dotenv": "^10.0.0",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.10.0",
     "gatsby-image-background-slider": "0.0.4",

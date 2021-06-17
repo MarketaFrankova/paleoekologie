@@ -7,10 +7,10 @@ import styled from "styled-components";
 
 const Images = ({ imgs, titles }) => {
   const images = imgs.map((i, index) => (
-    <>
+    <React.Fragment key={index}>
       <Img key={index} fluid={i} alt={titles[index]} title={titles[index]} />
       {titles[index] && <p className="legend">{titles[index]}</p>}
-    </>
+    </React.Fragment>
   ));
 
   return (

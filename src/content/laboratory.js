@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link, withPrefix } from "gatsby";
 
 export const czImgTitles = {
   image1: "Práce s odstředivkou.",
@@ -47,7 +47,7 @@ export const labEn = {
         specifying the requirements for the preparation of the samples can be
         found&nbsp;
         <a
-          href="../static/pricelist.pdf"
+          href={withPrefix("/pricelist.pdf")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -107,7 +107,7 @@ export const labCz = {
         <strong>Ceník prací</strong> a protokol pro upřesnění požadavků na
         přípravu vzorků pro pylovou analýzu naleznete&nbsp;
         <a
-          href="/pricelist.pdf"
+          href={withPrefix("/pricelist.pdf")}
           target="_blank"
           rel="noopener noreferrer"
           download

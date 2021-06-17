@@ -1,4 +1,5 @@
 import React from "react";
+import { withPrefix } from "gatsby";
 
 export const staffEn = [
   {
@@ -28,7 +29,7 @@ export const staffEn = [
           from paleoecological sediments and samples from archeologic contexts.
         </p>
         <a
-          href="/frankovaCV.doc"
+          href={withPrefix("/frankovaCV.doc")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -63,7 +64,7 @@ export const staffEn = [
           applying spatially explicit modeling approaches in palaeoecology.
         </p>
         <a
-          href="/bobekCV.pdf"
+          href={withPrefix("/bobekCV.pdf")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -108,7 +109,7 @@ export const staffEn = [
           five basic research projects funded by the Czech Science Foundation.
         </p>
         <a
-          href="/dudovaCV.docx"
+          href={withPrefix("/dudovaCV.docx")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -142,7 +143,7 @@ export const staffEn = [
           and participated in research of relic ecosystems in Siberia (Russia).
         </p>
         <a
-          href="/hajkovaCV.doc"
+          href={withPrefix("/hajkovaCV.doc")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -209,7 +210,7 @@ export const staffEn = [
           identifies human influence on these changes.
         </p>
         <a
-          href="/jamrichovaCV.docx"
+          href={withPrefix("/jamrichovaCV.docx")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -249,7 +250,7 @@ export const staffEn = [
           she focuses on publishing the plentiful results of her work.
         </p>
         <a
-          href="/jankovskaCV.pdf"
+          href={withPrefix("/jankovskaCV.pdf")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -282,7 +283,7 @@ export const staffEn = [
           Central Europe.
         </p>
         <a
-          href="/rolecekEnCV.pdf"
+          href={withPrefix("/rolecekEnCV.pdf")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -312,7 +313,7 @@ export const staffEn = [
           Republic. Since 2018 she is on maternity leave.
         </p>
         <a
-          href="/solcovaCV.docx"
+          href={withPrefix("/solcovaCV.docx")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -349,7 +350,7 @@ export const staffEn = [
           the Collection of permanent pollen slides of the Institute of Botany.
         </p>
         <a
-          href="/soukupovaCV.docx"
+          href={withPrefix("/soukupovaCV.docx")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -388,7 +389,7 @@ export const staffEn = [
           Research.
         </p>
         <a
-          href="/svitavskaCV.pdf"
+          href={withPrefix("/svitavskaCV.pdf")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -520,7 +521,7 @@ export const staffCz = [
           archeologických kontextů.
         </p>
         <a
-          href="/frankovaCV.doc"
+          href={withPrefix("/frankovaCV.doc")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -556,7 +557,7 @@ export const staffCz = [
           výzkumu, především prediktivního modelování výskytu druhů.
         </p>
         <a
-          href="/bobekCV.pdf"
+          href={withPrefix("/bobekCV.pdf")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -598,7 +599,7 @@ export const staffCz = [
           základního výzkumu podpořených Grantovou agenturou ČR.
         </p>
         <a
-          href="/dudovaCV.docx"
+          href={withPrefix("/dudovaCV.docx")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -633,7 +634,7 @@ export const staffCz = [
           (Rusko).
         </p>
         <a
-          href="/hajkovaCV.doc"
+          href={withPrefix("/hajkovaCV.doc")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -696,7 +697,7 @@ export const staffCz = [
           vlivu člověka na tyto změny.
         </p>
         <a
-          href="/jamrichovaCV.docx"
+          href={withPrefix("/jamrichovaCV.docx")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -741,7 +742,7 @@ export const staffCz = [
           publikací.
         </p>
         <a
-          href="/jankovskaCV.pdf"
+          href={withPrefix("/jankovskaCV.pdf")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -773,7 +774,7 @@ export const staffCz = [
           druhové bohatosti rostlin ve střední Evropě.
         </p>
         <a
-          href="/rolecekCV.pdf"
+          href={withPrefix("/rolecekCV.pdf")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -802,7 +803,7 @@ export const staffCz = [
           je na mateřské dovolené.
         </p>
         <a
-          href="/solcovaCV.docx"
+          href={withPrefix("/solcovaCV.docx")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -839,7 +840,7 @@ export const staffCz = [
           sbírky pylových preparátů Botanického ústavu AV ČR.
         </p>
         <a
-          href="/soukupovaCV.docx"
+          href={withPrefix("/soukupovaCV.docx")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -876,7 +877,7 @@ export const staffCz = [
           iniciativou v <i>International Union for Quaternary Research</i> .
         </p>
         <a
-          href="/svitavskaCV.pdf"
+          href={withPrefix("/svitavskaCV.pdf")}
           target="_blank"
           rel="noopener noreferrer"
           download

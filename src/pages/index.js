@@ -11,6 +11,7 @@ import twitter from "../icons/twitter-blue.svg";
 const IndexPage = ({ data }) => {
   const imgs = data.uvodni.edges.map((i) => i.node.fluid);
   const imgsNews = data.news.edges;
+
   return (
     <Consumer>
       {({ int }) => {
@@ -44,7 +45,7 @@ const IndexPage = ({ data }) => {
                 )?.node;
 
                 return (
-                  <NewItem>
+                  <NewItem key={item.heading}>
                     <NewsHeading>{item.heading}</NewsHeading>
                     {item.photo && (
                       <Img
