@@ -13,6 +13,7 @@ const IndexPage = ({ data }) => {
         const imgData = int === "en" ? enImgTitles : czImgTitles;
         const imgs = data.allImageSharp.edges.map((img, index) => (
           <Img
+            key={index}
             fluid={img.node.fluid}
             alt={imgData[`image${index + 1}`]}
             title={imgData[`image${index + 1}`]}
@@ -35,7 +36,7 @@ const IndexPage = ({ data }) => {
                 </>
               ))}
             </TextWrapper>
-            <ImgWrapper>{imgs.map((img) => img)}</ImgWrapper>
+            <ImgWrapper>{imgs}</ImgWrapper>
           </Wrapper>
         );
       }}

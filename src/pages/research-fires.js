@@ -22,7 +22,7 @@ const IndexPage = ({ data }) => {
         return (
           <ResearchWrapper>
             <TextWrapper>{content}</TextWrapper>
-            <ImgWrapper>{imgs.map((img) => img)}</ImgWrapper>
+            <ImgWrapper>{imgs}</ImgWrapper>
           </ResearchWrapper>
         );
       }}

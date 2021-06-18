@@ -17,11 +17,11 @@ const Navigation = ({
 
   return (
     <Container isNavCollapsed={isNavCollapsed}>
-      <NavbarToggle onClick={toggleMenu}>
+      <NavbarToggle onClick={toggleMenu} tabIndex="0">
         {!isNavCollapsed ? (
-          <CloseIcon src={closeIcon} />
+          <CloseIcon src={closeIcon} alt="open menu" />
         ) : (
-          <Icon src={menuIcon} />
+          <Icon src={menuIcon} alt="close menu" />
         )}
       </NavbarToggle>
       <MenuWrapper isNavCollapsed={isNavCollapsed}>
@@ -44,7 +44,7 @@ Navigation.propTypes = {
   setIsNavCollapsed: PropTypes.func,
 };
 
-export const Container = styled.ul`
+export const Container = styled.div`
   align-self: flex-end;
   display: flex;
   flex-direction: column;
@@ -79,8 +79,9 @@ export const CloseIcon = styled.img`
   margin-top: 10px;
 `;
 
-const NavbarToggle = styled.div`
-  cursor: pointer;
+const NavbarToggle = styled.button`
+  border: none;
+  background: transparent;
   align-self: flex-end;
   margin-right: 10px;
 `;

@@ -74,16 +74,17 @@ export const en = (
         Even though we have been operating as an independent department since
         2021 at our workplaces in Brno and Průhonice, paleoecology has a
         continuous&nbsp;
-        <ALink href="http://ekolbrno.ibot.cas.cz/historie/">tradition</ALink>of
-        60 years at the Institute of Botany. Our interdisciplinary research is
-        also focused on the connection of paleoecological records with data on
-        recent ecosystems, therefore we cooperate especially with the&nbsp;
+        <ALink href="http://ekolbrno.ibot.cas.cz/historie/">tradition</ALink>
+        &nbsp;of 60 years at the Institute of Botany. Our interdisciplinary
+        research is also focused on the connection of paleoecological records
+        with data on recent ecosystems, therefore we cooperate especially with
+        the&nbsp;
         <ALink href="http://ekolbrno.ibot.cas.cz/">
           Department of Vegetation Ecology
         </ALink>
-        (Institute of Botany of the CAS), the Department of Botany and Zoology
-        (Faculty of Science, Masaryk University) and the Department of Botany
-        (Faculty of Science, Charles University). We are also developing
+        &nbsp;(Institute of Botany of the CAS), the Department of Botany and
+        Zoology (Faculty of Science, Masaryk University) and the Department of
+        Botany (Faculty of Science, Charles University). We are also developing
         collaboration with archaeologists and historians from universities and
         academies of sciences.
       </p>

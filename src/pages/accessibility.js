@@ -73,19 +73,38 @@ const IndexPage = () => {
         V případě neuspokojivé odpovědi na oznámení nebo žádost, kontaktujte
         příslušný orgán pro prosazování práva: (MV ČR, odbor eGovernmentu,
         náměstí Hrdinů 1634/3, 140 21 Praha 4; e-mail:&nbsp;
-        <a href="mailto:pristupnost@mvcr.cz">pristupnost@mvcr.cz</a>).
+        <a
+          href="mailto:pristupnost@mvcr.cz"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          pristupnost@mvcr.cz
+        </a>
+        ).
       </p>
 
       <H3 green>Kontakty na správce obsahu</H3>
       <p>
         <b>Lydie Dudová</b>:{" "}
-        <a href="mailto:lydie.dudova@ibot.cas.cz">lydie.dudova@ibot.cas.cz</a> |
-        +420 541 126 223
+        <a
+          href="mailto:lydie.dudova@ibot.cas.cz"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          lydie.dudova@ibot.cas.cz
+        </a>{" "}
+        | +420 541 126 223
       </p>
       <p>
         <b>Petra Hájková</b>:{" "}
-        <a href="mailto:buriana@sci.muni.cz">buriana@sci.muni.cz</a> | +420 541
-        126 223
+        <a
+          href="mailto:buriana@sci.muni.cz"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          buriana@sci.muni.cz
+        </a>{" "}
+        | +420 541 126 223
       </p>
     </Paragraph>
   );

@@ -6,14 +6,20 @@ import Img from "gatsby-image";
 import { navigate } from "gatsby";
 
 const PersonBox = ({ personInfo, openDetail, img }) => {
+  const handleKeyDown = (event) => {
+    if (event.keyCode === 13) {
+      navigate("/people", { state: { person: personInfo.id } });
+    }
+  };
   return (
     <>
       <Box
+        tabIndex="0"
         openDetail={!!openDetail}
+        onKeyDown={handleKeyDown}
         onClick={() =>
           navigate("/people", { state: { person: personInfo.id } })
         }
-        //  onClick={() => (openDetail ? openDetail(personInfo.id) : {})}
       >
         <ImgWrapper>
           <CircleWrapper>

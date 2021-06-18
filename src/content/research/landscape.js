@@ -1,5 +1,5 @@
 import React from "react";
-import { H2 } from "../../components/atoms/Headings";
+import { H2, H3 } from "../../components/atoms/Headings";
 
 export const czImgTitles = {
   image1:
@@ -90,6 +90,123 @@ export const en = (
         nevertheless we benefit from knowledge, experiences and data of other
         team members
       </p>
+
+      <H3 green>Selected papers:</H3>
+      <p>
+        Hájková P., Jamrichová E., Šolcová A., Frodlová J., Petr L., Dítě D.,
+        Hájek M. & Horsák M. (2020): Can relict-rich communities be of an
+        anthropogenic origin? Palaeoecological insight into conservation
+        strategy for endangered Carpathian travertine fens. Quaternary Science
+        Reviews 234, 1 – 13.
+      </p>
+      <p>
+        Roleček J., Svitavská Svobodová H., Jamrichová E., Dudová L., Hájková
+        P., Kletetschka G., Kuneš P. & Abraham V. (2020): Conservation targets
+        from the perspective of a palaeoecological reconstruction: the case
+        study of Dářko peat bog in the Czech Republic. Preslia 92, 87 – 114.
+      </p>
+      <p>
+        Šolcová A., Jamrichová E., Horsák M., Pařil P., Petr L., Heiri O.,
+        Květoň J., Křížek M., Hartvich F., Hájek M. & Hájková P., (2020): Abrupt
+        vegetation and environmental change since the MIS 2: A unique
+        paleorecord from Slovakia (Central Europe). Quaternary Science Reviews
+        230, 1 – 16.
+      </p>
+      <p>
+        Wiezik M., Petr L., Jankovská V., Hájková P., Jamrichová E., Hrivnák R.,
+        Korená Hillayová M., Jarčuška B., Máliš F. & Hájek M. (2020):
+        Western-Carpathian mountain spruce woodlands at their southern margin:
+        natural or anthropogenic origin? Preslia 92, 115 – 135.
+      </p>
+      <p>
+        Dabkowski J., Frodlová J., Hájek M., Hájková P., Petr L., Fiorillo D.,
+        Dudová L. & Horsák M. (2019) A complete Holocene climate and environment
+        record for the Western Carpathians (Slovakia) derived from a tufa
+        deposit. The Holocene 29: 493-504.
+      </p>
+      <p>
+        Hájková P., Jamrichová E., Wiezik M., Peterka T., Petr L., Singh P.,
+        Máliš F., Fajmonová Z. & Hájek M. (2019): Spruce representation in zonal
+        woodlands may be overestimated when using pollen spectra from peatlands.
+        Review of Palaeobotany and Palynology, Elsevier 271, 1 – 7.
+      </p>
+      <p>
+        Kuneš P., Abraham V., Werchan B., Plesková Z., Fajmon K., Jamrichová E.
+        & Roleček J. (2019): Relative pollen productivity estimates for
+        vegetation reconstruction in central-eastern Europe inferred at local
+        and regional scales. Holocene 29, 1708 – 1719.
+      </p>
+      <p>
+        Carter V. A., Chiverrell R. C., Clear J. L., Kuosmanen N., Moravcová A.,
+        Svoboda M., Svitavská Svobodová H., van Leeuwen J. F. N., van der Knaap
+        W. O. & Kuneš P. (2018): Quantitative Palynology Informing Conservation
+        Ecology in the Bohemian/Bavarian Forests of Central Europe. Frontiers in
+        Plant Science 8, 1 – 14.
+      </p>
+      <p>
+        Dudová L., Hájek M., Petr L. & Jankovská V. (2018): Holocene vegetation
+        history of the Jeseníky Mts: Deepening elevational contrast in pollen
+        assemblages since late prehistory. Journal of Vegetation Science 29, 371
+        – 381.
+      </p>
+      <p>
+        Hájková P., Jamrichová E., Petr L., Dudová L., Roleček J., Gálová A.,
+        Dresler P., Novák J. & Hájek M. (2018): Persistence of a vegetation
+        mosaic in a peripheral region: could turbulent medieval history disrupt
+        Holocene continuity of extremely species-rich grasslands? Vegetation
+        History and Archaeobotany 27, 591 – 610.
+      </p>
+      <p>
+        Jankovská V., Baroň I., Nývlt D., Krejčí O. & Krejčí V. (2018): Last
+        Glacial to Holocene vegetation succession recorded in polyphase
+        slope-failure deposits on the Maleník Ridge, Outer Western Carpathians.
+        Quaternary International 2018, 38 – 52.
+      </p>
+      <p>
+        Binney H., Edwards M., Macias-Fauria M., Lozhkin A., Anderson P., Kaplan
+        J. O., Andreev A., Bezrukova E., Blyakharchuk T., Jankovská, V., Khazina
+        I., Krivonogov S., Kremenetski K., Nield J., Novenko E., Ryabogina N.,
+        Solovieva N., Willis K. & Zernitskaya V. (2017): Vegetation of Eurasia
+        from the last glacial maximum to present: Key biogeographic patterns.
+        Quaternary Science Reviews 2017, 80 – 97.
+      </p>
+      <p>
+        Jamrichová E., Petr L., Jiménez-Alfaro B., Jankovská V., Dudová L.,
+        Pokorný P., Kołaczek P., Zernitskaya V., Čierniková M., Břízová E.,
+        Syrovátka V., Hájková P. & Hájek M. (2017): Pollen-inferred millennial
+        changes in landscape patterns at a major biogeographical interface
+        within Europe. Journal of Biogeography 44, 2386 – 2397.
+      </p>
+      <p>
+        Szabó P., Kuneš P., Svitavská Svobodová H., Soukupová M., Křížová L.,
+        Suchánková S., Müllerová J. & Hédl R. (2017): Using historical ecology
+        to reassess the conservation status of coniferous forests in Central
+        Europe. Conservation Biology 31, 150 – 160.
+      </p>
+      <p>
+        Abraham V., Kuneš P., Petr L., Svitavská-Svobodová H., Kozáková R.,
+        Jamrichová E., Soukupová M. G. & Pokorný P. (2016): A pollen-based
+        quantitative reconstruction of the Holocene vegetation updates a
+        perspective on the natural vegetation in the Czech Republic and
+        Slovakia. Preslia 88, 409 – 434.
+      </p>
+      <p>
+        Gálová A., Hájková P., Čierniková M., Petr L., Hájek M., Novák J.,
+        Rohovec J. & Jamrichová E. (2016): Origin of a boreal birch bog woodland
+        and landscape development on a warm low mountain summit at the
+        Carpathian–Pannonian interface. Holocene 26, 1112 – 1125.
+      </p>
+      <p>
+        Hájek M., Dudová L., Hájková P., Roleček J., Moutelíková J., Jamrichová
+        E. & Horsák M. (2016): Contrasting Holocene environmental histories may
+        explain patterns of species richness and rarity in a Central European
+        landscape. Quaternary Science Reviews 133, 48 – 61.
+      </p>
+      <p>
+        Jankovská V., Roszkowska M. & Kaczmarek L. (2016): Remains of
+        non-pollen-palynomorphs – tardigrades from Spitsbergen found during
+        pollen analyses. Polar Record 52, 450 – 463.
+      </p>
     </div>
   </>
 );
@@ -142,6 +259,122 @@ export const cz = (
         Jankovská, Helena Svitavská Svobodová, Markéta G. Soukupová, ale
         využíváme znalostí, zkušeností a dat i dalších členů paleoekologického
         týmu.
+      </p>
+      <H3 green>Výběr nejdůležitějších publikací:</H3>
+      <p>
+        Hájková P., Jamrichová E., Šolcová A., Frodlová J., Petr L., Dítě D.,
+        Hájek M. & Horsák M. (2020): Can relict-rich communities be of an
+        anthropogenic origin? Palaeoecological insight into conservation
+        strategy for endangered Carpathian travertine fens. Quaternary Science
+        Reviews 234, 1 – 13.
+      </p>
+      <p>
+        Roleček J., Svitavská Svobodová H., Jamrichová E., Dudová L., Hájková
+        P., Kletetschka G., Kuneš P. & Abraham V. (2020): Conservation targets
+        from the perspective of a palaeoecological reconstruction: the case
+        study of Dářko peat bog in the Czech Republic. Preslia 92, 87 – 114.
+      </p>
+      <p>
+        Šolcová A., Jamrichová E., Horsák M., Pařil P., Petr L., Heiri O.,
+        Květoň J., Křížek M., Hartvich F., Hájek M. & Hájková P., (2020): Abrupt
+        vegetation and environmental change since the MIS 2: A unique
+        paleorecord from Slovakia (Central Europe). Quaternary Science Reviews
+        230, 1 – 16.
+      </p>
+      <p>
+        Wiezik M., Petr L., Jankovská V., Hájková P., Jamrichová E., Hrivnák R.,
+        Korená Hillayová M., Jarčuška B., Máliš F. & Hájek M. (2020):
+        Western-Carpathian mountain spruce woodlands at their southern margin:
+        natural or anthropogenic origin? Preslia 92, 115 – 135.
+      </p>
+      <p>
+        Dabkowski J., Frodlová J., Hájek M., Hájková P., Petr L., Fiorillo D.,
+        Dudová L. & Horsák M. (2019) A complete Holocene climate and environment
+        record for the Western Carpathians (Slovakia) derived from a tufa
+        deposit. The Holocene 29: 493-504.
+      </p>
+      <p>
+        Hájková P., Jamrichová E., Wiezik M., Peterka T., Petr L., Singh P.,
+        Máliš F., Fajmonová Z. & Hájek M. (2019): Spruce representation in zonal
+        woodlands may be overestimated when using pollen spectra from peatlands.
+        Review of Palaeobotany and Palynology, Elsevier 271, 1 – 7.
+      </p>
+      <p>
+        Kuneš P., Abraham V., Werchan B., Plesková Z., Fajmon K., Jamrichová E.
+        & Roleček J. (2019): Relative pollen productivity estimates for
+        vegetation reconstruction in central-eastern Europe inferred at local
+        and regional scales. Holocene 29, 1708 – 1719.
+      </p>
+      <p>
+        Carter V. A., Chiverrell R. C., Clear J. L., Kuosmanen N., Moravcová A.,
+        Svoboda M., Svitavská Svobodová H., van Leeuwen J. F. N., van der Knaap
+        W. O. & Kuneš P. (2018): Quantitative Palynology Informing Conservation
+        Ecology in the Bohemian/Bavarian Forests of Central Europe. Frontiers in
+        Plant Science 8, 1 – 14.
+      </p>
+      <p>
+        Dudová L., Hájek M., Petr L. & Jankovská V. (2018): Holocene vegetation
+        history of the Jeseníky Mts: Deepening elevational contrast in pollen
+        assemblages since late prehistory. Journal of Vegetation Science 29, 371
+        – 381.
+      </p>
+      <p>
+        Hájková P., Jamrichová E., Petr L., Dudová L., Roleček J., Gálová A.,
+        Dresler P., Novák J. & Hájek M. (2018): Persistence of a vegetation
+        mosaic in a peripheral region: could turbulent medieval history disrupt
+        Holocene continuity of extremely species-rich grasslands? Vegetation
+        History and Archaeobotany 27, 591 – 610.
+      </p>
+      <p>
+        Jankovská V., Baroň I., Nývlt D., Krejčí O. & Krejčí V. (2018): Last
+        Glacial to Holocene vegetation succession recorded in polyphase
+        slope-failure deposits on the Maleník Ridge, Outer Western Carpathians.
+        Quaternary International 2018, 38 – 52.
+      </p>
+      <p>
+        Binney H., Edwards M., Macias-Fauria M., Lozhkin A., Anderson P., Kaplan
+        J. O., Andreev A., Bezrukova E., Blyakharchuk T., Jankovská, V., Khazina
+        I., Krivonogov S., Kremenetski K., Nield J., Novenko E., Ryabogina N.,
+        Solovieva N., Willis K. & Zernitskaya V. (2017): Vegetation of Eurasia
+        from the last glacial maximum to present: Key biogeographic patterns.
+        Quaternary Science Reviews 2017, 80 – 97.
+      </p>
+      <p>
+        Jamrichová E., Petr L., Jiménez-Alfaro B., Jankovská V., Dudová L.,
+        Pokorný P., Kołaczek P., Zernitskaya V., Čierniková M., Břízová E.,
+        Syrovátka V., Hájková P. & Hájek M. (2017): Pollen-inferred millennial
+        changes in landscape patterns at a major biogeographical interface
+        within Europe. Journal of Biogeography 44, 2386 – 2397.
+      </p>
+      <p>
+        Szabó P., Kuneš P., Svitavská Svobodová H., Soukupová M., Křížová L.,
+        Suchánková S., Müllerová J. & Hédl R. (2017): Using historical ecology
+        to reassess the conservation status of coniferous forests in Central
+        Europe. Conservation Biology 31, 150 – 160.
+      </p>
+      <p>
+        Abraham V., Kuneš P., Petr L., Svitavská-Svobodová H., Kozáková R.,
+        Jamrichová E., Soukupová M. G. & Pokorný P. (2016): A pollen-based
+        quantitative reconstruction of the Holocene vegetation updates a
+        perspective on the natural vegetation in the Czech Republic and
+        Slovakia. Preslia 88, 409 – 434.
+      </p>
+      <p>
+        Gálová A., Hájková P., Čierniková M., Petr L., Hájek M., Novák J.,
+        Rohovec J. & Jamrichová E. (2016): Origin of a boreal birch bog woodland
+        and landscape development on a warm low mountain summit at the
+        Carpathian–Pannonian interface. Holocene 26, 1112 – 1125.
+      </p>
+      <p>
+        Hájek M., Dudová L., Hájková P., Roleček J., Moutelíková J., Jamrichová
+        E. & Horsák M. (2016): Contrasting Holocene environmental histories may
+        explain patterns of species richness and rarity in a Central European
+        landscape. Quaternary Science Reviews 133, 48 – 61.
+      </p>
+      <p>
+        Jankovská V., Roszkowska M. & Kaczmarek L. (2016): Remains of
+        non-pollen-palynomorphs – tardigrades from Spitsbergen found during
+        pollen analyses. Polar Record 52, 450 – 463.
       </p>
     </div>
   </>
