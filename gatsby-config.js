@@ -43,5 +43,11 @@ module.exports = {
         path: `${__dirname}/src/images/homepage`, // wherever background images are stored
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `src/images/appicon.png`,
+      },
+    },
   ],
 };
