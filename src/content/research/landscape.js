@@ -227,7 +227,7 @@ export const cz = (
         neolitu a zejména později v době bronzové). V této době také dochází k
         proměnám lesní vegetace, kterou zkoumáme především v podhůří a horských
         oblastech Českého masívu a Západních Karpat. Věnujeme se však také
-        vývoji vegetace a krajiny v nížinných, tzv. starosídelných oblastech.
+        vývoji vegetace a krajiny v nížinných, tzv. starosídelních oblastech.
         Chceme porozumět tomu, jak a proč se měnilo složení našich lesů, díky
         čemu zde přetrvává přirozené bezlesí a jaká je historie polopřirozených
         a člověkem ovlivněných typů vegetace. Naše výzkumy pomáhají vyřešit
@@ -240,9 +240,9 @@ export const cz = (
         snažíme o zahrnutí co nejširší škály paleoekologických analýz
         (multi-proxy přístup). Nejčastěji&nbsp;
         <strong>využíváme analýzu fosilního pylu</strong>, včetně nepylových
-        objektů (např. spory kapraďorostů, hub, mikroskopické řasy, schránky
+        objektů (např. spor kapraďorostů, hub, mikroskopických řas, schránek
         některých prvoků) a mikrouhlíků. Pyl a nepylové objekty nacházíme
-        zakonzervované v organických sedimentech (rašelině, slatině nebo
+        zakonzervované v organických sedimentech (v rašelině, slatině nebo
         jezerních sedimentech), ale i v archeologických výplních. Výsledkem
         pylové analýzy jsou diagramy, znázorňující procentuální zastoupení
         pylových druhů na ose hloubky a času. Na jejich základě získáváme

@@ -113,6 +113,18 @@ export const en = (
     </p>
     <H3 green>The most important publications:</H3>
     <p>
+      Hájková, P., Petr, L., Horsák, M., Jamrichová, E., & Roleček, J. (2022).
+      Holocene history of the landscape at the biogeographical and cultural
+      crossroads between Central and Eastern Europe (Western Podillia, Ukraine).
+      Quaternary Science Reviews, 288, 107610.
+    </p>
+    <p>
+      Wiezik, M., Jamrichová, E., Máliš, F., Beláňová, E., Hrivnák, R., Hájek,
+      M., & Hájková, P. (2022). Transformation of West-Carpathian primeval
+      woodlands into high-altitude grasslands from as early as the Bronze Age.
+      Vegetation History and Archaeobotany, 1-16.
+    </p>
+    <p>
       Hájková, P., Jamrichová, E., Šolcová, A., Frodlová, J., Petr, L., Dítě,
       D., Hájek M. & Horsák, M. (2020): Can relict-rich communities be of an
       anthropogenic origin? Palaeoecological insight into conservation strategy
@@ -271,6 +283,18 @@ export const cz = (
       nepylových objektů), Přemysl Bobek (uhlíky), Jan Roleček (interpretace)
     </p>
     <H3 green>Výběr nejdůležitějších publikací:</H3>
+    <p>
+      Hájková, P., Petr, L., Horsák, M., Jamrichová, E., & Roleček, J. (2022).
+      Holocene history of the landscape at the biogeographical and cultural
+      crossroads between Central and Eastern Europe (Western Podillia, Ukraine).
+      Quaternary Science Reviews, 288, 107610.
+    </p>
+    <p>
+      Wiezik, M., Jamrichová, E., Máliš, F., Beláňová, E., Hrivnák, R., Hájek,
+      M., & Hájková, P. (2022). Transformation of West-Carpathian primeval
+      woodlands into high-altitude grasslands from as early as the Bronze Age.
+      Vegetation History and Archaeobotany, 1-16.
+    </p>
     <p>
       Hájková, P., Jamrichová, E., Šolcová, A., Frodlová, J., Petr, L., Dítě,
       D., Hájek M. & Horsák, M. (2020): Can relict-rich communities be of an

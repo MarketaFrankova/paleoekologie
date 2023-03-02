@@ -82,7 +82,18 @@ export const en = (
     </div>
     <H3 green>Involved people:</H3>
     <p>Markéta Fránková, Vlasta Jankovská</p>
-    <H3 green>VList of selected publications:</H3>
+    <H3 green>List of selected publications:</H3>
+    <p>
+      Donis D. & al. (incl. Fránková M.) (2021). Stratification strength and
+      light climate explain variation in Chlorophyll-a at the continental scale
+      in a European multilake survey in a heatwave summer. Limnology and
+      Oceanography 66: 4314-4333.
+    </p>
+    <p>
+      Šumberová K., Vild O., Ducháček M., Fabšičová M., Potužák J. & Fránková M.
+      (2021). Drivers of macrophyte and diatom diversity in a shallow
+      hypertrophic lake. Water 13: 1-39.
+    </p>
     <p>
       Goláňová P., Hajnalová M., Lisá L., Milo P., Petr L.,&nbsp;
       <strong>
@@ -256,6 +267,17 @@ export const cz = (
     <H3 green>Lidé zapojení do výzkumu</H3>
     <p>Markéta Fránková, Vlasta Jankovská</p>
     <H3 green>Výběr nejdůležitějších publikací:</H3>
+    <p>
+      Donis D. & al. (incl. Fránková M.) (2021). Stratification strength and
+      light climate explain variation in Chlorophyll-a at the continental scale
+      in a European multilake survey in a heatwave summer. Limnology and
+      Oceanography 66: 4314-4333.
+    </p>
+    <p>
+      Šumberová K., Vild O., Ducháček M., Fabšičová M., Potužák J. & Fránková M.
+      (2021). Drivers of macrophyte and diatom diversity in a shallow
+      hypertrophic lake. Water 13: 1-39.
+    </p>
     <p>
       Goláňová P., Hajnalová M., Lisá L., Milo P., Petr L.,&nbsp;
       <strong>

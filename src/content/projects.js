@@ -29,6 +29,20 @@ export const generalCz = {
 export const actualCz = [
   {
     name:
+      "Nové kalibrační a indikační systémy pro rekonstrukci holocenního klimatu kontrolované rekonstrukcí lokálních podmínek.",
+    id: "GA23-05132S",
+    finance: "Grantová agentura ČR",
+    period: "01/2023–12/2025",
+    mainResearcher: "Petra Hájková",
+    coResearchers:
+      "Michal Horsák (Masarykova univerzita, Přírodovědecká fakulta), Lucie Juřičková (Univerzita Karlova, Přírodovědecká fakulta)",
+    teamMembers:
+      "Petra Hájková, Lydie Dudová, Eva Jamrichová, Anna Šolcová, Anna Šímová, Jana Jiroušková",
+    description:
+      "Cílem projektu je vytvoření kalibračních a indikačních souborů a přenosových funkcí pro rekonstrukci lokálních podmínek a klimatu založených na různých biotických a abiotických proxy a jejich následné využití pro vlastní rekonstrukci klimatu. Porovnáním různých přístupů aplikovaných na sedimenty z různého prostředí (jezera, pěnovcová prameniště, vrchoviště) bude možné zhodnotit omezení jednotlivých metod a docílit co nejpřesnější rekonstrukce klimatu pro různé typy krajin v Západních Karpatech.",
+  },
+  {
+    name:
       "Příčiny úpadku a systém účinné obnovy prioritních typů stanovišť subalpínských trávníků (SUTR).",
     id: "SS03010065",
     finance: "Technologická agentura ČR",
@@ -41,6 +55,40 @@ export const actualCz = [
     description:
       "Hlavním cílem projektu je obnova a management prioritních typů stanovišť subalpínských trávníků. Tyto evropsky významné biotopy v Hrubém Jeseníku aktuálně velkoplošně odumírají a správa ochrany přírody urgentně hledá efektivní řešení. Na základě komplexního výzkumu možných příčin, kombinujícím observační a experimentální přístup, bude vytvořena metodika stanovující účinná opatření k obnově v krátkodobém horizontu. Nově získaná data umožní posoudit dlouhodobý kontext využívání subalpínského bezlesí Hrubého Jeseníku a formulovat strategii péče o daná stanoviště.",
   },
+];
+
+export const actualEn = [
+  {
+    name:
+      "New calibration and indicator systems for the reconstruction of Holocene climate controlled for local habitat development.",
+    id: "GA23-05132S",
+    finance: "Grantová agentura ČR",
+    period: "01/2023–12/2025",
+    mainResearcher: "Petra Hájková",
+    coResearchers:
+      "Michal Horsák (Masaryk University, Faculty of Sciences), Lucie Juřičková (Charles University, Faculty of Sciences)",
+    teamMembers:
+      "Petra Hájková, Lydie Dudová, Eva Jamrichová, Anna Šolcová, Anna Šímová, Jana Jiroušková",
+    description:
+      "The main objectives of the project are to create new calibration datasets and transfer functions for climate reconstruction using the European-scale data and for the local environment to prevent invalid climate reconstruction due to local environment divergence. We will apply newly developed transfer functions to the three model habitats (bogs, tufa spring-fens and bogs) representing different types of landscapes in the Western Carpathians. Finally, we will compare the resulting climate reconstructions between individual proxies with independent stable isotopes and the CCSM3 climate model to look for (dis)correspondences and draw conclusions about their applicability and possible limitations.",
+  },
+  {
+    name:
+      "Causes of decline and a system of effective restoration of priority habitat types of subalpine grasslands (SUTR).",
+    id: "SS03010065",
+    finance: "Technology agency of the Czech Republic",
+    period: "01/2021–12/2023",
+    mainResearcher: "Radim Hédl",
+    coResearchers:
+      "Marie Mrázková (Agrovýzkum Rapotín), Jakub Houška (Silva Tarouca Research Institute for Landscape and Ornamental Gardening (RILOG)",
+    teamMembers:
+      "Přemysl Bobek, Lydie Dudová, Markéta Chudomelová, Radim Hédl, Péter Szabó",
+    description:
+      "Main aim of this project is an effective restoration and management of priority habits of subalpine grasslands. These important European habitats are currently dying out on a large scale in the Hrubý Jeseník Mts., and the nature conservation authority is urgently looking for an effective solution. Based on a comprehensive research of possible causes, combining an observational and experimental approach, a methodology with measures for short-term restoration will be developed. Using newly obtained data, the long-term use of the subalpine treeless area of the Hrubý Jeseník Mts. will be evaluated and management strategy will be formulated.",
+  },
+];
+
+export const completedCz = [
   {
     name:
       "Biodiverzita, historie disturbancí a půdní paměť: testování holocenní kontinuity druhově bohatých lesostepních ekosystémů.",
@@ -59,44 +107,6 @@ export const actualCz = [
     description:
       "Cílem projektu je rekonstruovat vývoj druhově bohatých lesostepních ekosystémů ve východní části střední Evropy s využitím multi-proxy paleoekologické analýzy a syntézy vegetačních dat. Testovat hypotézu jejich holocenní kontinuity a identifikovat hlavní hybatele jejich dynamiky.",
   },
-];
-
-export const actualEn = [
-  {
-    name:
-      "Causes of decline and a system of effective restoration of priority habitat types of subalpine grasslands (SUTR).",
-    id: "SS03010065",
-    finance: "Technology agency of the Czech Republic",
-    period: "01/2021–12/2023",
-    mainResearcher: "Radim Hédl",
-    coResearchers:
-      "Marie Mrázková (Agrovýzkum Rapotín), Jakub Houška (Silva Tarouca Research Institute for Landscape and Ornamental Gardening (RILOG)",
-    teamMembers:
-      "Přemysl Bobek, Lydie Dudová, Markéta Chudomelová, Radim Hédl, Péter Szabó",
-    description:
-      "Main aim of this project is an effective restoration and management of priority habits of subalpine grasslands. These important European habitats are currently dying out on a large scale in the Hrubý Jeseník Mts., and the nature conservation authority is urgently looking for an effective solution. Based on a comprehensive research of possible causes, combining an observational and experimental approach, a methodology with measures for short-term restoration will be developed. Using newly obtained data, the long-term use of the subalpine treeless area of the Hrubý Jeseník Mts. will be evaluated and management strategy will be formulated.",
-  },
-  {
-    name:
-      "Biodiversity, disturbance history and soil memory: testing the Holocene continuity of species rich forest-steppe ecosystems.",
-    id: " GA20-09895S",
-    finance: "Czech Science Foundation",
-    period: "01/2020–12/2022",
-    mainResearcher: (
-      <Link to="/people/" state={{ person: "rolecek" }}>
-        Jan Roleček
-      </Link>
-    ),
-    coResearchers:
-      "Pavel Šamonil (The Silva Tarouca Research Institute for Landscape and Ornamental Gardening), Michal Hájek (Masaryk University, Faculty of Science)",
-    teamMembers:
-      "Petra Hájková, Kristýna Hošková, Jana Jiroušková, Jan Roleček",
-    description:
-      "The aim of the project is to reconstruct the development of species-rich forest-steppe ecosystems in the eastern part of Central Europe using multi-proxy paleoecological analysis and synthesis of vegetation data and to test the hypothesis of their Holocene continuity and identify the main drivers of their dynamics.",
-  },
-];
-
-export const completedCz = [
   {
     name:
       "Skryté aktivity v horských oblastech. Archeologický a paleoekologický výzkum na Šumavě.",
@@ -256,6 +266,24 @@ export const completedCz = [
 ];
 
 export const completedEn = [
+  {
+    name:
+      "Biodiversity, disturbance history and soil memory: testing the Holocene continuity of species rich forest-steppe ecosystems.",
+    id: " GA20-09895S",
+    finance: "Czech Science Foundation",
+    period: "01/2020–12/2022",
+    mainResearcher: (
+      <Link to="/people/" state={{ person: "rolecek" }}>
+        Jan Roleček
+      </Link>
+    ),
+    coResearchers:
+      "Pavel Šamonil (The Silva Tarouca Research Institute for Landscape and Ornamental Gardening), Michal Hájek (Masaryk University, Faculty of Science)",
+    teamMembers:
+      "Petra Hájková, Kristýna Hošková, Jana Jiroušková, Jan Roleček",
+    description:
+      "The aim of the project is to reconstruct the development of species-rich forest-steppe ecosystems in the eastern part of Central Europe using multi-proxy paleoecological analysis and synthesis of vegetation data and to test the hypothesis of their Holocene continuity and identify the main drivers of their dynamics.",
+  },
   {
     name:
       "Hidden human prehistoric activities in the mountains. Archaeological and pollen evidence from the Šumava Mountains.",

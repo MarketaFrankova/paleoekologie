@@ -7,7 +7,7 @@ export const staffEn = [
     name: "Markéta Fránková",
     nameWithTitle: "Mgr. Markéta Fránková, Ph.D.",
     email: "marketa.frankova@ibot.cas.cz",
-    phoneNumber: "+420 541 126 223 | +420 737 527 185",
+    phoneNumber: "+420 541 126 216 | +420 737 527 185",
     position: "head",
     description: (
       <>
@@ -497,7 +497,7 @@ export const staffCz = [
     name: "Markéta Fránková",
     nameWithTitle: "Mgr. Markéta Fránková, Ph.D.",
     email: "marketa.frankova@ibot.cas.cz",
-    phoneNumber: "+420 541 126 223 | +420 737 527 185",
+    phoneNumber: "+420 541 126 216 | +420 737 527 185",
     position: "head",
     description: (
       <>

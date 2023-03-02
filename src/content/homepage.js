@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { H2 } from "../components/atoms/Headings";
 import { ALink, Simplelink } from "../components/atoms/StyledLink";
+import YoutubeVideo from "../components/YoutubeVideo";
 
 export const imgsTitleEn = [
   "Description of a former glacial lake sediment, Stará jímka site, Šumava Mts (2013).",
@@ -129,6 +130,10 @@ export const cz = (
         Mezioborovou spolupráce rozvíjíme rovněž s archeology a historiky z
         univerzit i Akademie věd.
       </p>
+      <YoutubeVideo
+        videoSrcURL="https://www.youtube.com/embed/rh1W4YgsweQ"
+        videoTitle="Vlasta Jankovská, česká paleoekoložka"
+      />
     </div>
   </Fragment>
 );

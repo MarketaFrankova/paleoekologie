@@ -37,7 +37,7 @@ export const en = {
     ),
     contactMailBrno: "marketa.frankova@ibot.cas.cz",
     contactPhoneBrno: "+420 737 527 185",
-    contactPhoneBrno2: "+420 541 126 223",
+    contactPhoneBrno2: "+420 541 126 216",
 
     contactPruhonice: "Deputy head of the lab (Průhonice):",
     contactNamePruhonice: (
@@ -103,7 +103,7 @@ export const cz = {
     ),
     contactMailBrno: "marketa.frankova@ibot.cas.cz",
     contactPhoneBrno: "+420 737 527 185",
-    contactPhoneBrno2: "+420 541 126 223",
+    contactPhoneBrno2: "+420 541 126 216",
 
     contactPruhonice: "Zástupce vedoucí (Průhonice):",
     contactNamePruhonice: (
