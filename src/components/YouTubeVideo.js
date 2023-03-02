@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-const YoutubeVideo = ({ videoSrcURL, videoTitle, ...props }) => (
-  <VideoContainer>
+const YoutubeVideo = ({ videoSrcURL, videoTitle, centered, ...props }) => (
+  <VideoContainer centered>
     <iframe
       src={videoSrcURL}
       title={videoTitle}
@@ -17,7 +17,7 @@ const YoutubeVideo = ({ videoSrcURL, videoTitle, ...props }) => (
 export default YoutubeVideo;
 
 export const VideoContainer = styled.div`
-  margin: 5px 0 20px;
+  margin: ${(props) => (props.centered ? "0 auto" : " 5px 0 20px")};
   overflow: hidden;
   position: relative;
   width: 100%;

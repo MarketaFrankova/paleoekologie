@@ -89,6 +89,11 @@ export const en = (
         collaboration with archaeologists and historians from universities and
         academies of sciences.
       </p>
+      <YouTubeVideo
+        videoSrcURL="https://www.youtube.com/embed/rh1W4YgsweQ"
+        videoTitle="Vlasta Jankovská, česká paleoekoložka"
+        centered
+      />
     </div>
   </Fragment>
 );
@@ -133,6 +138,7 @@ export const cz = (
       <YouTubeVideo
         videoSrcURL="https://www.youtube.com/embed/rh1W4YgsweQ"
         videoTitle="Vlasta Jankovská, česká paleoekoložka"
+        centered
       />
     </div>
   </Fragment>

@@ -21,7 +21,6 @@ module.exports = {
       },
     },
     "gatsby-plugin-layout",
-    "gatsby-plugin-robots-txt",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -41,12 +40,6 @@ module.exports = {
       options: {
         name: `backgrounds`,
         path: `${__dirname}/src/images/homepage`, // wherever background images are stored
-      },
-    },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        icon: `src/images/appicon.png`,
       },
     },
   ],
