@@ -5,6 +5,59 @@ import { Link } from "gatsby";
 export const impact = (
   <>
     <p>
+      Kozáková R.,&nbsp;
+      <Link to="/people/" state={{ person: "bobek" }}>
+        Bobek P.
+      </Link>
+      , Dreslerová D., Abraham V. & Svobodová-Svitavská H. (2020). The
+      prehistory and early history of the Šumava Mountains (Czech Republic) as
+      seen through anthropogenic pollen indicators and charcoal data.
+      <em>The Holocene</em> 31: 145-159.&nbsp;
+      {/*       <ALink href="https://paris.ibot.cas.cz/cs/entries/23229">
+        Download from journal
+      </ALink> */}
+    </p>
+    <p>
+      Hájek M.,&nbsp;
+      <Link to="/people/" state={{ person: "hajkova" }}>
+        Hájková P.
+      </Link>
+       & 
+      <Link to="/people/" state={{ person: "rolecek" }}>
+        Roleček J.
+      </Link>
+       (2020). A novel dataset of permanent plots in extremely species-rich
+      temperate grasslands. <em>Folia Geobotanica</em> 55: 257-268.&nbsp;
+      {/*       <ALink href="https://paris.ibot.cas.cz/cs/entries/23684">
+        Download from journal
+      </ALink> */}
+    </p>
+    <p>
+      Petr L., Petřík J., Chattová B.,&nbsp;
+      <Link to="/people/" state={{ person: "jamrichova" }}>
+        Jamrichová E.
+      </Link>
+      , Rohovec J., Matoušková Š. & Hajnalová M. (2020). The history of a
+      Pannonian oak woodland - palaeoecological evidence from south-eastern
+      Slovakia. <em>Folia Geobotanica</em> 55: 29-40.&nbsp;
+      {/*       <ALink href="https://paris.ibot.cas.cz/cs/entries/23752">
+        Download from journal
+      </ALink> */}
+    </p>
+    <p>
+      Divíšek J., Hájek M.,&nbsp;
+      <Link to="/people/" state={{ person: "jamrichova" }}>
+        Jamrichová E.
+      </Link>
+      , Petr L., Večeřa M., Tichý L., Willner W. & Horsák M. (2020). Holocene
+      matters: Landscape history accounts for current species richness of
+      vascular plants in forests and grasslands of eastern Central Europe. 
+      <em>Journal of Biogeography</em> 47: 721-735.&nbsp;
+      {/*       <ALink href="https://paris.ibot.cas.cz/cs/entries/23834">
+        Download from journal
+      </ALink> */}
+    </p>
+    <p>
       Carter V. A.,&nbsp;
       <Link to="/people/" state={{ person: "bobek" }}>
         Bobek P.
@@ -18,7 +71,7 @@ export const impact = (
       feedbacks on Holocene biomass burning in upper-montane Carpathian
       forests.&nbsp;
       <em>Global and Planetary Change</em>
-      &nbsp;193, 1 – 17. &nbsp;
+      &nbsp;193, 1 – 17.&nbsp;
       <ALink href="https://www.sciencedirect.com/science/article/abs/pii/S0921818120301557">
         Download from journal
       </ALink>
@@ -327,11 +380,30 @@ export const impact = (
 export const others = (
   <>
     <p>
+      <Link to="/people/" state={{ person: "hajkova" }}>
+        Hájková P.
+      </Link>
+      , Peterka T. & 
+      <Link to="/people/" state={{ person: "rolecek" }}>
+        Roleček J.
+      </Link>
+       (2020). Interesting records of rare bryophytes in old fen deposits 3 . 
+      <em>Bryonora</em> 66: 1-7.
+    </p>
+    <p>
+      Horsák M.,&nbsp;
+      <Link to="/people/" state={{ person: "hajkova" }}>
+        Hájková P.
+      </Link>
+       (2020). Kulturní, a přesto cenné. Nečekaný původ reliktních karpatských
+      mokřadů. <em>Vesmír</em> 99: 2-5.
+    </p>
+    <p>
       Adámek M. &amp;&nbsp;
       <Link to="/people/" state={{ person: "bobek" }}>
         Bobek P.
       </Link>
-      &nbsp;2020: Oheň v naší krajině. Živa 68, 222 – 224
+      &nbsp;2020: Oheň v naší krajině. <em>Živa</em> 68, 222 – 224
     </p>
     <p>
       Dřevojan P.,&nbsp;
@@ -339,15 +411,15 @@ export const others = (
         Hájková P.
       </Link>
       , Hradílek Z., Kosorínová M., Lukáč M. and Palice Z. 2020: Zajímavé
-      bryofloristické nálezy XXXIII. Bryonora 65, 28 – 31.
+      bryofloristické nálezy XXXIII. <em>Bryonora</em> 65, 28 – 31.
     </p>
     <p>
       Chytrý M., Hájek M., Kočí M., Pešout P.,&nbsp;
       <Link to="/people/" state={{ person: "rolecek" }}>
         Roleček J.
       </Link>
-      , Sádlo J., Šumberová K.&nbsp; , Sychra J., Boublík K., Douda J., Grulich
-      V., Härtel H., Hédl R. , Lustyk P., Navrátilová J., Novák P., Peterka T.,
+      , Sádlo J., Šumberová K., Sychra J., Boublík K., Douda J., Grulich V.,
+      Härtel H., Hédl R. , Lustyk P., Navrátilová J., Novák P., Peterka T.,
       Vydrová A. &amp; Chobot K. 2020: Červený seznam biotopů České
       republiky.&nbsp;
       <em>Příroda</em>
@@ -357,14 +429,15 @@ export const others = (
       <Link to="/people/" state={{ person: "frankova" }}>
         Fránková M.
       </Link>
-      &nbsp; 2020: Rozhovor s RNDr. Petrem Marvanem, CSc. Botanika 2020, 5 – 7.
+      &nbsp;2020: Rozhovor s RNDr. Petrem Marvanem, CSc. <em>Botanika</em> 2020,
+      5 – 7.
     </p>
     <p>
       <Link to="/people/" state={{ person: "hajkova" }}>
         Hájková P.
       </Link>
-      &nbsp; 2020: Víme, kolik bylo smrku v našich lesích před intenzifikací
-      hospodaření? Botanika 8, 2 – 4.
+      &nbsp;2020: Víme, kolik bylo smrku v našich lesích před intenzifikací
+      hospodaření? <em>Botanika</em> 8, 2 – 4.
     </p>
     <p>
       Peterka T.,&nbsp;
@@ -378,5 +451,5 @@ export const others = (
       <em>Nova Hedwigia</em>
       &nbsp;150, 133 – 158.&nbsp;
     </p>
-   </>
+  </>
 );

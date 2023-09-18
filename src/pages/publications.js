@@ -7,7 +7,7 @@ import styled from "styled-components";
 const windowGlobal = typeof window !== "undefined" && window;
 
 const IndexPage = () => {
-  const [activeYear, setActiveYear] = useState(2020);
+  const [activeYear, setActiveYear] = useState(2022);
 
   useEffect(() => {
     windowGlobal.scrollTo(0, 0);
