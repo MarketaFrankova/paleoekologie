@@ -50,7 +50,7 @@ export const en = {
         </Link>
       </>
     ),
-    contactPruhonice: "Deputy head of the lab (Průhonice):",
+    contactPruhonice: "Průhonice:",
     contactNamePruhonice: (
       <>
         <Link
@@ -125,10 +125,21 @@ export const cz = {
       </>
     ),
     contactMailBrno: "marketa.frankova@ibot.cas.cz",
-    contactPhoneBrno: "+420 737 527 185",
-    contactPhoneBrno2: "+420 541 126 216",
-
-    contactPruhonice: "Zástupce vedoucí (Průhonice):",
+    contactPhoneBrno: "+420 737 527 185 | +420 541 126 216",
+    contactNameRolda: (
+      <>
+        <Link
+          to="/people/"
+          state={{ person: "rolecek" }}
+          style={{ color: "white" }}
+        >
+          Jan Roleček
+        </Link>
+      </>
+    ),
+    contactMailRolda: "jan.rolecek@ibot.cas.cz",
+    contactPhoneRolda: "+420 541 126 218",
+    contactPruhonice: "Průhonice:",
     contactNamePruhonice: (
       <>
         <Link
@@ -142,7 +153,19 @@ export const cz = {
     ),
     contactMailPruhonice: "premysl.bobek@ibot.cas.cz",
     contactPhonePruhonice: "+420 777 477 785",
-
+    contactNameSvobodova: (
+      <>
+        <Link
+          to="/people/"
+          state={{ person: "svitavska" }}
+          style={{ color: "white" }}
+        >
+          Helena Svitavská Svobodová
+        </Link>
+      </>
+    ),
+    contactMailSvobodova: "helena.svitavska@ibot.cas.cz",
+    contactPhoneSvobodova: "+420 271 015 427 | +420 271 015 334",
     socialSites: "Sociální sítě:",
   },
   people: {

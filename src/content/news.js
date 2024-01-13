@@ -6,27 +6,10 @@ export const cz = [
   {
     id: "news4",
     photo: "news4.jpg",
-    heading: "Instruktáž k editaci nového webu",
-    imgTitle: "Kafe, koláček a Visual Studio Code",
-    contentShort: (
-      <p>
-        Minulý týden proběhlo setkání nad textovým editorem{" "}
-        <strong>VS Code</strong>, ve kterém budeme provádět úpravy nového webu.
-        Lenka nám vše pečlivě vysvětluje.{" "}
-        <AnchorLink
-          to="/news#news4"
-          title="Instruktáž k editaci nového webu - kompletní aktualita"
-        >
-          Více zde
-        </AnchorLink>
-      </p>
-    ),
-    content: (
-      <p>
-        Tuhle novou aktualitu jsme sem přidaly na důkaz, že už to umíme! Lydie a
-        Petra
-      </p>
-    ),
+    heading: "PF2024",
+    imgTitle: "PF2024",
+    contentShort: <p />,
+    content: <p />,
   },
   {
     id: "news3",
