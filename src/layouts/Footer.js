@@ -9,10 +9,12 @@ const FooterContent = ({ footer }) => (
     <Container>
       <FooterSection>
         <strong> {footer.contactBrno}</strong>
+        <div> {footer.contactNameRolda}</div>
+        <div> {footer.contactMailRolda}</div>
+        <div> {footer.contactPhoneRolda}</div>
         <div> {footer.contactNameBrno}</div>
         <div> {footer.contactMailBrno}</div>
         <div> {footer.contactPhoneBrno}</div>
-        <div> {footer.contactPhoneBrno2}</div>
       </FooterSection>
       <FooterSection>
         <strong> {footer.addressBrno}</strong>
@@ -26,6 +28,9 @@ const FooterContent = ({ footer }) => (
         <div> {footer.contactNamePruhonice}</div>
         <div> {footer.contactMailPruhonice}</div>
         <div> {footer.contactPhonePruhonice}</div>
+        <div> {footer.contactNameSvobodova}</div>
+        <div> {footer.contactMailSvobodova}</div>
+        <div> {footer.contactPhoneSvobodova}</div>
       </FooterSection>
 
       <FooterSection>
