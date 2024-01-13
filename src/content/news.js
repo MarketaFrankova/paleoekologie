@@ -212,27 +212,10 @@ export const en = [
   {
     id: "news4",
     photo: "news4.jpg",
-    heading: "Training how to edit our new web",
-    imgTitle: "Coffee, cake and Visual Studio Code",
-    contentShort: (
-      <p>
-        Last week we had a meeting on how to work with a text editor{" "}
-        <strong>VS Code</strong> to edit our new web pages. Lenka explained
-        everything with a great patience.{" "}
-        <AnchorLink
-          to="/news#news4"
-          title="Instruktáž k editaci nového webu - kompletní aktualita"
-        >
-          Více zde
-        </AnchorLink>
-      </p>
-    ),
-    content: (
-      <p>
-        We added this News as an evidence that we are able to do it! Lydie a
-        Petra
-      </p>
-    ),
+    heading: "PF2024",
+    imgTitle: "PF2024",
+    contentShort: <p />,
+    content: <p />,
   },
   {
     id: "news3",
