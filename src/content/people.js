@@ -3,12 +3,45 @@ import { withPrefix } from "gatsby";
 
 export const staffEn = [
   {
+    id: "rolecek",
+    name: "Jan Roleček",
+    nameWithTitle: "Mgr. Jan Roleček, Ph.D.",
+    email: " jan.rolecek@ibot.cas.cz",
+    phoneNumber: "+420 541 126 218",
+    position: "head",
+    description: (
+      <>
+        <p>
+          My research is focused on the ecology of lowland ecosystems of oak
+          forests and steppe grasslands in Central and Eastern Europe. Besides
+          describing these ecosystems, I investigate causes of their diversity,
+          which led me to study their history on different time scales. I also
+          pay attention to the issues of nature conservation and management,
+          both at the level of habitats and individual endangered species. My
+          work includes monographic chapters about Czech oak forests in the
+          compendium Vegetation of the Czech Republic, development of a widely
+          used modification of the TWINSPAN classification algorithm and a
+          modern reconstruction of the Holocene dynamics of plant diversity in
+          Central Europe.
+        </p>
+        <a
+          href={withPrefix("/rolecekEnCV.pdf")}
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - download
+        </a>
+      </>
+    ),
+  },
+  {
     id: "frankova",
     name: "Markéta Fránková",
     nameWithTitle: "Mgr. Markéta Fránková, Ph.D.",
     email: "marketa.frankova@ibot.cas.cz",
     phoneNumber: "+420 541 126 216 | +420 737 527 185",
-    position: "head",
+    position: "deputy-head",
     description: (
       <>
         <p>
@@ -45,7 +78,7 @@ export const staffEn = [
     nameWithTitle: "Mgr. Přemysl Bobek, Ph.D.",
     email: "premysl.bobek@ibot.cas.cz",
     phoneNumber: "+420 777 477 785",
-    position: "deputy-head",
+    position: "researcher",
     description: (
       <>
         <p>
@@ -261,39 +294,6 @@ export const staffEn = [
     ),
   },
   {
-    id: "rolecek",
-    name: "Jan Roleček",
-    nameWithTitle: "Mgr. Jan Roleček, Ph.D.",
-    email: " jan.rolecek@ibot.cas.cz",
-    phoneNumber: "+420 541 126 218",
-    position: "researcher",
-    description: (
-      <>
-        <p>
-          My research is focused on the ecology of lowland ecosystems of oak
-          forests and steppe grasslands in Central and Eastern Europe. Besides
-          describing these ecosystems, I investigate causes of their diversity,
-          which led me to study their history on different time scales. I also
-          pay attention to the issues of nature conservation and management,
-          both at the level of habitats and individual endangered species. My
-          work includes monographic chapters about Czech oak forests in the
-          compendium Vegetation of the Czech Republic, development of a widely
-          used modification of the TWINSPAN classification algorithm and a
-          modern reconstruction of the Holocene dynamics of plant diversity in
-          Central Europe.
-        </p>
-        <a
-          href={withPrefix("/rolecekEnCV.pdf")}
-          target="_blank"
-          rel="noopener noreferrer"
-          download
-        >
-          CV - download
-        </a>
-      </>
-    ),
-  },
-  {
     id: "solcova",
     name: "Anna Šolcová",
     nameWithTitle: "Mgr. Anna Šolcová",
@@ -492,13 +492,45 @@ export const staffEn = [
 ];
 
 export const staffCz = [
+    {
+    id: "rolecek",
+    name: "Jan Roleček",
+    nameWithTitle: "Mgr. Jan Roleček, Ph.D.",
+    email: " jan.rolecek@ibot.cas.cz",
+    phoneNumber: "+420 541 126 218",
+    position: "head",
+    description: (
+      <>
+        <p>
+          Můj výzkum je zaměřen na ekologii nížinných ekosystémů dubových lesů a
+          stepních luk ve střední a východní Evropě. Kromě jejich popisu zkoumám
+          příčiny jejich rozmanitosti, což mě vedlo ke studiu jejich historie na
+          různých časových škálách. Věnuji se i otázkám ochrany a managementu
+          přírody, a to jak na úrovni biotopů, tak vybraných ohrožených druhů.
+          Mimo jiné jsem monograficky zpracoval české dubové lesy pro kompendium
+          Vegetace České republiky, podílel jsem se na vývoji široce využívané
+          modifikace klasifikačního algoritmu TWINSPAN a nejnověji jsem vedl
+          projekt, jehož výsledkem je moderní rekonstrukce holocenního vývoje
+          druhové bohatosti rostlin ve střední Evropě.
+        </p>
+        <a
+          href={withPrefix("/rolecekCV.pdf")}
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - ke stažení
+        </a>
+      </>
+    ),
+  },
   {
     id: "frankova",
     name: "Markéta Fránková",
     nameWithTitle: "Mgr. Markéta Fránková, Ph.D.",
     email: "marketa.frankova@ibot.cas.cz",
     phoneNumber: "+420 541 126 216 | +420 737 527 185",
-    position: "head",
+    position: "deputy-head",
     description: (
       <>
         <p>
@@ -537,7 +569,7 @@ export const staffCz = [
     nameWithTitle: "Mgr. Přemysl Bobek, Ph.D.",
     email: "premysl.bobek@ibot.cas.cz",
     phoneNumber: "+420 777 477 785",
-    position: "deputy-head",
+    position: "researcher",
     description: (
       <>
         <p>
@@ -743,38 +775,6 @@ export const staffCz = [
         </p>
         <a
           href={withPrefix("/jankovskaCV.pdf")}
-          target="_blank"
-          rel="noopener noreferrer"
-          download
-        >
-          CV - ke stažení
-        </a>
-      </>
-    ),
-  },
-  {
-    id: "rolecek",
-    name: "Jan Roleček",
-    nameWithTitle: "Mgr. Jan Roleček, Ph.D.",
-    email: " jan.rolecek@ibot.cas.cz",
-    phoneNumber: "+420 541 126 218",
-    position: "researcher",
-    description: (
-      <>
-        <p>
-          Můj výzkum je zaměřen na ekologii nížinných ekosystémů dubových lesů a
-          stepních luk ve střední a východní Evropě. Kromě jejich popisu zkoumám
-          příčiny jejich rozmanitosti, což mě vedlo ke studiu jejich historie na
-          různých časových škálách. Věnuji se i otázkám ochrany a managementu
-          přírody, a to jak na úrovni biotopů, tak vybraných ohrožených druhů.
-          Mimo jiné jsem monograficky zpracoval české dubové lesy pro kompendium
-          Vegetace České republiky, podílel jsem se na vývoji široce využívané
-          modifikace klasifikačního algoritmu TWINSPAN a nejnověji jsem vedl
-          projekt, jehož výsledkem je moderní rekonstrukce holocenního vývoje
-          druhové bohatosti rostlin ve střední Evropě.
-        </p>
-        <a
-          href={withPrefix("/rolecekCV.pdf")}
           target="_blank"
           rel="noopener noreferrer"
           download
