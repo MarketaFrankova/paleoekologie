@@ -1,12 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { Consumer } from "../layouts/Context";
-import { H2 } from "../components/atoms/Headings";
 import { cz, en, imgsTitleEn, imgsTitleCz } from "../content/homepage";
 import { cz as czNews, en as enNews } from "../content/news";
 import ImgSlider from "../layouts/ImgSlider";
-import Img from "gatsby-image";
-import twitter from "../icons/twitter-blue.svg";
 
 const IndexPage = ({ data }) => {
   const imgs = data.uvodni.edges.map((i) => i.node.fluid);
@@ -33,11 +30,11 @@ const IndexPage = ({ data }) => {
                 loading="lazy"
                 width="330px"
                 height="100%"
-                src="https://syndication.twitter.com/srv/timeline-profile/screen-name/VegetPaleo?frame=false&hideBorder=false&hideFooter=false&hideHeader=false&hideScrollBar=false&originpaleoekologie.cz&maxHeight=600px&showHeader=true&showReplies=false&transparent=false&theme=light&width=330px"
-                style={{ height: "100vh" }}
+                src="https://syndication.twitter.com/srv/timeline-profile/screen-name/VegetPaleo?frame=false&hideBorder=false&hideFooter=false&hideHeader=false&hideScrollBar=false&originpaleoekologie.cz&maxHeight=800px&showHeader=true&showReplies=false&transparent=false&theme=light&width=380px"
+                style={{ height: "100%" }}
                 frameborder="0"
                 scrolling="no"
-                title="test"
+                title="x"
               ></iframe>
             </News>
           </MainPageContainer>
@@ -52,7 +49,7 @@ export default IndexPage;
 const News = styled.div`
   max-width: 100%;
   box-shadow: 1px 2px 15px #eee;
-  padding: 0 2rem 0.5rem;
+  padding: 7px;
   border-radius: 4px;
   margin-top: 10px;
   background-color: #e2ead5;
@@ -115,12 +112,4 @@ export const query = graphql`
       }
     }
   }
-`;
-
-const Twitter = styled.img`
-  margin-top: 15px;
-  right: 25px;
-  height: 40px;
-  cursor: pointer;
-  position: absolute;
 `;
