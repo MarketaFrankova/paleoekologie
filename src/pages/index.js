@@ -29,39 +29,16 @@ const IndexPage = ({ data }) => {
             </div>
 
             <News>
-              <Heading>
-                <H2>{int === "en" ? "News" : "Aktuality"}</H2>
-                <a
-                  href="https://twitter.com/VegetPaleo"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Twitter src={twitter} alt="twitter" />
-                </a>
-              </Heading>
-              {news.map((item) => {
-                const img = imgsNews.find((img) =>
-                  img.node.fluid.src.includes(item.photo)
-                )?.node;
-
-                return (
-                  <NewItem key={item.heading}>
-                    <NewsHeading>{item.heading}</NewsHeading>
-                    {item.photo && (
-                      <Img
-                        fluid={img.fluid}
-                        alt={item.imgTitle || img.heading}
-                        title={item.imgTitle}
-                        style={{ height: "100%", maxWidth: "100%" }}
-                        imgStyle={{
-                          objectFit: "cover",
-                        }}
-                      />
-                    )}
-                    {item.contentShort}
-                  </NewItem>
-                );
-              })}
+              <iframe
+                loading="lazy"
+                width="330px"
+                height="100%"
+                src="https://syndication.twitter.com/srv/timeline-profile/screen-name/VegetPaleo?frame=false&hideBorder=false&hideFooter=false&hideHeader=false&hideScrollBar=false&originpaleoekologie.cz&maxHeight=600px&showHeader=true&showReplies=false&transparent=false&theme=light&width=330px"
+                style={{ height: "100vh" }}
+                frameborder="0"
+                scrolling="no"
+                title="test"
+              ></iframe>
             </News>
           </MainPageContainer>
         );
@@ -101,17 +78,6 @@ const ImgSliderWrapper = styled.div`
   }
 `;
 
-const NewsHeading = styled.div`
-  color: ${(props) => props.theme.darkred};
-  font-weight: bold;
-  margin-bottom: 10px;
-  text-align: center;
-`;
-
-const NewItem = styled.div`
-  margin-bottom: 30px;
-`;
-
 const MainPageContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -120,13 +86,6 @@ const MainPageContainer = styled.div`
 
   @media (min-width: ${(props) => props.theme.largeDevice}) {
     flex-direction: row;
-  }
-`;
-
-const Heading = styled.div`
-  display: flex;
-  h2 {
-    flex: 1;
   }
 `;
 
