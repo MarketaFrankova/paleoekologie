@@ -59,8 +59,8 @@ export const labEn = {
       <p>
         The laboratory has two workplaces: in Brno and Průhonice. If you are
         interested, <strong>contact</strong>&nbsp;
-        <Link to="/people/" state={{ person: "frankova" }}>
-          Markéta Fránková
+        <Link to="/people/" state={{ person: "jamrichova" }}>
+          Eva Jamrichová
         </Link>
         &nbsp; (in Brno) or&nbsp;
         <Link to="/people/" state={{ person: "bobek" }}>
@@ -119,8 +119,8 @@ export const labCz = {
       <p>
         Laboratoř má dvě pracoviště: v Brně a Průhonicích. V případě zájmu&nbsp;
         <strong>kontaktujte</strong>&nbsp;
-        <Link to="/people/" state={{ person: "frankova" }}>
-          Markétu Fránkovou
+        <Link to="/people/" state={{ person: "jamrichova" }}>
+          Evu Jamrichovou
         </Link>
         &nbsp; (v Brně) nebo&nbsp;
         <Link to="/people/" state={{ person: "bobek" }}>
