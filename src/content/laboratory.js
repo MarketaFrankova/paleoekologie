@@ -62,7 +62,7 @@ export const labEn = {
         <Link to="/people/" state={{ person: "jamrichova" }}>
           Eva Jamrichová
         </Link>
-        ; (in Brno) or&nbsp;
+        &nbsp;(in Brno) or&nbsp;
         <Link to="/people/" state={{ person: "bobek" }}>
           Přemysl Bobek
         </Link>
@@ -122,7 +122,7 @@ export const labCz = {
         <Link to="/people/" state={{ person: "jamrichova" }}>
           Evu Jamrichovou
         </Link>
-        ; (v Brně) nebo&nbsp;
+        &nbsp;(v Brně) nebo&nbsp;
         <Link to="/people/" state={{ person: "bobek" }}>
           Přemysla Bobka
         </Link>
