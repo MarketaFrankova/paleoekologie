@@ -47,7 +47,7 @@ export const labEn = {
         specifying the requirements for the preparation of the samples can be
         found&nbsp;
         <a
-          href={withPrefix("/pricelist.pdf")}
+          href={withPrefix("/pricelist.docx")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -62,7 +62,7 @@ export const labEn = {
         <Link to="/people/" state={{ person: "jamrichova" }}>
           Eva Jamrichová
         </Link>
-        &nbsp; (in Brno) or&nbsp;
+        ; (in Brno) or&nbsp;
         <Link to="/people/" state={{ person: "bobek" }}>
           Přemysl Bobek
         </Link>
@@ -107,7 +107,7 @@ export const labCz = {
         <strong>Ceník prací</strong> a protokol pro upřesnění požadavků na
         přípravu vzorků pro pylovou analýzu naleznete&nbsp;
         <a
-          href={withPrefix("/pricelist.pdf")}
+          href={withPrefix("/pricelist.docx")}
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -122,7 +122,7 @@ export const labCz = {
         <Link to="/people/" state={{ person: "jamrichova" }}>
           Evu Jamrichovou
         </Link>
-        &nbsp; (v Brně) nebo&nbsp;
+        ; (v Brně) nebo&nbsp;
         <Link to="/people/" state={{ person: "bobek" }}>
           Přemysla Bobka
         </Link>
