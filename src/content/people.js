@@ -189,7 +189,7 @@ export const staffEn = [
   {
     id: "hoskova",
     name: "Kristýna Hošková",
-    nameWithTitle: "RNDr. Eva Jamrichová, Ph.D.",
+    nameWithTitle: "Mgr. Kristýna Hošková",
     email: "kristyna.hoskova@ibot.cas.cz",
     phoneNumber: "",
     position: "phd",
