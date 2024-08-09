@@ -29,6 +29,20 @@ export const generalCz = {
 export const actualCz = [
   {
     name:
+      "Paleoekologická rekonstrukce ekosystémů jako podklad pro plánování ochranyzvláště chráněných území",
+    id: "SS07010074",
+    finance: "Technologická agentura ČR",
+    period: "04/2024–12/2026",
+    mainResearcher: "Jindřich Prach",
+    coResearchers:
+      "Přemysl Bobek (Botanický ústav AV ČR), Libor Petr (Masarykovauniverzita, Přírodovědecká fakulta)",
+    teamMembers:
+      "Lydie Dudová, Eva Jamrichová, Petra Hájková, Eva Krauseová, Péter Szabó",
+    description:
+      "Poznání dlouhodobé dynamiky ekosystémů je nezbytným podkladem pro prioritizaci managementových opatření v chráněných přírodních územích, formulování cílů obnovy, nebo usměrňování druhového složení lesních společenstev. Cílem projektu je implementace poznatků paleoekologického výzkumu do procesu koncepčního plánování v ochraně přírody.",
+  },
+  {
+    name:
       "Nové kalibrační a indikační systémy pro rekonstrukci holocenního klimatu kontrolované rekonstrukcí lokálních podmínek.",
     id: "GA23-05132S",
     finance: "Grantová agentura ČR",
