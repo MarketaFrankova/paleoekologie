@@ -233,15 +233,14 @@ export const cz = [
           audiovizuálních technologií AV ČR připravili videa a také prezentace:
         </p>
         <div>
-          <strong>Co kvete na jaře</strong> (deset běžných druhů jarní květeny),
+          <strong>Co kvete na jaře</strong> (deset běžných druhů jarní květeny).
         </div>
         <YouTubeVideo
           videoSrcURL="https://www.youtube.com/embed/yF0A3vqijuY"
           videoTitle="Co kvete na jaře"
         />
         <div>
-          <strong>Pylová detektivka</strong> (co tvoří dominantu pylového spadu)
-          a&nbsp;
+          <strong>Pylová detektivka</strong> (co tvoří dominantu pylového spadu).
         </div>
         <YouTubeVideo
           videoSrcURL="https://www.youtube.com/embed/wQhg93FzLgY"
