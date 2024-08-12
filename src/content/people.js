@@ -310,7 +310,7 @@ export const staffEn = [
           sediments using macrofossil analysis. She deals with the
           reconstruction of the long-term vegetation succession during the Late
           Glacial and Holocene in the southwest Slovakia and the southeast Czech
-          Republic. Since 2018 she is on maternity leave.
+          Republic.
         </p>
         <a
           href={withPrefix("/solcovaCV.docx")}
@@ -799,8 +799,7 @@ export const staffCz = [
           věd ČR. Ve své disertační práci se zaměřuje na výzkum jezerních
           sedimentů pomocí makrofosilní analýzy. Zabývá se rekonstrukcí
           dlouhodobé vegetační sukcese během pozdního glaciálu a holocénu na
-          jihozápadním Slovensku a na jihovýchodě České republiky. Od roku 2018
-          je na mateřské dovolené.
+          jihozápadním Slovensku a na jihovýchodě České republiky.
         </p>
         <a
           href={withPrefix("/solcovaCV.docx")}
