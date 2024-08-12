@@ -5,25 +5,6 @@ import { Link } from "gatsby";
 export const impact = (
   <>
     <p>
-      Peterka T., Šmerdová E., Hájek M., Mikulášková E.,&nbsp;
-      <Link to="/people/" state={{ person: "hajkova" }}>
-        Hájková P.
-      </Link>
-      &nbsp;(2021). Drepanocladus lycopodioides rediscovered in the Czech
-      Republic: Abandoned quarries as refugia for endangered fen species.&nbsp;
-      <em>Aquatic Botany</em> 172: 1-5.
-    </p>
-    <p>
-      Coufal R., Ryelandt J., Peterka T., Dítě D.,&nbsp;
-      <Link to="/people/" state={{ person: "hajkova" }}>
-        Hájková P.
-      </Link>
-      , Hájek M., Horsáková V. & Horsák M. (2021). Land snail community patterns
-      related to regional habitat conservation status of European spring
-      fens.&nbsp;
-      <em>Science of the Total Environment</em> 783: 1-11.
-    </p>
-    <p>
       Peterka T., Tichý L., Horsáková V.,&nbsp;
       <Link to="/people/" state={{ person: "hajkova" }}>
         Hájková P.
