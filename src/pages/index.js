@@ -25,18 +25,6 @@ const IndexPage = ({ data }) => {
               <div>{int === "en" ? en : cz} </div>
             </div>
 
-            <News>
-              <iframe
-                loading="lazy"
-                width="330px"
-                height="100%"
-                src="https://syndication.twitter.com/srv/timeline-profile/screen-name/VegetPaleo?frame=false&hideBorder=false&hideFooter=false&hideHeader=false&hideScrollBar=false&originpaleoekologie.cz&maxHeight=800px&showHeader=true&showReplies=false&transparent=false&theme=light&width=380px"
-                style={{ height: "100%" }}
-                frameborder="0"
-                scrolling="no"
-                title="x"
-              ></iframe>
-            </News>
           </MainPageContainer>
         );
       }}
@@ -46,21 +34,21 @@ const IndexPage = ({ data }) => {
 
 export default IndexPage;
 
-const News = styled.div`
-  max-width: 100%;
-  box-shadow: 1px 2px 15px #eee;
-  padding: 7px;
-  border-radius: 4px;
-  margin-top: 10px;
-  background-color: #e2ead5;
-  text-align: justify;
-  position: relative;
-  @media (min-width: ${(props) => props.theme.largeDevice}) {
-    min-width: 330px;
-    margin-left: 2rem;
-    max-width: 33%;
-  }
-`;
+// const News = styled.div`
+//   max-width: 100%;
+//   box-shadow: 1px 2px 15px #eee;
+//   padding: 7px;
+//   border-radius: 4px;
+//   margin-top: 10px;
+//   background-color: #e2ead5;
+//   text-align: justify;
+//   position: relative;
+//   @media (min-width: ${(props) => props.theme.largeDevice}) {
+//     min-width: 330px;
+//     margin-left: 2rem;
+//     max-width: 33%;
+//   }
+// `;
 
 const ImgSliderWrapper = styled.div`
   margin: 0 auto;
