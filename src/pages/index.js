@@ -68,7 +68,10 @@ const MainPageContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   min-height: 100%;
-
+  @media (min-width: ${(props) => props.theme.largeDevice}) {
+    max-width: 800px;
+    margin: 0 auto;
+  }
   @media (min-width: ${(props) => props.theme.largeDevice}) {
     flex-direction: row;
   }
