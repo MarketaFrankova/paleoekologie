@@ -90,7 +90,7 @@ export const en = (
         academies of sciences.
       </p>
     </div>
-    <H2>Socials</H2>
+    <H2>Social Media</H2>
     <div align="justify">
         <ALink href="https://bsky.app/profile/paleoibot.bsky.social">
           Bluesky
