@@ -89,11 +89,15 @@ export const en = (
         collaboration with archaeologists and historians from universities and
         academies of sciences.
       </p>
-      <YouTubeVideo
-        videoSrcURL="https://www.youtube.com/embed/rh1W4YgsweQ"
-        videoTitle="Vlasta Jankovská, česká paleoekoložka"
-        centered
-      />
+    </div>
+    <H2>Socials</H2>
+    <div align="justify">
+        <ALink href="https://bsky.app/profile/paleoibot.bsky.social">
+          Bluesky
+        </ALink>
+        <ALink href="https://x.com/VegetPaleo">
+          X
+        </ALink>
     </div>
   </Fragment>
 );
@@ -135,11 +139,15 @@ export const cz = (
         Mezioborovou spolupráce rozvíjíme rovněž s archeology a historiky z
         univerzit i Akademie věd.
       </p>
-      <YouTubeVideo
-        videoSrcURL="https://www.youtube.com/embed/rh1W4YgsweQ"
-        videoTitle="Vlasta Jankovská, česká paleoekoložka"
-        centered
-      />
+    </div>
+    <H2>Sociální sítě</H2>
+    <div align="justify">
+        <ALink href="https://bsky.app/profile/paleoibot.bsky.social">
+          Bluesky
+        </ALink>
+        <ALink href="https://x.com/VegetPaleo">
+          X
+        </ALink>
     </div>
   </Fragment>
 );

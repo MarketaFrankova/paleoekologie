@@ -262,6 +262,15 @@ export const cz = [
           </ALink>
           .
         </div>
+        <br/>
+        <div>
+          <strong>Vlasta Jankovská, česká paleoekoložka</strong>
+        </div>
+        <YouTubeVideo
+            videoSrcURL="https://www.youtube.com/embed/rh1W4YgsweQ"
+            videoTitle="Vlasta Jankovská, česká paleoekoložka"
+            centered
+          />
       </div>
     ),
   },
@@ -480,6 +489,15 @@ export const en = [
           </ALink>
           .
         </div>
+        <br/>
+        <div>
+          <strong>Vlasta Jankovská, Czech paleoecologist</strong>
+        </div>
+        <YouTubeVideo
+            videoSrcURL="https://www.youtube.com/embed/rh1W4YgsweQ"
+            videoTitle="Vlasta Jankovská, česká paleoekoložka"
+            centered
+          />
       </div>
     ),
   },

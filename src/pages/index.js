@@ -7,7 +7,6 @@ import ImgSlider from "../layouts/ImgSlider";
 
 const IndexPage = ({ data }) => {
   const imgs = data.uvodni.edges.map((i) => i.node.fluid);
-  const imgsNews = data.news.edges;
 
   return (
     <Consumer>
@@ -33,22 +32,6 @@ const IndexPage = ({ data }) => {
 };
 
 export default IndexPage;
-
-// const News = styled.div`
-//   max-width: 100%;
-//   box-shadow: 1px 2px 15px #eee;
-//   padding: 7px;
-//   border-radius: 4px;
-//   margin-top: 10px;
-//   background-color: #e2ead5;
-//   text-align: justify;
-//   position: relative;
-//   @media (min-width: ${(props) => props.theme.largeDevice}) {
-//     min-width: 330px;
-//     margin-left: 2rem;
-//     max-width: 33%;
-//   }
-// `;
 
 const ImgSliderWrapper = styled.div`
   margin: 0 auto;
