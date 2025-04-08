@@ -95,6 +95,7 @@ export const en = (
         <ALink href="https://bsky.app/profile/paleoibot.bsky.social">
           Bluesky
         </ALink>
+        <br/>
         <ALink href="https://x.com/VegetPaleo">
           X
         </ALink>
@@ -145,6 +146,7 @@ export const cz = (
         <ALink href="https://bsky.app/profile/paleoibot.bsky.social">
           Bluesky
         </ALink>
+        <br/>
         <ALink href="https://x.com/VegetPaleo">
           X
         </ALink>
