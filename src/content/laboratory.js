@@ -47,7 +47,7 @@ export const labEn = {
         specifying the requirements for the preparation of the samples can be
         found&nbsp;
         <a
-          href={withPrefix("/pricelist.docx")}
+          href={withPrefix("/pricelist_EN.docx")}
           target="_blank"
           rel="noopener noreferrer"
           download
