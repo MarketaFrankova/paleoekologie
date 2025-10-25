@@ -68,6 +68,11 @@ export const labEn = {
         </Link>
         &nbsp; (in Průhonice)
       </p>
+      <iframe
+        src={withPrefix("/pricelist_EN.pdf")}
+        width="100%"
+        height="600px"
+      ></iframe>
     </div>
   ),
 };
@@ -128,6 +133,11 @@ export const labCz = {
         </Link>
         &nbsp; (v Průhonicích).
       </p>
+      <iframe
+        src={withPrefix("/pricelist.pdf")}
+        width="100%"
+        height="600px"
+      ></iframe>
     </div>
   ),
 };
