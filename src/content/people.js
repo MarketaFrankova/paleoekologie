@@ -78,7 +78,7 @@ export const staffEn = [
     nameWithTitle: "Mgr. Přemysl Bobek, Ph.D.",
     email: "premysl.bobek@ibot.cas.cz",
     phoneNumber: "+420 777 477 785",
-    position: "researcher",
+    position: "deputy-head",
     description: (
       <>
         <p>
@@ -187,38 +187,6 @@ export const staffEn = [
     ),
   },
   {
-    id: "hoskova",
-    name: "Kristýna Hošková",
-    nameWithTitle: "Mgr. Kristýna Hošková",
-    email: "kristyna.hoskova@ibot.cas.cz",
-    phoneNumber: "",
-    position: "phd",
-    description: (
-      <>
-        <p>
-          I am PhD. student at the Department of Botany of the Charles
-          University in Prague. In my thesis, I focus on modern approaches to be
-          used in phytolith analysis to solve problems in paleoecology.
-          Phytoliths are microscopic silica particles precipitated in plant
-          tissues. Their taxonomic relevance still remain unclear. Similarly, it
-          is not well understood how environmental conditions influence their
-          shape. I use geometric morphometric techniques to analyse shape of
-          phytoliths and disentangle these relationships. Currently, I apply
-          phytolith analysis to test the Holocene continuity of species-rich
-          forest-steppe ecosystems within&nbsp;
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="http://ekolbrno.ibot.cas.cz/en/biodiverzita-historie-disturbanci-a-pudni-pamet-testovani-holocenni-kontinuity-druhove-bohatych-lesostepnich-ekosystemu/"
-          >
-            project of my colleagues
-          </a>
-          &nbsp; (Jan Roleček et al.).
-        </p>
-      </>
-    ),
-  },
-  {
     id: "jamrichova",
     name: "Eva Jamrichová",
     nameWithTitle: "RNDr. Eva Jamrichová, Ph.D.",
@@ -259,7 +227,7 @@ export const staffEn = [
     nameWithTitle: "RNDr. Vlasta Jankovská, CSc.",
     email: " vlasta.jankovska@ibot.cas.cz",
     phoneNumber: "+420 541 126 216",
-    position: "researcher",
+    position: "emerit",
     description: (
       <>
         <p>
@@ -299,7 +267,7 @@ export const staffEn = [
     nameWithTitle: "Mgr. Anna Šolcová",
     email: "annapotuckova6@gmail.com",
     phoneNumber: "+420 739 092 275",
-    position: "phd",
+    position: "researcher",
     description: (
       <>
         <p>
@@ -406,7 +374,7 @@ export const staffEn = [
       "RNDr. Eliška Rybníčková, DrSc. and RNDr. Kamil Rybníček, CSc.",
     email: "",
     phoneNumber: "",
-    position: "researcher",
+    position: "emerit",
     description: (
       <>
         <p>
@@ -569,7 +537,7 @@ export const staffCz = [
     nameWithTitle: "Mgr. Přemysl Bobek, Ph.D.",
     email: "premysl.bobek@ibot.cas.cz",
     phoneNumber: "+420 777 477 785",
-    position: "researcher",
+    position: "deputy-head",
     description: (
       <>
         <p>
@@ -677,36 +645,6 @@ export const staffCz = [
     ),
   },
   {
-    id: "hoskova",
-    name: "Kristýna Hošková",
-    nameWithTitle: "Mgr. Kristýna Hošková",
-    email: " kristyna.hoskova@ibot.cas.cz",
-    phoneNumber: "",
-    position: "phd",
-    description: (
-      <>
-        <p>
-          Ve své disertační práci, v rámci doktorského studia na katedře
-          botaniky PřF UK v Praze, se zabývám rozvojem možností fytolitové
-          analýzy směrem k řešení paleoekologických otázek. Fytolity jsou
-          mikroskopické křemičité částice vznikající v buňkách rostlin s dosud
-          ne zcela jasnými taxonomickými a ekologickými vazbami. Těch se snažím
-          dobrat analýzou tvaru fytolitů pomocí moderních technik (geometrické
-          morfometriky). Všechny doposud nabyté vědomosti o fytolitech se
-          aktuálně chystám uplatnit při testování kontinuity druhově bohatých
-          lesostepních ekosystémů&nbsp;
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="http://ekolbrno.ibot.cas.cz/biodiverzita-historie-disturbanci-a-pudni-pamet-testovani-holocenni-kontinuity-druhove-bohatych-lesostepnich-ekosystemu/"
-          >
-            v rámci projektu GAČR Jana Rolečka a kol.
-          </a>
-        </p>
-      </>
-    ),
-  },
-  {
     id: "jamrichova",
     name: "Eva Jamrichová",
     nameWithTitle: "RNDr. Eva Jamrichová, Ph.D.",
@@ -745,7 +683,7 @@ export const staffCz = [
     nameWithTitle: "RNDr. Vlasta Jankovská, CSc.",
     email: " vlasta.jankovska@ibot.cas.cz",
     phoneNumber: "+420 541 126 216",
-    position: "researcher",
+    position: "emerit",
     description: (
       <>
         <p>
@@ -790,7 +728,7 @@ export const staffCz = [
     nameWithTitle: "Mgr. Anna Šolcová",
     email: "annapotuckova6@gmail.com",
     phoneNumber: "+420 739 092 275",
-    position: "phd",
+    position: "researcher",
     description: (
       <>
         <p>
@@ -893,7 +831,7 @@ export const staffCz = [
       "RNDr. Eliška Rybníčková, DrSc. a RNDr. Kamil Rybníček, CSc.",
     email: "",
     phoneNumber: "",
-    position: "researcher",
+    position: "emerit",
     description: (
       <>
         <p>
