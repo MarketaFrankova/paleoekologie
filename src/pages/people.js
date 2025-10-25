@@ -36,9 +36,13 @@ const IndexPage = ({ data, location, history }) => {
           (person) => person.position === "techadm"
         );
         const head = staffData.find((person) => person.position === "head");
-        const deputyHead = staffData.find(
+        const deputyHead = staffData.filter(
           (person) => person.position === "deputy-head"
         );
+        const emerit = staffData.filter(
+          (person) => person.position === "emerit"
+        );
+
         const opened = staffData.find((person) => person.id === detailOpened);
         if (detailOpened)
           return (
@@ -56,31 +60,38 @@ const IndexPage = ({ data, location, history }) => {
             {detailOpened}
 
             <GridWrapper>
-              <div>
+              <FullWidth>
                 <H2>{generalData.people.head}</H2>
-                <PersonBox
-                  openDetail={setDetailOpened}
-                  personInfo={head}
-                  data={generalData}
-                  img={
-                    images.find((img) => img.node.fluid.src.includes(head.id))
-                      ?.node
-                  }
-                />
-              </div>
-              <div>
+              </FullWidth>
+
+              <PersonBox
+                openDetail={setDetailOpened}
+                personInfo={head}
+                data={generalData}
+                img={
+                  images.find((img) => img.node.fluid.src.includes(head.id))
+                    ?.node
+                }
+              />
+
+              <FullWidth>
                 <H2>{generalData.people.deputyHead}</H2>
-                <PersonBox
-                  openDetail={setDetailOpened}
-                  personInfo={deputyHead}
-                  data={generalData}
-                  img={
-                    images.find((img) =>
-                      img.node.fluid.src.includes(deputyHead.id)
-                    )?.node
-                  }
-                />
-              </div>
+              </FullWidth>
+              {deputyHead.map((person) => {
+                const img = images.find((img) =>
+                  img.node.fluid.src.includes(person.id)
+                );
+
+                return (
+                  <PersonBox
+                    openDetail={setDetailOpened}
+                    personInfo={person}
+                    key={person.id}
+                    data={generalData}
+                    img={img?.node}
+                  />
+                );
+              })}
 
               <FullWidth>
                 <H2>{generalData.people.researchers}</H2>
@@ -89,20 +100,25 @@ const IndexPage = ({ data, location, history }) => {
                 const img = images.find((img) =>
                   img.node.fluid.src.includes(person.id)
                 );
-                if (person.id === "rybnickovi")
-                  return (
-                    <FullWidth>
-                      <Hr />
-                      <PersonBox
-                        openDetail={setDetailOpened}
-                        personInfo={person}
-                        key={person.id}
-                        data={generalData}
-                        img={img?.node}
-                      />
-                    </FullWidth>
-                  );
 
+                return (
+                  <PersonBox
+                    openDetail={setDetailOpened}
+                    personInfo={person}
+                    key={person.id}
+                    data={generalData}
+                    img={img?.node}
+                  />
+                );
+              })}
+
+              <FullWidth>
+                <H2>{generalData.people.emerit}</H2>
+              </FullWidth>
+              {emerit.map((person) => {
+                const img = images.find((img) =>
+                  img.node.fluid.src.includes(person.id)
+                );
                 return (
                   <PersonBox
                     openDetail={setDetailOpened}
