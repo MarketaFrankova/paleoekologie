@@ -82,7 +82,7 @@ export const en = {
   people: {
     people: "People",
     head: "Head of the lab",
-    deputyHead: "Deputy head of the lab",
+    deputyHead: "Deputy heads of the lab",
     emerit: "Emeritus scientific researchers",
     researchers: "Researchers",
     technical: "Technical and administrative staff",
@@ -172,7 +172,7 @@ export const cz = {
   people: {
     people: "Lidé",
     head: "Vedoucí",
-    deputyHead: "Zástupce vedoucího",
+    deputyHead: "Zástupci vedoucího",
     researchers: "Vědečtí pracovníci",
     emerit: "Emeritní vědečtí pracovníci",
     technical: "Techničtí a administrativní pracovníci",
