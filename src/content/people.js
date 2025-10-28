@@ -368,6 +368,45 @@ export const staffEn = [
     ),
   },
   {
+    id: "abraham",
+    name: "Vojtěch Abraham",
+    nameWithTitle: "RNDr. Vojtěch Abraham, Ph.D.",
+    email: "abraham@natur.cuni.cz",
+    phoneNumber: "",
+    position: "researcher",
+    description: (
+      <>
+        <p>
+          His primary expertise is in pollen analysis, but when he processes
+          data, he also works with current vegetation or other paleo-proxies
+          like soil charcoal, archaeological charcoal, phytoliths, and mollusk
+          shells. His research aims to improve interpretive techniques in
+          paleoecology, combine data effectively, and uncover ecological
+          insights about how individual species have behaved over long periods.
+          He has authored several experimental studies that enhance
+          paleoecological reconstructions with spatial scale and explicit
+          vegetation abundances in the source vegetation. Additionally, he is
+          interested in larger biogeographical contexts of vegetation history in
+          central Europe, drawing on research from Southern Europe, such as
+          Spain and North Macedonia. He studied Plant Ecology at the Faculty of
+          Science, Charles University in Prague.
+        </p>
+        <p>
+          Personal webpage:{" "}
+          <a href="http://vojtechabraham.cz">http://vojtechabraham.cz</a>
+        </p>
+        <a
+          href={withPrefix("/abrahamCV_EN.docx")}
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - download
+        </a>
+      </>
+    ),
+  },
+  {
     id: "rybnickovi",
     name: "Eliška Rybníčková and Kamil Rybníček",
     nameWithTitle:
@@ -460,7 +499,7 @@ export const staffEn = [
 ];
 
 export const staffCz = [
-    {
+  {
     id: "rolecek",
     name: "Jan Roleček",
     nameWithTitle: "Mgr. Jan Roleček, Ph.D.",
@@ -815,6 +854,44 @@ export const staffCz = [
         </p>
         <a
           href={withPrefix("/svitavskaCV.pdf")}
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          CV - ke stažení
+        </a>
+      </>
+    ),
+  },
+  {
+    id: "abraham",
+    name: "Vojtěch Abraham",
+    nameWithTitle: "RNDr. Vojtěch Abraham, Ph.D.",
+    email: "abraham@natur.cuni.cz",
+    phoneNumber: "",
+    position: "researcher",
+    description: (
+      <>
+        <p>
+          Jeho domovskou specializací je pylová analýza, avšak při zpracování
+          dat pracuje se současnou vegetací nebo s dalšími paleo-proxy, jako
+          jsou půdní uhlíky, uhlíky z archeologických kontextů, fytolity a
+          schránky měkkýšů. Výzkum se zaměřuje na zdokonalování interpretačních
+          technik paleoekologie, syntézu dat a získávání ekologických informací
+          o chování jednotlivých druhů na dlouhých časových škálách. Je autorem
+          několika experimentálních studií, které paleoekologickým rekonstrukcím
+          dodávají prostorové měřítko a zastoupení zdrojové vegetace
+          v minulosti. Zajímá se o zasazování vývoje české přírody do širších
+          biogeografických souvislostí, a to s využitím výzkumů v jižní Evropě
+          (Španělsko, Severní Makedonie). Vystudoval geobotaniku na
+          Přírodovědecké Fakultě Univerzity Karlovy v Praze.
+        </p>
+        <p>
+          Osobní stránka:{" "}
+          <a href="http://vojtechabraham.cz">http://vojtechabraham.cz</a>
+        </p>
+        <a
+          href={withPrefix("/abrahamCV.docx")}
           target="_blank"
           rel="noopener noreferrer"
           download
