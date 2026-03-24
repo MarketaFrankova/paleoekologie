@@ -63,6 +63,11 @@ const Project = ({ data, general }) => {
         <strong>{general.description}</strong>
         {data.description}
       </p>
+      {data.info && (
+        <ProjectLink href={data.info} target="_blank" rel="noopener noreferrer">
+          {general.info}
+        </ProjectLink>
+      )}
     </ProjectWrapper>
   );
 };
@@ -76,4 +81,9 @@ Project.propTypes = {
 
 const ProjectWrapper = styled.div`
   margin: 50px 0;
+`;
+
+const ProjectLink = styled.a`
+  font-weight: bold;
+  color: black;
 `;

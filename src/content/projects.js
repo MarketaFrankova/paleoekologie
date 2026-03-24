@@ -3,17 +3,19 @@ import { ALink } from "../components/atoms/StyledLink";
 import { Link } from "gatsby";
 
 export const generalEn = {
-  id: "Identifikační kód projektu: ",
-  finance: "Financování: ",
-  period: "Období řešení: ",
-  mainResearcher: "Hlavní řešitel: ",
-  mainResearcherF: "Hlavní řešitelka: ",
-  coResearchers: "Spoluřešitelé: ",
-  coResearcher: "Spoluřešitel: ",
-  teamMembers: "Členové týmu za BÚ: ",
-  description: "Popis projektu: ",
-  web: "Web projektu: ",
+  id: "Project identification code: ",
+  finance: "Funding: ",
+  period: "Project duration: ",
+  mainResearcher: "Principal investigator: ",
+  mainResearcherF: "Principal investigator: ",
+  coResearchers: "Co-investigators: ",
+  coResearcher: "Co-investigator: ",
+  teamMembers: "Team members (MU): ",
+  description: "Project description: ",
+  web: "Project website: ",
+  info: "Information leaflet",
 };
+
 export const generalCz = {
   id: "Identifikační kód projektu: ",
   finance: "Financování: ",
@@ -25,6 +27,7 @@ export const generalCz = {
   teamMembers: "Členové týmu za BÚ: ",
   description: "Popis projektu: ",
   web: "Web projektu: ",
+  info: "Informační leták",
 };
 export const actualCz = [
   {
@@ -53,6 +56,7 @@ export const actualCz = [
       "Přemysl Bobek, Petra Hájková, Jana Jiroušková, Martin Kadlec, Filip Lysák, Živa Lysáková, Markéta Gabriela Soukupová, Anna Šolcová",
     description:
       "Cílem projektu je navrhnout přírodě blízká opatření, která umožní propojit funkční využití minerálních pramenů (MP) lidmi a současně budou respektovat a podporovat zachování jejich přírodní hodnoty. Současný degradovaný stav mnoha pramenů neplní uspokojivě žádnou z těchto funkcí, nebo favorizuje pouze jednu z nich. Na základě komplexního výzkumu, který bude kombinovat historický vývoj společenstev mokřadů a současný monitoring bioty MP, bude popsána diverzita stěžejních organismů biotopu minerálních vod – rozsivek. Experimentální část výzkumu bude zaměřena na testování vhodných materiálů a technických řešení, které budou použity pro návrh revitalizačních opatření podporujících zachování biodiverzity MP. Výstupem projektu bude metodika k ochraně, managementu a revitalizaci MP a pramenišť.",
+    info: "mineralni_prameny_letak.pdf",
   },
   {
     name: "Kvantitativní paleoekologické rekonstrukce z fosilního makrozbytkového záznamu jako nástroj pro porozumění dlouhodobého vývoje environmentálních podmínek evropských jezer",
@@ -119,6 +123,7 @@ export const actualEn = [
       "Přemysl Bobek, Petra Hájková, Jana Jiroušková, Martin Kadlec, Filip Lysák, Živa Lysáková, Markéta Gabriela Soukupová, Anna Šolcová",
     description:
       "The aim of the project is to develop nature-friendly measures that will allow the functional use of mineral springs (MS) by people, while respecting and supporting their natural values. The current degraded state of many springs does not fulfill either of these functions or favors only one of them. A comprehensive study combining monitoring of MS biota and associated wetlands and their species composition over time will describe the diversity of the flagship organisms of MS - diatoms. The experimental part of the research will focus on testing suitable materials and technical solutions to be used in the design of revitalization measures. The outcome of the project will be a methodology for protection, management, and revitalization of MS habitat.",
+    info: "mineralni_prameny_letak.pdf",
   },
   {
     name: "Quantitative palaeoecological reconstructions from the fossil macrofossil record as a tool for understanding the long-term development of environmental conditions in European lakes",
