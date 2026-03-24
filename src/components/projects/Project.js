@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import { H3 } from "../atoms/Headings";
+import { withPrefix } from "gatsby";
 
 const Project = ({ data, general }) => {
   return (
@@ -64,7 +65,11 @@ const Project = ({ data, general }) => {
         {data.description}
       </p>
       {data.info && (
-        <ProjectLink href={data.info} target="_blank" rel="noopener noreferrer">
+        <ProjectLink
+          href={withPrefix(`/${data.info}`)}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {general.info}
         </ProjectLink>
       )}
